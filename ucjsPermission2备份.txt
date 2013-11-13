@@ -1007,6 +1007,7 @@ host	script	2	codes.xp3366.com
 host	object	2	codes.xp3366.com
 host	objectsubrequest	2	codes.xp3366.com
 host	stylesheet	2	codes.xp3366.com
+host	script	1	collector-cdn.github.com
 host	cookie	2	content.dl-rms.com
 host	image	2	content.dl-rms.com
 host	script	2	content.dl-rms.com
@@ -4257,6 +4258,7 @@ host	subdocument	2	www.sponsorads.de
 host	script	1	www.taobao.com
 host	subdocument	1	www.tudou.com
 host	script	1	www.ugdturner.com
+host	subdocument	1	www.wasu.cn
 host	cookie	2	www.win517.net
 host	image	2	www.win517.net
 host	script	2	www.win517.net
@@ -4373,4 +4375,3 @@ host	stylesheet	2	z.alimama.com
 host	script	1	z.cdn.turner.com
 host	object	1	z.cdn.turner.com
 host	script	1	z.mozest.com
-host	subdocument	1	z.mozest.com
