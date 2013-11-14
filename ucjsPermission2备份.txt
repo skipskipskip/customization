@@ -2374,6 +2374,7 @@ host	object	2	p.xp9365.com
 host	objectsubrequest	2	p.xp9365.com
 host	stylesheet	2	p.xp9365.com
 host	subdocument	2	p.xp9365.com
+host	object	1	p.you.video.sina.com.cn
 host	cookie	2	p.zol-img.com.cn
 host	image	2	p.zol-img.com.cn
 host	script	2	p.zol-img.com.cn
