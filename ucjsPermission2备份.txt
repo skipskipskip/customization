@@ -1538,6 +1538,7 @@ host	objectsubrequest	2	hezuo.down.xunlei.com
 host	stylesheet	2	hezuo.down.xunlei.com
 host	subdocument	2	hezuo.down.xunlei.com
 host	script	1	hi.bdimg.com
+host	script	1	hiphotos.baidu.com
 host	cookie	2	hits.blog.sina.com.cn
 host	image	2	hits.blog.sina.com.cn
 host	script	2	hits.blog.sina.com.cn
@@ -1547,7 +1548,7 @@ host	stylesheet	2	hits.blog.sina.com.cn
 host	subdocument	2	hits.blog.sina.com.cn
 host	cookie	2	hm.baidu.com
 host	image	2	hm.baidu.com
-host	script	2	hm.baidu.com
+host	script	1	hm.baidu.com
 host	object	2	hm.baidu.com
 host	objectsubrequest	2	hm.baidu.com
 host	stylesheet	2	hm.baidu.com
@@ -1618,6 +1619,7 @@ host	object	2	ikcode.baidu.com
 host	objectsubrequest	2	ikcode.baidu.com
 host	stylesheet	2	ikcode.baidu.com
 host	subdocument	2	ikcode.baidu.com
+host	script	1	image.baidu.com
 host	script	1	image1.webscache.com
 host	script	1	image2.sina.com.cn
 host	script	1	images.139cm.com
@@ -1664,6 +1666,8 @@ host	object	2	img.uu1001.cn
 host	objectsubrequest	2	img.uu1001.cn
 host	stylesheet	2	img.uu1001.cn
 host	subdocument	2	img.uu1001.cn
+host	script	1	img0.bdstatic.com
+host	object	1	img0.bdstatic.com
 host	script	1	img01.zhaopin.cn
 host	script	1	img02.zhaopin.cn
 host	object	1	img04.taobaocdn.com
@@ -1675,6 +1679,7 @@ host	objectsubrequest	2	img1.126.net
 host	stylesheet	2	img1.126.net
 host	subdocument	2	img1.126.net
 host	script	1	img1.bdstatic.com
+host	object	1	img1.bdstatic.com
 host	script	1	img1.cache.netease.com
 host	cookie	2	img2.126.net
 host	image	2	img2.126.net
@@ -1684,15 +1689,21 @@ host	objectsubrequest	2	img2.126.net
 host	stylesheet	2	img2.126.net
 host	subdocument	2	img2.126.net
 host	script	1	img2.bdstatic.com
+host	object	1	img2.bdstatic.com
 host	script	1	img2.cache.netease.com
+host	script	1	img3.bdstatic.com
+host	object	1	img3.bdstatic.com
 host	script	1	img3.cache.netease.com
 host	script	1	img3.douban.com
+host	script	1	img4.bdstatic.com
+host	object	1	img4.bdstatic.com
 host	script	1	img4.cache.netease.com
 host	script	1	img5.cache.netease.com
 host	script	1	img6.cache.netease.com
 host	script	1	imgcache.gtimg.cn
 host	script	1	imgcache.qq.com
 host	object	1	imgcache.qq.com
+host	script	1	imgstatic.baidu.com
 host	cookie	2	imp.go.sohu.com
 host	image	2	imp.go.sohu.com
 host	script	2	imp.go.sohu.com
@@ -2500,6 +2511,7 @@ host	subdocument	2	pixel.indieclick.com
 host	object	1	play.baidu.com
 host	script	1	play.v.61.com
 host	script	1	player.cntv.cn
+host	object	1	player.cntv.cn
 host	object	1	player.ku6cdn.com
 host	object	1	player.letvcdn.com
 host	object	1	player.pplive.cn
@@ -3144,7 +3156,10 @@ host	script	1	static.zhihu.com
 host	script	1	static9.pplive.cn
 host	subdocument	1	static9.pplive.cn
 host	subdocument	1	stock.pingan.com
+host	script	1	stu.baidu.com
+host	object	1	stu.baidu.com
 host	script	1	su.bdimg.com
+host	script	1	suggestion.baidu.com
 host	cookie	2	super.kdnet.net
 host	image	2	super.kdnet.net
 host	script	2	super.kdnet.net
@@ -4080,6 +4095,8 @@ host	object	2	www.antsws.com
 host	objectsubrequest	2	www.antsws.com
 host	stylesheet	2	www.antsws.com
 host	subdocument	2	www.antsws.com
+host	script	1	www.baidu.com
+host	subdocument	1	www.baidu.com
 host	script	1	www.baifubao.com
 host	script	1	www.blogger.com
 host	subdocument	1	www.blogger.com
@@ -4376,3 +4393,4 @@ host	stylesheet	2	z.alimama.com
 host	script	1	z.cdn.turner.com
 host	object	1	z.cdn.turner.com
 host	script	1	z.mozest.com
+host	script	1	zhidao.baidu.com
