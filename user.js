@@ -135,6 +135,8 @@ user_pref("UserScriptLoader.CACHE_SCRIPT", false);
 user_pref("userChromeJS.SmartProxy.default_proxy", 5);
 user_pref("userChromeJS.SmartProxy.knownProxy", "Free Gate;127.0.0.1;8580;http$Puff;127.0.0.1;1984;http$ssh -D;127.0.0.1;7070;socks$Toonel;127.0.0.1;8080;http$Tor;127.0.0.1;9050;socks$Goagent;127.0.0.1;8087;http$Your Freedom;127.0.0.1;8080;http");
 
+/*ABP*/
+user_pref("extensions.adblockplus.patternsbackups", 0);
 
 /***网络***/
 /*连接*/
@@ -149,10 +151,3 @@ user_pref("network.dnsCacheExpiration", 3600); //1小时后失效
 user_pref("network.http.pipelining", true);//启用流水线
 user_pref("network.http.pipelining.ssl", true);//对安全连接启用流水线
 user_pref("network.http.proxy.pipelining", true);
-user_pref("content.interrupt.parsing", true);
-user_pref("content.max.tokenizing.time", 2250000);
-user_pref("content.notify.interval", 750000);
-user_pref("content.notify.ontimer", true);
-user_pref("content.notify.backoffcount", 5);
-user_pref("content.switch.threshold", 750000);
-user_pref("nglayout.initialpaint.delay", 0);

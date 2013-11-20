@@ -1302,6 +1302,7 @@ host	subdocument	2	erreport.tudou.com
 host	subdocument	1	esports.178.com
 host	subdocument	1	esports.sgamer.com
 host	script	1	exp.bdstatic.com
+host	subdocument	1	f.hd.baofeng.com
 host	cookie	2	f.qstatic.com
 host	image	2	f.qstatic.com
 host	script	2	f.qstatic.com
@@ -1740,6 +1741,7 @@ host	object	2	intellitxt.com
 host	objectsubrequest	2	intellitxt.com
 host	stylesheet	2	intellitxt.com
 host	subdocument	2	intellitxt.com
+host	script	1	international.download.nvidia.com
 host	script	1	ip.apps.cntv.cn
 host	cookie	2	ipagent.igalive.com
 host	image	2	ipagent.igalive.com
@@ -1810,6 +1812,7 @@ host	cookie	2	js.17173.com
 host	script	2	js.17173.com
 host	cookie	2	js.2a.com
 host	script	2	js.2a.com
+host	script	1	js.3conline.com
 host	cookie	2	js.4738.com
 host	image	2	js.4738.com
 host	script	2	js.4738.com
@@ -3740,6 +3743,7 @@ host	object	2	unstat.baidu.com
 host	objectsubrequest	2	unstat.baidu.com
 host	stylesheet	2	unstat.baidu.com
 host	subdocument	2	unstat.baidu.com
+host	script	1	upcdn.b0.upaiyun.com
 host	cookie	2	urchin.tianya.cn
 host	image	2	urchin.tianya.cn
 host	script	2	urchin.tianya.cn
@@ -4393,4 +4397,3 @@ host	stylesheet	2	z.alimama.com
 host	script	1	z.cdn.turner.com
 host	object	1	z.cdn.turner.com
 host	script	1	z.mozest.com
-host	script	1	zhidao.baidu.com
