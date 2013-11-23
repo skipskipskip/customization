@@ -2652,6 +2652,7 @@ host	objectsubrequest	2	qq1.moyu.com
 host	stylesheet	2	qq1.moyu.com
 host	subdocument	2	qq1.moyu.com
 host	object	1	qzs.qq.com
+host	script	1	r.img.cctvpic.com
 host	script	1	r.ph.126.net
 host	cookie	2	rad.msn.com
 host	image	2	rad.msn.com
