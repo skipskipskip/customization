@@ -831,6 +831,7 @@ host	object	2	click.wrating.com
 host	objectsubrequest	2	click.wrating.com
 host	stylesheet	2	click.wrating.com
 host	subdocument	2	click.wrating.com
+host	subdocument	1	clients6.google.com
 host	cookie	2	clkstat.qihoo.com
 host	image	2	clkstat.qihoo.com
 host	script	2	clkstat.qihoo.com
@@ -1969,6 +1970,7 @@ host	object	2	l.qq.com
 host	objectsubrequest	2	l.qq.com
 host	stylesheet	2	l.qq.com
 host	subdocument	2	l.qq.com
+host	script	1	l.tbcdn.cn
 host	script	1	l.yimg.com
 host	cookie	2	l.ykimg.com
 host	image	2	l.ykimg.com
@@ -2010,6 +2012,7 @@ host	objectsubrequest	2	links.kugou.com
 host	stylesheet	2	links.kugou.com
 host	subdocument	2	links.kugou.com
 host	script	1	list.video.baidu.com
+host	subdocument	1	live.64ma.com
 host	subdocument	1	live.pptv.com
 host	cookie	2	log.daqi.com
 host	image	2	log.daqi.com
@@ -2199,6 +2202,7 @@ host	object	2	monitor.yigao.com
 host	objectsubrequest	2	monitor.yigao.com
 host	stylesheet	2	monitor.yigao.com
 host	subdocument	2	monitor.yigao.com
+host	script	1	mopimg.cn
 host	subdocument	1	movie.xunlei.com
 host	cookie	2	mpv.sandai.net
 host	image	2	mpv.sandai.net
@@ -2519,6 +2523,7 @@ host	object	1	player.ku6cdn.com
 host	object	1	player.letvcdn.com
 host	object	1	player.pplive.cn
 host	object	1	player.video.qiyi.com
+host	object	1	player.youku.com
 host	cookie	2	p-log.ykimg.com
 host	image	2	p-log.ykimg.com
 host	script	2	p-log.ykimg.com
@@ -2806,6 +2811,7 @@ host	script	1	s1.pan.bdstatic.com
 host	script	1	s1.pplive.cn
 host	script	1	s1.ppsimg.com
 host	script	1	s1.wp.com
+host	script	1	s1.yun.bdstatic.com
 host	script	1	s2.jingpinke.com
 host	script	1	s2.wp.com
 host	cookie	2	s3.buysellads.com
@@ -2910,6 +2916,7 @@ host	object	2	shaft.jebe.renren.com
 host	objectsubrequest	2	shaft.jebe.renren.com
 host	stylesheet	2	shaft.jebe.renren.com
 host	subdocument	2	shaft.jebe.renren.com
+host	object	1	share.vrs.sohu.com
 host	cookie	2	show.altitudedigitalpartners.com
 host	image	2	show.altitudedigitalpartners.com
 host	script	2	show.altitudedigitalpartners.com
@@ -4121,6 +4128,7 @@ host	objectsubrequest	2	www.d9ad.com
 host	stylesheet	2	www.d9ad.com
 host	subdocument	2	www.d9ad.com
 host	script	1	www.dbank.com
+host	script	1	www.dmzj.com
 host	cookie	2	www.ewasai.com
 host	image	2	www.ewasai.com
 host	script	2	www.ewasai.com
@@ -4197,6 +4205,7 @@ host	object	2	www.linkiis.cn
 host	objectsubrequest	2	www.linkiis.cn
 host	stylesheet	2	www.linkiis.cn
 host	subdocument	2	www.linkiis.cn
+host	subdocument	1	www.mop.com
 host	script	1	www.myjob.com
 host	cookie	2	www.naqigs.cn
 host	image	2	www.naqigs.cn
@@ -4221,7 +4230,6 @@ host	stylesheet	2	www.newwang.com
 host	subdocument	2	www.newwang.com
 host	script	1	www.nvidia.com
 host	script	1	www.okdvd.com
-host	subdocument	1	www.okdvd.com
 host	cookie	2	www.okhaobang.com
 host	image	2	www.okhaobang.com
 host	script	2	www.okhaobang.com
