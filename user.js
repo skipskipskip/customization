@@ -133,7 +133,7 @@ user_pref("UserScriptLoader.CACHE_SCRIPT", false);
 
 /*AutoProxy脚本版*/
 user_pref("userChromeJS.SmartProxy.default_proxy", 5);
-user_pref("userChromeJS.SmartProxy.knownProxy", "Free Gate;127.0.0.1;8580;http$Puff;127.0.0.1;1984;http$ssh -D;127.0.0.1;7070;socks$Toonel;127.0.0.1;8080;http$Tor;127.0.0.1;9050;socks$Goagent;127.0.0.1;8087;http$Your Freedom;127.0.0.1;8080;http");
+user_pref("userChromeJS.SmartProxy.knownProxy", "Free Gate;127.0.0.1;8580;http$Puff;127.0.0.1;1984;http$ssh -D;127.0.0.1;7070;socks$Toonel;127.0.0.1;8080;http$Tor;127.0.0.1;9050;socks$Goagent;127.0.0.1;8087;http$Lantern;127.0.0.1;8787;http");
 
 /*ABP*/
 user_pref("extensions.adblockplus.patternsbackups", 0);
@@ -147,7 +147,3 @@ user_pref("network.prefetch-next", false);//关闭链接预读
 user_pref("network.dnsCacheEntries", 20);
 user_pref("network.dnsCacheExpiration", 3600); //1小时后失效
 
-/*流水线等加速*/
-user_pref("network.http.pipelining", true);//启用流水线
-user_pref("network.http.pipelining.ssl", true);//对安全连接启用流水线
-user_pref("network.http.proxy.pipelining", true);
