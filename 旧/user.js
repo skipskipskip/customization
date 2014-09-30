@@ -20,13 +20,13 @@ user_pref("intl.accept_languages","zh-CN,zh-cn,zh,zh-hk,zh-sg,zh-tw,en-us,en,en-
 user_pref("intl.charset.detector", "universal_charset_detector");
 user_pref("intl.charsetmenu.browser.cache", "UTF-8, windows-1252, EUC-JP, gbk");
 //禁用硬件加速
-user_pref("gfx.direct2d.disabled", true);//禁止使用D2D渲染网页文字内容
-user_pref("layers.acceleration.disabled", true);//禁用硬件加速，关闭网页图层绘制的gpu加速
+//user_pref("gfx.direct2d.disabled", true);//禁止使用D2D渲染网页文字内容
+//user_pref("layers.acceleration.disabled", true);//禁用硬件加速，关闭网页图层绘制的gpu加速
 //強制开啓硬件加速
-//user_pref("webgl.force-enabled", true);//强制启用 WebGL
-//user_pref("webgl.msaa-force", true);//强制启用 WebGL 的抗锯齿
-//user_pref("layers.acceleration.force-enabled", true);//强制启用硬件渲染（无视黑名单/白名单）
-//user_pref("gfx.direct2d.force-enabled", true);//在 Windows 平台上强制使用 D2D 加速页面内容渲染
+user_pref("webgl.force-enabled", true);//强制启用 WebGL
+user_pref("webgl.msaa-force", true);//强制启用 WebGL 的抗锯齿
+user_pref("layers.acceleration.force-enabled", true);//强制启用硬件渲染（无视黑名单/白名单）
+user_pref("gfx.direct2d.force-enabled", true);//在 Windows 平台上强制使用 D2D 加速页面内容渲染
 
 /*==========标签设置==========*/
 user_pref("browser.tabs.closeWindowWithLastTab", false);//关闭最后一个标签页时不关闭窗口
@@ -90,7 +90,6 @@ user_pref("extensions.adblockplus.subscriptions_exceptionscheckbox", false);//�
 user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "");//删除非入侵式广告订阅网址
 user_pref("extensions.adblockplus.subscriptions_antiadblockurl", "");//去掉自带的反-反ADP列表
 user_pref("extensions.adblockplus.please_kill_startup_performance", true);//关闭延迟启动
-user_pref("extensions.adblockplus.frameobjects", false);//在Java和Flash上显示标签 - 否
 
 /*LastPass*/
 user_pref("extensions.lastpass.hidecontextmenu", true);
