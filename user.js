@@ -15,6 +15,22 @@ user_pref("general.smoothScroll",false);//禁用平滑滚动，多图会卡顿
 user_pref("font.minimum-size.zh-CN", 12);//最小字体大小
 user_pref("font.size.variable.zh-CN", 16);//比例字体大小
 user_pref("font.size.fixed.zh-CN", 16);//等宽字体大小
+user_pref("font.name.monospace.x-unicode", "新宋体");
+user_pref("font.name.monospace.x-western", "新宋体");
+user_pref("font.name.monospace.zh-CN", "新宋体");
+user_pref("font.name.monospace.zh-HK", "新宋体");
+user_pref("font.name.monospace.zh-TW", "新宋体");
+user_pref("font.name.sans-serif.x-unicode", "新宋体");
+user_pref("font.name.sans-serif.x-western", "新宋体");
+user_pref("font.name.sans-serif.zh-CN", "新宋体");
+user_pref("font.name.sans-serif.zh-HK", "新宋体");
+user_pref("font.name.sans-serif.zh-TW", "新宋体");
+user_pref("font.name.serif.x-unicode", "新宋体");
+user_pref("font.name.serif.x-western", "新宋体");
+user_pref("font.name.serif.zh-CN", "新宋体");
+user_pref("font.name.serif.zh-HK", "新宋体");
+user_pref("font.name.serif.zh-TW", "新宋体");
+
 //语言区域设置
 user_pref("intl.accept_languages","zh-CN,zh-cn,zh,zh-hk,zh-sg,zh-tw,en-us,en,en-gb,ja");
 user_pref("intl.charset.detector", "universal_charset_detector");
