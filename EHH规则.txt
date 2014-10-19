@@ -137,7 +137,6 @@ my.51job.com##.resume_dynamic_contents
 vod.xunlei.com###common_notice_layer
 zhidao.baidu.com###ui-tooltip-0
 tieba.baidu.com##.u9_aside
-jd.com###top-banner
 i.youku.com##IMG[src="http://r2.ykimg.com/05100000535084E06714C06E9A0C9A44"]
 i.youku.com##IMG[onload="this.setAttribute('_width', this.width);this.setAttribute('_height', this.height);if(this.width>580) \7b \9 var newheight = Math.round(this.height*580/this.width);\9 this.resized=true;\9 this.width=580;\9 this.height=newheight;\7d "]
 i.youku.com###iconitemmember
@@ -245,3 +244,63 @@ tieba.baidu.com###forum_recommend
 pan.baidu.com##.module-rel-rec
 twebmail.mail.163.com##.gWel-tabs-promt.sI0
 51job.com##TD[style="padding-top:5px;padding-bottom:5px;"]
+live.tv.sohu.com##.c-favor.cf
+xiami.com##.pyramid_popup
+xiami.com##.athena-tab-view
+xiami.com##.athena-main-button
+xiami.com##.athena-my-info
+ft.com###cookie-consent-container
+tieba.baidu.com##.u_menu_item.u_menu_baiduPrivilege
+@@||twitter.com^$document
+vod.xunlei.com##.pay_wp
+tieba.baidu.com##IMG[src="http://youxi.baidu.com/tips/img/icon.png"]
+tieba.baidu.com###\5f _bdyx_tips
+international.dbw.cn##.box1
+international.dbw.cn##TD[style="padding:4px; line-height:20px"]
+international.dbw.cn##.box-all.Jutop
+letv.com##.login_speed1.j-speed
+letv.com##.ico_hot
+user.qzone.qq.com##.gb-bill-button
+user.qzone.qq.com##.icon-close-bill
+user.qzone.qq.com##.fn_accessLog_tips.bg2.bor2
+user.qzone.qq.com##.qz-btn-vip.qz-btn-vip-open
+user.qzone.qq.com###tb_vip_li
+jd.com###top-banner
+baidu.com###s_crad_plus_tip_5
+baidu.com###\5f embed_v3_dc
+yun.baidu.com##.feed-issue-guide
+user.qzone.qq.com##.ui-dl-inner
+baidu.com##.s-treasure-tips-topMenu.hidden.s-isindex-wrap
+pan.baidu.com###activateGuidePopupOuter
+vod.xunlei.com##.m_txt
+sports.163.com##.ep-area
+news.163.com##.ep-area
+twebmail.mail.163.com##.gWel-weather-promote
+52pojie.cn###div_minipage
+twebmail.mail.163.com##DIV[style="padding-top:20px;padding-left:15px;"]
+zhidao.baidu.com###wgt-topic
+xin.52pk.com##.mb1.cnxh
+games.52pk.com##H3
+games.52pk.com##.box
+star.tga.plu.cn##.tga-tips-title
+star.tga.plu.cn##.tga-tips-content
+lol.qq.com##.ost_lnk.ost_hdn
+lol.qq.com##.ost_t.ost_bg
+matchgo.cn##.King_Chance_LayerCont
+lol.15w.com###\31 5wweixin10
+society.dbw.cn##DIV[style=" padding-bottom:10px"]
+star.tga.plu.cn##.rap
+@@||bbs.pcbeta.com^$document
+asmag.com.cn##.tc
+jingyan.baidu.com###exp-msgbox
+jingyan.baidu.com##EM
+jingyan.baidu.com###blue-book-ads
+baidu.com##.s-card-plus-tip
+news.21cn.com##.scroll-area-130
+news.21cn.com##.blank25
+news.21cn.com##.piclist.clearfix
+news.21cn.com##.blank20
+news.21cn.com##.blank30
+news.21cn.com##.piclist.piclist-s2.clearfix
+news.21cn.com##.blank40
+tieba.baidu.com##.baidutuisong

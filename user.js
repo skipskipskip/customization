@@ -1,3 +1,5 @@
+# 2014.10.16
+
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -5,7 +7,7 @@
 //user_pref("browser.uiCustomization.state", "");
 
 /*==========选项卡里的设置==========*/
-user_pref("browser.shell.checkDefaultBrowser", false);//启动时检查是否为默认浏览器
+user_pref("browser.shell.checkDefaultBrowser", true);//启动时检查是否为默认浏览器
 user_pref("browser.download.useDownloadDir", false);//下载自动上次位置
 user_pref("browser.download.lastDir.savePerSite",true);//火狐7以后，下载时根据不同的站点上次保存的路径，如D:\等
 user_pref("signon.rememberSignons", false);//不保存密码
@@ -15,21 +17,9 @@ user_pref("general.smoothScroll",false);//禁用平滑滚动，多图会卡顿
 user_pref("font.minimum-size.zh-CN", 12);//最小字体大小
 user_pref("font.size.variable.zh-CN", 16);//比例字体大小
 user_pref("font.size.fixed.zh-CN", 16);//等宽字体大小
-user_pref("font.name.monospace.x-unicode", "新宋体");
-user_pref("font.name.monospace.x-western", "新宋体");
-user_pref("font.name.monospace.zh-CN", "新宋体");
-user_pref("font.name.monospace.zh-HK", "新宋体");
-user_pref("font.name.monospace.zh-TW", "新宋体");
-user_pref("font.name.sans-serif.x-unicode", "新宋体");
-user_pref("font.name.sans-serif.x-western", "新宋体");
-user_pref("font.name.sans-serif.zh-CN", "新宋体");
-user_pref("font.name.sans-serif.zh-HK", "新宋体");
-user_pref("font.name.sans-serif.zh-TW", "新宋体");
-user_pref("font.name.serif.x-unicode", "新宋体");
-user_pref("font.name.serif.x-western", "新宋体");
-user_pref("font.name.serif.zh-CN", "新宋体");
-user_pref("font.name.serif.zh-HK", "新宋体");
-user_pref("font.name.serif.zh-TW", "新宋体");
+user_pref("font.minimum-size.zh-TW", 12);//最小字体大小
+user_pref("font.size.variable.zh-TW", 16);//比例字体大小
+user_pref("font.size.fixed.zh-TW", 16);//等宽字体大小
 
 //语言区域设置
 user_pref("intl.accept_languages","zh-CN,zh-cn,zh,zh-hk,zh-sg,zh-tw,en-us,en,en-gb,ja");
@@ -52,6 +42,7 @@ user_pref("browser.tabs.warnOnCloseOtherTabs", false);
 user_pref("browser.warnOnQuit", false);
 
 //browser
+user_pref("middlemouse.paste", true);//启用中键粘贴
 user_pref("extensions.autoDisableScopes", 0);//第一次运行不禁止任何扩展
 user_pref("signed.applets.codebase_principal_support", true);//一些网站的下载协议支持
 user_pref("browser.bookmarks.autoExportHTML", true);//书签生成html
@@ -71,8 +62,8 @@ user_pref("extensions.ui.lastCategory", "addons://list/extension");//打开about
 user_pref("layout.paint_rects_separately", true);//重启浏览器，完美解决。。而且性能比关硬件加速要好很多。
 
 /*缓存位置*/
-user_pref("browser.cache.disk.parent_directory", "D:\\Temp");
-user_pref("browser.cache.offline.parent_directory", "D:\\Temp\\offline");
+user_pref("browser.cache.disk.parent_directory", "D:\Temp\Cache-FX");
+user_pref("browser.cache.offline.parent_directory", "D:\Temp\Cache-FX.offline");
 /*书签*/
 user_pref("browser.bookmarks.max_backups", 0);//最大备份数目
 user_pref("browser.places.smartBookmarksVersion", -1);//禁用智能书签
@@ -140,7 +131,7 @@ user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议�
 //user_pref("userChromeJS.SmartProxy.knownProxy", "Free Gate;127.0.0.1;8580;http$Puff;127.0.0.1;1984;http$ssh -D;127.0.0.1;7070;socks$Toonel;127.0.0.1;8080;http$Tor;127.0.0.1;9050;socks$Shadowsocks;127.0.0.1;1080;http$Goagent;127.0.0.1;8087;http");
 
 /*rebuild_userChrome脚本管理器*/
-user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,toolsbar_KeyChanger_rebuild,ucjsMouseGestures,RefererChanger,wordhighlight-toolbar-menuitem,youkuAntiADsMod,uc-movebutton,InspectElement-menuitem,mason-show,abp-menuitem,redirector-icon,scriptish_general_menu,UserScriptLoader_Tools_Menu,gm_general_menu,usercssloader_Tools_Menu,ucjs_UserAgentChanger");
+user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,toolsbar_KeyChanger_rebuild,ucjsMouseGestures,RefererChanger,wordhighlight-toolbar-menuitem,youkuAntiADsMod,uc-movebutton,InspectElement-menuitem,GrabScroll_optionsMenu,redirector-icon,ucjs_UserAgentChanger,usercssloader_Tools_Menu,UserScriptLoader_Tools_Menu,abp-menuitem,gm_general_menu");
 
 /*UserCSSLoader引导器*/
 user_pref("UserCSSLoader.innereditor", false);//使用外部编辑器
@@ -158,3 +149,7 @@ user_pref("userChromeJS.InspectElement.mainWinType", 2);//查看窗口:Dom Inspe
 
 /*AddmenuPlus*/
 user_pref("addMenu.FILE_PATH", "local\_addMenu.js");//配置路径
+
+/*GrabScroll*/
+user_pref("grabScroll.button", 1);//使用GrabScroll抓取的键位：中键
+user_pref("grabScroll.clickable", false);//能够在链接上使用GrabScroll
