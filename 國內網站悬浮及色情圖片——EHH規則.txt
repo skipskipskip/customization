@@ -304,3 +304,7 @@ news.21cn.com##.blank30
 news.21cn.com##.piclist.piclist-s2.clearfix
 news.21cn.com##.blank40
 tieba.baidu.com##.baidutuisong
+tieba.baidu.com##.j_firework_sender.firework_sender
+tieba.baidu.com##.global_notice_unit
+tieba.baidu.com##.ui_bubble_wrap.j_wrap
+tieba.baidu.com###global_notice_wrap
