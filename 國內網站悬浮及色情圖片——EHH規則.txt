@@ -1,3 +1,9 @@
+[Adblock Plus]
+
+!  Last Modified: 2014-10-19 15:31:53
+!  coding: utf-8, expires: 1 days
+!  --ABP filters by Dupontjoy----2997---------------------------
+
 yyets.com##A[href="http://52meiju.taobao.com"]
 yyets.com##A[href="http://www.6.cn/coop/pub/?src=yyetst"]
 pan.baidu.com###top_menu_other
