@@ -2,7 +2,7 @@
 ! 過濾國內主流網站 悬浮廣告 及 色情圖片（主流網站都那麼多色情圖片，太不利於青少年的身心健康！）
 ! 最先是EHH過濾，慢慢就集合了幾百條規則了，改用訂閱方式，方便不同机器之間的同步。
 !
-!  Last Modified: 2014-10-26 14:35
+!  Last Modified: 2014-10-26 22:30
 !  coding: utf-8, expires: 1 days
 !  ------------ABP filters by Dupontjoy-------------------------------
 yyets.com##A[href="http://52meiju.taobao.com"]
@@ -323,3 +323,6 @@ daoju.qq.com###box1
 ac5snycfqx.l18.yunpan.cn###get-36T
 iqiyi.com##.vip_rec_pop
 iqiyi.com##IFRAME[style="z-index: 4199; background-color: rgb(255, 255, 255); width: 290px; height: 222px; position: absolute; left: 1059px; top: 454px;"]
+lol.tgbus.com##.blockright
+tieba.baidu.com##.reward_btn.j_reward_btn
+mail.qq.com###folder_reader
