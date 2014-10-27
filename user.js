@@ -1,4 +1,4 @@
-# 2014.10.16
+# 2014.10.27
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -153,3 +153,16 @@ user_pref("addMenu.FILE_PATH", "local\_addMenu.js");//配置路径
 /*GrabScroll*/
 user_pref("grabScroll.button", 1);//使用GrabScroll抓取的键位：中键
 user_pref("grabScroll.clickable", false);//能够在链接上使用GrabScroll
+
+/*ucClearMonitor自動清理內存*/
+user_pref("userChromeJS.UCCM.CMcache", true);
+user_pref("userChromeJS.UCCM.CMcookies", true);
+user_pref("userChromeJS.UCCM.CMhideButton", true);
+user_pref("userChromeJS.UCCM.CMhistory", true);
+user_pref("userChromeJS.UCCM.CMhttpLogins", true);
+user_pref("userChromeJS.UCCM.CMtrim", true);
+user_pref("userChromeJS.UCCM.CMtrimtab", true);
+user_pref("userChromeJS.UCCM.MaxMemory", 700);
+user_pref("userChromeJS.UCCM.MemoryAlert", true);
+user_pref("userChromeJS.UCCM.interval", 60000);
+user_pref("userChromeJS.UCCM.useafom", true);
