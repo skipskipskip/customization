@@ -15,6 +15,7 @@
 ! AntiAdblock - Generic
 !---------------------------------------------------------------------------------------------!
 ! 國內網站悬浮及色情圖片——EHH規則(Dupontjoy)
+! Default
 yyets.com##A[href="http://52meiju.taobao.com"]
 yyets.com##A[href="http://www.6.cn/coop/pub/?src=yyetst"]
 pan.baidu.com###top_menu_other
