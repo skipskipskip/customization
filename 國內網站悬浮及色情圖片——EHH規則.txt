@@ -3,7 +3,7 @@
 ! Description: 過濾國內主流網站 悬浮廣告 及 色情圖片（主流網站都那麼多色情圖片，太不利於青少年的身心健康！）最先是EHH過濾，慢慢就集合了幾百條規則了，改用訂閱方式，方便不同机器之間的同步。
 ! Author: Dupontjoy
 ! License: Creative Commons BY-NC-SA
-! Version: 2014.11.02 13:23
+! Version: 2014.11.02 22:30
 ! Expires: 1 days
 ! Homepage: https://github.com/dupontjoy/customization/blob/master/%E5%9C%8B%E5%85%A7%E7%B6%B2%E7%AB%99%E6%82%AC%E6%B5%AE%E5%8F%8A%E8%89%B2%E6%83%85%E5%9C%96%E7%89%87%E2%80%94%E2%80%94EHH%E8%A6%8F%E5%89%87.txt
 ! Contact: https://github.com/dupontjoy/customization/
@@ -340,3 +340,5 @@ rrys123.com##DIV[style="margin-bottom:1em; text-align:center;width:700px;overflo
 rrys123.com##A[href="http://www.6.cn/coop/pub/?src=yyetst"]
 rrys123.com##.top_log_news.f_r
 rrys123.com##.top_log_news.f_l
+tiandi.com##.pop-tips.pop-tips-0
+500px.com###hellobar
