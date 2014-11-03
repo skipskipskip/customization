@@ -8,7 +8,6 @@ sftp:
 telnet:
 resource:
 unmht:
-192.168
 edu.cn
 gov.cn
 org.cn
@@ -274,7 +273,6 @@ news.sohu.com
 note.youdao.com
 notepad-plus-plus.org
 now.msn.com
-NS全域名白名单
 one.ubuntu.com
 open.163.com
 opendata.baidu.com
