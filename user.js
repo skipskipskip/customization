@@ -1,4 +1,5 @@
-# 2014.11.03  加入Noscript
+# 2014.11.04  NoScript白名单改为订阅
+# 2014.11.03  加入NoScript
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -132,6 +133,12 @@ user_pref("noscript.autoAllow", 3); //自動允許第二層網域
 user_pref("noscript.autoReload.allTabs", false); //只重載當前頁面
 user_pref("noscript.showAbout", false); //不顯示關於
 user_pref("noscript.notify.hide", true); //5秒後隱藏
+//在线订阅的黑白名单会定期自动同步到本地，并与本地名单合并，所以不必担心本地已存在名单丢失；
+user_pref("noscript.subscription.checkInterval", 24);//更新检查周期间隔
+user_pref("noscript.subscription.trustedURL", "https://raw.githubusercontent.com/dupontjoy/customization/master/NoScript-Whitelist.txt");//可信名单的订阅URL
+//同时建议将NoScript自带的2个白名单参数置空：
+user_pref("noscript.default","");//默认白名单
+user_pref("noscript.mandatory",""); //固定/特权白名单
 
 /*==========脚本设置==========*/
 /*SmartProxyforChina代理*/
