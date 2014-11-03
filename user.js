@@ -1,4 +1,4 @@
-# 2014.10.27
+# 2014.11.03  加入Noscript
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -67,6 +67,9 @@ user_pref("browser.cache.offline.parent_directory", "D:\Temp\Cache-FX.offline");
 /*书签*/
 user_pref("browser.bookmarks.max_backups", 0);//最大备份数目
 user_pref("browser.places.smartBookmarksVersion", -1);//禁用智能书签
+/*Cookie保存30天*/
+user_pref("network.cookie.lifetimePolicy", 3);//0保存到自动过期，由服务器决定，即持久Cookie；1每次询问，建议；2保持到退出FX，即会话期；3由network.cookie.lifetime.days来决定
+user_pref("network.cookie.lifetime.days", 30);
 //关闭安全检测健康中心类
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.enabled", false);
@@ -124,6 +127,12 @@ user_pref("flashgot.firstRunRedirection", false);//重建配置不弹FlashGot首
 /*Greasemonkey*/
 user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议提示
 
+/*Noscript*/
+user_pref("noscript.autoAllow", 3); //自動允許第二層網域
+user_pref("noscript.autoReload.allTabs", false); //只重載當前頁面
+user_pref("noscript.showAbout", false); //不顯示關於
+user_pref("noscript.notify.hide", true); //5秒後隱藏
+
 /*==========脚本设置==========*/
 /*SmartProxyforChina代理*/
 //user_pref("userChromeJS.SmartProxy.proxyMode", "auto");
@@ -131,7 +140,7 @@ user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议�
 //user_pref("userChromeJS.SmartProxy.knownProxy", "Free Gate;127.0.0.1;8580;http$Puff;127.0.0.1;1984;http$ssh -D;127.0.0.1;7070;socks$Toonel;127.0.0.1;8080;http$Tor;127.0.0.1;9050;socks$Shadowsocks;127.0.0.1;1080;http$Goagent;127.0.0.1;8087;http");
 
 /*rebuild_userChrome脚本管理器*/
-user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,toolsbar_KeyChanger_rebuild,ucjsMouseGestures,RefererChanger,wordhighlight-toolbar-menuitem,youkuAntiADsMod,uc-movebutton,InspectElement-menuitem,GrabScroll_optionsMenu,redirector-icon,ucjs_UserAgentChanger,usercssloader_Tools_Menu,UserScriptLoader_Tools_Menu,abp-menuitem,gm_general_menu");
+user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,toolsbar_KeyChanger_rebuild,ucjsMouseGestures,RefererChanger,wordhighlight-toolbar-menuitem,youkuAntiADsMod,uc-movebutton,InspectElement-menuitem,GrabScroll_optionsMenu,redirector-icon,ucjs_UserAgentChanger,usercssloader_Tools_Menu,UserScriptLoader_Tools_Menu,abp-menuitem,gm_general_menu,noscript-context-menu");
 
 /*UserCSSLoader引导器*/
 user_pref("UserCSSLoader.innereditor", false);//使用外部编辑器
