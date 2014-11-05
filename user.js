@@ -1,3 +1,4 @@
+# 2014.11.05  ucClearMonitor 內存800MB時開始清理
 # 2014.11.04  NoScript白名单改为订阅
 # 2014.11.03  加入NoScript
 
@@ -178,7 +179,7 @@ user_pref("userChromeJS.UCCM.CMhistory", true);
 user_pref("userChromeJS.UCCM.CMhttpLogins", true);
 user_pref("userChromeJS.UCCM.CMtrim", true);
 user_pref("userChromeJS.UCCM.CMtrimtab", true);
-user_pref("userChromeJS.UCCM.MaxMemory", 700);
+user_pref("userChromeJS.UCCM.MaxMemory", 800);//內存達到此值開始afom.exe清理
 user_pref("userChromeJS.UCCM.MemoryAlert", true);
 user_pref("userChromeJS.UCCM.interval", 60000);
 user_pref("userChromeJS.UCCM.useafom", true);
