@@ -334,6 +334,8 @@ play.baidu.com
 play.google.com
 player.libsyn.com
 player.youku.com
+plu.cn
+plures.net
 plus.google.com
 plusone.google.com
 prism-break.org
