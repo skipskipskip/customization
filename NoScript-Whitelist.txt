@@ -171,6 +171,7 @@ gov.cn
 groups.google.com
 gstatic.com
 gtimg.cn
+gtimg.com
 guanjia.qq.com
 guba.eastmoney.com
 hao123img.com
@@ -407,6 +408,8 @@ t.136.com
 t.qq.com
 t.sina.com.cn
 t.sohu.com
+taobaocdn.com
+tbcdn.cn
 teach.sina.com.cn
 tech.mozilla.com.tw
 technet.microsoft.com
@@ -472,14 +475,7 @@ yun.baidu.com
 yunpan.360.cn
 zh.wikipedia.org
 zhidao.baidu.com
-abine:
 about:
-about:blank
-blob:
 chrome:
 ftp:
-resource:
-sftp:
-telnet:
-unmht:
 [UNTRUSTED]
