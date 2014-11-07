@@ -1,3 +1,4 @@
+# 2014.11.07  countryflag一个参数
 # 2014.11.05  ucClearMonitor 內存800MB時開始清理
 # 2014.11.04  NoScript白名单改为订阅
 # 2014.11.03  加入NoScript
@@ -161,9 +162,6 @@ user_pref("UserScriptLoader.showtoolbutton", false);//显示为菜单
 user_pref("userChromeJS.InspectElement.contentType", 2);//查看页面:Dom Inspector
 user_pref("userChromeJS.InspectElement.mainWinType", 2);//查看窗口:Dom Inspector
 
-/*userpermissions2*/
-//user_pref("permissions.default.script", 3);//禁止第三方脚本
-
 /*AddmenuPlus*/
 user_pref("addMenu.FILE_PATH", "local\_addMenu.js");//配置路径
 
@@ -183,3 +181,6 @@ user_pref("userChromeJS.UCCM.MaxMemory", 800);//內存達到此值開始afom.exe
 user_pref("userChromeJS.UCCM.MemoryAlert", true);
 user_pref("userChromeJS.UCCM.interval", 60000);
 user_pref("userChromeJS.UCCM.useafom", true);
+
+/*countryflag*/
+user_pref("userChromeJS.showFlagS.Reacquire", true);/*自动重新獲取*/
