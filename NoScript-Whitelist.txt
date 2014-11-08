@@ -2,6 +2,9 @@
 115.com
 126.net
 127.net
+3.cn
+360buy.com
+360buyimg.com
 56img.com
 a.baidu.com
 a.tbcdn.cn
@@ -127,6 +130,7 @@ download.cnet.com
 download.csdn.net
 drive.google.com
 drscholl.tmall.com
+dwstatic.com
 dynamic.12306.cn
 dzh.mop.com
 e.weibo.com
