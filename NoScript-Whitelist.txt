@@ -377,6 +377,7 @@ sfx.ms
 shopping.dangdang.com
 shuqian.qq.com
 sina.com.cn
+sinaapp.com
 sinaimg.cn
 sinajs.cn
 site.baidu.com
@@ -462,6 +463,7 @@ women.sohu.com
 woocall.sina.com.cn
 wp.163.com
 wx.qq.com
+xiami.net
 xiangce.baidu.com
 y.qq.com
 yahoo.com
@@ -482,4 +484,16 @@ zhidao.baidu.com
 about:
 chrome:
 ftp:
+http://3.cn
+http://360buy.com
+http://360buyimg.com
+http://dwstatic.com
+http://sinaapp.com
+http://xiami.net
+https://3.cn
+https://360buy.com
+https://360buyimg.com
+https://dwstatic.com
+https://sinaapp.com
+https://xiami.net
 [UNTRUSTED]
