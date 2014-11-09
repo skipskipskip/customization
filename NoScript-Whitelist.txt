@@ -1,4 +1,4 @@
-!-------NoScript白名單，根據江3版增補。2014.11.09 15:24 -------------------------------------!
+!-------NoScript白名單，根據江3版增補。2014.11.09 15:41 -------------------------------------!
 10086.cn
 115.com
 126.net
@@ -482,6 +482,7 @@ yun.baidu.com
 yunpan.360.cn
 zh.wikipedia.org
 zhidao.baidu.com
+hdslb.com
 about:
 chrome:
 ftp:
@@ -498,4 +499,3 @@ https://dwstatic.com
 https://sinaapp.com
 https://xiami.net
 [UNTRUSTED]
-
