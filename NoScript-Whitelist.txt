@@ -1,4 +1,4 @@
-!-------NoScript白名單，根據江3版增補。2014.11.09 15:41 -------------------------------------!
+!-------NoScript白名單，根據江3版增補。2014.11.10 20:02 -------------------------------------!
 10086.cn
 115.com
 126.net
@@ -6,6 +6,7 @@
 3.cn
 360buy.com
 360buyimg.com
+51img1.com
 56img.com
 a.baidu.com
 a.tbcdn.cn
@@ -181,6 +182,7 @@ guanjia.qq.com
 guba.eastmoney.com
 hao123img.com
 hardhat.mozilla.net
+hdslb.com
 heatmap.pconline.com.cn
 help.adobe.com
 helpx.adobe.com
@@ -438,6 +440,7 @@ tv.weibo.com
 twimg.com
 ucenter.51cto.com
 unity3d.com
+useso.com
 v.163.com
 verify.adobe.com
 video.baidu.com
@@ -482,20 +485,7 @@ yun.baidu.com
 yunpan.360.cn
 zh.wikipedia.org
 zhidao.baidu.com
-hdslb.com
 about:
 chrome:
 ftp:
-http://3.cn
-http://360buy.com
-http://360buyimg.com
-http://dwstatic.com
-http://sinaapp.com
-http://xiami.net
-https://3.cn
-https://360buy.com
-https://360buyimg.com
-https://dwstatic.com
-https://sinaapp.com
-https://xiami.net
 [UNTRUSTED]
