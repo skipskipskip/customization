@@ -1,3 +1,4 @@
+# 2014.11.11  新增禁止资料上传兩個參數
 # 2014.11.07  countryflag一个参数
 # 2014.11.05  ucClearMonitor 內存800MB時開始清理
 # 2014.11.04  NoScript白名单改为订阅
@@ -45,7 +46,7 @@ user_pref("browser.tabs.warnOnCloseOtherTabs", false);
 user_pref("browser.warnOnQuit", false);
 
 //browser
-user_pref("middlemouse.paste", true);//启用中键粘贴
+user_pref("middlemouse.paste", false);//不启用中键粘贴
 user_pref("extensions.autoDisableScopes", 0);//第一次运行不禁止任何扩展
 user_pref("signed.applets.codebase_principal_support", true);//一些网站的下载协议支持
 user_pref("browser.bookmarks.autoExportHTML", true);//书签生成html
@@ -61,6 +62,8 @@ user_pref("browser.sessionstore.interval",36000000); //降低会话保存频率�
 user_pref("view_source.wrap_long_lines", true);//页面源代码--将较长的行自动换行
 user_pref("browser.slowStartup.notificationDisabled", true);//启动过慢时底部的提示信息
 user_pref("extensions.ui.lastCategory", "addons://list/extension");//打开about:addons时默认打开“扩展”项
+user_pref("toolkit.telemetry.enabled", false);//禁用Telemetry
+user_pref("datareporting.healthreport.uploadEnabled", false);//禁止上传健康报告
 //字体渲染
 user_pref("layout.paint_rects_separately", true);//重启浏览器，完美解决。。而且性能比关硬件加速要好很多。
 
