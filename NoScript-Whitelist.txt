@@ -1,4 +1,4 @@
-!-------NoScript白名單，根據江3版增補。2014.11.10 20:02 -------------------------------------!
+!-------NoScript白名單，根據江3版增補。2014.11.11 23:20 -------------------------------------!
 10086.cn
 115.com
 126.net
@@ -168,10 +168,12 @@ gallery.extensionfactory.com
 geo.mozilla.org
 get.adobe.com
 gfx.ms
+google-analytics.com
 google.com
 googleapis.com
 googleblog.blogspot.com
 googlesyndication.com
+googletagservices.com
 googleusercontent.com
 gov.cn
 groups.google.com
@@ -364,6 +366,7 @@ related.doc88.com
 research.microsoft.com
 ruyi.etao.com
 s-msn.com
+s-nbcnews.com
 s.meilishuo.net
 scholar.google.com.hk
 sdc.cebbank.com
@@ -489,3 +492,4 @@ about:
 chrome:
 ftp:
 [UNTRUSTED]
+
