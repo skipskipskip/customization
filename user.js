@@ -137,7 +137,7 @@ user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议�
 user_pref("noscript.autoAllow", 3); //自動允許第二層網域
 user_pref("noscript.autoReload.allTabs", false); //只重載當前頁面
 user_pref("noscript.showAbout", false); //不顯示關於
-user_pref("noscript.notify.hideDelay", 60); //60秒後隱藏
+user_pref("noscript.notify.hideDelay", 30); //xx秒後隱藏
 user_pref("noscript.notify.hide", true); //時間到後自動隱藏
 //在线订阅的黑白名单会定期自动同步到本地，并与本地名单合并，所以不必担心本地已存在名单丢失；
 user_pref("noscript.subscription.checkInterval", 24);//更新检查周期间隔
