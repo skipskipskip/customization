@@ -1,4 +1,4 @@
-!-------NoScript白名單，根據江3版增補。2014.11.11 23:20 -------------------------------------!
+!-------NoScript白名單，根據江3版增補。2014.11.16 16:40 -------------------------------------!
 10086.cn
 115.com
 126.net
@@ -488,6 +488,7 @@ yun.baidu.com
 yunpan.360.cn
 zh.wikipedia.org
 zhidao.baidu.com
+nvidia.com
 about:
 chrome:
 ftp:
