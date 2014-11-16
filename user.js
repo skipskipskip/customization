@@ -1,3 +1,4 @@
+# 2014.11.16  新增拼寫檢查參數
 # 2014.11.11  新增禁止资料上传兩個參數，修改NoScript參數
 # 2014.11.07  countryflag一个参数
 # 2014.11.05  ucClearMonitor 內存800MB時開始清理
@@ -64,6 +65,9 @@ user_pref("browser.slowStartup.notificationDisabled", true);//启动过慢时底
 user_pref("extensions.ui.lastCategory", "addons://list/extension");//打开about:addons时默认打开“扩展”项
 user_pref("toolkit.telemetry.enabled", false);//禁用Telemetry
 user_pref("datareporting.healthreport.uploadEnabled", false);//禁止上传健康报告
+//拼写检查
+user_pref("spellchecker.dictionary", "en-US");//字典
+user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
 //字体渲染
 user_pref("layout.paint_rects_separately", true);//重启浏览器，完美解决。。而且性能比关硬件加速要好很多。
 
