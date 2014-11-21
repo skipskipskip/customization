@@ -1,4 +1,6 @@
-# 2014.11.16  新增拼寫檢查參數
+# 2014.11.21  新增OCSP参数
+# 2014.11.18  新增SmartRAM參數
+# 2014.11.16  新增拼寫檢查參數，加入網路相關參數
 # 2014.11.11  新增禁止资料上传兩個參數，修改NoScript參數
 # 2014.11.07  countryflag一个参数
 # 2014.11.05  ucClearMonitor 內存800MB時開始清理
@@ -18,6 +20,8 @@ user_pref("browser.download.lastDir.savePerSite",true);//火狐7以后，下载�
 user_pref("signon.rememberSignons", false);//不保存密码
 user_pref("general.autoScroll", false);//关闭自动滚屏（中键）
 user_pref("general.smoothScroll",false);//禁用平滑滚动，多图会卡顿 
+user_pref("security.OCSP.enabled",0);//禁用OCSP验证，启用有时会出现OCSP回应包过期错误，导致不能打开网页
+
 //字体设置
 user_pref("font.minimum-size.zh-CN", 12);//最小字体大小
 user_pref("font.size.variable.zh-CN", 16);//比例字体大小
@@ -102,6 +106,29 @@ user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);//禁
 user_pref("browser.startup.homepage", "chrome://userchromejs/content/myNewTab/index.html");//首页
 user_pref("browser.newtab.url", "chrome://userchromejs/content/myNewTab/index.html");//本地Html
 
+//网络连接、访问加速
+user_pref("network.http.pipelining", true); //开启管线化
+user_pref("network.http.proxy.pipelining", true); //在代理环境下，让下一项network.http.proxy.pipelining的设置也能生效。
+user_pref("network.http.spdy.enabled", true);//开启spdy协议?默认开启;可加速Google;
+user_pref("network.http.pipelining.firstrequest", true);//默认开启流水线，目前没有出现问题
+user_pref("network.pipelining.maxrequests", 8); //配合上一条用
+user_pref("network.http.request.max-start-delay", 2); //29上默认是10，经过测试2是最佳值，至于大家觉得多少合适，根据自己情况研究吧
+user_pref("nglayout.initialpaint.delay", 50); //页面渲染更迅速，本项能够让你控制Firefox在开始提交一个页面之前的等待时间长度。如果这个值没有被设置，Firefox则会默认为250毫秒，或者说是0.25秒。一些人则将其设置为0，也就是迫使Firefox立即提交页面——让几乎所有的页面 能够更快地显示出来。当值设置为50时，效果就已经非常良好。
+user_pref("network.http.pipelining.maxrequests", 8); //将32改为8 通常浏览器一次只会发送一个请求.你可以让它一次发送多个请求，一次请求8次
+user_pref("network.http.redirection-limit",5);//最大重定向次数？默认20次
+user_pref("network.dns.disableIPv6", true); //不检查IPv6-capable DNS servers的错误
+user_pref("network.proxy.socks_remote_dns",false);//开启socks远程dns解析？要速度就false，防运营商dns劫持不如打电话，何况这对翻墙没大帮助。
+user_pref("network.dns.disablePrefetch",false);//关闭dns预解析？
+user_pref("network.dns.disablePrefetchFromHTTPS",true);//关闭HTTPS网站的DNS预解析？默认不存在
+user_pref("network.prefetch-next",true);//开启网页预读？默认true
+
+// pcxFirefox SmartRAM
+pref("pcxfirefox.memory.firefox.smart", true);
+pref("pcxfirefox.memory.firefox.keep.dynamic", true);
+pref("pcxfirefox.memory.firefox.smart.ratio", 80);//该值控制了想要保留目前内存的百分比（dynamic为true时生效）
+pref("pcxfirefox.memory.firefox.keep", 512);//该值控制了想要保留内存的大小（dynamic为false时生效）
+pref("pcxfirefox.memory.firefox.timer", 1800);//控制了释放间隔，单位是秒
+
 /*==========扩展设置==========*/
 /*adblockplus*/
 user_pref("extensions.adblockplus.hideContributeButton", true);//隐藏助力abp项
@@ -149,6 +176,9 @@ user_pref("noscript.subscription.trustedURL", "https://raw.githubusercontent.com
 //同时建议将NoScript自带的2个白名单参数置空：
 user_pref("noscript.default","");//默认白名单
 user_pref("noscript.mandatory",""); //固定/特权白名单
+
+/*FasterFox*/
+user_pref("extensions.fasterfox.enhancedPrefetching", true);//啓用增強預讀取
 
 /*==========脚本设置==========*/
 /*SmartProxyforChina代理*/
