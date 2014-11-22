@@ -1,4 +1,4 @@
-!-------NoScript白名單，根據江3版增補。2014.11.21 20:05 -------------------------------------!
+!-------NoScript白名單，根據江3版增補。2014.11.22 23:30 -------------------------------------!
 10086.cn
 115.com
 126.net
@@ -8,6 +8,7 @@
 360buyimg.com
 51img1.com
 56img.com
+64ma.com
 a.baidu.com
 a.tbcdn.cn
 account.youdao.com
@@ -272,6 +273,7 @@ mbox.sogou.com
 mediacdn.reuters.com
 military.china.com
 minggo.tk
+mm111.net
 mootools.net
 movie.douban.com
 movie.kankan.com
@@ -307,6 +309,7 @@ noscript.net
 note.youdao.com
 notepad-plus-plus.org
 now.msn.com
+nvidia.com
 one.ubuntu.com
 open.163.com
 opendata.baidu.com
@@ -414,6 +417,7 @@ static.wenku.bdimg.com
 static.xgres.com
 static.youku.com
 static2.baihe.com
+staticfile.org
 support.google.com
 t.136.com
 t.qq.com
@@ -488,10 +492,9 @@ yun.baidu.com
 yunpan.360.cn
 zh.wikipedia.org
 zhidao.baidu.com
-nvidia.com
-mm111.net
 about:
 chrome:
 ftp:
 [UNTRUSTED]
+
 
