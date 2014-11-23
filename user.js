@@ -1,4 +1,4 @@
-# 2014.11.21  新增OCSP参数
+# 2014.11.22  新增Greasemonkey兩條參數
 # 2014.11.18  新增SmartRAM參數
 # 2014.11.16  新增拼寫檢查參數，加入網路相關參數
 # 2014.11.11  新增禁止资料上传兩個參數，修改NoScript參數
@@ -20,7 +20,6 @@ user_pref("browser.download.lastDir.savePerSite",true);//火狐7以后，下载�
 user_pref("signon.rememberSignons", false);//不保存密码
 user_pref("general.autoScroll", false);//关闭自动滚屏（中键）
 user_pref("general.smoothScroll",false);//禁用平滑滚动，多图会卡顿 
-user_pref("security.OCSP.enabled",0);//禁用OCSP验证，启用有时会出现OCSP回应包过期错误，导致不能打开网页
 
 //字体设置
 user_pref("font.minimum-size.zh-CN", 12);//最小字体大小
@@ -68,7 +67,10 @@ user_pref("view_source.wrap_long_lines", true);//页面源代码--将较长的�
 user_pref("browser.slowStartup.notificationDisabled", true);//启动过慢时底部的提示信息
 user_pref("extensions.ui.lastCategory", "addons://list/extension");//打开about:addons时默认打开“扩展”项
 user_pref("toolkit.telemetry.enabled", false);//禁用Telemetry
+user_pref("datareporting.healthreport.service.enabled", false);//禁用健康报告
 user_pref("datareporting.healthreport.uploadEnabled", false);//禁止上传健康报告
+user_pref("startup.homepage_welcome_url", "");
+
 //拼写检查
 user_pref("spellchecker.dictionary", "en-US");//字典
 user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
@@ -163,6 +165,7 @@ user_pref("flashgot.firstRunRedirection", false);//重建配置不弹FlashGot首
 
 /*Greasemonkey*/
 user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议提示
+user_pref("extensions.greasemonkey.installDelay", 0);//安裝時的倒計時
 
 /*Noscript*/
 user_pref("noscript.autoAllow", 3); //自動允許第二層網域
