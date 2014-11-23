@@ -1,8 +1,9 @@
-!-------NoScript白名單，根據江3版增補。2014.11.23 09:55 -------------------------------------!
+!-------NoScript白名單，根據江3版增補。2014.11.23 20:37 -------------------------------------!
 10086.cn
 115.com
 126.net
 127.net
+163.com
 3.cn
 360buy.com
 360buyimg.com
@@ -132,6 +133,7 @@ dl.xunlei.com
 docs.google.com
 download.cnet.com
 download.csdn.net
+dpfile.com
 drive.google.com
 drscholl.tmall.com
 dwstatic.com
@@ -359,6 +361,8 @@ productforums.google.com
 prototypejs.org
 pstatic.xunlei.com
 ptlogin2.qq.com
+qhimg.com
+qihucdn.com
 query.yahoo.com
 qun.qq.com
 qun.qzone.qq.com
@@ -498,3 +502,4 @@ about:
 chrome:
 ftp:
 [UNTRUSTED]
+
