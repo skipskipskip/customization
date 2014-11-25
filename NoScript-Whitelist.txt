@@ -1,4 +1,4 @@
-!-------NoScript白名單，根據江3版增補。2014.11.23 20:37 -------------------------------------!
+!-------NoScript白名單，根據江3版增補。2014.11.25 13:28 -------------------------------------!
 10086.cn
 115.com
 126.net
@@ -249,6 +249,7 @@ k.ifeng.com
 kankan.xunlei.com
 kb.mozillazine.org
 kevs3d.co.uk
+ku6cdn.com
 labs.3g.youku.com
 linux.softpedia.com
 live.com
@@ -489,6 +490,7 @@ yandex.st
 ydstatic.com
 yi.comsome.com
 yimg.com
+ykimg.com
 youtube.com
 youxi.baidu.com
 ys168.com
@@ -502,4 +504,5 @@ about:
 chrome:
 ftp:
 [UNTRUSTED]
+
 
