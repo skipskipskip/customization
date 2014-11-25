@@ -1,3 +1,4 @@
+# 2014.11.25  新增Greasemonkey和Noscript設置參數
 # 2014.11.22  新增Greasemonkey兩條參數
 # 2014.11.18  新增SmartRAM參數
 # 2014.11.16  新增拼寫檢查參數，加入網路相關參數
@@ -166,6 +167,7 @@ user_pref("flashgot.firstRunRedirection", false);//重建配置不弹FlashGot首
 /*Greasemonkey*/
 user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议提示
 user_pref("extensions.greasemonkey.installDelay", 0);//安裝時的倒計時
+user_pref("extensions.greasemonkey.sync.enabled", false); //禁止同步
 
 /*Noscript*/
 user_pref("noscript.autoAllow", 3); //自動允許第二層網域
@@ -173,6 +175,9 @@ user_pref("noscript.autoReload.allTabs", false); //只重載當前頁面
 user_pref("noscript.showAbout", false); //不顯示關於
 user_pref("noscript.notify.hideDelay", 30); //xx秒後隱藏
 user_pref("noscript.notify.hide", true); //時間到後自動隱藏
+user_pref("noscript.xss.notify", false); //不顯示被封鎖的META重定向
+user_pref("noscript.forbidMetaRefresh.notify", false); //不顯示XSS通知
+user_pref("noscript.firstRunRedirection", false); //不顯示更新發行公告
 //在线订阅的黑白名单会定期自动同步到本地，并与本地名单合并，所以不必担心本地已存在名单丢失；
 user_pref("noscript.subscription.checkInterval", 24);//更新检查周期间隔
 user_pref("noscript.subscription.trustedURL", "https://raw.githubusercontent.com/dupontjoy/customization/master/NoScript-Whitelist.txt");//可信名单的订阅URL
