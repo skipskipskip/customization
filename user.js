@@ -1,3 +1,5 @@
+# 2014.11.28  新增幾條參數
+# 2014.11.27  禁用ABE
 # 2014.11.25  新增Greasemonkey和Noscript設置參數
 # 2014.11.22  新增Greasemonkey兩條參數
 # 2014.11.18  新增SmartRAM參數
@@ -21,6 +23,7 @@ user_pref("browser.download.lastDir.savePerSite",true);//火狐7以后，下载�
 user_pref("signon.rememberSignons", false);//不保存密码
 user_pref("general.autoScroll", false);//关闭自动滚屏（中键）
 user_pref("general.smoothScroll",false);//禁用平滑滚动，多图会卡顿 
+user_pref("toolkit.telemetry.rejected", true); //禁用帮助改进firefox 弹窗？
 
 //字体设置
 user_pref("font.minimum-size.zh-CN", 12);//最小字体大小
@@ -33,7 +36,7 @@ user_pref("font.size.fixed.zh-TW", 16);//等宽字体大小
 //语言区域设置
 user_pref("intl.accept_languages","zh-CN,zh-cn,zh,zh-hk,zh-sg,zh-tw,en-us,en,en-gb,ja");
 user_pref("intl.charset.detector", "universal_charset_detector");
-user_pref("intl.charsetmenu.browser.cache", "UTF-8, windows-1252, EUC-JP, gbk");
+user_pref("intl.charsetmenu.browser.cache", "UTF-8, windows-1252, EUC-JP, gbk, GB2312");
 //禁用硬件加速
 user_pref("gfx.direct2d.disabled", true);//禁止使用D2D渲染网页文字内容
 user_pref("layers.acceleration.disabled", true);//禁用硬件加速，关闭网页图层绘制的gpu加速
@@ -178,6 +181,8 @@ user_pref("noscript.notify.hide", true); //時間到後自動隱藏
 user_pref("noscript.xss.notify", false); //不顯示被封鎖的META重定向
 user_pref("noscript.forbidMetaRefresh.notify", false); //不顯示XSS通知
 user_pref("noscript.firstRunRedirection", false); //不顯示更新發行公告
+user_pref("noscript.ABE.enabled", false); //禁用ABE
+
 //在线订阅的黑白名单会定期自动同步到本地，并与本地名单合并，所以不必担心本地已存在名单丢失；
 user_pref("noscript.subscription.checkInterval", 24);//更新检查周期间隔
 user_pref("noscript.subscription.trustedURL", "https://raw.githubusercontent.com/dupontjoy/customization/master/NoScript-Whitelist.txt");//可信名单的订阅URL
