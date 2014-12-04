@@ -1,4 +1,4 @@
-!-------NoScript白名單，根據江3版增補。2014.11.28 21:45 -------------------------------------!
+!-------NoScript白名單，根據江3版增補。2014.12.04 14:20 -------------------------------------!
 rrsub.net
 10086.cn
 115.com
@@ -504,6 +504,7 @@ zhidao.baidu.com
 brightcove.com
 turner.com
 outbrain.com
+letvcdn.com
 about:
 chrome:
 ftp:
