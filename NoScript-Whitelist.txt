@@ -509,7 +509,8 @@ zhidao.baidu.com
 about:
 chrome:
 ftp:
-resource:
 http://pdf.js
 https://pdf.js
+resource://pdf.js
 [UNTRUSTED]
+
