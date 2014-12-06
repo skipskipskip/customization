@@ -1,6 +1,4 @@
-!-------NoScript白名單，根據江3版增補。2014.12.04 15:20 -------------------------------------!
-ifengimg.com
-rrsub.net
+!-------NoScript白名單，根據江3版增補。2014.12.06 21:00 -------------------------------------!
 10086.cn
 115.com
 126.net
@@ -73,6 +71,7 @@ book.douban.com
 books.google.com
 books.google.com.hk
 branch.cmbchina.com
+brightcove.com
 browser.yandex.com
 browsercheck.qualys.com
 browserscope2.org
@@ -210,6 +209,7 @@ icbc.com.cn
 icon.zdnet.com.cn
 id.qq.com
 identity.mozilla.com
+ifengimg.com
 ikafan.com
 image.baidu.com
 image.songtaste.com
@@ -253,6 +253,7 @@ kb.mozillazine.org
 kevs3d.co.uk
 ku6cdn.com
 labs.3g.youku.com
+letvcdn.com
 linux.softpedia.com
 live.com
 live.net
@@ -322,6 +323,7 @@ open.163.com
 opendata.baidu.com
 org.cn
 os.51cto.com
+outbrain.com
 outlook.com
 p.tanx.com
 pan.baidu.com
@@ -341,6 +343,7 @@ pbank.95559.com.cn
 pc.qq.com
 pcs.baidu.com
 pctools.com.cn
+pdf.js
 persona.org
 photo.pclady.com.cn
 pic.baidu.com
@@ -376,6 +379,7 @@ reader.youdao.com
 reg.163.com
 related.doc88.com
 research.microsoft.com
+rrsub.net
 ruyi.etao.com
 s-msn.com
 s-nbcnews.com
@@ -449,6 +453,7 @@ translate.google.com
 tt.mop.com
 tuan.baidu.com
 tuijian.dangdang.com
+turner.com
 tv.cntv.cn
 tv.itc.cn
 tv.sohu.com
@@ -502,13 +507,11 @@ yun.baidu.com
 yunpan.360.cn
 zh.wikipedia.org
 zhidao.baidu.com
-brightcove.com
-turner.com
-outbrain.com
-letvcdn.com
+pdf.js
 about:
 chrome:
 ftp:
 [UNTRUSTED]
+
 
 
