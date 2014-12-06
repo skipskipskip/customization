@@ -343,7 +343,6 @@ pbank.95559.com.cn
 pc.qq.com
 pcs.baidu.com
 pctools.com.cn
-pdf.js
 persona.org
 photo.pclady.com.cn
 pic.baidu.com
@@ -507,11 +506,10 @@ yun.baidu.com
 yunpan.360.cn
 zh.wikipedia.org
 zhidao.baidu.com
-pdf.js
 about:
 chrome:
 ftp:
+resource:
+http://pdf.js
+https://pdf.js
 [UNTRUSTED]
-
-
-
