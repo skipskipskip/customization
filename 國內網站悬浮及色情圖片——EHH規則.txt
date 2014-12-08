@@ -413,3 +413,4 @@ tieba.baidu.com##.close_btn.j_click_stats
 tieba.baidu.com##.hover_btn
 tieba.baidu.com###game_frs_head,#game_forum,#lecai_lottery,.clear+.game_spread_thread,.game_rank, #ueg_policy_open, .aside_album_good_main>.aagm_a_img, .edui-container>.tb_poster_placeholder, .cont_sign_banner,.worldcup_rank,.game_content,.game_tab,[class^=fifa_card],#tbmall_score_region,#aside_ad, .doupiao_offline, #encourage_entry,#thread_list>li[data-daid], body>div[data-daid], #j_p_postlist>div[data-daid]
 icbc.com.cn##A[style="height:316px;"]
+tieba.baidu.com##.u_menu_item.u_menu_appcenterEntrance
