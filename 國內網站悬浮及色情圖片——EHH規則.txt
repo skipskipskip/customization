@@ -416,4 +416,4 @@ icbc.com.cn##A[style="height:316px;"]
 tieba.baidu.com##.u_menu_item.u_menu_appcenterEntrance
 yyets.com##.room
 id97.com##.row
-v.youku.com##DIV[style="position:relative;height:32px;margin:0;background:#ffffe5;border:1px solid #ecdda8"]
+youku.com##DIV[style="position:relative;height:32px;margin:0;background:#ffffe5;border:1px solid #ecdda8"]
