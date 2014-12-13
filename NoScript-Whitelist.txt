@@ -1,4 +1,4 @@
-!-------NoScript白名單，根據江3版增補。2014.12.11 12:20 -------------------------------------!
+!-------NoScript白名單，根據江3版增補。2014.12.13 22:55 -------------------------------------!
 10086.cn
 115.com
 126.net
@@ -508,6 +508,8 @@ yunpan.360.cn
 zh.wikipedia.org
 zhidao.baidu.com
 softlayer.net
+qihucdn.com
+qiniucdn.com
 about:
 chrome:
 file:
