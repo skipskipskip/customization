@@ -509,7 +509,7 @@ zh.wikipedia.org
 zhidao.baidu.com
 softlayer.net
 qihucdn.com
-qiniucdn.com
+qiniudn.com
 about:
 chrome:
 file:
