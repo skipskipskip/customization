@@ -1,7 +1,6 @@
 
-# 2014.12.10  調整格式
+# 2014.12.14  調整格式
 # 2014.12.09  添加2條參數
-# 2014.12.05  禁止緩存
 # 2014.12.04  刪除youkuantiads菜單，已失效
 # 2014.11.28  新增幾條參數
 # 2014.11.27  禁用ABE
@@ -74,10 +73,10 @@ user_pref("toolkit.telemetry.enabled", false);//禁用Telemetry
 user_pref("datareporting.healthreport.service.enabled", false);//禁用健康报告
 user_pref("datareporting.healthreport.uploadEnabled", false);//禁止上传健康报告
 user_pref("startup.homepage_welcome_url", "");
-user_pref("layers.offmainthreadcomposition.enabled", false);//版本33以后加入的非主线程内合成功能，本意为改善火狐响应速度，但在部分系统上可能出现标签页残影，滚动时画面黑块等问题
 //附加組件
 user_pref("extensions.getAddons.cache.enabled", false);//阻止每天更新附加组件元数据
 user_pref("extensions.webservice.discoverURL","http://127.0.0.1");//禁用附加组件建议
+user_pref("extensions.ui.lastCategory", "addons://list/extension");//打开附加组件时默认打开“扩展”项
 //字体渲染
 user_pref("layout.paint_rects_separately", true);//重启浏览器，完美解决。。而且性能比关硬件加速要好很多。
 //缓存位置
@@ -110,7 +109,6 @@ user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);//禁
 
 /*==========網絡相關==========*/
 user_pref("urlclassifier.gethash.timeout_ms", 500);//安全服务连接超时时间
-user_pref("network.http.use-cache", false);//禁止緩存，每次圖片都會重新下載
 user_pref("network.http.pipelining", true); //开启管线化
 user_pref("network.http.proxy.pipelining", true); //在代理环境下，让下一项network.http.proxy.pipelining的设置也能生效。
 user_pref("network.http.spdy.enabled", true);//开启spdy协议?默认开启;可加速Google;
@@ -162,6 +160,7 @@ user_pref("flashgot.firstRunRedirection", false);//重建配置不弹FlashGot首
 user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议提示
 user_pref("extensions.greasemonkey.installDelay", 0);//安裝時的倒計時
 user_pref("extensions.greasemonkey.sync.enabled", false); //禁止同步
+user_pref("extensions.greasemonkey.version", "2.3");//設置版本，不彈歡迎頁
 
 //Noscript
 user_pref("noscript.autoAllow", 3); //自動允許第二層網域
