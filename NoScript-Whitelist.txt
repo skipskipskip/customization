@@ -510,6 +510,7 @@ zhidao.baidu.com
 softlayer.net
 qihucdn.com
 qiniudn.com
+upaiyun.com
 about:
 chrome:
 file:
