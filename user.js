@@ -1,5 +1,5 @@
 
-# 2014.12.14  調整格式
+# 2014.12.14  調整格式，Flashgot調用迅雷
 # 2014.12.09  添加2條參數
 # 2014.12.04  刪除youkuantiads菜單，已失效
 # 2014.11.28  新增幾條參數
@@ -151,10 +151,12 @@ user_pref("flashgot.hide-sel", true);
 user_pref("flashgot.altClick", false);//禁用 Alt+Click
 user_pref("flashgot.includeImages", true);//包含当前页面的图片
 user_pref("flashgot.autoStart", false);//取消 自动下载已监视的文件
-user_pref("flashgot.interceptAll", false);//取消 接管所有下载
-user_pref("flashgot.extensions", "");//取消自带监视.jpg, .mp3, .mpg|无效
+user_pref("flashgot.interceptAll", true);//接管所有下载
 user_pref("flashgot.logEnabled", false);//禁用日志
 user_pref("flashgot.firstRunRedirection", false);//重建配置不弹FlashGot首页
+user_pref("flashgot.custom", "Xunlei");//自定义下載器 迅雷
+user_pref("flashgot.defaultDM", "Xunlei");//默認下載器 迅雷
+user_pref("flashgot.custom.Xunlei.exe", "D:\\Program Files\\Thunder Network\\Thunder\\Program\\ThunderMini.exe");//迅雷地址
 
 //Greasemonkey
 user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议提示
