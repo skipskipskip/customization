@@ -1,5 +1,5 @@
 
-# 2014.12.14  調整格式，Flashgot調用迅雷
+# 2014.12.16  調整格式，Flashgot調用迅雷
 # 2014.12.09  添加2條參數
 # 2014.12.04  刪除youkuantiads菜單，已失效
 # 2014.11.28  新增幾條參數
@@ -156,7 +156,7 @@ user_pref("flashgot.logEnabled", false);//禁用日志
 user_pref("flashgot.firstRunRedirection", false);//重建配置不弹FlashGot首页
 user_pref("flashgot.custom", "Xunlei");//自定义下載器 迅雷
 user_pref("flashgot.defaultDM", "Xunlei");//默認下載器 迅雷
-user_pref("flashgot.custom.Xunlei.exe", "D:\\Program Files\\Thunder Network\\Thunder\\Program\\ThunderMini.exe");//迅雷地址
+user_pref("flashgot.custom.Xunlei.exe", "D:\\Program Files\\Thunder Network\\Thunder\\Program\\Thunder.exe");//迅雷地址
 
 //Greasemonkey
 user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议提示
