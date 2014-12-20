@@ -1,4 +1,6 @@
 
+# 2014.12.20  調整UCCM參數
+# 2014.12.19  禁用NoScript參數
 # 2014.12.16  調整格式，Flashgot調用迅雷
 # 2014.12.09  添加2條參數
 # 2014.12.04  刪除youkuantiads菜單，已失效
@@ -10,7 +12,6 @@
 # 2014.11.16  新增拼寫檢查參數，加入網路相關參數
 # 2014.11.11  新增禁止资料上传兩個參數，修改NoScript參數
 # 2014.11.07  countryflag一个参数
-# 2014.11.05  ucClearMonitor 內存800MB時開始清理
 # 2014.11.04  NoScript白名单改为订阅
 # 2014.11.03  加入NoScript
 
@@ -154,9 +155,6 @@ user_pref("flashgot.autoStart", false);//取消 自动下载已监视的文件
 user_pref("flashgot.interceptAll", true);//接管所有下载
 user_pref("flashgot.logEnabled", false);//禁用日志
 user_pref("flashgot.firstRunRedirection", false);//重建配置不弹FlashGot首页
-user_pref("flashgot.custom", "Xunlei");//自定义下載器 迅雷
-user_pref("flashgot.defaultDM", "Xunlei");//默認下載器 迅雷
-user_pref("flashgot.custom.Xunlei.exe", "D:\\Program Files\\Thunder Network\\Thunder\\Program\\Thunder.exe");//迅雷地址
 
 //Greasemonkey
 user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议提示
@@ -165,7 +163,7 @@ user_pref("extensions.greasemonkey.sync.enabled", false); //禁止同步
 user_pref("extensions.greasemonkey.version", "2.3");//設置版本，不彈歡迎頁
 
 //Noscript
-user_pref("noscript.autoAllow", 3); //自動允許第二層網域
+/*user_pref("noscript.autoAllow", 3); //自動允許第二層網域
 user_pref("noscript.autoReload.allTabs", false); //只重載當前頁面
 user_pref("noscript.showAbout", false); //不顯示關於
 user_pref("noscript.notify.hideDelay", 30); //xx秒後隱藏
@@ -175,19 +173,17 @@ user_pref("noscript.forbidMetaRefresh.notify", false); //不顯示XSS通知
 user_pref("noscript.firstRunRedirection", false); //不顯示更新發行公告
 user_pref("noscript.ABE.enabled", false); //禁用ABE
 user_pref("noscript.subscription.checkInterval", 24);//更新检查周期间隔
-user_pref("noscript.subscription.trustedURL", "https://raw.githubusercontent.com/dupontjoy/customization/master/NoScript-Whitelist.txt");//可信名单的订阅URL，在线订阅的黑白名单会定期自动同步到本地，并与本地名单合并
-user_pref("noscript.default","");//默认白名单，建议将NoScript自带的2个白名单参数置空
-user_pref("noscript.mandatory",""); //固定/特权白名单
+user_pref("noscript.subscription.trustedURL", "https://raw.githubusercontent.com/dupontjoy/customization/master/NoScript-Whitelist.txt");//可信名单的订阅URL，在线订阅的黑白名单会定期自动同步到本地，并与本地名单合并*/
 
 /*==========脚本设置==========*/
 
 //SmartProxyforChina代理
-//user_pref("userChromeJS.SmartProxy.proxyMode", "auto");
-//user_pref("userChromeJS.SmartProxy.default_proxy", 6);
-//user_pref("userChromeJS.SmartProxy.knownProxy", "Free Gate;127.0.0.1;8580;http$Puff;127.0.0.1;1984;http$ssh -D;127.0.0.1;7070;socks$Toonel;127.0.0.1;8080;http$Tor;127.0.0.1;9050;socks$Shadowsocks;127.0.0.1;1080;http$Goagent;127.0.0.1;8087;http");
+/*user_pref("userChromeJS.SmartProxy.proxyMode", "auto");
+user_pref("userChromeJS.SmartProxy.default_proxy", 6);
+user_pref("userChromeJS.SmartProxy.knownProxy", "Free Gate;127.0.0.1;8580;http$Puff;127.0.0.1;1984;http$ssh -D;127.0.0.1;7070;socks$Toonel;127.0.0.1;8080;http$Tor;127.0.0.1;9050;socks$Shadowsocks;127.0.0.1;1080;http$Goagent;127.0.0.1;8087;http");*/
 
 //rebuild_userChrome脚本管理器
-user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,toolsbar_KeyChanger_rebuild,ucjsMouseGestures,RefererChanger,wordhighlight-toolbar-menuitem,uc-movebutton,InspectElement-menuitem,EncodeTool,GrabScroll_optionsMenu,redirector-icon,ucjs_UserAgentChanger,usercssloader_Tools_Menu,UserScriptLoader_Tools_Menu,abp-menuitem,gm_general_menu,noscript-context-menu");
+user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,toolsbar_KeyChanger_rebuild,ucjsMouseGestures,RefererChanger,uc-movebutton,InspectElement-menuitem,EncodeTool,GrabScroll_optionsMenu,redirector-icon,ucjs_UserAgentChanger,usercssloader_Tools_Menu,UserScriptLoader_Tools_Menu,abp-menuitem,gm_general_menu,noscript-context-menu");
 
 //UserCSSLoader引导器
 user_pref("UserCSSLoader.innereditor", false);//使用外部编辑器
@@ -208,16 +204,22 @@ user_pref("grabScroll.button", 1);//使用GrabScroll抓取的键位：中键
 user_pref("grabScroll.clickable", false);//能够在链接上使用GrabScroll
 
 //ucClearMonitor自動清理內存
-user_pref("userChromeJS.UCCM.CMcache", true);
-user_pref("userChromeJS.UCCM.CMcookies", true);
-user_pref("userChromeJS.UCCM.CMhideButton", true);
-user_pref("userChromeJS.UCCM.CMhistory", true);
-user_pref("userChromeJS.UCCM.CMhttpLogins", true);
+user_pref("userChromeJS.UCCM.CMcleardomain", true);
+user_pref("userChromeJS.UCCM.CMhistcache", true);
+user_pref("userChromeJS.UCCM.CMimage", true);
+user_pref("userChromeJS.UCCM.CMlocal", true);
+user_pref("userChromeJS.UCCM.CMlsos", true);
+user_pref("userChromeJS.UCCM.CMoffline", true);
+user_pref("userChromeJS.UCCM.CMsiteOffline", true);
+user_pref("userChromeJS.UCCM.CMsitePasswords", true);
+user_pref("userChromeJS.UCCM.CMsitePermissions", true);
+user_pref("userChromeJS.UCCM.CMsitePlugin", true);
+user_pref("userChromeJS.UCCM.CMsitePreferences", true);
 user_pref("userChromeJS.UCCM.CMtrim", true);
 user_pref("userChromeJS.UCCM.CMtrimtab", true);
-user_pref("userChromeJS.UCCM.MaxMemory", 800);//內存達到此值開始afom.exe清理
+user_pref("userChromeJS.UCCM.MaxMemory", 700);//內存達到此值開始afom.exe清理
 user_pref("userChromeJS.UCCM.MemoryAlert", true);
-user_pref("userChromeJS.UCCM.interval", 60000);
+user_pref("userChromeJS.UCCM.interval", 60000);//60秒
 user_pref("userChromeJS.UCCM.useafom", true);
 
 //countryflag
