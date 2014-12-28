@@ -30,7 +30,7 @@ user_pref("signon.rememberSignons", false);//不保存密码
 user_pref("general.autoScroll", false);//关闭自动滚屏（中键）
 user_pref("general.smoothScroll",false);//禁用平滑滚动，多图会卡顿 
 user_pref("toolkit.telemetry.rejected", true); //禁用帮助改进firefox 弹窗？
-user_pref("security.OCSP.enabled", 9); //禁用OCSP安全驗證
+user_pref("security.OCSP.enabled", 0); //禁用OCSP安全驗證
 //Cookie保存30天
 user_pref("network.cookie.lifetimePolicy", 3);//0保存到自动过期，由服务器决定，即持久Cookie；1每次询问，建议；2保持到退出FX，即会话期；3由network.cookie.lifetime.days来决定
 user_pref("network.cookie.lifetime.days", 30);
