@@ -521,3 +521,4 @@ file:
 ftp:
 resource:
 [UNTRUSTED]
+translate.googleapis.com
