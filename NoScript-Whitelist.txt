@@ -1,4 +1,4 @@
-!-------NoScript白名單，根據江3版增補。2014.12.30 20:50 -------------------------------------!
+!-------NoScript白名單，根據江3版增補。2014.12.30 21:30 -------------------------------------!
 yytcdn.com
 sjlpj.cn
 baifeng.com
@@ -176,8 +176,6 @@ gallery.extensionfactory.com
 geo.mozilla.org
 get.adobe.com
 gfx.ms
-google-analytics.com
-google.com
 googleblog.blogspot.com
 googlesyndication.com
 googletagservices.com
@@ -450,8 +448,6 @@ tinymce.cachefly.net
 tongwen.openfoundry.org
 tool.ccb.com
 tools.google.com
-translate.google.cn
-translate.google.com
 tt.mop.com
 tuan.baidu.com
 tuijian.dangdang.com
