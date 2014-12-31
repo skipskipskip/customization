@@ -1,4 +1,4 @@
-!-------NoScript白名單，根據江3版增補。2014.12.30 21:30 -------------------------------------!
+!-------NoScript白名單，根據江3版增補。2014.12.31 22:55 -------------------------------------!
 yytcdn.com
 sjlpj.cn
 baifeng.com
@@ -24,6 +24,7 @@ addons.mozilla.org
 addons.opera.com
 afx.ms
 ajax.aspnetcdn.com
+ajax.googleapis.com
 ajax.microsoft.com
 alicdn.com
 api.csdn.net
