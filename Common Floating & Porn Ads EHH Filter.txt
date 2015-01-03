@@ -3,7 +3,7 @@
 ! Description: 【國內網站悬浮及色情圖片——EHH規則】過濾國內主流網站 悬浮廣告 及 色情圖片（主流網站都那麼多色情圖片，太不利於青少年的身心健康！）最先是EHH過濾，慢慢就集合了幾百條規則了，改用訂閱方式，方便不同机器之間的同步。
 ! Author: Dupontjoy
 ! License: Creative Commons BY-NC-SA
-! Version: 2015.01.03 22:40
+! Version: 2015.01.03 22:45
 ! Expires: 1 days
 ! Homepage: https://github.com/dupontjoy/customization/blob/master/Common%20Floating%20&%20Porn%20Ads%20EHH%20Filter.txt
 ! Contact: https://github.com/dupontjoy/customization/
@@ -11,53 +11,23 @@
 ! 
 ! 第一部分：EHH
 !
-my.tv.sohu.com###referr_bd_box
-tieba.baidu.com##.advertise_right_index.advertise_right_frs 
-@@/adframe.js$script
+tieba.baidu.com##.advertise_right_index.advertise_right_frs
 @@/advertisement.js$script,domain=~example.com
 @@/advert.js$script,domain=~example.com
-@@||bbs.pcbeta.com^$document
 @@||twitter.com^$document
 ||*monitor.jpg?xcode
 ||api.share.baidu.com
 ||bdimg.share.baidu.com/static/js/*
 ||hm.baidu.com
-||img01.51jobcdn.com/im/2009/payservice/fans/fansAd/*
 ||tieba.baidu.com/tb/static-common/component/commonLogic/common/crosspage_msg_system/CrossPageSWF.swf?*
-|http://static.wenku.bdimg.com/static/common/pkg/pkg_task_3e5f5478.js
-115.com##.hint-box
 18av.mm-cg.com##.AD_TW
 18h.mm-cg.com###banner
 18h.mm-cg.com###phCG_OnOff
 18h.mm-cg.com###wrap
 18h.mm-cg.com##.UT_thread
-18h.mm-cg.com##IMG[src="http://206.108.55.53/18h/LOGO-3.gif"]
 18h.mm-cg.com##INPUT[style="border: 0px ridge rgb(255, 255, 255); background-color: rgb(255, 255, 255); color: rgb(0, 255, 0); font-family: Arial; padding: 1px 4px; background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==\"); background-repeat: no-repeat; background-attachment: scroll; background-position: right center;"]
-500px.com###hellobar
-500px.com##.trial-bar
-51job.com##.flashbanner
-51job.com##IMG[src="http://img01.51jobcdn.com/im/2012/index/120x250-2015.gif"]
-51job.com##IMG[src="http://img01.51jobcdn.com/im/pm/ad/jc120x250.gif"]
-51job.com##TD[style="padding-top:5px;padding-bottom:5px;"]
-52pojie.cn###div_minipage
-ac5snycfqx.l18.yunpan.cn###get-36T
-addons.mozilla.org###site-welcome
-adyklnhucr.l65.yunpan.cn###get-36T
-asmag.com.cn##.tc
-baidu.com###\5f embed_v3_dc
-baidu.com###s_crad_plus_tip_5
 baidu.com##.c-gap-top.c-recommend
 baidu.com##.c-gray.c-feedback
-baidu.com##.icon-wrap
-baidu.com##.s-card-plus-tip
-baidu.com##.s-treasure-tips-topMenu.hidden.s-isindex-wrap
-baidu.com##[data-log="2000,click,"]
-baidu.com##[data-log="2000,close,"]
-baidu.com##[data-log="2001,click,"]
-baidu.com##[data-log="2001,close,"]
-baidu.com##[style="*width: 1423px"]
-baidu.com##[style="*width: 168px"]
-baidu.com##[style="left: 1045px; top: 47px; cursor: pointer;"]
 baike.baidu.com###bdshareside
 baike.baidu.com###bkDynamic
 baike.baidu.com##.guide-tip.yahei
@@ -65,30 +35,10 @@ bbs.kafan.cn###autopbn
 bbs.kafan.cn###scrolltop
 bbs.kafan.cn##.bm_h
 bbs.kafan.cn##.ptn.xg2
-blog.sina.com.cn###\5f 5631410563566205_panel
-blog.sina.com.cn##.horn
-book.bfnn.org##IMG[src="article/banner49.gif"]
-bxwx.org###bdshare
-cb.com.cn##.chbox_r_ad
-changjiangtimes.com###js_480
-changjiangtimes.com###js_572
-china.cankaoxiaoxi.com##.rank-list.hotpic.ov
-china.cankaoxiaoxi.com##.rank-list.ov
-cjol.com##IMG[src="http://img0.cjolimg.com/v7/UploadImg/201406/201406161413396842.jpg"]
-cjol.com##IMG[src="http://img1.cjolimg.com/v7/UploadImg/201311/2013110414275239423.jpg"]
-cjol.com##TD[style="width:15%"]
-cn.bing.com###sb_foot
-cn.bing.com###share_b
 cnn.com###cnn_hdr-prompt
-culture.gmw.cn###bottom-newsList
-culture.gmw.cn##.pic_bluecon
-daoju.qq.com###box1
 economist.com###ec-cookie-messages-container
 economist.com###simplemodal-container
-fashion.ifeng.com###k1
-fashion.ifeng.com###k2
 fm.baidu.com###playerpanel-share
-fm.baidu.com###promotionbar-bg
 fm.baidu.com##.jq-tooltip-bottom
 fm.baidu.com##.jq-tooltip-bottom-left
 fm.baidu.com##.jq-tooltip-bottom-right
@@ -96,201 +46,43 @@ fm.baidu.com##.jq-tooltip-center
 fm.baidu.com##.jq-tooltip-top
 fm.baidu.com##.jq-tooltip-top-left
 fm.baidu.com##.jq-tooltip-top-right
-fm.baidu.com##.pop.lightbox
-focus.tianya.cn###bottom_nav_wrap
-focus.tianya.cn##.bottom-bg
-focus.tianya.cn##.static-space
-ft.com###cookie-consent-container
-fun.youth.cn##.main_r
-fun.youth.cn##.tp.tj2_pic
-game.ali213.net##P[align="center"]
-games.52pk.com##.box
-games.52pk.com##H3
-guokr.com##.tip
-http://174.139.222.77:8009/c16/s.ashx?s=sdck
-i.yinyuetai.com##.pc-push-container
 i.youku.com###iconitemfeedback
 i.youku.com###iconitemmember
 i.youku.com###iconitemnotice
 i.youku.com###iconitemshopping
-i.youku.com##IMG[onload="this.setAttribute('_width', this.width);this.setAttribute('_height', this.height);if(this.width>580) \7b \9 var newheight = Math.round(this.height*580/this.width);\9 this.resized=true;\9 this.width=580;\9 this.height=newheight;\7d "]
-i.youku.com##IMG[src="http://r2.ykimg.com/05100000535084E06714C06E9A0C9A44"]
-i.youku.com##IMG[src="http://r4.ykimg.com/0510000053C1021B6737B301B1074A2E"]
-i.zhaopin.com###live23
-i.zhaopin.com###live800icon
-i.zhaopin.com##.fFeedback_right_fixed
-i.zhaopin.com##.hd201_listBody
-icourses.cn##.fun_but_g
 international.dbw.cn##.box1
 international.dbw.cn##.box-all.Jutop
 international.dbw.cn##TD[style="padding:4px; line-height:20px"]
-iqiyi.com##.album_fenxiang
 iqiyi.com##.appDownload-album
 iqiyi.com##.helpFeedback
-iqiyi.com##.high15
-iqiyi.com##.mod-title_appDownload
-iqiyi.com##.vip_rec_pop
 iqiyi.com##.wanwan-yx
-iqiyi.com##IFRAME[style="z-index: 4199; background-color: rgb(255, 255, 255); width: 290px; height: 222px; position: absolute; left: 1059px; top: 454px;"]
-jd.com###top-banner
-jianke.com###classify
-jianke.com##.pop.ie6fixedTL
 jingyan.baidu.com###blue-book-ads
 jingyan.baidu.com###exp-msgbox
 jingyan.baidu.com##EM
-jobs.zhaopin.com##.announcement-icon
-jobs.zhaopin.com##.bm
-jobs.zhaopin.com##.bm.ct160400.ct201100.ct210500
-jobs.zhaopin.com##[class^="layer-"]
-jobui.com##.enhance-attention-box
-leitingcn.com##.ltBdTop2.ltRightBar2.p_l_10
-letv.com##.ico_hot
-letv.com##.login_speed1.j-speed
-live.tv.sohu.com##.c-favor.cf
-lol.15w.com###\31 5wweixin10
-lol.qq.com##.ost_lnk.ost_hdn
-lol.qq.com##.ost_t.ost_bg
-lol.tgbus.com##.blockright
-mail.163.com##.js-component-layer.nui-layer.nui-layer-hasArr.nui-layer-hasArr.nui-layer-arrRight.nui-layer-hasClose
 mail.qq.com###folder_reader
-map.baidu.com###defCityTip
-map.baidu.com###MaptoDown_tip
-matchgo.cn##.King_Chance_LayerCont
-music.163.com##.hot
-my.51job.com###all-channel-btn
-my.51job.com###my_ad
-my.51job.com###my_cartoon
-my.51job.com###my_notice
-my.51job.com###my_service
-my.51job.com###mycenter_resumeview_tips
-my.51job.com###zptx_msg
-my.51job.com##.bg_bottom
-my.51job.com##.icon-fans.defult
-my.51job.com##.orange
-my.51job.com##.redown_r_salary
-my.51job.com##.resume_dynamic_contents
-my.51job.com##.resume_dynamic_title
-my.51job.com##.slider_img
-my.51job.com##B
-my.51job.com##IMG[src="http://img01.51jobcdn.com/im/2009/payservice/activity/spring/965x80.gif?20140324"]
-my.51job.com##IMG[src="http://img01.51jobcdn.com/im/2009/payservice/fans/fansAd/1401955396adv-479-90.gif?1401955397"]
-my.51job.com##IMG[src="http://img01.51jobcdn.com/im/2009/search_robot_03.gif"]
-my.51job.com##IMG[src="http://img01.51jobcdn.com/im/2012/mycenter/my_message_arrow2.gif"]
-my.51job.com##IMG[src="http://img01.51jobcdn.com/im/2012/nav_interviews/my_nav_fans.gif"]
-my.51job.com##IMG[src="http://img01.51jobcdn.com/im/payservice/2014/resumeoptimization/hot001.gif"]
-my.tv.sohu.com##.c-favor.cf
-my.zhaopin.com###live800icon
-my.zhaopin.com##.tip-bar
-my.zhaopin.com##IMG[src="http://img03.zhaopin.cn/2012/other/lmadjust/images/ad_app_down.jpg"]
-nbcnews.com##.newsletter-overlay-footer
-nbcnews.com##.stack-list-share
-nbcnews.com##.stack-share-link.button-toggle-share-close.icon-cancel.uni-icon-font
-news.163.com##.ep-area
-news.21cn.com##.blank20
-news.21cn.com##.blank25
-news.21cn.com##.blank30
-news.21cn.com##.blank40
-news.21cn.com##.piclist.clearfix
-news.21cn.com##.piclist.piclist-s2.clearfix
-news.21cn.com##.scroll-area-130
 news.baidu.com###favoriteTips
 news.baidu.com##.image-list
-news.baidu.com##A[href="http://app.news.baidu.com/?src=erweima"]
-news.china.com##.chan_gHD_tj
-news.sohu.com###hotpicnew
-news.sohu.com##.leisure.clear
-note.youdao.com##.context-tip.context-tip-up
-pan.baidu.com###activateGuidePopupOuter
-pan.baidu.com###interestRect
 pan.baidu.com###shareqr
 pan.baidu.com###top_menu_other
 pan.baidu.com##.b-dialog.alert-dialog1.newhand-tips-dialog
-pan.baidu.com##.hotrec-ele.hot
-pan.baidu.com##.hotrec-ele.hot.interestrec-tit
-pan.baidu.com##.intro-bg
-pan.baidu.com##.intro-inner
 pan.baidu.com##.module-hot-rec
-pan.baidu.com##.module-hot-user
 pan.baidu.com##.module-rel-rec
 pan.baidu.com##.tips-bg.newhandTips3-bg
 pan.baidu.com##.upload-bar.global-clearfix
-pan.baidu.com##.upload-exception-msg-inner.clearfix
-pdawiki.com###ip_notice
-photo.haiwainet.cn###ad_gaoqing_2
-photo.haiwainet.cn###ad_gaoqing_5
-photo.haiwainet.cn###idTab1
-photo.haiwainet.cn###idTab2
-photo.haiwainet.cn###tabs1
-photo.haiwainet.cn##.gq_list_16
-picture.youth.cn##.main2
-picture.youth.cn##.pic_hot1
-picture.youth.cn##.yytj1_nav
-porn.com##.camPromo.soon
-qianzhan.com###divFooterRecmnd
-qianzhan.com##.ad_pics_list
-qianzhan.com##.mod_box
-qianzhan.com##.pics_list
-rrys123.com##.room
-rrys123.com##.top_log_news.f_l
-rrys123.com##.top_log_news.f_r
-rrys123.com##A[href="http://www.6.cn/coop/pub/?src=yyetst"]
-rrys123.com##DIV[style="margin-bottom:1em; text-align:center;width:700px;overflow:hidden;"]
-rrys123.com##DIV[style="margin-top:1em;text-align:center;"]
-s.cjol.com###listmode_tip_div
-s.cjol.com###subscrib_tip_div
-search.51job.com###all-channel-btn
-search.51job.com###fans_company_url
-search.51job.com##.bottom
-search.51job.com##.content
-search.51job.com##.icon-fans.defult
-search.51job.com##.mainleft.s_search.search_btm0
-search.51job.com##.Right
-search.51job.com##.top
-search.51job.com##.xqts
-search.51job.com##A[href="http://fans.51job.com/payservice/fans/interviews/interviews_home.php"]
-search.51job.com##A[href="http://my.51job.com/payservice/translateresume/introduce.php"]
-search.51job.com##B
-search.51job.com##IMG[onclick="closeTip('0', 'http://fans.51job.com');$('#message').hide();"]
-search.51job.com##IMG[src="http://img01.51jobcdn.com/im/2009/fans/search_close.gif"]
-search.51job.com##IMG[src="http://img01.51jobcdn.com/im/2009/my/hot001.gif"]
-search.51job.com##IMG[src="http://img01.51jobcdn.com/im/2009/search/hot001.gif"]
-search.51job.com##IMG[src="http://img01.51jobcdn.com/im/2009/search_robot_03.gif"]
 shanbay.com##.noty_bar.noty_theme_default.noty_layout_top.noty_alert.noty_closable
-shunwang.com##.mb13.index-ad1
-society.dbw.cn##DIV[style=" padding-bottom:10px"]
-sou.zhaopin.com##.question
-sports.163.com##.ep-area
-sports.dbw.cn##.erjiliebiao_right
-sports.dbw.cn##.xilanbaitii
-sports.dbw.cn##DIV[style=" height:197px; width:600px; margin:0 auto; border:1px #CCC solid; padding-top:3px ; padding-left:10px; margin-top:5px; margin-bottom:5px; font-size:12px"]
-sports.dbw.cn##P[style="text-indent: 2em"]
 star.tga.plu.cn##.rap
 star.tga.plu.cn##.tga-tips-content
 star.tga.plu.cn##.tga-tips-title
-stus8.com###shortcut
-t.qq.com###newsTips2_guess
-t.qq.com##.tip_pop_in.clear
-tiandi.com##.pop-tips.pop-tips-0
-tieba.baidu.com###\5f _bdyx_tips
 tieba.baidu.com###aside_album_good
 tieba.baidu.com###bdshare
-tieba.baidu.com###encourage_entry
-tieba.baidu.com###forum_recommend
-tieba.baidu.com###global_notice_wrap
-tieba.baidu.com###pop_animate
-tieba.baidu.com###tbmall_score_region
 tieba.baidu.com###zyq_mod_friend
-tieba.baidu.com##.baidutuisong
 tieba.baidu.com##.edui-icon-medal.edui-icon
 tieba.baidu.com##.edui-icon-new
 tieba.baidu.com##.emotion_preview.j_emotion_preview
 tieba.baidu.com##.fMember_cnt
 tieba.baidu.com##.forum_level.lv11
-tieba.baidu.com##.global_notice_unit
 tieba.baidu.com##.icon_wrap.icon_wrap_theme1.d_pb_icons
-tieba.baidu.com##.j_firework_sender.firework_sender
 tieba.baidu.com##.j_icon_slot
-tieba.baidu.com##.j_mobile
 tieba.baidu.com##.j_user_sign
 tieba.baidu.com##.nav_item_hot_flag
 tieba.baidu.com##.poster_head_surveillance.j_surveillance
@@ -307,73 +99,19 @@ tieba.baidu.com##.u_menu_item.u_menu_app
 tieba.baidu.com##.u_menu_item.u_menu_baiduPrivilege
 tieba.baidu.com##.u_menu_item.u_menu_tbmall
 tieba.baidu.com##.u_menu_item.u_menu_tshow
-tieba.baidu.com##.u9_aside
 tieba.baidu.com##.ui_bubble_wrap.j_wrap
 tieba.baidu.com##A[href="/tbmall/tshow"]
-tieba.baidu.com##IMG[src="http://img.baidu.com/img/iknow/qb/select-search.png"]
-tieba.baidu.com##IMG[src="http://youxi.baidu.com/tips/img/icon.png"]
-torrentkitty.org###note
-torrentkitty.org##.addthis_toolbox.addthis_floating_style.addthis_16x16_style
-tv.sohu.com##.ebtn
-twebmail.mail.163.com###\5f mail_component_7_7
-twebmail.mail.163.com###\5f mail_layer_0_146
-twebmail.mail.163.com##.gWel-tabs-promt.sI0
-twebmail.mail.163.com##.gWel-weather-promote
-twebmail.mail.163.com##.qJ0
-twebmail.mail.163.com##.rZ0.hj1
-twebmail.mail.163.com##[id^="_mail_layer_0_"]
-twebmail.mail.163.com##DIV[style="padding-top:20px;padding-left:15px;"]
-user.qzone.qq.com###fct_20050606_5000_8_1409540331_0_0
-user.qzone.qq.com###tab_applist_show
-user.qzone.qq.com###tb_vip_li
-user.qzone.qq.com##.fn_accessLog_tips.bg2.bor2
-user.qzone.qq.com##.f-single.feed-hot
-user.qzone.qq.com##.gb-bill-button
-user.qzone.qq.com##.icon-close-bill
-user.qzone.qq.com##.qz-btn-vip.qz-btn-vip-open
-user.qzone.qq.com##.ui-dl-inner
-v.youku.com###iconitemfeedback
 v.youku.com###iconitemmember
 v.youku.com###iconitemnotice
 v.youku.com###iconitemshopping
 v.youku.com###toolbarutil
-v.youku.com##.qtips.qtips_tl
 vod.xunlei.com###common_notice_layer
 vod.xunlei.com###original_url
 vod.xunlei.com##.m_txt
-vod.xunlei.com##.pay_wp
-web.yixin.im###yixin-entry
-web.yixin.im###yixin-message
-web.yixin.im##.e-pointer
 wenku.baidu.com##.bl
-wenku.baidu.com##.tequan
 wenku.baidu.com##.tl
 wenku.baidu.com##.tr
 wenku.baidu.com##I
-whnews.cn##.sec_right_rdxw_img
-xiami.com###J_playerHQ-tip
-xiami.com##.athena-main-button
-xiami.com##.athena-my-info
-xiami.com##.athena-tab-view
-xiami.com##.pyramid_popup
-xin.52pk.com##.mb1.cnxh
-youku.com##.yk-toolbar-group-hint
-yun.baidu.com###\5f disk_id_2
-yun.baidu.com###interestRect
-yun.baidu.com###top_menu_other
-yun.baidu.com##.feed-issue-guide
-yun.baidu.com##.hotrec-tit.interestrec
-yun.baidu.com##.hr
-yun.baidu.com##.interestrec-chg
-yun.baidu.com##.okay.tips-iknownewhandTips3
-yun.baidu.com##.tips-bg.newhandTips3-bg
-yyets.com##.keyworde
-yyets.com##A[href="http://52meiju.taobao.com"]
-yyets.com##A[href="http://www.6.cn/coop/pub/?src=yyetst"]
-zhaopin.com##.adbox_1209
-zhaopin.com##DIV[style="height:50px;margin:0 auto;width:990px;"]
-zhaopin.com##IMG[src="http://img00.zhaopin.cn/img_button/201405/04/xiaoyuan3.jpg"]
-zhaopin.com##IMG[src="http://img00.zhaopin.cn/img_button/201405/13/zhuopin2.jpg"]
 zhidao.baidu.com###ui-tooltip-0
 zhidao.baidu.com###wgt-topic
 zhidao.baidu.com###wgt-user
@@ -381,54 +119,25 @@ zhidao.baidu.com##.adTopImg
 zhidao.baidu.com##.cms-slide
 zhidao.baidu.com##.cms-slide.cms-slide-lazy
 zhidao.baidu.com##.wgt-push.mt-5
-lol.duowan.com###home-wonderful-recommendation
-lol.duowan.com##.bdsharebuttonbox.bdshare-button-style0-16
-tieba.baidu.com##.opui-barrage-message
-tieba.baidu.com##.opui-submit-form
-tieba.baidu.com##.opui-barrage-closebtn-box
-tieba.baidu.com##.opui-barrage-mask
-v.youku.com##.qwindow
-v.youku.com##.qwindow_mask
-ffvpn.com###online_service
 pan.baidu.com##.b-panel.b-canvas
 pan.baidu.com##.b-panel.b-dialog.module-mboxDialog.alert-dialog
-star.tga.plu.cn###mask
-star.tga.plu.cn##.login-modal-outer
 topit.me##.box.userinfo
 topit.me##.box.box_small
-topit.me###custom_04
 topit.me##.box.box_big
 topit.me##A[style="font-size:16px; display:block; margin:0 0 10px; line-height:120%;"]
 topit.me###btn_close
 topit.me###btn_return
-erya100.com###say
 ic.sjlpj.cn##.edui-message-body.edui-message-type-info.edui-default
 ic.sjlpj.cn##.edui-message-closer.edui-default
 mail.163.com###dvYixinWrapper
 mail.163.com###\5f mail_component_9_9
-lofter.com###appdownloadbannerslide
-image.baidu.com##.mod-zoom-tip
-beautifultech.com###esns_background_layer
-beautifultech.com###esns_box_layer
 economist.com###simplemodal-overlay
-duokan.com##.u-layer
-duokan.com##.auto-1417073581669
-baidu.com##[style="*width: 181px"]
-baidu.com##[data-tlog="2001,close,"]
 baidu.com##.arrow
-baidu.com##[style="left: 1119px; top: 47px; cursor: pointer;"]
-tieba.baidu.com##.close_btn.j_click_stats
-tieba.baidu.com##.hover_btn
 tieba.baidu.com###game_frs_head,#game_forum,#lecai_lottery,.clear+.game_spread_thread,.game_rank, #ueg_policy_open, .aside_album_good_main>.aagm_a_img, .edui-container>.tb_poster_placeholder, .cont_sign_banner,.worldcup_rank,.game_content,.game_tab,[class^=fifa_card],#tbmall_score_region,#aside_ad, .doupiao_offline, #encourage_entry,#thread_list>li[data-daid], body>div[data-daid], #j_p_postlist>div[data-daid]
 icbc.com.cn##A[style="height:316px;"]
 tieba.baidu.com##.u_menu_item.u_menu_appcenterEntrance
-yyets.com##.room
-id97.com##.row
 youku.com##DIV[style="position:relative;height:32px;margin:0;background:#ffffe5;border:1px solid #ecdda8"]
-douban.com###landing-bar
 fm.baidu.com###promotionbar
-||wenku.baidu.com/static/view/*.js
-pan.baidu.com##.evtRedPackGuide
 
 ! 
 ! 第二部分：Easylist+Chinalist精簡版 2014.12.23
