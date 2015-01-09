@@ -1,6 +1,7 @@
 !-------NoScript白名單，根據江3版增補。2015.01.09 20:55 -------------------------------------!
 akamaihd.net
 licdn.com
+dxcdn.com
 edgesuite.net
 yytcdn.com
 sjlpj.cn
