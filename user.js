@@ -1,20 +1,5 @@
 
-# 2014.12.27  禁用OCSP驗證
-# 2014.12.21  刪除不用的參數
-# 2014.12.20  調整UCCM參數
-# 2014.12.16  調整格式，Flashgot調用迅雷
-# 2014.12.09  添加2條參數
-# 2014.12.04  刪除youkuantiads菜單，已失效
-# 2014.11.28  新增幾條參數
-# 2014.11.27  禁用ABE
-# 2014.11.25  新增Greasemonkey和Noscript設置參數
-# 2014.11.22  新增Greasemonkey兩條參數
-# 2014.11.18  新增SmartRAM參數
-# 2014.11.16  新增拼寫檢查參數，加入網路相關參數
-# 2014.11.11  新增禁止资料上传兩個參數，修改NoScript參數
-# 2014.11.07  countryflag一个参数
-# 2014.11.04  NoScript白名单改为订阅
-# 2014.11.03  加入NoScript
+# 2015.01.14  精簡設置
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -24,16 +9,9 @@
 
 /*==========选项卡里的设置==========*/
 user_pref("browser.shell.checkDefaultBrowser", true);//启动时检查是否为默认浏览器
-user_pref("browser.download.useDownloadDir", false);//下载自动上次位置
-user_pref("browser.download.lastDir.savePerSite",true);//火狐7以后，下载时根据不同的站点上次保存的路径，如D:\等
 user_pref("signon.rememberSignons", false);//不保存密码
-user_pref("general.autoScroll", false);//关闭自动滚屏（中键）
 user_pref("general.smoothScroll",false);//禁用平滑滚动，多图会卡顿 
-user_pref("toolkit.telemetry.rejected", true); //禁用帮助改进firefox 弹窗？
 user_pref("security.OCSP.enabled", 0); //禁用OCSP安全驗證
-//Cookie保存30天
-user_pref("network.cookie.lifetimePolicy", 3);//0保存到自动过期，由服务器决定，即持久Cookie；1每次询问，建议；2保持到退出FX，即会话期；3由network.cookie.lifetime.days来决定
-user_pref("network.cookie.lifetime.days", 30);
 //字体设置
 user_pref("font.minimum-size.zh-CN", 12);//最小字体大小
 user_pref("font.size.variable.zh-CN", 16);//比例字体大小
@@ -52,29 +30,16 @@ user_pref("layers.acceleration.disabled", true);//禁用硬件加速，关闭网
 user_pref("spellchecker.dictionary", "en-US");//字典
 user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
 
-/*==========标签设置==========*/
-user_pref("browser.tabs.closeWindowWithLastTab", false);//关闭最后一个标签页时不关闭窗口
-//关闭标签和窗口不提示
-user_pref("browser.tabs.warnOnClose", false);
-user_pref("browser.tabs.warnOnCloseOtherTabs", false);
-user_pref("browser.warnOnQuit", false);
-
 /*==========Browser==========*/
+user_pref("browser.tabs.warnOnClose", false);//關閉時不提示
 user_pref("extensions.autoDisableScopes", 0);//第一次运行不禁止任何扩展
 user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不检测版本，不弹欢迎页面
-user_pref("middlemouse.paste", false);//不启用中键粘贴
 user_pref("signed.applets.codebase_principal_support", true);//一些网站的下载协议支持
 user_pref("browser.urlbar.trimURLs", false);//地址栏显示 http://
-user_pref("browser.xul.error_pages.expert_bad_cert", true);//自动展开：此连接是不受信任的
 user_pref("extensions.blocklist.enabled", false);//关闭启动时插件检查窗口
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
 user_pref("privacy.popups.showBrowserMessage", false);//弹窗不提示消息
-user_pref("browser.sessionstore.interval",36000000); //降低会话保存频率，降低内存消耗
 user_pref("view_source.wrap_long_lines", true);//页面源代码--将较长的行自动换行
-user_pref("browser.slowStartup.notificationDisabled", true);//启动过慢时底部的提示信息
-user_pref("toolkit.telemetry.enabled", false);//禁用Telemetry
-user_pref("datareporting.healthreport.service.enabled", false);//禁用健康报告
-user_pref("datareporting.healthreport.uploadEnabled", false);//禁止上传健康报告
 user_pref("startup.homepage_welcome_url", "");
 //附加組件
 user_pref("extensions.getAddons.cache.enabled", false);//阻止每天更新附加组件元数据
@@ -93,11 +58,7 @@ user_pref("browser.places.smartBookmarksVersion", -1);//禁用智能书签
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.enabled", false);
 //关闭烦人提示
-user_pref("security.warn_entering_weak", false);
-user_pref("security.warn_viewing_mixed", false);
-user_pref("xpinstall.whitelist.required", false);
 user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显示的权利通知
-user_pref("browser.syncPromoViewsLeftMap", "{\"bookmarks\":0}");
 //主页
 user_pref("browser.startup.homepage", "chrome://userchromejs/content/myNewTab/index.html");//首页
 user_pref("browser.newtab.url", "chrome://userchromejs/content/myNewTab/index.html");//本地Html
@@ -108,15 +69,6 @@ user_pref("dom.ipc.plugins.unloadASAP", true);//当插件空闲时自动关闭�
 user_pref("plugins.hide_infobar_for_missing_plugin", true);//隐藏信息栏缺失插件消息提醒
 user_pref("plugins.hide_infobar_for_outdated_plugin", true);//过期插件不提示
 user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择不提示
-user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);//禁用火狐插件防崩溃功能
-
-/*==========網絡相關==========*/
-user_pref("urlclassifier.gethash.timeout_ms", 500);//安全服务连接超时时间
-user_pref("network.http.pipelining", true); //开启管线化
-user_pref("network.http.proxy.pipelining", true); //在代理环境下，让下一项network.http.proxy.pipelining的设置也能生效。
-user_pref("network.http.spdy.enabled", true);//开启spdy协议?默认开启;可加速Google;
-user_pref("network.http.pipelining.firstrequest", true);//默认开启流水线，目前没有出现问题
-user_pref("network.dns.disableIPv6", true); //不检查IPv6-capable DNS servers的错误
 
 /*==========扩展设置==========*/
 //adblockplus
@@ -133,6 +85,7 @@ user_pref("extensions.lastpass.hidecontextmenu", true);
 user_pref("extensions.lastpass.showHomepageAfterLogin", false);//不登入密码库
 user_pref("extensions.lastpass.0a148091163b8a7de3368af449db2947c700bea1552b01964d4ae55f930562e0.toplevelmatchingsites", true);//将匹配网站移动到顶部菜单
 user_pref("extensions.lastpass.loginpws", "");//不保存密码
+user_pref("extensions.lastpass.loginusers", "dupontjoy%40163.com");//用戶名
 
 //FlashGot
 user_pref("flashgot.hide-all", true);
@@ -149,18 +102,10 @@ user_pref("flashgot.interceptAll", true);//接管所有下载
 user_pref("flashgot.logEnabled", false);//禁用日志
 user_pref("flashgot.firstRunRedirection", false);//重建配置不弹FlashGot首页
 
-//Noscript
-user_pref("noscript.autoAllow", 3); //自動允許第二層網域
-user_pref("noscript.autoReload.allTabs", false); //只重載當前頁面
-user_pref("noscript.showAbout", false); //不顯示關於
-user_pref("noscript.notify.hideDelay", 30); //xx秒後隱藏
-user_pref("noscript.notify.hide", true); //時間到後自動隱藏
-user_pref("noscript.xss.notify", false); //不顯示被封鎖的META重定向
-user_pref("noscript.forbidMetaRefresh.notify", false); //不顯示XSS通知
-user_pref("noscript.firstRunRedirection", false); //不顯示更新發行公告
-user_pref("noscript.ABE.enabled", false); //禁用ABE
-user_pref("noscript.subscription.checkInterval", 24);//更新检查周期间隔
-user_pref("noscript.subscription.trustedURL", "https://raw.githubusercontent.com/dupontjoy/customization/master/NoScript-Whitelist.txt");//可信名单的订阅URL，在线订阅的黑白名单会定期自动同步到本地，并与本地名单合并
+//Greasemonkey
+user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议提示
+user_pref("extensions.greasemonkey.installDelay", 0);//安裝時的倒計時
+user_pref("extensions.greasemonkey.sync.enabled", false); //禁止同步
 
 /*==========脚本设置==========*/
 
@@ -170,7 +115,7 @@ user_pref("userChromeJS.SmartProxy.default_proxy", 6);
 user_pref("userChromeJS.SmartProxy.knownProxy", "Free Gate;127.0.0.1;8580;http$Puff;127.0.0.1;1984;http$ssh -D;127.0.0.1;7070;socks$Toonel;127.0.0.1;8080;http$Tor;127.0.0.1;9050;socks$Shadowsocks;127.0.0.1;1080;http$Goagent;127.0.0.1;8087;http");*/
 
 //rebuild_userChrome脚本管理器
-user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,toolsbar_KeyChanger_rebuild,ucjsMouseGestures,RefererChanger,uc-movebutton,InspectElement-menuitem,EncodeTool,GrabScroll_optionsMenu,redirector-icon,ucjs_UserAgentChanger,usercssloader_Tools_Menu,UserScriptLoader_Tools_Menu,abp-menuitem,gm_general_menu,noscript-context-menu");
+user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,anobtn_set,toolsbar_KeyChanger_rebuild,ucjsMouseGestures,RefererChanger,uc-movebutton,InspectElement-menuitem,EncodeTool,GrabScroll_optionsMenu,redirector-icon,ucjs_UserAgentChanger,usercssloader_Tools_Menu,UserScriptLoader_Tools_Menu,abp-menuitem,gm_general_menu,noscript-context-menu");
 
 //UserCSSLoader引导器
 user_pref("UserCSSLoader.innereditor", false);//使用外部编辑器
@@ -190,5 +135,3 @@ user_pref("addMenu.FILE_PATH", "local\_addMenu.js");//配置路径
 user_pref("grabScroll.button", 1);//使用GrabScroll抓取的键位：中键
 user_pref("grabScroll.clickable", false);//能够在链接上使用GrabScroll
 
-//countryflag
-user_pref("userChromeJS.showFlagS.Reacquire", true);/*自动重新獲取*/
