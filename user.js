@@ -1,4 +1,5 @@
 
+# 2015.01.15  加入鼠標滾動設置
 # 2015.01.14  精簡設置
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -62,6 +63,11 @@ user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显�
 //主页
 user_pref("browser.startup.homepage", "chrome://userchromejs/content/myNewTab/index.html");//首页
 user_pref("browser.newtab.url", "chrome://userchromejs/content/myNewTab/index.html");//本地Html
+//鼠標滾動設置
+user_pref("mousewheel.withnokey.sysnumlines",false);//首先禁用系统滚动步长 
+user_pref("mousewheel.min_line_scroll_amount", 30); //控制滚轮速度，小屏幕建议不超过55。默认值5，恢复时备用。
+user_pref("mousewheel.acceleration.factor", 4);//使滚动幅度增大、减小.卷动加速为几倍
+user_pref("mousewheel.acceleration.start", 3);//鼠标滚轮连续滚动几次之后会启动加速功能,调到0-5微调有明显变化
 
 /*==========Plugin==========*/
 user_pref("plugins.click_to_play", false);//关闭点击才运行插件
