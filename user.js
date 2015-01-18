@@ -1,5 +1,5 @@
 
-# 2015.01.15  加入鼠標滾動設置
+# 2015.01.18  加入鼠標滾動設置，NoScript參數
 # 2015.01.14  精簡設置
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -66,8 +66,6 @@ user_pref("browser.newtab.url", "chrome://userchromejs/content/myNewTab/index.ht
 //鼠標滾動設置
 user_pref("mousewheel.withnokey.sysnumlines",false);//首先禁用系统滚动步长 
 user_pref("mousewheel.min_line_scroll_amount", 30); //控制滚轮速度，小屏幕建议不超过55。默认值5，恢复时备用。
-user_pref("mousewheel.acceleration.factor", 4);//使滚动幅度增大、减小.卷动加速为几倍
-user_pref("mousewheel.acceleration.start", 3);//鼠标滚轮连续滚动几次之后会启动加速功能,调到0-5微调有明显变化
 
 /*==========Plugin==========*/
 user_pref("plugins.click_to_play", false);//关闭点击才运行插件
@@ -113,6 +111,21 @@ user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议�
 user_pref("extensions.greasemonkey.installDelay", 0);//安裝時的倒計時
 user_pref("extensions.greasemonkey.sync.enabled", false); //禁止同步
 
+//Noscript
+user_pref("noscript.autoAllow", 3); //自動允許第二層網域
+user_pref("noscript.autoReload.allTabs", false); //只重載當前頁面
+user_pref("noscript.showAbout", false); //不顯示關於
+user_pref("noscript.notify.hideDelay", 30); //xx秒後隱藏
+user_pref("noscript.notify.hide", true); //時間到後自動隱藏
+user_pref("noscript.xss.notify", false); //不顯示被封鎖的META重定向
+user_pref("noscript.forbidMetaRefresh.notify", false); //不顯示XSS通知
+user_pref("noscript.firstRunRedirection", false); //不顯示更新發行公告
+user_pref("noscript.ABE.enabled", false); //禁用ABE
+user_pref("noscript.default", "");//默认白名单，可删除之
+user_pref("noscript.mandatory", ""); //固定白名单，可修改之
+user_pref("noscript.subscription.checkInterval", 24);//更新检查周期间隔
+user_pref("noscript.subscription.trustedURL", "https://raw.githubusercontent.com/dupontjoy/customization/master/NoScript-Whitelist.txt");//可信名单的订阅URL，在线订阅的黑白名单会定期自动同步到本地，并与本地名单合并
+
 /*==========脚本设置==========*/
 
 //SmartProxyforChina代理
@@ -141,3 +154,5 @@ user_pref("addMenu.FILE_PATH", "local\_addMenu.js");//配置路径
 user_pref("grabScroll.button", 1);//使用GrabScroll抓取的键位：中键
 user_pref("grabScroll.clickable", false);//能够在链接上使用GrabScroll
 
+//CountryFlag
+user_pref("userChromeJS.showFlagS.Reacquire", true);//自動重新获取
