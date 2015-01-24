@@ -1,17 +1,23 @@
 
+# 2015.01.23  加入DNT，保存位置
 # 2015.01.18  加入鼠標滾動設置，NoScript參數
 # 2015.01.14  精簡設置
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
-/*==========FX29 Panel面板参数==========*/
+/*==========實驗參數==========*/
 //user_pref("browser.uiCustomization.state", "");
+//user_pref("browser.tabs.remote", true);//开启标签独立进程模式？默认false，需重启FF生效
+//user_pref("browser.tabs.remote.autostart", true);//自动开启全局多进程框架？默认false；
+//user_pref("browser.tabs.remote.autostart.1", false);
 
 /*==========选项卡里的设置==========*/
-user_pref("browser.shell.checkDefaultBrowser", true);//启动时检查是否为默认浏览器
+//user_pref("browser.shell.checkDefaultBrowser", true);//启动时检查是否为默认浏览器
 user_pref("signon.rememberSignons", false);//不保存密码
-user_pref("general.smoothScroll",false);//禁用平滑滚动，多图会卡顿 
+user_pref("privacy.donottrackheader.enabled", true);//告訴網站不想被追蹤
+user_pref("browser.download.useDownloadDir", false);//每次訊問我要存到何處
+user_pref("gfx.direct2d.disabled", true);//字体硬件加速开启
 user_pref("security.OCSP.enabled", 0); //禁用OCSP安全驗證
 //字体设置
 user_pref("font.minimum-size.zh-CN", 12);//最小字体大小
@@ -24,14 +30,17 @@ user_pref("font.size.fixed.zh-TW", 16);//等宽字体大小
 user_pref("intl.accept_languages","unicode,zh-CN,zh-cn,zh,zh-hk,zh-sg,zh-tw,en-us,en,en-gb,ja");
 user_pref("intl.charset.detector", "universal_charset_detector");
 user_pref("intl.charsetmenu.browser.cache", "UTF-8, windows-1252, EUC-JP, gbk, GB2312");
-//禁用硬件加速
-user_pref("gfx.direct2d.disabled", true);//禁止使用D2D渲染网页文字内容
-user_pref("layers.acceleration.disabled", true);//禁用硬件加速，关闭网页图层绘制的gpu加速
 //拼写检查
 user_pref("spellchecker.dictionary", "en-US");//字典
 user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
 
 /*==========Browser==========*/
+user_pref("general.warnOnAboutConfig", false);//AboutConfig警告
+user_pref("browser.tabs.animate", false);//关闭标签页动画
+user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
+user_pref("browser.taskbar.lists.enabled", false);//开启jump list？默认true
+user_pref("datareporting.healthreport.service.firstRun", true);//healthreport
+user_pref("datareporting.healthreport.uploadEnabled", false);//healthreport
 user_pref("browser.tabs.warnOnClose", false);//關閉時不提示
 user_pref("extensions.autoDisableScopes", 0);//第一次运行不禁止任何扩展
 user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不检测版本，不弹欢迎页面
@@ -47,6 +56,9 @@ user_pref("extensions.getAddons.cache.enabled", false);//阻止每天更新附�
 user_pref("extensions.webservice.discoverURL","http://127.0.0.1");//禁用附加组件建议
 user_pref("extensions.ui.lastCategory", "addons://list/extension");//打开附加组件时默认打开“扩展”项
 //字体渲染
+user_pref("gfx.font_rendering.cleartype_params.cleartype_level", 100);
+user_pref("gfx.font_rendering.cleartype_params.pixel_structure", 1);
+user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 5);
 user_pref("layout.paint_rects_separately", true);//重启浏览器，完美解决。。而且性能比关硬件加速要好很多。
 //缓存位置
 user_pref("browser.cache.disk.parent_directory", "D:\Temp\Cache-FX");
@@ -63,9 +75,12 @@ user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显�
 //主页
 user_pref("browser.startup.homepage", "chrome://userchromejs/content/myNewTab/index.html");//首页
 user_pref("browser.newtab.url", "chrome://userchromejs/content/myNewTab/index.html");//本地Html
-//鼠標滾動設置
-user_pref("mousewheel.withnokey.sysnumlines",false);//首先禁用系统滚动步长 
-user_pref("mousewheel.min_line_scroll_amount", 30); //控制滚轮速度，小屏幕建议不超过55。默认值5，恢复时备用。
+//平滑滚动参数
+user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 150);
+user_pref("general.smoothScroll.mouseWheel.durationMinMS", 150);
+user_pref("mousewheel.acceleration.factor", 15);
+user_pref("mousewheel.acceleration.start", 3);
+user_pref("mousewheel.default.delta_multiplier_y", 160);
 
 /*==========Plugin==========*/
 user_pref("plugins.click_to_play", false);//关闭点击才运行插件
@@ -112,7 +127,7 @@ user_pref("extensions.greasemonkey.installDelay", 0);//安裝時的倒計時
 user_pref("extensions.greasemonkey.sync.enabled", false); //禁止同步
 
 //Noscript
-user_pref("noscript.autoAllow", 3); //自動允許第二層網域
+/*user_pref("noscript.autoAllow", 3); //自動允許第二層網域
 user_pref("noscript.autoReload.allTabs", false); //只重載當前頁面
 user_pref("noscript.forbidFonts", false); //不禁止@font-face
 user_pref("noscript.showAbout", false); //不顯示關於
@@ -125,7 +140,7 @@ user_pref("noscript.ABE.enabled", false); //禁用ABE
 user_pref("noscript.default", "");//默认白名单，可删除之
 user_pref("noscript.mandatory", ""); //固定白名单，可修改之
 user_pref("noscript.subscription.checkInterval", 24);//更新检查周期间隔
-user_pref("noscript.subscription.trustedURL", "https://raw.githubusercontent.com/dupontjoy/customization/master/NoScript-Whitelist.txt");//可信名单的订阅URL，在线订阅的黑白名单会定期自动同步到本地，并与本地名单合并
+user_pref("noscript.subscription.trustedURL", "https://raw.githubusercontent.com/dupontjoy/customization/master/NoScript-Whitelist.txt");//可信名单的订阅URL，在线订阅的黑白名单会定期自动同步到本地，并与本地名单合并*/
 
 /*==========脚本设置==========*/
 
