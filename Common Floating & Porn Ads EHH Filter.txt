@@ -11,6 +11,9 @@
 ! 
 ! 第一部分：EHH
 !
+pinterest.com##.UnauthBanner.Module
+ebay.com##[style="height: 9143px; display: block;"]
+ebay.com##IMG[width="753"][height="423"]
 stacksocial.com##.modal.fixed.fill.zxl.bg-1.no-select.soft-hide.fade-m.z-modal
 stacksocial.com##.bg-2.c-11.fsxxxs.fws.lss.pvxxs.text-center.relative
 stacksocial.com##.capture.nmtxs.pbl.phxl.text-center
