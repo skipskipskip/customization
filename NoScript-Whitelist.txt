@@ -1,15 +1,4 @@
-!-------NoScript白名單，根據江3版增補。2015.01.19 14:00 -------------------------------------!
-aliunicorn.com
-coding.io
-wsj.net
-nbcuni.com
-akamaihd.net
-licdn.com
-dxcdn.com
-edgesuite.net
-yytcdn.com
-sjlpj.cn
-baifeng.com
+!-------NoScript白名單，根據江3版增補。2015.02.14 16:00 -------------------------------------!
 10086.cn
 115.com
 126.net
@@ -18,6 +7,7 @@ baifeng.com
 3.cn
 360buy.com
 360buyimg.com
+500px.org
 51img1.com
 56img.com
 64ma.com
@@ -34,7 +24,9 @@ afx.ms
 ajax.aspnetcdn.com
 ajax.googleapis.com
 ajax.microsoft.com
+akamaihd.net
 alicdn.com
+aliunicorn.com
 api.csdn.net
 api.flickr.com
 api.gawker.com
@@ -48,6 +40,7 @@ astro.ifeng.com
 auth.alipay.com
 autoproxy2pac.appspot.com
 baidu.iqiyi.com
+baifeng.com
 baike.baidu.cn
 baike.baidu.com
 bangbang.58.com
@@ -122,6 +115,7 @@ cn.bing.com
 cn.reuters.com
 code.google.com
 code.jquery.com
+coding.io
 comm.dangdang.com
 content.xilu.com
 correctxt.baidu.com
@@ -129,10 +123,10 @@ cs-portable.com
 dailynews.sina.com
 dbank.vmall.com
 delta.taobao.com
-dev-test.nemikor.com
 dev.opera.com
 developer.51cto.com
 developers.google.com
+dev-test.nemikor.com
 dict.baidu.com
 dict.hjenglish.com
 dict.qq.com
@@ -150,12 +144,14 @@ dpfile.com
 drive.google.com
 drscholl.tmall.com
 dwstatic.com
+dxcdn.com
 dynamic.12306.cn
 dzh.mop.com
 e.weibo.com
 ebank.spdb.com.cn
 ebs.boc.cn
 edgecastcdn.net
+edgesuite.net
 edu.cn
 edu.people.com.cn
 eladies.sina.com.cn
@@ -208,8 +204,8 @@ home.51cto.com
 home.news.cn
 home.sina.com
 hotmail.com
-html5-player.libsyn.com
 html5demos.com
+html5-player.libsyn.com
 html5test.com
 iamge.baidu.com
 iask.sina.com.cn
@@ -263,6 +259,7 @@ kevs3d.co.uk
 ku6cdn.com
 labs.3g.youku.com
 letvcdn.com
+licdn.com
 linux.softpedia.com
 live.com
 live.net
@@ -282,9 +279,9 @@ mail.qq.com
 mail.sohu.com
 maone.net
 map.baidu.com
-maps-api-ssl.google.com
 maps.google.com.hk
 maps.gstatic.cn
+maps-api-ssl.google.com
 marketplace.firefox.com
 mbox.sogou.com
 mediacdn.reuters.com
@@ -311,6 +308,7 @@ music.sina.com.cn
 music.sogou.com
 my.csdn.net
 my.opera.com
+nbcuni.com
 ncss.org.cn
 netease.com
 netsecurity.51cto.com
@@ -378,6 +376,7 @@ pstatic.xunlei.com
 ptlogin2.qq.com
 qhimg.com
 qihucdn.com
+qiniudn.com
 query.yahoo.com
 qun.qq.com
 qun.qzone.qq.com
@@ -390,8 +389,6 @@ related.doc88.com
 research.microsoft.com
 rrsub.net
 ruyi.etao.com
-s-msn.com
-s-nbcnews.com
 s.meilishuo.net
 scholar.google.com.hk
 sdc.cebbank.com
@@ -413,14 +410,17 @@ sinaimg.cn
 sinajs.cn
 site.baidu.com
 sites.google.com
+sjlpj.cn
 sketchup.google.com
+s-msn.com
+s-nbcnews.com
 so.csdn.net
+softlayer.net
 softpedia-static.com
 soucang.baidu.com
 sports.sina.com.cn
 ssl.gstatic.com
 st.xiami.com
-static-economist.com
 static.115img.com
 static.58.com
 static.abine.com
@@ -439,6 +439,7 @@ static.wenku.bdimg.com
 static.xgres.com
 static.youku.com
 static2.baihe.com
+static-economist.com
 staticfile.org
 support.google.com
 t.136.com
@@ -468,6 +469,7 @@ tv.weibo.com
 twimg.com
 ucenter.51cto.com
 unity3d.com
+upaiyun.com
 useso.com
 v.163.com
 verify.adobe.com
@@ -475,8 +477,8 @@ video.baidu.com
 video.hao123.com
 video.qiyi.com
 video.sina.com.cn
-videos-cdn.mozilla.net
 videos.mozilla.org
+videos-cdn.mozilla.net
 vip.cmbchina.com
 vjs.zendcdn.net
 vod.kankan.com
@@ -494,6 +496,7 @@ wlxrs.com
 women.sohu.com
 woocall.sina.com.cn
 wp.163.com
+wsj.net
 wx.qq.com
 xiami.net
 xiangce.baidu.com
@@ -512,13 +515,9 @@ ytimg.com
 yuedu.baidu.com
 yun.baidu.com
 yunpan.360.cn
+yytcdn.com
 zh.wikipedia.org
 zhidao.baidu.com
-softlayer.net
-qihucdn.com
-qiniudn.com
-upaiyun.com
-500px.org
 about:
 chrome:
 file:
