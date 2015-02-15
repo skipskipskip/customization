@@ -1,4 +1,5 @@
 
+# 2015.02.15  加入DTA設置
 # 2015.01.23  加入DNT，保存位置
 # 2015.01.18  加入鼠標滾動設置，NoScript參數
 # 2015.01.14  精簡設置
@@ -126,6 +127,16 @@ user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议�
 user_pref("extensions.greasemonkey.installDelay", 0);//安裝時的倒計時
 user_pref("extensions.greasemonkey.sync.enabled", false); //禁止同步
 
+//DownThemAll！
+user_pref("extensions.dta.conflictresolution", 0);//文檔已存在時自動重命名
+user_pref("extensions.dta.listsniffedvideos", true);//下載完成後關閉DTA
+user_pref("extensions.dta.closedta", true);//辯識並列出Flash影片
+user_pref("extensions.dta.ctxmenu", "0,0,0");//不顯示右鍵菜單
+user_pref("extensions.dta.toolshidden", true);//隱藏選單
+user_pref("extensions.dta.removecanceled", true);//從清單中移除中斷及錯誤的下載
+user_pref("extensions.dta.confirmremove", false);//移除下載前不提示
+user_pref("extensions.dta.exposeInUA", true);//在UA中顯示DTA
+
 //Noscript
 /*user_pref("noscript.autoAllow", 3); //自動允許第二層網域
 user_pref("noscript.autoReload.allTabs", false); //只重載當前頁面
@@ -150,7 +161,7 @@ user_pref("userChromeJS.SmartProxy.default_proxy", 6);
 user_pref("userChromeJS.SmartProxy.knownProxy", "Free Gate;127.0.0.1;8580;http$Puff;127.0.0.1;1984;http$ssh -D;127.0.0.1;7070;socks$Toonel;127.0.0.1;8080;http$Tor;127.0.0.1;9050;socks$Shadowsocks;127.0.0.1;1080;http$Goagent;127.0.0.1;8087;http");*/
 
 //rebuild_userChrome脚本管理器
-user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,anobtn_set,toolsbar_KeyChanger_rebuild,ucjsMouseGestures,RefererChanger,uc-movebutton,InspectElement-menuitem,EncodeTool,GrabScroll_optionsMenu,redirector-icon,ucjs_UserAgentChanger,usercssloader_Tools_Menu,UserScriptLoader_Tools_Menu,abp-menuitem,gm_general_menu,noscript-context-menu");
+user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,anobtn_set,toolsbar_KeyChanger_rebuild,ucjsMouseGestures,RefererChanger,uc-movebutton,InspectElement-menuitem,EncodeTool,GrabScroll_optionsMenu,redirector-icon,ucjs_UserAgentChanger,usercssloader_Tools_Menu,UserScriptLoader_Tools_Menu,abp-menuitem,dtaToolsMenu,gm_general_menu,noscript-context-menu");
 
 //UserCSSLoader引导器
 user_pref("UserCSSLoader.innereditor", false);//使用外部编辑器
