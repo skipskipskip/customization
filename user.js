@@ -160,7 +160,7 @@ user_pref("userChromeJS.SmartProxy.default_proxy", 6);
 user_pref("userChromeJS.SmartProxy.knownProxy", "Free Gate;127.0.0.1;8580;http$Puff;127.0.0.1;1984;http$ssh -D;127.0.0.1;7070;socks$Toonel;127.0.0.1;8080;http$Tor;127.0.0.1;9050;socks$Shadowsocks;127.0.0.1;1080;http$Goagent;127.0.0.1;8087;http");*/
 
 //rebuild_userChrome脚本管理器
-user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,anobtn_set,toolsbar_KeyChanger_rebuild,ucjsMouseGestures,RefererChanger,uc-movebutton,InspectElement-menuitem,EncodeTool,GrabScroll_optionsMenu,redirector-icon,ucjs_UserAgentChanger,usercssloader_Tools_Menu,UserScriptLoader_Tools_Menu,abp-menuitem,dtaToolsMenu,gm_general_menu,noscript-context-menu");
+user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,anobtn_set,toolsbar_KeyChanger_rebuild,ucjsMouseGestures,RefererChanger,uc-movebutton,InspectElement-menuitem,EncodeTool,GrabScroll_optionsMenu,redirector-icon,ucjs_UserAgentChanger,usercssloader_Tools_Menu,UserScriptLoader_Tools_Menu,abp-menuitem,gm_general_menu,noscript-context-menu");
 
 //UserCSSLoader引导器
 user_pref("UserCSSLoader.innereditor", false);//使用外部编辑器
