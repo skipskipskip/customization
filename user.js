@@ -1,5 +1,5 @@
 
-//2015.02.15 18:00  加入DTA設置
+//2015.02.17 18:00  加入DTA設置
 //2015.01.23 00:00  加入DNT，保存位置
 //2015.01.18 00:00  加入鼠標滾動設置，NoScript參數
 //2015.01.14 00:00  精簡設置
@@ -51,7 +51,8 @@ user_pref("extensions.blocklist.enabled", false);//关闭启动时插件检查�
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
 user_pref("privacy.popups.showBrowserMessage", false);//弹窗不提示消息
 user_pref("view_source.wrap_long_lines", true);//页面源代码--将较长的行自动换行
-user_pref("startup.homepage_welcome_url", "");
+user_pref("security.tls.version.fallback-limit", 0);//SSLv3 error messages
+user_pref("security.tls.version.min", 0);//SSLv3 error messages
 //附加組件
 user_pref("extensions.getAddons.cache.enabled", false);//阻止每天更新附加组件元数据
 user_pref("extensions.webservice.discoverURL","http://127.0.0.1");//禁用附加组件建议
@@ -74,6 +75,7 @@ user_pref("browser.safebrowsing.enabled", false);
 //关闭烦人提示
 user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显示的权利通知
 //主页
+user_pref("startup.homepage_welcome_url", "");
 user_pref("browser.startup.homepage", "chrome://userchromejs/content/myNewTab/index.html");//首页
 user_pref("browser.newtab.url", "chrome://userchromejs/content/myNewTab/index.html");//本地Html
 //平滑滚动参数
