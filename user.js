@@ -1,4 +1,5 @@
 
+//2015.03.03 10:00  加入阻止此页面创建更多对话框
 //2015.02.17 18:00  加入DTA設置
 //2015.01.23 00:00  加入DNT，保存位置
 //2015.01.18 00:00  加入鼠標滾動設置，NoScript參數
@@ -53,6 +54,8 @@ user_pref("privacy.popups.showBrowserMessage", false);//弹窗不提示消息
 user_pref("view_source.wrap_long_lines", true);//页面源代码--将较长的行自动换行
 user_pref("security.tls.version.fallback-limit", 0);//SSLv3 error messages
 user_pref("security.tls.version.min", 0);//SSLv3 error messages
+user_pref("dom.successive_dialog_time_limit", 0);//避免此页面产生更多对话框
+
 //附加組件
 user_pref("extensions.getAddons.cache.enabled", false);//阻止每天更新附加组件元数据
 user_pref("extensions.webservice.discoverURL","http://127.0.0.1");//禁用附加组件建议
@@ -139,7 +142,7 @@ user_pref("extensions.dta.confirmremove", false);//移除下載前不提示
 user_pref("extensions.dta.exposeInUA", true);//在UA中顯示DTA
 
 //Noscript
-/*user_pref("noscript.autoAllow", 3); //自動允許第二層網域
+user_pref("noscript.autoAllow", 3); //自動允許第二層網域
 user_pref("noscript.autoReload.allTabs", false); //只重載當前頁面
 user_pref("noscript.forbidFonts", false); //不禁止@font-face
 user_pref("noscript.showAbout", false); //不顯示關於
@@ -152,7 +155,7 @@ user_pref("noscript.ABE.enabled", false); //禁用ABE
 user_pref("noscript.default", "");//默认白名单，可删除之
 user_pref("noscript.mandatory", ""); //固定白名单，可修改之
 user_pref("noscript.subscription.checkInterval", 24);//更新检查周期间隔
-user_pref("noscript.subscription.trustedURL", "https://raw.githubusercontent.com/dupontjoy/customization/master/NoScript-Whitelist.txt");//可信名单的订阅URL，在线订阅的黑白名单会定期自动同步到本地，并与本地名单合并*/
+user_pref("noscript.subscription.trustedURL", "https://raw.githubusercontent.com/dupontjoy/customization/master/NoScript-Whitelist.txt");//可信名单的订阅URL，在线订阅的黑白名单会定期自动同步到本地，并与本地名单合并
 
 /*==========脚本设置==========*/
 
