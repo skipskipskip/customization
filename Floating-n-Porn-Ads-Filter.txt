@@ -95,7 +95,6 @@ pan.baidu.com##.module-hot-rec
 pan.baidu.com##.module-rel-rec
 pan.baidu.com##.tips-bg.newhandTips3-bg
 pan.baidu.com##.upload-bar.global-clearfix
-pan.baidu.com##A[style="text-decoration: none;"]
 pinterest.com##.UnauthBanner.Module
 shanbay.com##.noty_bar.noty_theme_default.noty_layout_top.noty_alert.noty_closable
 stacksocial.com##.bg-16.pam.text-center
