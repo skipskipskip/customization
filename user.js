@@ -1,4 +1,4 @@
-
+﻿
 //2015.03.03 10:00  加入阻止此页面创建更多对话框
 //2015.02.17 18:00  加入DTA設置
 //2015.01.23 00:00  加入DNT，保存位置
@@ -38,7 +38,7 @@ user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
 
 /*==========Browser==========*/
 user_pref("general.warnOnAboutConfig", false);//AboutConfig警告
-user_pref("browser.tabs.animate", false);//关闭标签页动画
+user_pref("browser.tabs.animate", true);//開啓标签页动画
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
 user_pref("browser.taskbar.lists.enabled", false);//开启jump list？默认true
 user_pref("datareporting.healthreport.service.firstRun", true);//healthreport
