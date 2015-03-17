@@ -9,6 +9,7 @@
 ! Contact: https://github.com/dupontjoy/customization/
 !---------------------------------------------------------------------------------------------!
 ！開始！
+bbs.ithome.com##[style="width:960px;height:60px;background:#fff;padding:0 20px;margin: 0 auto;"]
 news.china.com.cn##.wrap > .footet
 news.china.com.cn###picifr
 wenku.baidu.com###Zuniqueid__4.mod.tiger-lossUser-dialog
