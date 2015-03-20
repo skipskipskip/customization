@@ -1,4 +1,5 @@
 ﻿
+//2015.03.20 18:00  調整Flashgot和DTA设置
 //2015.03.03 10:00  加入阻止此页面创建更多对话框
 //2015.02.17 18:00  加入DTA設置
 //2015.01.23 00:00  加入DNT，保存位置
@@ -120,9 +121,8 @@ user_pref("flashgot.hide-it", true);
 user_pref("flashgot.hide-media", true);
 user_pref("flashgot.hide-options", true);
 user_pref("flashgot.hide-sel", true);
-user_pref("flashgot.altClick", false);//禁用 Alt+Click
 user_pref("flashgot.includeImages", true);//包含当前页面的图片
-user_pref("flashgot.autoStart", false);//取消 自动下载已监视的文件
+user_pref("flashgot.autoStart", false);//取消 自动下载已监视的文件（開啟後所有下載自動調用DTA）
 user_pref("flashgot.interceptAll", true);//接管所有下载
 user_pref("flashgot.logEnabled", false);//禁用日志
 user_pref("flashgot.firstRunRedirection", false);//重建配置不弹FlashGot首页
@@ -134,6 +134,8 @@ user_pref("extensions.greasemonkey.sync.enabled", false); //禁止同步
 
 //DownThemAll！
 user_pref("extensions.dta.conflictresolution", 0);//文檔已存在時自動重命名
+user_pref("extensions.dta.sounds.error", true);//發生錯誤時播放音效
+user_pref("extensions.dta.alertbox", 0);//下載完成後對話視窗提示
 user_pref("extensions.dta.listsniffedvideos", true);//下載完成後關閉DTA
 user_pref("extensions.dta.closedta", true);//辯識並列出Flash影片
 user_pref("extensions.dta.ctxmenu", "0,0,0");//不顯示右鍵菜單
