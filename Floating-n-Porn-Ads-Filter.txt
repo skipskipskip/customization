@@ -3,34 +3,13 @@
 ! Description: 【國內網站悬浮及色情圖片——EHH規則】過濾國內主流網站 悬浮廣告 及 色情圖片（主流網站都那麼多色情圖片，太不利於青少年的身心健康！）最先是EHH過濾，慢慢就集合了幾百條規則了，改用訂閱方式，方便不同机器之間的同步。
 ! Author: Dupontjoy
 ! License: Creative Commons BY-NC-SA
-! Version: 2015.03.19 21:00
+! Version: 2015.03.21 16:00
 ! Expires: 1 days
 ! Homepage: https://github.com/dupontjoy/customization/blob/master/Common%20Floating%20&%20Porn%20Ads%20EHH%20Filter.txt
 ! Contact: https://github.com/dupontjoy/customization/
 !---------------------------------------------------------------------------------------------!
 ！開始！
-www.baidu.com###content_right.cr-offset > table > tbody > tr > td > div:nth-of-type(2)
-finance.sina.com.cn##.wrap > .Main.clearfix > .sidebar > iframe:nth-of-type(5)
-greasyfork.org###share
-bbs.ithome.com##[style="width:960px;height:60px;background:#fff;padding:0 20px;margin: 0 auto;"]
-news.china.com.cn##.wrap > .footet
-news.china.com.cn###picifr
-wenku.baidu.com###Zuniqueid__4.mod.tiger-lossUser-dialog
-news.sohu.com###hotpicnew.mutu-pic.kind-video.clear
-pan.baidu.com###module-ad
-buyer.trade.taobao.com###ks-component2338.ks-dialog.ks-overlay.tm-dialog-white.novice-dialog
-buyer.trade.taobao.com###ks-component2335.ks-dialog.ks-overlay.tm-dialog-white.novice-dialog
-buyer.trade.taobao.com##.ks-dialog-mask.ks-overlay-mask
-www.iqiyi.com###widget-springphone.newyear-app-down > .info
-pan.baidu.com##.b-panel.b-dialog.module-mboxDialog.alert-dialog > .dlg-hd
-pan.baidu.com##.b-panel.b-canvas
-www.iqiyi.com###widget-springphone.newyear-app-down > .newyear-appBg
-www.iqiyi.com###widget-springphone.newyear-app-down > .close-fixed[href="javascript:void(0);"]
-app.yinxiang.com###lightbox-glass
-app.yinxiang.com###lightbox-frame.lightbox-iframe
-app.yinxiang.com###lightbox-holder.dark
-app.yinxiang.com###lightbox-fake-border.dark
-www.baidu.com###form.fm > .tools
+
 ||*monitor.jpg?xcode
 ||api.share.baidu.com
 ||bdimg.share.baidu.com/static/js/*
@@ -38,21 +17,36 @@ www.baidu.com###form.fm > .tools
 ||tieba.baidu.com/tb/static-common/component/commonLogic/common/crosspage_msg_system/CrossPageSWF.swf?*
 18av.mm-cg.com##.AD_TW
 18h.mm-cg.com###banner
+18h.mm-cg.com###content > .rand_list > ul:nth-of-type(2)
+18h.mm-cg.com###content > .rand_list > ul:nth-of-type(3)
+18h.mm-cg.com###Dfrom
 18h.mm-cg.com###phCG_OnOff
 18h.mm-cg.com###wrap
 18h.mm-cg.com##.UT_thread
+18h.mm-cg.com##center > a[href="http://18av.mm-cg.com/AdCnhtm/tw_utjs.htm"] > img
+18h.mm-cg.com##center > a[href="http://ioshow.mm-cg.com/toy18/Digital_Vibrators/"] > img
+18h.mm-cg.com##center > a[href="http://ioshow.mm-cg.com/toy18/Masturbation_sleeve/"] > img
+18h.mm-cg.com##center > a[href="http://ioshow.mm-cg.com/toy18/Tiaodan/"] > img
 18h.mm-cg.com##INPUT[style="border: 0px ridge rgb(255, 255, 255); background-color: rgb(255, 255, 255); color: rgb(0, 255, 0); font-family: Arial; padding: 1px 4px; background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==\"); background-repeat: no-repeat; background-attachment: scroll; background-position: right center;"]
+app.yinxiang.com###lightbox-fake-border.dark
+app.yinxiang.com###lightbox-frame.lightbox-iframe
+app.yinxiang.com###lightbox-glass
+app.yinxiang.com###lightbox-holder.dark
 baidu.com##.arrow
 baidu.com##.c-gap-top.c-recommend
 baidu.com##.c-gray.c-feedback
 baike.baidu.com###bdshareside
 baike.baidu.com###bkDynamic
 baike.baidu.com##.guide-tip.yahei
+bbs.ithome.com##[style="width:960px;height:60px;background:#fff;padding:0 20px;margin: 0 auto;"]
 bbs.kafan.cn###autopbn
 bbs.kafan.cn###scrolltop
 bbs.kafan.cn##.ptn.xg2
 blog.sina.com.cn##.close
 blog.sina.com.cn##.horn_con
+buyer.trade.taobao.com###ks-component2335.ks-dialog.ks-overlay.tm-dialog-white.novice-dialog
+buyer.trade.taobao.com###ks-component2338.ks-dialog.ks-overlay.tm-dialog-white.novice-dialog
+buyer.trade.taobao.com##.ks-dialog-mask.ks-overlay-mask
 cnn.com###cnn_hdr-prompt
 ebay.com##[style="height: 9143px; display: block;"]
 ebay.com##IMG[width="753"][height="423"]
@@ -62,6 +56,7 @@ economist.com###leaderboard
 economist.com###simplemodal-container
 economist.com###simplemodal-overlay
 edition.cnn.com##.user-msg
+finance.sina.com.cn##.wrap > .Main.clearfix > .sidebar > iframe:nth-of-type(5)
 fm.baidu.com###playerpanel-share
 fm.baidu.com###promotionbar
 fm.baidu.com##.jq-tooltip-bottom
@@ -76,6 +71,7 @@ ft.com###optimostOverlay
 github.com##.unsupported-browser
 globaldeals.ebay.com###modal-background
 globaldeals.ebay.com###subs-panel
+greasyfork.org###share
 griffintechnology.com##.modal.newsletter-signup.new.modal-style.hidden
 i.youku.com###iconitemfeedback
 i.youku.com###iconitemmember
@@ -101,11 +97,18 @@ mail.qq.com###folder_reader
 news.baidu.com###favoriteTips
 news.baidu.com##.image-list
 news.baidu.com##.recommend-mask
+news.china.com.cn###picifr
+news.china.com.cn##.wrap > .footet
+news.sohu.com###hotpicnew.mutu-pic.kind-video.clear
+note.youdao.com##.context-tip.context-tip-up
+pan.baidu.com###module-ad
 pan.baidu.com###shareqr
 pan.baidu.com###top_menu_other
 pan.baidu.com##.b-dialog.alert-dialog1.newhand-tips-dialog
 pan.baidu.com##.b-panel.b-canvas
+pan.baidu.com##.b-panel.b-canvas
 pan.baidu.com##.b-panel.b-dialog.module-mboxDialog.alert-dialog
+pan.baidu.com##.b-panel.b-dialog.module-mboxDialog.alert-dialog > .dlg-hd
 pan.baidu.com##.info-i.default-text
 pan.baidu.com##.intro-bg
 pan.baidu.com##.intro-inner
@@ -179,19 +182,26 @@ vod.xunlei.com###common_notice_layer
 vod.xunlei.com###original_url
 vod.xunlei.com##.m_txt
 vod.xunlei.com##.pay_wp
+wenku.baidu.com###Zuniqueid__4.mod.tiger-lossUser-dialog
 wenku.baidu.com##.bl
 wenku.baidu.com##.tl
 wenku.baidu.com##.tr
 wenku.baidu.com##I
+www.baidu.com###content_right.cr-offset > table > tbody > tr > td > div:nth-of-type(2)
+www.baidu.com###form.fm > .tools
+www.iqiyi.com###widget-springphone.newyear-app-down > .close-fixed[href="javascript:void(0);"]
+www.iqiyi.com###widget-springphone.newyear-app-down > .info
+www.iqiyi.com###widget-springphone.newyear-app-down > .newyear-appBg
 youku.com##DIV[style="position:relative;height:32px;margin:0;background:#ffffe5;border:1px solid #ecdda8"]
+zhidao.baidu.com###left-promotion.left-promotion > img
 zhidao.baidu.com###ui-tooltip-0
 zhidao.baidu.com###wgt-topic
 zhidao.baidu.com###wgt-user
 zhidao.baidu.com##.adTopImg
 zhidao.baidu.com##.cms-slide
 zhidao.baidu.com##.cms-slide.cms-slide-lazy
+zhidao.baidu.com##.wgt-bottom-ask
 zhidao.baidu.com##.wgt-push.mt-5
 zhidao.baidu.com##.widget-sma
-zhidao.baidu.com##.wgt-bottom-ask
-zhidao.baidu.com###left-promotion.left-promotion > img
+
 
