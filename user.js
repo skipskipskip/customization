@@ -1,4 +1,5 @@
 ﻿
+//2015.04.03 19:00  加入江3省电版火狐
 //2015.03.20 18:00  調整Flashgot和DTA设置
 //2015.03.03 10:00  加入阻止此页面创建更多对话框
 //2015.02.17 18:00  加入DTA設置
@@ -95,6 +96,41 @@ user_pref("dom.ipc.plugins.unloadASAP", true);//当插件空闲时自动关闭�
 user_pref("plugins.hide_infobar_for_missing_plugin", true);//隐藏信息栏缺失插件消息提醒
 user_pref("plugins.hide_infobar_for_outdated_plugin", true);//过期插件不提示
 user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择不提示
+
+/*==========来自江3省电版火狐==========*/
+//http://bbs.kafan.cn/thread-1442684-1-1.html：关闭DNS预读，链接预读，流水线，钓鱼数据库，历史，插件，磁盘缓存，SSL磁盘缓存...关闭自动更新、开发工具、插件容器、自带pdf.js、各种平滑，动画，闪图
+//去掉（禁止插件扫描和历史）
+user_pref("network.prefetch-next", false);  
+user_pref("network.http.pipelining", false);  
+user_pref("network.http.proxy.pipelining", false);  
+user_pref("network.http.pipelining.ssl", false);  
+user_pref("network.http.keep-alive", false);  
+user_pref("network.http.proxy.keep-alive", false);  
+user_pref("browser.safebrowsing.enabled", false);  
+user_pref("browser.safebrowsing.malware.enabled", false);
+user_pref("browser.safebrowsing.dataProvider", 1);
+user_pref("browser.cache.disk.enable", false);
+user_pref("browser.cache.disk_cache_ssl", false);
+user_pref("app.update.enabled", false);
+user_pref("app.update.auto", false);
+user_pref("devtools.debugger.enabled", false);
+user_pref("devtools.errorconsole.enabled", false);
+user_pref("devtools.inspector.enabled", false);
+user_pref("devtools.layoutview.enabled", false);
+user_pref("devtools.responsiveUI.enabled", false);
+user_pref("devtools.ruleview.enabled", false); //
+user_pref("devtools.scratchpad.enabled", false);
+user_pref("devtools.styleeditor.enabled", false); //
+user_pref("devtools.styleinspector.enabled", false);
+user_pref("devtools.tilt.enabled", false);  //
+user_pref("devtools.toolbar.enabled", false); //
+user_pref("devtools.webconsole.filter.log", false);
+user_pref("javascript.options.showInConsole", false);
+user_pref("javascript.options.strict", false);
+user_pref("layout.css.report_errors", false);  
+user_pref("browser.dom.window.dump.enabled", false);
+user_pref("pdfjs.disabled", true);
+user_pref("dom.ipc.plugins.enabled", false); 
 
 /*==========扩展设置==========*/
 //adblockplus
