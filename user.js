@@ -1,5 +1,6 @@
 ﻿
-//2015.04.03 19:00  加入江3省电版火狐
+//2015.04.05 09:00  調整UC管理器菜單
+//2015.04.04 08:00  加入江3省电版火狐
 //2015.03.20 18:00  調整Flashgot和DTA设置
 //2015.03.03 10:00  加入阻止此页面创建更多对话框
 //2015.02.17 18:00  加入DTA設置
@@ -96,6 +97,7 @@ user_pref("dom.ipc.plugins.unloadASAP", true);//当插件空闲时自动关闭�
 user_pref("plugins.hide_infobar_for_missing_plugin", true);//隐藏信息栏缺失插件消息提醒
 user_pref("plugins.hide_infobar_for_outdated_plugin", true);//过期插件不提示
 user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择不提示
+user_pref("dom.ipc.plugins.flash.disable-protected-mode", false);//直接用火狐禁用flash保护模式
 
 /*==========来自江3省电版火狐==========*/
 //http://bbs.kafan.cn/thread-1442684-1-1.html：关闭DNS预读，链接预读，流水线，钓鱼数据库，历史，插件，磁盘缓存，SSL磁盘缓存...关闭自动更新、开发工具、插件容器、自带pdf.js、各种平滑，动画，闪图
@@ -198,12 +200,12 @@ user_pref("noscript.subscription.trustedURL", "https://raw.githubusercontent.com
 /*==========脚本设置==========*/
 
 //SmartProxyforChina代理
-/*user_pref("userChromeJS.SmartProxy.proxyMode", "auto");
-user_pref("userChromeJS.SmartProxy.default_proxy", 6);
-user_pref("userChromeJS.SmartProxy.knownProxy", "Free Gate;127.0.0.1;8580;http$Puff;127.0.0.1;1984;http$ssh -D;127.0.0.1;7070;socks$Toonel;127.0.0.1;8080;http$Tor;127.0.0.1;9050;socks$Shadowsocks;127.0.0.1;1080;http$Goagent;127.0.0.1;8087;http");*/
+//user_pref("userChromeJS.SmartProxy.proxyMode", "auto");
+//user_pref("userChromeJS.SmartProxy.default_proxy", 6);
+//user_pref("userChromeJS.SmartProxy.knownProxy", "Free Gate;127.0.0.1;8580;http$Puff;127.0.0.1;1984;http$ssh -D;127.0.0.1;7070;socks$Toonel;127.0.0.1;8080;http$Tor;127.0.0.1;9050;socks$Shadowsocks;127.0.0.1;1080;http$Goagent;127.0.0.1;8087;http");
 
 //rebuild_userChrome脚本管理器
-user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,anobtn_set,toolsbar_KeyChanger_rebuild,ucjsMouseGestures,RefererChanger,uc-movebutton,InspectElement-menuitem,EncodeTool,GrabScroll_optionsMenu,redirector-icon,ucjs_UserAgentChanger,usercssloader_Tools_Menu,UserScriptLoader_Tools_Menu,abp-menuitem,gm_general_menu,noscript-context-menu");
+user_pref("userChromeJS.rebuildUI.menues", "tools-menu");
 
 //UserCSSLoader引导器
 user_pref("UserCSSLoader.innereditor", false);//使用外部编辑器
