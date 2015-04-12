@@ -1,4 +1,5 @@
 ﻿
+//2015.04.10 22:00  使用MX4主題
 //2015.04.05 09:00  調整UC管理器菜單
 //2015.04.04 08:00  加入江3省电版火狐
 //2015.03.20 18:00  調整Flashgot和DTA设置
@@ -40,6 +41,7 @@ user_pref("spellchecker.dictionary", "en-US");//字典
 user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
 
 /*==========Browser==========*/
+user_pref("general.skins.selectedSkin", "mx4");//使用MX4主題
 user_pref("general.warnOnAboutConfig", false);//AboutConfig警告
 user_pref("browser.tabs.animate", true);//開啓标签页动画
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
@@ -58,6 +60,7 @@ user_pref("view_source.wrap_long_lines", true);//页面源代码--将较长的�
 user_pref("security.tls.version.fallback-limit", 0);//SSLv3 error messages
 user_pref("security.tls.version.min", 0);//SSLv3 error messages
 user_pref("dom.successive_dialog_time_limit", 0);//避免此页面产生更多对话框
+user_pref("layout.css.vertical-text.enabled", true);//开启用 writing-mode 产生竖排文字的排版效果。FX38以後有效
 
 //附加組件
 user_pref("extensions.getAddons.cache.enabled", false);//阻止每天更新附加组件元数据
@@ -97,7 +100,7 @@ user_pref("dom.ipc.plugins.unloadASAP", true);//当插件空闲时自动关闭�
 user_pref("plugins.hide_infobar_for_missing_plugin", true);//隐藏信息栏缺失插件消息提醒
 user_pref("plugins.hide_infobar_for_outdated_plugin", true);//过期插件不提示
 user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择不提示
-user_pref("dom.ipc.plugins.flash.disable-protected-mode", false);//直接用火狐禁用flash保护模式
+user_pref("dom.ipc.plugins.flash.disable-protected-mode", true);//直接用火狐禁用flash保护模式
 
 /*==========来自江3省电版火狐==========*/
 //http://bbs.kafan.cn/thread-1442684-1-1.html：关闭DNS预读，链接预读，流水线，钓鱼数据库，历史，插件，磁盘缓存，SSL磁盘缓存...关闭自动更新、开发工具、插件容器、自带pdf.js、各种平滑，动画，闪图
@@ -225,5 +228,7 @@ user_pref("addMenu.FILE_PATH", "local\_addMenu.js");//配置路径
 user_pref("grabScroll.button", 1);//使用GrabScroll抓取的键位：中键
 user_pref("grabScroll.clickable", false);//能够在链接上使用GrabScroll
 
-//CountryFlag
+//ShowFlagS
 user_pref("userChromeJS.showFlagS.Reacquire", true);//自動重新获取
+user_pref("userChromeJS.showFlagS.libIconPath", "Local\\ShowFlagS\\countryflags.js");//國旗圖標庫
+user_pref("userChromeJS.showFlagS.LocalFlags", "Local\\ShowFlagS\\LocalFlags\\");//本地PNG圖標文件夾
