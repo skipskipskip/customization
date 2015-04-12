@@ -9,6 +9,7 @@
 ! Contact: https://github.com/dupontjoy/customization/
 !---------------------------------------------------------------------------------------------!
 ！開始！
+tieba.baidu.com###com_userbar.userbar > ul > .u_joinvip > .u_menu_item.u_menu_joinvip
 society.dbw.cn##.main > .box_r_ej.fr
 society.dbw.cn##.main > .box_ej.fl > div:nth-of-type(6)
 tieba.baidu.com###com_userbar.userbar > ul > .u_joinvip
