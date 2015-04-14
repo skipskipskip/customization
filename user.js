@@ -41,9 +41,9 @@ user_pref("spellchecker.dictionary", "en-US");//字典
 user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
 
 /*==========Browser==========*/
-user_pref("general.skins.selectedSkin", "mx4");//使用MX4主題
+user_pref("general.skins.selectedSkin", "simplewhite");//使用SimpleWhite主題
 user_pref("general.warnOnAboutConfig", false);//AboutConfig警告
-user_pref("browser.tabs.animate", true);//開啓标签页动画
+user_pref("browser.tabs.animate", false);//關閉标签页动画
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
 user_pref("browser.taskbar.lists.enabled", false);//开启jump list？默认true
 user_pref("datareporting.healthreport.service.firstRun", true);//healthreport
