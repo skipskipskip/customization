@@ -1,5 +1,7 @@
 ﻿
-//2015.04.10 22:00  使用MX4主題
+//2015.04.16 13:00  加入新的平滑設置
+//2015.04.15 18:00  新增FeiRuoTabPlus設置
+//2015.04.14 17:00  使用SimpleWhite主題
 //2015.04.05 09:00  調整UC管理器菜單
 //2015.04.04 08:00  加入江3省电版火狐
 //2015.03.20 18:00  調整Flashgot和DTA设置
@@ -88,11 +90,17 @@ user_pref("startup.homepage_welcome_url", "");
 user_pref("browser.startup.homepage", "chrome://userchromejs/content/myNewTab/index.html");//首页
 user_pref("browser.newtab.url", "chrome://userchromejs/content/myNewTab/index.html");//本地Html
 //平滑滚动参数
+//平滑配置1（其实不平滑，汗）:
+/*
 user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 150);
 user_pref("general.smoothScroll.mouseWheel.durationMinMS", 150);
 user_pref("mousewheel.acceleration.factor", 15);
 user_pref("mousewheel.acceleration.start", 3);
 user_pref("mousewheel.default.delta_multiplier_y", 160);
+*/
+//平滑配置2:
+user_pref("general.smoothScroll.durationToIntervalRatio", 500);
+user_pref("mousewheel.min_line_scroll_amount", 35);
 
 /*==========Plugin==========*/
 user_pref("plugins.click_to_play", false);//关闭点击才运行插件
@@ -173,6 +181,9 @@ user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议�
 user_pref("extensions.greasemonkey.installDelay", 0);//安裝時的倒計時
 user_pref("extensions.greasemonkey.sync.enabled", false); //禁止同步
 
+//Stylish
+user_pref("extensions.stylish.firstRun", 3);//重建配置不弹首页
+
 //DownThemAll！
 user_pref("extensions.dta.conflictresolution", 0);//文檔已存在時自動重命名
 user_pref("extensions.dta.sounds.error", true);//發生錯誤時播放音效
@@ -199,6 +210,7 @@ user_pref("noscript.default", "");//默认白名单，可删除之
 user_pref("noscript.mandatory", ""); //固定白名单，可修改之
 user_pref("noscript.subscription.checkInterval", 24);//更新检查周期间隔
 user_pref("noscript.subscription.trustedURL", "https://raw.githubusercontent.com/dupontjoy/customization/master/NoScript-Whitelist.txt");//可信名单的订阅URL，在线订阅的黑白名单会定期自动同步到本地，并与本地名单合并
+
 
 /*==========脚本设置==========*/
 
@@ -229,6 +241,20 @@ user_pref("grabScroll.button", 1);//使用GrabScroll抓取的键位：中键
 user_pref("grabScroll.clickable", false);//能够在链接上使用GrabScroll
 
 //ShowFlagS
+user_pref("userChromeJS.showFlagS.RefChanger", true);//開啟圖片反盜鏈
+user_pref("userChromeJS.showFlagS.UAChanger", true);//開啟UA切換
 user_pref("userChromeJS.showFlagS.Reacquire", true);//自動重新获取
 user_pref("userChromeJS.showFlagS.libIconPath", "Local\\ShowFlagS\\countryflags.js");//國旗圖標庫
 user_pref("userChromeJS.showFlagS.LocalFlags", "Local\\ShowFlagS\\LocalFlags\\");//本地PNG圖標文件夾
+
+//FeiRuoTabPlus
+user_pref("userChromeJS.FeiRuoTabplus.CloseDownloadBankTab", true);//關閉下載空白頁
+user_pref("userChromeJS.FeiRuoTabplus.ColseToNearTab", 1);//關閉後轉到當前標籤左邊
+user_pref("userChromeJS.FeiRuoTabplus.NewTabHistory", true);//新標籤打開書籤，歷史和搜索欄
+user_pref("userChromeJS.FeiRuoTabplus.NewTabNear", 2);//新建標籤在當前標籤右邊
+user_pref("userChromeJS.FeiRuoTabplus.NewTabUrlbar", true);//地址欄新標籤打開
+user_pref("userChromeJS.FeiRuoTabplus.ShowBorder", "0,7,7,7");//去邊框
+user_pref("userChromeJS.FeiRuoTabplus.ShowBorderChange", true);//去邊框
+user_pref("userChromeJS.FeiRuoTabplus.TabFocus", false);//禁用自動聚焦
+
+
