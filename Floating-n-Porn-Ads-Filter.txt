@@ -9,6 +9,7 @@
 ! Contact: https://github.com/dupontjoy/customization/
 !---------------------------------------------------------------------------------------------!
 ！開始！
+so.iqiyi.com##.search_result_download.mt10
 sports.dbw.cn##DIV[style=" height:197px; width:600px; margin:0 auto; border:1px #CCC solid; padding-top:3px ; padding-left:10px; margin-top:5px; margin-bottom:5px;  font-size:12px"]
 iqiyi.com##.qy_nav_pop
 iqiyi.com##.gx
