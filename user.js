@@ -1,4 +1,6 @@
 ﻿
+//2015.04.25 20:00  精簡設置
+//2015.04.18 15:00  加入AwesomeBookmarkbar設置
 //2015.04.16 13:00  加入新的平滑設置
 //2015.04.15 18:00  新增FeiRuoTabPlus設置
 //2015.04.14 17:00  使用SimpleWhite主題
@@ -9,7 +11,6 @@
 //2015.02.17 18:00  加入DTA設置
 //2015.01.23 00:00  加入DNT，保存位置
 //2015.01.18 00:00  加入鼠標滾動設置，NoScript參數
-//2015.01.14 00:00  精簡設置
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -73,9 +74,6 @@ user_pref("gfx.font_rendering.cleartype_params.cleartype_level", 100);
 user_pref("gfx.font_rendering.cleartype_params.pixel_structure", 1);
 user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 5);
 user_pref("layout.paint_rects_separately", true);//重启浏览器，完美解决。。而且性能比关硬件加速要好很多。
-//缓存位置
-user_pref("browser.cache.disk.parent_directory", "D:\Temp\Cache-FX");
-user_pref("browser.cache.offline.parent_directory", "D:\Temp\Cache-FX.offline");
 //书签
 user_pref("browser.bookmarks.autoExportHTML", true);//书签生成html
 user_pref("browser.bookmarks.max_backups", 0);//最大备份数目
@@ -90,15 +88,6 @@ user_pref("startup.homepage_welcome_url", "");
 user_pref("browser.startup.homepage", "chrome://userchromejs/content/myNewTab/index.html");//首页
 user_pref("browser.newtab.url", "chrome://userchromejs/content/myNewTab/index.html");//本地Html
 //平滑滚动参数
-//平滑配置1（其实不平滑，汗）:
-/*
-user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 150);
-user_pref("general.smoothScroll.mouseWheel.durationMinMS", 150);
-user_pref("mousewheel.acceleration.factor", 15);
-user_pref("mousewheel.acceleration.start", 3);
-user_pref("mousewheel.default.delta_multiplier_y", 160);
-*/
-//平滑配置2:
 user_pref("general.smoothScroll.durationToIntervalRatio", 500);
 user_pref("mousewheel.min_line_scroll_amount", 35);
 
@@ -220,7 +209,7 @@ user_pref("noscript.subscription.trustedURL", "https://raw.githubusercontent.com
 //user_pref("userChromeJS.SmartProxy.knownProxy", "Free Gate;127.0.0.1;8580;http$Puff;127.0.0.1;1984;http$ssh -D;127.0.0.1;7070;socks$Toonel;127.0.0.1;8080;http$Tor;127.0.0.1;9050;socks$Shadowsocks;127.0.0.1;1080;http$Goagent;127.0.0.1;8087;http");
 
 //rebuild_userChrome脚本管理器
-user_pref("userChromeJS.rebuildUI.menues", "tools-menu");
+user_pref("userChromeJS.rebuildUI.menues", "more-tools-menu");
 
 //UserCSSLoader引导器
 user_pref("UserCSSLoader.innereditor", false);//使用外部编辑器
@@ -257,4 +246,9 @@ user_pref("userChromeJS.FeiRuoTabplus.ShowBorder", "0,7,7,7");//去邊框
 user_pref("userChromeJS.FeiRuoTabplus.ShowBorderChange", true);//去邊框
 user_pref("userChromeJS.FeiRuoTabplus.TabFocus", false);//禁用自動聚焦
 
-
+//AwesomeBookmarkbar
+user_pref("userChromeJS.AwesomeBookmarkbar.UBlur_H", true);//隱藏 地址栏失去焦点(页面内点击)
+user_pref("userChromeJS.AwesomeBookmarkbar.UMouseout_H", true);//隱藏 鼠标移出地址栏
+user_pref("userChromeJS.AwesomeBookmarkbar.PMouseout_H", true);//隱藏 鼠标移出书签工具栏
+user_pref("userChromeJS.AwesomeBookmarkbar.PClick_H", true);//隱藏 书签工具栏点击书签之后
+user_pref("userChromeJS.AwesomeBookmarkbar.UMove_S", true);//顯示 鼠标移入地址栏
