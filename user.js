@@ -1,8 +1,7 @@
 ﻿
-//2015.04.25 20:00  精簡設置
+//2015.05.13 09:00  調整FeiRuoTabPlus設置，加入AutoClick設置
 //2015.04.18 15:00  加入AwesomeBookmarkbar設置
 //2015.04.16 13:00  加入新的平滑設置
-//2015.04.15 18:00  新增FeiRuoTabPlus設置
 //2015.04.14 17:00  使用SimpleWhite主題
 //2015.04.05 09:00  調整UC管理器菜單
 //2015.04.04 08:00  加入江3省电版火狐
@@ -64,6 +63,7 @@ user_pref("security.tls.version.fallback-limit", 0);//SSLv3 error messages
 user_pref("security.tls.version.min", 0);//SSLv3 error messages
 user_pref("dom.successive_dialog_time_limit", 0);//避免此页面产生更多对话框
 user_pref("layout.css.vertical-text.enabled", true);//开启用 writing-mode 产生竖排文字的排版效果。FX38以後有效
+user_pref("network.http.spdy.enabled.http2draft", false);//目前浏览器默认还没有启用 HTTP/2 的支持。所以暫時關閉此項。
 
 //附加組件
 user_pref("extensions.getAddons.cache.enabled", false);//阻止每天更新附加组件元数据
@@ -237,11 +237,13 @@ user_pref("userChromeJS.showFlagS.libIconPath", "Local\\ShowFlagS\\countryflags.
 user_pref("userChromeJS.showFlagS.LocalFlags", "Local\\ShowFlagS\\LocalFlags\\");//本地PNG圖標文件夾
 
 //FeiRuoTabPlus
-user_pref("userChromeJS.FeiRuoTabplus.CloseDownloadBankTab", true);//關閉下載空白頁
-user_pref("userChromeJS.FeiRuoTabplus.ColseToNearTab", 1);//關閉後轉到當前標籤左邊
-user_pref("userChromeJS.FeiRuoTabplus.NewTabHistory", true);//新標籤打開書籤，歷史和搜索欄
-user_pref("userChromeJS.FeiRuoTabplus.NewTabNear", 2);//新建標籤在當前標籤右邊
 user_pref("userChromeJS.FeiRuoTabplus.NewTabUrlbar", true);//地址欄新標籤打開
+user_pref("userChromeJS.FeiRuoTabplus.NewTabUrlbar_SH", true);//地址欄——域名相同當前頁新標籤打開
+user_pref("userChromeJS.FeiRuoTabplus.SideBarNewTab", true);//側欄新標籤打開
+user_pref("userChromeJS.FeiRuoTabplus.SideBarNewTab_SH", true);//側欄——域名相同當前頁新標籤打開
+user_pref("userChromeJS.FeiRuoTabplus.NewTabNear", 0);//新建標籤——默認(0)，左邊(1)，右邊(2)
+user_pref("userChromeJS.FeiRuoTabplus.ColseToNearTab", 2);//關閉後轉到當前標籤右邊
+user_pref("userChromeJS.FeiRuoTabplus.CloseDownloadBankTab", true);//關閉下載空白頁
 user_pref("userChromeJS.FeiRuoTabplus.ShowBorder", "0,7,7,7");//去邊框
 user_pref("userChromeJS.FeiRuoTabplus.ShowBorderChange", true);//去邊框
 user_pref("userChromeJS.FeiRuoTabplus.TabFocus", false);//禁用自動聚焦
@@ -252,3 +254,9 @@ user_pref("userChromeJS.AwesomeBookmarkbar.UMouseout_H", true);//隱藏 鼠标�
 user_pref("userChromeJS.AwesomeBookmarkbar.PMouseout_H", true);//隱藏 鼠标移出书签工具栏
 user_pref("userChromeJS.AwesomeBookmarkbar.PClick_H", true);//隱藏 书签工具栏点击书签之后
 user_pref("userChromeJS.AwesomeBookmarkbar.UMove_S", true);//顯示 鼠标移入地址栏
+
+//AutoClick
+user_pref("userChromeJS.AutoClick.enable", false);//默認關閉
+user_pref("userChromeJS.AutoClick.BUTTON_TYPE", 2);//顯示为菜單
+user_pref("userChromeJS.AutoClick.hovering_time", 800);//悬停xx毫秒開始點擊
+
