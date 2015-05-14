@@ -1,6 +1,5 @@
 ﻿
-//2015.05.13 09:00  調整FeiRuoTabPlus設置，加入AutoClick設置
-//2015.04.18 15:00  加入AwesomeBookmarkbar設置
+//2015.05.14 20:00  加入AutoClick設置
 //2015.04.16 13:00  加入新的平滑設置
 //2015.04.14 17:00  使用SimpleWhite主題
 //2015.04.05 09:00  調整UC管理器菜單
@@ -65,31 +64,36 @@ user_pref("dom.successive_dialog_time_limit", 0);//避免此页面产生更多�
 user_pref("layout.css.vertical-text.enabled", true);//开启用 writing-mode 产生竖排文字的排版效果。FX38以後有效
 user_pref("network.http.spdy.enabled.http2draft", false);//目前浏览器默认还没有启用 HTTP/2 的支持。所以暫時關閉此項。
 
+//平滑滚动参数
+user_pref("general.smoothScroll.durationToIntervalRatio", 500);
+user_pref("mousewheel.min_line_scroll_amount", 35);
+
+//字体渲染
+user_pref("gfx.font_rendering.cleartype_params.cleartype_level", 100);
+user_pref("gfx.font_rendering.cleartype_params.pixel_structure", 1);
+user_pref("layout.paint_rects_separately", true);//重启浏览器，完美解决。。而且性能比关硬件加速要好很多。
+user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 5);//字體渲染的模式，設定中最重要的項目: 1= Aliased, 2= GDI Classic, 3 = GDI Natural Widths, 4 = Natural, 5 = Natural Symmetric
+
 //附加組件
 user_pref("extensions.getAddons.cache.enabled", false);//阻止每天更新附加组件元数据
 user_pref("extensions.webservice.discoverURL","http://127.0.0.1");//禁用附加组件建议
 user_pref("extensions.ui.lastCategory", "addons://list/extension");//打开附加组件时默认打开“扩展”项
-//字体渲染
-user_pref("gfx.font_rendering.cleartype_params.cleartype_level", 100);
-user_pref("gfx.font_rendering.cleartype_params.pixel_structure", 1);
-user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 5);
-user_pref("layout.paint_rects_separately", true);//重启浏览器，完美解决。。而且性能比关硬件加速要好很多。
+
 //书签
 user_pref("browser.bookmarks.autoExportHTML", true);//书签生成html
 user_pref("browser.bookmarks.max_backups", 0);//最大备份数目
 user_pref("browser.places.smartBookmarksVersion", -1);//禁用智能书签
+
 //关闭安全检测健康中心类
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.enabled", false);
 //关闭烦人提示
 user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显示的权利通知
+
 //主页
 user_pref("startup.homepage_welcome_url", "");
 user_pref("browser.startup.homepage", "chrome://userchromejs/content/myNewTab/index.html");//首页
 user_pref("browser.newtab.url", "chrome://userchromejs/content/myNewTab/index.html");//本地Html
-//平滑滚动参数
-user_pref("general.smoothScroll.durationToIntervalRatio", 500);
-user_pref("mousewheel.min_line_scroll_amount", 35);
 
 /*==========Plugin==========*/
 user_pref("plugins.click_to_play", false);//关闭点击才运行插件
@@ -173,17 +177,6 @@ user_pref("extensions.greasemonkey.sync.enabled", false); //禁止同步
 //Stylish
 user_pref("extensions.stylish.firstRun", 3);//重建配置不弹首页
 
-//DownThemAll！
-user_pref("extensions.dta.conflictresolution", 0);//文檔已存在時自動重命名
-user_pref("extensions.dta.sounds.error", true);//發生錯誤時播放音效
-user_pref("extensions.dta.alertbox", 0);//下載完成後對話視窗提示
-user_pref("extensions.dta.listsniffedvideos", true);//下載完成後關閉DTA
-user_pref("extensions.dta.closedta", true);//辯識並列出Flash影片
-user_pref("extensions.dta.ctxmenu", "0,0,0");//不顯示右鍵菜單
-user_pref("extensions.dta.removecanceled", true);//從清單中移除中斷及錯誤的下載
-user_pref("extensions.dta.confirmremove", false);//移除下載前不提示
-user_pref("extensions.dta.exposeInUA", true);//在UA中顯示DTA
-
 //Noscript
 user_pref("noscript.autoAllow", 3); //自動允許第二層網域
 user_pref("noscript.autoReload.allTabs", false); //只重載當前頁面
@@ -206,7 +199,7 @@ user_pref("noscript.subscription.trustedURL", "https://raw.githubusercontent.com
 //SmartProxyforChina代理
 //user_pref("userChromeJS.SmartProxy.proxyMode", "auto");
 //user_pref("userChromeJS.SmartProxy.default_proxy", 6);
-//user_pref("userChromeJS.SmartProxy.knownProxy", "Free Gate;127.0.0.1;8580;http$Puff;127.0.0.1;1984;http$ssh -D;127.0.0.1;7070;socks$Toonel;127.0.0.1;8080;http$Tor;127.0.0.1;9050;socks$Shadowsocks;127.0.0.1;1080;http$Goagent;127.0.0.1;8087;http");
+//user_pref("userChromeJS.SmartProxy.knownProxy", "Free Gate;127.0.0.1;8580;http$Lantern;127.0.0.1;8787;http$ssh -D;127.0.0.1;7070;socks$Toonel;127.0.0.1;8080;http$Tor;127.0.0.1;9050;socks$Shadowsocks;127.0.0.1;1080;http$Goagent;127.0.0.1;8087;http");
 
 //rebuild_userChrome脚本管理器
 user_pref("userChromeJS.rebuildUI.menues", "more-tools-menu");
@@ -214,9 +207,6 @@ user_pref("userChromeJS.rebuildUI.menues", "more-tools-menu");
 //UserCSSLoader引导器
 user_pref("UserCSSLoader.innereditor", false);//使用外部编辑器
 user_pref("UserCSSLoader.showtoolbutton", false);//显示为菜单
-
-//UserScriptLoader引导器
-user_pref("UserScriptLoader.showtoolbutton", false);//显示为菜单
 
 //InspectElementModY
 user_pref("userChromeJS.InspectElement.contentType", 2);//查看页面:Dom Inspector
@@ -235,25 +225,6 @@ user_pref("userChromeJS.showFlagS.UAChanger", true);//開啟UA切換
 user_pref("userChromeJS.showFlagS.Reacquire", true);//自動重新获取
 user_pref("userChromeJS.showFlagS.libIconPath", "Local\\ShowFlagS\\countryflags.js");//國旗圖標庫
 user_pref("userChromeJS.showFlagS.LocalFlags", "Local\\ShowFlagS\\LocalFlags\\");//本地PNG圖標文件夾
-
-//FeiRuoTabPlus
-user_pref("userChromeJS.FeiRuoTabplus.NewTabUrlbar", true);//地址欄新標籤打開
-user_pref("userChromeJS.FeiRuoTabplus.NewTabUrlbar_SH", true);//地址欄——域名相同當前頁新標籤打開
-user_pref("userChromeJS.FeiRuoTabplus.SideBarNewTab", true);//側欄新標籤打開
-user_pref("userChromeJS.FeiRuoTabplus.SideBarNewTab_SH", true);//側欄——域名相同當前頁新標籤打開
-user_pref("userChromeJS.FeiRuoTabplus.NewTabNear", 0);//新建標籤——默認(0)，左邊(1)，右邊(2)
-user_pref("userChromeJS.FeiRuoTabplus.ColseToNearTab", 2);//關閉後轉到當前標籤右邊
-user_pref("userChromeJS.FeiRuoTabplus.CloseDownloadBankTab", true);//關閉下載空白頁
-user_pref("userChromeJS.FeiRuoTabplus.ShowBorder", "0,7,7,7");//去邊框
-user_pref("userChromeJS.FeiRuoTabplus.ShowBorderChange", true);//去邊框
-user_pref("userChromeJS.FeiRuoTabplus.TabFocus", false);//禁用自動聚焦
-
-//AwesomeBookmarkbar
-user_pref("userChromeJS.AwesomeBookmarkbar.UBlur_H", true);//隱藏 地址栏失去焦点(页面内点击)
-user_pref("userChromeJS.AwesomeBookmarkbar.UMouseout_H", true);//隱藏 鼠标移出地址栏
-user_pref("userChromeJS.AwesomeBookmarkbar.PMouseout_H", true);//隱藏 鼠标移出书签工具栏
-user_pref("userChromeJS.AwesomeBookmarkbar.PClick_H", true);//隱藏 书签工具栏点击书签之后
-user_pref("userChromeJS.AwesomeBookmarkbar.UMove_S", true);//顯示 鼠标移入地址栏
 
 //AutoClick
 user_pref("userChromeJS.AutoClick.enable", false);//默認關閉
