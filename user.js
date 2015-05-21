@@ -1,5 +1,5 @@
 ﻿
-//2015.05.19 18:00  加入一些參數，分組整理
+//2015.05.21 12:00  加入一些參數，分組整理
 //2015.05.18 11:00  關閉WebRTC
 //2015.05.14 20:00  加入AutoClick設置
 //2015.04.16 13:00  加入新的平滑設置
@@ -66,7 +66,7 @@ user_pref("browser.cache.disk_cache_ssl", false);//开启ssl磁盘缓存
 user_pref("browser.cache.disk.smart_size.enabled", false);//关闭磁盘缓存容量自动管理
 user_pref("browser.cache.disk.smart_size.first_run", false);//标记是否属于首次smart sizing？默认true
 user_pref("browser.cache.disk.smart_size.use_old_max", false);//使用旧的磁盘缓存？
-user_pref("browser.cache.disk.capacity", 51200);//最大缓存文件大小(50MB)       
+user_pref("browser.cache.disk.capacity", 512000);//最大缓存文件大小(500MB)       
 user_pref("browser.cache.disk.max_entry_size", 4096);//最大磁盘缓存元素大小？暗月设为4MB，任何大于4MB的元素都不建议缓存
 user_pref("browser.cache.memory.capacity", 1048576);//设置内存使用(1GB)
 user_pref("browser.cache.memory.max_entry_size", 5120);//单个文件內存缓存上限(5MB) 
@@ -89,8 +89,8 @@ user_pref("capability.policy.maonoscript.javascript.enabled", "allAccess");//允
 
 /*==========網路相關==========*/
 user_pref("network.prefetch-next", false); //默认关闭预读引擎
-user_pref("network.http.pipelining" , true); //默认开启流水线，目前没有出现问题
-user_pref("network.http.pipelining.ssl" , true);
+user_pref("network.http.pipelining", true); //默认开启流水线，目前没有出现问题
+user_pref("network.http.pipelining.ssl", true);
 user_pref("network.http.proxy.pipelining", false); // 代理流水线- 会造成一些代理失败 (406)
 user_pref("network.http.pipelining.maxrequests", 12); // 最大流水线请求数
 user_pref("network.http.max-connections", 48); // 不要最大化网络层，以保证家庭网络和无线网络! (FF=256)
@@ -100,6 +100,7 @@ user_pref("network.http.max-persistent-connections-per-server", 6);
 user_pref("network.dns.disablePrefetch", true); //禁用DNS预读，防止路由阻塞
 user_pref("network.dnsCacheEntries", 1024); //cache 1024 instead of 20
 user_pref("network.dnsCacheExpiration", 3600); //TTL 1 hour
+user_pref("network.proxy.socks_remote_dns", true);//使用socks代理dns解析，据说可以解决dns污染或DNS劫持。前提是你有socks代理软件。
 
 /*==========平滑滾動==========*/
 user_pref("general.smoothScroll.durationToIntervalRatio", 500);
