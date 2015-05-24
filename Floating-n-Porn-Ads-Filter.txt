@@ -9,6 +9,7 @@
 ! Contact: https://github.com/dupontjoy/customization/
 !---------------------------------------------------------------------------------------------!
 ！開始！
+bbs.kafan.cn##.bm_c.comeing_recommend.cl
 mail.163.com##[title="一元夺宝"]
 mail.163.com##[title="应用中心"]
 mail.163.com##[title="订阅邮件"]
