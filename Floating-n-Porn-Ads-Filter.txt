@@ -9,6 +9,8 @@
 ! Contact: https://github.com/dupontjoy/customization/
 !---------------------------------------------------------------------------------------------!
 ！開始！
+tieba.baidu.com###celebrity
+tieba.baidu.com##.j_lzl_container.core_reply_wrapper.hideLzl
 v.baidu.com##IMG[alt="/"]
 v.baidu.com##.top_banner_cutdown_bg
 v.baidu.com###top_banner_cutdown
