@@ -12,13 +12,14 @@ host	script	3	doubleclick.net
 host	script	3	google-analytics.com
 host	script	3	hm.baidu.com
 host	script	3	kbrtx.com
+host	install	1	marketplace.firefox.com
 host	script	3	openapi.guanjia.qq.com
 host	script	3	platform.linkedin.com
 host	script	3	platform.twitter.com
 host	script	3	scorecardresearch.com
+host	script	3	share.baidu.com
 host	script	3	tradedoubler.com
 host	script	3	translate.google.com
 host	script	3	translate.googleapis.com
 host	script	3	truste.com
 host	script	3	vk.com
-host	script	3	wanelo.com
