@@ -11,6 +11,7 @@ host	script	3	connect.facebook.net
 host	script	3	doubleclick.net
 host	script	3	google-analytics.com
 host	script	3	hm.baidu.com
+host	script	2	jiathis.com
 host	script	3	kbrtx.com
 host	install	1	marketplace.firefox.com
 host	script	3	openapi.guanjia.qq.com
