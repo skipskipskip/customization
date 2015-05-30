@@ -1,0 +1,20 @@
+[AutoProxy 0.3.0]
+! Checksum: 77aseQH95EBjfGZHF/uv0Q
+||wikipedia.org
+||googlecode.com
+||feedly.com
+||app.box.com
+||kiwi6.com
+||dailymail.co.uk
+||yyets.com
+||themehybrid.com
+||deviantart.com
+||playpcesor.com
+||ortheme.com
+||designspiration.net
+||translate.google.com.hk
+||google.com
+||mozilla.org
+||userstyles.org
+||sourceforge.net
+||mm-cg.com
