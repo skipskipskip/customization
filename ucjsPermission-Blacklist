@@ -6,11 +6,15 @@ host	install	1	addons.mozilla.org
 host	script	3	addthis.com
 host	script	3	bluekai.com
 host	script	3	cache.soso.com
+host	script	3	chartbeat.net
 host	script	3	cnzz.com
 host	script	3	cnzz.net
 host	script	3	connect.facebook.net
 host	script	3	doubleclick.net
 host	script	3	google-analytics.com
+host	script	3	googleadservices.com
+host	script	3	googletagmanager.com
+host	script	3	googletagservices.com
 host	script	3	hm.baidu.com
 host	script	2	jiathis.com
 host	script	3	kbrtx.com
@@ -25,4 +29,3 @@ host	script	3	tradedoubler.com
 host	script	3	translate.google.com
 host	script	3	translate.googleapis.com
 host	script	3	truste.com
-host	script	3	vk.com
