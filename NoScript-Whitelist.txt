@@ -1,4 +1,4 @@
-!-------NoScript白名單，根據江3版增補。2015.02.14 16:00 -------------------------------------!
+!-------NoScript白名單，根據江3版增補。2015.05.30 08:00 -------------------------------------!
 10086.cn
 115.com
 126.net
@@ -500,6 +500,7 @@ wsj.net
 wx.qq.com
 xiami.net
 xiangce.baidu.com
+xunlei.com
 y.qq.com
 yahoo.com
 yahooapis.com
