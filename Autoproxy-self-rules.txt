@@ -1,5 +1,4 @@
 [AutoProxy 0.3.0]
-! Checksum: 77aseQH95EBjfGZHF/uv0Q
 ||wikipedia.org
 ||googlecode.com
 ||feedly.com
