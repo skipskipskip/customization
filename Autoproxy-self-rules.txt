@@ -17,4 +17,3 @@
 ||mozilla.org
 ||userstyles.org
 ||sourceforge.net
-||mm-cg.com
