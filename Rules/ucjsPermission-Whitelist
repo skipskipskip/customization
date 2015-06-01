@@ -8,6 +8,7 @@ host	script	1	ajax.googleapis.com
 host	script	1	alicdn.com
 host	script	1	bdimg.com
 host	script	1	bdstatic.com
+host	script	1	cdn.mozilla.net
 host	script	1	dsc.taobaocdn.com
 host	script	1	fbstatic-a.akamaihd.net
 host	script	1	githubusercontent.com
@@ -26,6 +27,7 @@ host	script	1	res.xiami.net
 host	script	1	se-mc.com
 host	script	1	sjs.sinajs.cn
 host	script	1	static.360buyimg.com
+host	script	1	style.aliunicorn.com
 host	script	1	t.sinajs.cn
 host	script	1	tbcdn.cn
 host	script	1	twimg.com
