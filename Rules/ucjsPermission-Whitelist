@@ -5,8 +5,10 @@ host	script	1	3.cn
 host	script	1	a.ikafan.com
 host	install	1	addons.mozilla.org
 host	script	1	ajax.googleapis.com
+host	script	1	alicdn.com
 host	script	1	bdimg.com
 host	script	1	bdstatic.com
+host	script	1	dsc.taobaocdn.com
 host	script	1	fbstatic-a.akamaihd.net
 host	script	1	githubusercontent.com
 host	script	1	google-analytics.com
@@ -20,9 +22,12 @@ host	script	1	mimg.127.net
 host	script	1	minggo.coding.io
 host	script	1	misc.360buyimg.com
 host	script	1	music.126.net
+host	script	1	res.xiami.net
+host	script	1	se-mc.com
 host	script	1	sjs.sinajs.cn
 host	script	1	static.360buyimg.com
 host	script	1	t.sinajs.cn
+host	script	1	tbcdn.cn
 host	script	1	twimg.com
 host	script	1	useso.com
 host	script	1	ytimg.com
