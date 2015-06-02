@@ -1,6 +1,6 @@
 ﻿
-//2015.05.27 16:00  精簡少量參數
-//2015.05.23 10:00  新增FeiruoMouse參數
+//2015.06.02 13:00  精簡少量參數
+//2015.05.31 09:00  ucjsPermission禁用第三方腳本
 //2015.05.22 21:00  新增newDownloadPlus參數
 //2015.05.21 12:00  加入一些參數，分組整理
 //2015.05.18 11:00  關閉WebRTC
@@ -11,8 +11,6 @@
 //2015.04.04 08:00  加入江3省电版火狐
 //2015.03.20 18:00  調整Flashgot和DTA设置
 //2015.03.03 10:00  加入阻止此页面创建更多对话框
-//2015.02.17 18:00  加入DTA設置
-//2015.01.23 00:00  加入DNT，保存位置
 //2015.01.18 00:00  加入鼠標滾動設置，NoScript參數
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -71,13 +69,11 @@ user_pref("browser.cache.disk.smart_size.first_run", false);//标记是否属于
 user_pref("browser.cache.disk.smart_size.use_old_max", false);//使用旧的磁盘缓存？
 user_pref("browser.cache.disk.capacity", 512000);//最大缓存文件大小(500MB)       
 user_pref("browser.cache.disk.max_entry_size", 4096);//最大磁盘缓存元素大小？暗月设为4MB，任何大于4MB的元素都不建议缓存
-user_pref("browser.cache.memory.capacity", 1048576);//设置内存使用(1GB)
-user_pref("browser.cache.memory.max_entry_size", 5120);//单个文件內存缓存上限(5MB) 
+user_pref("browser.cache.memory.max_entry_size", 51200);//单个文件內存缓存上限(50MB) 
 
 /*==========圖片相關==========*/
 user_pref("layout.imagevisibility.enabled", true);//仅解码可见区域的图片
 user_pref("image.mem.decodeondraw", false);//不解码非激活标签的图片
-user_pref("permissions.default.image", 1);//默认站点权限-图片 1 允许所有图片；2 阻止所有图片；3 阻止第三方服务器图片
 user_pref("image.mem.min_discard_timeout_ms", 1000);//释放图片所佔用的记忆体，越小时间越短，但太短则会造成图片不能显示
 user_pref("image.mem.decode_bytes_at_a_time", 16384);//图片解码器一次调用多大数据块
 user_pref("image.mem.max_ms_before_yield", 250);//Image decoding tweaks
@@ -87,7 +83,6 @@ user_pref("image.mem.max_decoded_image_kb", 256000);//解码的图片（decoded 
 user_pref("javascript.options.xml.content", true);//总是 jit 加速 javascript，改善JS内存占用
 user_pref("javascript.options.methodjit_always", true);//始终采用JIT编译器编译JS，即使这些JS利用率很低
 user_pref("javascript.options.mem.gc_incremental_slice_ms", 25);//add IGC and adjust time slice
-user_pref("capability.policy.maonoscript.javascript.enabled", "allAccess");//允许JS？
 
 /*==========網路相關==========*/
 user_pref("network.prefetch-next", false); //默认关闭预读引擎
@@ -101,20 +96,12 @@ user_pref("network.http.max-persistent-connections-per-proxy", 8);
 user_pref("network.http.max-persistent-connections-per-server", 6);
 user_pref("network.dns.disablePrefetch", true); //禁用DNS预读，防止路由阻塞
 user_pref("network.dnsCacheEntries", 20); //DNS緩存數
-user_pref("network.dnsCacheExpiration", 3600); //DNS緩存失效時間
+user_pref("network.dnsCacheExpiration", 3600); //DNS緩存失效時間（單位秒）
 user_pref("network.proxy.socks_remote_dns", true);//使用socks代理dns解析，据说可以解决dns污染或DNS劫持。前提是你有socks代理软件。
 
 /*==========平滑滾動==========*/
 user_pref("general.smoothScroll.durationToIntervalRatio", 500);
 user_pref("mousewheel.min_line_scroll_amount", 35);
-
-/*==========字體渲染==========*/
-user_pref("gfx.font_rendering.cleartype.always_use_for_content ", true);
-user_pref("gfx.font_rendering.cleartype.use_for_downloadable_fonts", true);
-user_pref("gfx.font_rendering.cleartype_params.cleartype_level", 100);//[cleartype 级别，0 到 100 ，100 最大]
-user_pref("gfx.font_rendering.cleartype_params.pixel_structure", 1);//渲染像素结构,0 = flat, 1 = RGB, 2 = BGR 液晶就用RGB
-user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 5);//字體渲染的模式，設定中最重要的項目: 1= Aliased, 2= GDI Classic, 3 = GDI Natural Widths, 4 = Natural, 5 = Natural Symmetric
-user_pref("layout.paint_rects_separately", true);//重启浏览器，完美解决。。而且性能比关硬件加速要好很多。
 
 /*==========插件相關==========*/
 user_pref("plugins.click_to_play", false);//关闭点击才运行插件
@@ -135,7 +122,7 @@ user_pref("app.update.disable_button.showUpdateHistory", false);
 /*==========关闭安全检测健康中心类==========*/
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.enabled", false);
-user_pref("browser.safebrowsing.downloads.enabled", false);//自带下载出问题时，有人推荐禁用此参数
+user_pref("browser.safebrowsing.downloads.enabled", false);//解決卡在最後一秒的問題
 
 /*==========主页==========*/
 user_pref("startup.homepage_welcome_url", "");
@@ -204,6 +191,10 @@ user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "");//删除非�
 user_pref("extensions.adblockplus.subscriptions_antiadblockurl", "");//去掉自带的反-反ADP列表
 user_pref("extensions.adblockplus.please_kill_startup_performance", true);//关闭延迟启动
 user_pref("extensions.adblockplus.frameobjects", false);//在Java和Flash上显示标签 - 否
+
+//Autoproxy
+user_pref("extensions.autoproxy.customProxy", "Shadowsocks;;1080;socks$GoAgent;;8087;$Free%20Gate;;8580;");
+user_pref("extensions.autoproxy.patternsbackups", 0);
 
 //LastPass
 user_pref("extensions.lastpass.hidecontextmenu", true);
@@ -289,5 +280,5 @@ user_pref("userChromeJS.downloadPlus.download_dialog_changeName", true);//下載
 user_pref("userChromeJS.downloadPlus.download_dialog_changeName_encodingConvert", true);//下載改名——是否開啟下拉菜單
 user_pref("userChromeJS.downloadPlus.download_dialog_changeName_locking", true);//下載改名——鎖定保存文件按鈕
 
-//FeiruoMouse
-user_pref("userChromeJS.FeiRuoMouse.GesCustom", "1|%u8F6C%u5230%u9875%u9762%u9876%u90E8|U|||;;1|%u8F6C%u5230%u9875%u9762%u5E95%u90E8|D|||;;1|%u540E%u9000/%u4E0A%u4E00%u9875|L|||;;1|%u524D%u8FDB/%u4E0B%u4E00%u9875|R|||");//鼠標手勢
+//ucjsPermission腳本
+user_pref("permissions.default.script", 3);//禁用第三方腳本
