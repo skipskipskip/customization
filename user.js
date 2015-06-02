@@ -1,5 +1,5 @@
 ﻿
-//2015.06.02 13:00  精簡少量參數
+//2015.06.02 17:00  精簡少量參數，清理一個過度優化參數
 //2015.05.31 09:00  ucjsPermission禁用第三方腳本
 //2015.05.22 21:00  新增newDownloadPlus參數
 //2015.05.21 12:00  加入一些參數，分組整理
@@ -36,17 +36,8 @@ user_pref("webgl.msaa-force", true);//强制启用 WebGL 的抗锯齿
 user_pref("layers.acceleration.force-enabled", true);//强制启用硬件渲染（无视黑名单/白名单），最重要的设置！
 user_pref("gfx.direct2d.force-enabled", true);//在 Windows 平台上强制使用 D2D 加速页面内容渲染
 user_pref("gfx.direct2d.disabled", true);//禁用字体硬件加速，开启后标题会模糊，字体显示不一致
-//字体设置
-user_pref("font.minimum-size.zh-CN", 12);//最小字体大小
-user_pref("font.size.variable.zh-CN", 16);//比例字体大小
-user_pref("font.size.fixed.zh-CN", 16);//等宽字体大小
-user_pref("font.minimum-size.zh-TW", 12);//最小字体大小
-user_pref("font.size.variable.zh-TW", 16);//比例字体大小
-user_pref("font.size.fixed.zh-TW", 16);//等宽字体大小
-//语言区域设置
-user_pref("intl.accept_languages","unicode,zh-CN,zh-cn,zh,zh-hk,zh-sg,zh-tw,en-us,en,en-gb,ja");
-user_pref("intl.charset.detector", "universal_charset_detector");
-user_pref("intl.charsetmenu.browser.cache", "UTF-8, windows-1252, EUC-JP, gbk, GB2312");
+//字體語言編碼
+user_pref("intl.charset.detector", "universal_charset_detector");//自動選擇
 //拼写检查
 user_pref("spellchecker.dictionary", "en-US");//字典
 user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
@@ -143,7 +134,6 @@ user_pref("privacy.popups.showBrowserMessage", false);//弹窗不提示消息
 user_pref("dom.successive_dialog_time_limit", 0);//避免此页面产生更多对话框
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
 user_pref("signed.applets.codebase_principal_support", true);//一些网站的下载协议支持
-user_pref("browser.turbo.enabled", true);//用“turbo mode"加载浏览器
 user_pref("nglayout.initialpaint.delay", 0);//当浏览器收到信息后等待的时间
 user_pref("extensions.autoDisableScopes", 0);//第一次运行不禁止任何扩展
 user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不检测版本，不弹欢迎页面
@@ -180,7 +170,7 @@ user_pref("javascript.options.strict", false);
 user_pref("layout.css.report_errors", false);  
 user_pref("browser.dom.window.dump.enabled", false);
 user_pref("pdfjs.disabled", true);
-user_pref("dom.ipc.plugins.enabled", false); 
+user_pref("dom.ipc.plugins.enabled", false);//针对其他所有插件的的防崩溃保护
 
 /*==========扩展设置==========*/
 //adblockplus
@@ -227,7 +217,7 @@ user_pref("extensions.stylish.firstRun", 3);//重建配置不弹首页
 
 /*==========脚本设置==========*/
 //rebuild_userChrome脚本管理器
-user_pref("userChromeJS.rebuildUI.menues", "more-tools-menu");
+//user_pref("userChromeJS.rebuildUI.menues", "more-tools-menu");
 
 //UserCSSLoader引导器
 user_pref("UserCSSLoader.innereditor", false);//使用外部编辑器
