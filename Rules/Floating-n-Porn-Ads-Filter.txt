@@ -9,6 +9,8 @@
 ! Contact: https://github.com/dupontjoy/customization/
 !---------------------------------------------------------------------------------------------!
 ！開始！
+beautifultech.com###esns_box_layer
+beautifultech.com###esns_background_layer
 beautifultech.com###message-popup-window
 beautifultech.com###message-popup-window-mask
 job.dajie.com##.foot
