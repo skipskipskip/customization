@@ -16,7 +16,6 @@ host	script	1	cdn.mozilla.net
 host	script	1	dsc.taobaocdn.com
 host	script	1	fbstatic-a.akamaihd.net
 host	script	1	githubusercontent.com
-host	script	1	google-analytics.com
 host	script	1	gravatar.duoshuo.com
 host	script	1	gstatic.com
 host	script	1	kankan.xunlei.com
