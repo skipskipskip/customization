@@ -1,3 +1,4 @@
+!-------Autoproxy自定義名單 2015.06.06 20:00 -------------------------------------!
 [AutoProxy 0.3.0]
 ||wikipedia.org
 ||googlecode.com
@@ -13,6 +14,8 @@
 ||designspiration.net
 ||translate.google.com.hk
 ||google.com
-||mozilla.org
 ||userstyles.org
 ||sourceforge.net
+||cdn.mozilla.net
+||clearbags.com
+||mm-cg.com
