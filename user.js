@@ -147,6 +147,7 @@ user_pref("security.tls.version.fallback-limit", 0);//SSLv3 error messages
 user_pref("security.tls.version.min", 0);//SSLv3 error messages
 user_pref("network.http.spdy.enabled.http2draft", false);//目前浏览器默认还没有启用 HTTP/2 的支持。所以暫時關閉此項。
 user_pref("media.peerconnection.enabled", false);//關閉WebRTC，因爲webrtc的漏洞可以获取真实ip（FQ時不安全）
+user_pref("network.standard-url.escape-utf8", true);//是否转化中文URL为utf-8格式？默认true
 
 /*==========来自江3省电版火狐==========*/
 //http://bbs.kafan.cn/thread-1442684-1-1.html：关闭DNS预读，链接预读，流水线，钓鱼数据库，历史，插件，磁盘缓存，SSL磁盘缓存...关闭自动更新、开发工具、插件容器、自带pdf.js、各种平滑，动画，闪图
