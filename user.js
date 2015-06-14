@@ -1,5 +1,5 @@
 ﻿
-//2015.06.02 17:00  精簡少量參數，清理一個過度優化參數
+//2015.06.14 15:00  精簡少量參數，清理一個過度優化參數
 //2015.05.31 09:00  ucjsPermission禁用第三方腳本
 //2015.05.22 21:00  新增newDownloadPlus參數
 //2015.05.21 12:00  加入一些參數，分組整理
@@ -28,7 +28,6 @@ user_pref("browser.preferences.inContent", false);//選項 使用老版彈窗
 user_pref("signon.rememberSignons", false);//不保存密码
 user_pref("privacy.donottrackheader.enabled", true);//告訴網站不想被追蹤
 user_pref("browser.download.useDownloadDir", false);//每次訊問我要存到何處
-user_pref("security.OCSP.enabled", 0); //禁用OCSP安全驗證
 //硬件加速
 user_pref("layers.acceleration.disabled", false);//选項卡中『可用時開啟硬體加速』
 user_pref("webgl.force-enabled", true);//强制启用 WebGL
@@ -57,7 +56,6 @@ user_pref("browser.cache.disk.enable", true);//是否使用磁盘缓存
 user_pref("browser.cache.disk_cache_ssl", false);//是否开启ssl磁盘缓存
 user_pref("browser.cache.disk.smart_size.enabled", false);//关闭磁盘缓存容量自动管理
 user_pref("browser.cache.disk.smart_size.first_run", false);//标记是否属于首次smart sizing？默认true
-user_pref("browser.cache.disk.smart_size.use_old_max", false);//使用旧的磁盘缓存？
 user_pref("browser.cache.disk.capacity", 512000);//最大缓存文件大小(500MB)       
 user_pref("browser.cache.disk.max_entry_size", 4096);//最大磁盘缓存元素大小？暗月设为4MB，任何大于4MB的元素都不建议缓存
 user_pref("browser.cache.memory.max_entry_size", 51200);//单个文件內存缓存上限(50MB) 
@@ -86,7 +84,7 @@ user_pref("network.http.max-connections-per-server", 8); // 使用了流水线�
 user_pref("network.http.max-persistent-connections-per-proxy", 8);
 user_pref("network.http.max-persistent-connections-per-server", 6);
 user_pref("network.dns.disablePrefetch", true); //禁用DNS预读，防止路由阻塞
-user_pref("network.dnsCacheEntries", 20); //DNS緩存數
+user_pref("network.dnsCacheEntries", 0); //DNS緩存數
 user_pref("network.dnsCacheExpiration", 3600); //DNS緩存失效時間（單位秒）
 user_pref("network.proxy.socks_remote_dns", true);//使用socks代理dns解析，据说可以解决dns污染或DNS劫持。前提是你有socks代理软件。
 
@@ -140,14 +138,12 @@ user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不�
 user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显示的权利通知
 user_pref("extensions.blocklist.enabled", false);//关闭启动时插件检查窗口
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
-user_pref("browser.taskbar.lists.enabled", false);//开启jump list？默认true
 user_pref("browser.sessionstore.interval", 999999999);//保存会话的时间间隔，不能关闭，我取了能取的最大值
 user_pref("browser.pagethumbnails.capturing_disabled", true);//禁止截图最新访问页面的缩略图
-user_pref("security.tls.version.fallback-limit", 0);//SSLv3 error messages
-user_pref("security.tls.version.min", 0);//SSLv3 error messages
-user_pref("network.http.spdy.enabled.http2draft", false);//目前浏览器默认还没有启用 HTTP/2 的支持。所以暫時關閉此項。
-user_pref("media.peerconnection.enabled", false);//關閉WebRTC，因爲webrtc的漏洞可以获取真实ip（FQ時不安全）
-user_pref("network.standard-url.escape-utf8", true);//是否转化中文URL为utf-8格式？默认true
+user_pref("security.tls.version.fallback-limit", 0);//SSLv3 error messages，让fx忽略连接安全检查
+user_pref("security.tls.version.min", 0);//SSLv3 error messages，让fx忽略连接安全检查
+user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为utf-8格式，默认true
+user_pref("reader.parse-on-load.enabled", false);//禁用閱讀模式
 
 /*==========来自江3省电版火狐==========*/
 //http://bbs.kafan.cn/thread-1442684-1-1.html：关闭DNS预读，链接预读，流水线，钓鱼数据库，历史，插件，磁盘缓存，SSL磁盘缓存...关闭自动更新、开发工具、插件容器、自带pdf.js、各种平滑，动画，闪图
@@ -184,7 +180,7 @@ user_pref("extensions.adblockplus.please_kill_startup_performance", true);//关�
 user_pref("extensions.adblockplus.frameobjects", false);//在Java和Flash上显示标签 - 否
 
 //Autoproxy
-user_pref("extensions.autoproxy.customProxy", "Free%20Gate;;8580;$Shadowsocks;;1080;socks$GoAgent;;8087;");
+user_pref("extensions.autoproxy.customProxy", "Free%20Gate;;8580;$GoAgent;;8087;$Shadowsocks;;1080;socks");
 user_pref("extensions.autoproxy.patternsbackups", 0);
 
 //LastPass
