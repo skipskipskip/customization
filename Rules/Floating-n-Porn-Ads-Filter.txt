@@ -3,120 +3,14 @@
 ! Description: 【國內網站悬浮及色情圖片——EHH規則】過濾國內主流網站 悬浮廣告 及 色情圖片（主流網站都那麼多色情圖片，太不利於青少年的身心健康！）最先是EHH過濾，慢慢就集合了幾百條規則了，改用訂閱方式，方便不同机器之間的同步。
 ! Author: Dupontjoy
 ! License: Creative Commons BY-NC-SA
-! Version: 2015.06.16 13:00
+! Version: 2015.06.16 14:00
 ! Expires: 4h
 ! Homepage: https://github.com/dupontjoy/customization/blob/master/Rules/Floating-n-Porn-Ads-Filter.txt
 ! Contact: https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------------!
 ！開始！
 
-gsmarena.com###subHeader
-economist.com##.share-inline-footer-facebook.first
-economist.com##.share-plusone.last
-economist.com##.share-inline-footer-twitter.even
-economist.com##.share-inline-footer-reddit
-economist.com##.share-linkedin.even
-iqiyi.com##.cell-right
-iqiyi.com##.cell-left
-edition.cnn.com##.sibling.sibling--previous.sibling--disable-hover
-edition.cnn.com##.sibling.sibling--next.sibling--disable-hover
-baidu.com##.wgt-bottom-ask
-beautifultech.com###esns_box_layer
-beautifultech.com###esns_background_layer
-beautifultech.com###message-popup-window
-beautifultech.com###message-popup-window-mask
-job.dajie.com##.foot
-job.dajie.com##.title
-job.dajie.com##.J_log_form.show_captcha
-job.dajie.com##.mask
-v.youku.com###ykSidebar_w970_custom
-v.youku.com###toolbarservice
-youtube.com###ujs-hdr-links-div
-tieba.baidu.com###celebrity
-tieba.baidu.com##.j_lzl_container.core_reply_wrapper.hideLzl
-baidu.com##IMG[alt="/"]
-baidu.com##.top_banner_cutdown_bg
-baidu.com###top_banner_cutdown
-baidu.com##.adv_full_top_close
-baidu.com##.downloadad_yy
-baidu.com##.hd-keyword
-baidu.com###side-1-wrap
-the1room.com###login-page
-pan.baidu.com##.video-title-right
-note.wiz.cn###wiz-poster
-chrome.google.com##.webstore-mh
-bbs.kafan.cn##.bm_h
-user.qzone.qq.com##.f-single.f-s-s.f-single-biz
-entry.baidu.com##.opentrue
-buyer.trade.taobao.com##[role="dialog"]
-wuliu.taobao.com##.tao-doll.J_TaoDoll
-wuliu.taobao.com##.J_ServiceListWrap.service-question-list-wrap
-wuliu.taobao.com###J_ActSlider
-buyer.trade.taobao.com###rrq
-samsung.com###need_close
-samsung.com###need_help
-user.qzone.qq.com##.f-single.feed-hot
-bbs.kafan.cn##SPAN[style="float:left;margin-right:5px"]
-zuoye.baidu.com##TD
-blog.sina.com.cn##.BNE_blog_feed
-tieba.baidu.com##.thread_recommend_ps
-rate.taobao.com##.J_ServiceListWrap.service-question-list-wrap
-rate.taobao.com##.tao-doll.J_TaoDoll
-kankan.com###t33
-v.youku.com###lotteryHand
-torrentkitty.org###note
-kindbook.cn##IMG[src="static/image/smiley/anzai/003.gif"]
-kindbook.cn##A[href="http://www.kindbook.cn/plugin.php?id=webpage&identifier=juanzeng"]
-kindbook.cn##.tshare.cl
-kindbook.cn##FIELDSET[style="border:1px dashed #FF0000;padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;"]
-kindbook.cn###wechat_float_qrcode
-focus.tianya.cn##.bottom-nav-wrap
-focus.tianya.cn##CENTER
-tieba.baidu.com##.region_bright.platform_aside_tieba_partner
-guancha.cn##.top_news.top_news_fixed
-guancha.cn##.right-side01.pull-left
-iqiyi.com##.nav_mag_dot
-v.youku.com##A[onclick="Log.log(1, 'tp=1&cp=4009804&cpp=1000217');"]
-mail.163.com##DIV[style="padding-top:20px;padding-left:15px;position:relative;+zoom:1"]
-iqiyi.com##.downClient
-tieba.baidu.com##.u_split
-hot.qianyan001.com##.cnpic
-hot.qianyan001.com##.cn_xt2
-hot.qianyan001.com##.cnpic2
-so.iqiyi.com##.search_result_download.mt10
-sports.dbw.cn##DIV[style=" height:197px; width:600px; margin:0 auto; border:1px #CCC solid; padding-top:3px ; padding-left:10px; margin-top:5px; margin-bottom:5px;  font-size:12px"]
-iqiyi.com##.qy_nav_pop
-iqiyi.com##.gx
-iask.sina.com.cn###addfix
-iask.sina.com.cn###daily_cnxh > .bottom_box_zt > .wrap
-iask.sina.com.cn###daily_topic_flnr
-www.economist.com##.mm-modal
-www.economist.com##.mm-modal-overl
-www.baidu.com###content_left > .IdqPnR
-www.ea96.com###MPN_MONITOR > div
-tieba.baidu.com###com_userbar.userbar > ul > .u_joinvip > .u_menu_item.u_menu_joinvip
-society.dbw.cn##.main > .box_r_ej.fr
-society.dbw.cn##.main > .box_ej.fl > div:nth-of-type(6)
-tieba.baidu.com###com_userbar.userbar > ul > .u_joinvip
-www.etotalk.com###left_banner
-www.etotalk.com###right_banner
-www.etotalk.com###e_news
 ##FONT.jammer
-http://yun.baidu.com/#from=share_yun_logo
-yun.baidu.com###feedIssue > .feed-issue-guide
-www.sc.xinhuanet.com###rdx07 > div:nth-of-type(1)
-www.ebay.com###overlay-image
-www.ebay.com###HomepageOverlay0314-fade
-picture.youth.cn##.main2 > .main2_left
-picture.youth.cn##.main2 > .main2_right
-bbs.kafan.cn##[style="float:right;margin-left:5px"]
-www.cnhuadong.net##.page_content > .page_content_l > .adboxli:nth-of-type(7)
-www.cnhuadong.net##.page_content > .page_content_l > .page_l_div:nth-of-type(8)
-www.cnhuadong.net##.page_content > .page_content_l > .adbox:nth-of-type(8) > div
-www.cnhuadong.net##.page_content > .page_content_r > .page_r_div:nth-of-type(8)
-www.cnhuadong.net##.page_content > .page_content_l > .page_l_div:nth-of-type(9)
-www.cnhuadong.net##.page_content > .page_content_l > .adbox:nth-of-type(9)
-www.cnhuadong.net##.page_content > .page_content_l > .adbox:nth-of-type(10)
 ||*monitor.jpg?xcode
 ||api.share.baidu.com
 ||bdimg.share.baidu.com/static/js/*
@@ -139,21 +33,40 @@ app.yinxiang.com###lightbox-fake-border.dark
 app.yinxiang.com###lightbox-frame.lightbox-iframe
 app.yinxiang.com###lightbox-glass
 app.yinxiang.com###lightbox-holder.dark
+baidu.com###side-1-wrap
+baidu.com###top_banner_cutdown
+baidu.com##.adv_full_top_close
 baidu.com##.arrow
 baidu.com##.c-gap-top.c-recommend
 baidu.com##.c-gray.c-feedback
+baidu.com##.downloadad_yy
+baidu.com##.hd-keyword
+baidu.com##.top_banner_cutdown_bg
+baidu.com##.wgt-bottom-ask
+baidu.com##IMG[alt="/"]
 baike.baidu.com###bdshareside
 baike.baidu.com###bkDynamic
 baike.baidu.com##.guide-tip.yahei
 bbs.ithome.com##[style="width:960px;height:60px;background:#fff;padding:0 20px;margin: 0 auto;"]
 bbs.kafan.cn###autopbn
 bbs.kafan.cn###scrolltop
+bbs.kafan.cn##.bm_h
 bbs.kafan.cn##.ptn.xg2
+bbs.kafan.cn##[style="float:right;margin-left:5px"]
+bbs.kafan.cn##SPAN[style="float:left;margin-right:5px"]
+beautifultech.com###esns_background_layer
+beautifultech.com###esns_box_layer
+beautifultech.com###message-popup-window
+beautifultech.com###message-popup-window-mask
+blog.sina.com.cn##.BNE_blog_feed
 blog.sina.com.cn##.close
 blog.sina.com.cn##.horn_con
 buyer.trade.taobao.com###ks-component2335.ks-dialog.ks-overlay.tm-dialog-white.novice-dialog
 buyer.trade.taobao.com###ks-component2338.ks-dialog.ks-overlay.tm-dialog-white.novice-dialog
+buyer.trade.taobao.com###rrq
 buyer.trade.taobao.com##.ks-dialog-mask.ks-overlay-mask
+buyer.trade.taobao.com##[role="dialog"]
+chrome.google.com##.webstore-mh
 cnn.com###cnn_hdr-prompt
 ebay.com##[style="height: 9143px; display: block;"]
 ebay.com##IMG[width="753"][height="423"]
@@ -162,7 +75,15 @@ economist.com###footer-classifieds
 economist.com###leaderboard
 economist.com###simplemodal-container
 economist.com###simplemodal-overlay
+economist.com##.share-inline-footer-facebook.first
+economist.com##.share-inline-footer-reddit
+economist.com##.share-inline-footer-twitter.even
+economist.com##.share-linkedin.even
+economist.com##.share-plusone.last
+edition.cnn.com##.sibling.sibling--next.sibling--disable-hover
+edition.cnn.com##.sibling.sibling--previous.sibling--disable-hover
 edition.cnn.com##.user-msg
+entry.baidu.com##.opentrue
 finance.sina.com.cn##.wrap > .Main.clearfix > .sidebar > iframe:nth-of-type(5)
 fm.baidu.com###playerpanel-share
 fm.baidu.com###promotionbar
@@ -173,6 +94,8 @@ fm.baidu.com##.jq-tooltip-center
 fm.baidu.com##.jq-tooltip-top
 fm.baidu.com##.jq-tooltip-top-left
 fm.baidu.com##.jq-tooltip-top-right
+focus.tianya.cn##.bottom-nav-wrap
+focus.tianya.cn##CENTER
 ft.com###cookie-consent-container
 ft.com###optimostOverlay
 github.com##.unsupported-browser
@@ -180,10 +103,20 @@ globaldeals.ebay.com###modal-background
 globaldeals.ebay.com###subs-panel
 greasyfork.org###share
 griffintechnology.com##.modal.newsletter-signup.new.modal-style.hidden
+gsmarena.com###subHeader
+guancha.cn##.right-side01.pull-left
+guancha.cn##.top_news.top_news_fixed
+hot.qianyan001.com##.cn_xt2
+hot.qianyan001.com##.cnpic
+hot.qianyan001.com##.cnpic2
+http://yun.baidu.com/#from=share_yun_logo
 i.youku.com###iconitemfeedback
 i.youku.com###iconitemmember
 i.youku.com###iconitemnotice
 i.youku.com###iconitemshopping
+iask.sina.com.cn###addfix
+iask.sina.com.cn###daily_cnxh > .bottom_box_zt > .wrap
+iask.sina.com.cn###daily_topic_flnr
 ic.sjlpj.cn##.edui-message-body.edui-message-type-info.edui-default
 ic.sjlpj.cn##.edui-message-closer.edui-default
 icbc.com.cn##A[style="height:316px;"]
@@ -192,14 +125,31 @@ international.dbw.cn##.box1
 international.dbw.cn##.box-all.Jutop
 international.dbw.cn##TD[style="padding:4px; line-height:20px"]
 iqiyi.com##.appDownload-album
+iqiyi.com##.cell-left
+iqiyi.com##.cell-right
+iqiyi.com##.downClient
+iqiyi.com##.gx
 iqiyi.com##.helpFeedback
+iqiyi.com##.nav_mag_dot
+iqiyi.com##.qy_nav_pop
 iqiyi.com##.wanwan-yx
 jingyan.baidu.com###blue-book-ads
 jingyan.baidu.com###exp-msgbox
 jingyan.baidu.com##EM
+job.dajie.com##.foot
+job.dajie.com##.J_log_form.show_captcha
+job.dajie.com##.mask
+job.dajie.com##.title
 jobui.com##.enhance-attention-box
+kankan.com###t33
+kindbook.cn###wechat_float_qrcode
+kindbook.cn##.tshare.cl
+kindbook.cn##A[href="http://www.kindbook.cn/plugin.php?id=webpage&identifier=juanzeng"]
+kindbook.cn##FIELDSET[style="border:1px dashed #FF0000;padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;"]
+kindbook.cn##IMG[src="static/image/smiley/anzai/003.gif"]
 mail.163.com###\5f mail_component_9_9
 mail.163.com###dvYixinWrapper
+mail.163.com##DIV[style="padding-top:20px;padding-left:15px;position:relative;+zoom:1"]
 mail.qq.com###folder_reader
 news.baidu.com###favoriteTips
 news.baidu.com##.image-list
@@ -207,12 +157,12 @@ news.baidu.com##.recommend-mask
 news.china.com.cn###picifr
 news.china.com.cn##.wrap > .footet
 news.sohu.com###hotpicnew.mutu-pic.kind-video.clear
+note.wiz.cn###wiz-poster
 note.youdao.com##.context-tip.context-tip-up
 pan.baidu.com###module-ad
 pan.baidu.com###shareqr
 pan.baidu.com###top_menu_other
 pan.baidu.com##.b-dialog.alert-dialog1.newhand-tips-dialog
-pan.baidu.com##.b-panel.b-canvas
 pan.baidu.com##.b-panel.b-canvas
 pan.baidu.com##.b-panel.b-dialog.module-mboxDialog.alert-dialog
 pan.baidu.com##.b-panel.b-dialog.module-mboxDialog.alert-dialog > .dlg-hd
@@ -223,9 +173,20 @@ pan.baidu.com##.module-hot-rec
 pan.baidu.com##.module-rel-rec
 pan.baidu.com##.tips-bg.newhandTips3-bg
 pan.baidu.com##.upload-bar.global-clearfix
+pan.baidu.com##.video-title-right
 pan.baidu.com##A[style="text-decoration: none;"]
+picture.youth.cn##.main2 > .main2_left
+picture.youth.cn##.main2 > .main2_right
 pinterest.com##.UnauthBanner.Module
+rate.taobao.com##.J_ServiceListWrap.service-question-list-wrap
+rate.taobao.com##.tao-doll.J_TaoDoll
+samsung.com###need_close
+samsung.com###need_help
 shanbay.com##.noty_bar.noty_theme_default.noty_layout_top.noty_alert.noty_closable
+so.iqiyi.com##.search_result_download.mt10
+society.dbw.cn##.main > .box_ej.fl > div:nth-of-type(6)
+society.dbw.cn##.main > .box_r_ej.fr
+sports.dbw.cn##DIV[style=" height:197px; width:600px; margin:0 auto; border:1px #CCC solid; padding-top:3px ; padding-left:10px; margin-top:5px; margin-bottom:5px;  font-size:12px"]
 stacksocial.com##.bg-16.pam.text-center
 stacksocial.com##.bg-2.c-11.fsxxxs.fws.lss.pvxxs.text-center.relative
 stacksocial.com##.capture.nmtxs.pbl.phxl.text-center
@@ -233,9 +194,13 @@ stacksocial.com##.modal.fixed.fill.zxl.bg-1.no-select.soft-hide.fade-m.z-modal
 star.tga.plu.cn##.rap
 star.tga.plu.cn##.tga-tips-content
 star.tga.plu.cn##.tga-tips-title
+the1room.com###login-page
 tieba.baidu.com###aside_album_good
 tieba.baidu.com###bdshare
 tieba.baidu.com###bonus_forum_aside\20
+tieba.baidu.com###celebrity
+tieba.baidu.com###com_userbar.userbar > ul > .u_joinvip
+tieba.baidu.com###com_userbar.userbar > ul > .u_joinvip > .u_menu_item.u_menu_joinvip
 tieba.baidu.com###forum_recommend
 tieba.baidu.com###game_frs_head,#game_forum,#lecai_lottery,.clear+.game_spread_thread,.game_rank, #ueg_policy_open, .aside_album_good_main>.aagm_a_img, .edui-container>.tb_poster_placeholder, .cont_sign_banner,.worldcup_rank,.game_content,.game_tab,[class^=fifa_card],#tbmall_score_region,#aside_ad, .doupiao_offline, #encourage_entry,#thread_list>li[data-daid], body>div[data-daid], #j_p_postlist>div[data-daid]
 tieba.baidu.com###pop_animate
@@ -248,11 +213,13 @@ tieba.baidu.com##.fMember_cnt
 tieba.baidu.com##.forum_level.lv11
 tieba.baidu.com##.icon_wrap.icon_wrap_theme1.d_pb_icons
 tieba.baidu.com##.j_icon_slot
+tieba.baidu.com##.j_lzl_container.core_reply_wrapper.hideLzl
 tieba.baidu.com##.j_mobile
 tieba.baidu.com##.j_user_sign
 tieba.baidu.com##.nav_item_hot_flag
 tieba.baidu.com##.poster_head_surveillance.j_surveillance
 tieba.baidu.com##.profile_bottom_link
+tieba.baidu.com##.region_bright.platform_aside_tieba_partner
 tieba.baidu.com##.reward_btn.j_reward_btn
 tieba.baidu.com##.save_face_bg.save_face_bg_2
 tieba.baidu.com##.share_btn_wrapper
@@ -260,6 +227,7 @@ tieba.baidu.com##.split
 tieba.baidu.com##.tb_icon_base.tb_icon_new
 tieba.baidu.com##.tbui_aside_float_bar
 tieba.baidu.com##.thread_recommend
+tieba.baidu.com##.thread_recommend_ps
 tieba.baidu.com##.tieba_notice.tieba_notice_theme2
 tieba.baidu.com##.u_menu_item.j_u_menu_bd_home_link
 tieba.baidu.com##.u_menu_item.u_menu_app
@@ -267,6 +235,7 @@ tieba.baidu.com##.u_menu_item.u_menu_appcenterEntrance
 tieba.baidu.com##.u_menu_item.u_menu_baiduPrivilege
 tieba.baidu.com##.u_menu_item.u_menu_tbmall
 tieba.baidu.com##.u_menu_item.u_menu_tshow
+tieba.baidu.com##.u_split
 tieba.baidu.com##.ui_bubble_wrap.j_wrap
 tieba.baidu.com##A[href="/tbmall/tshow"]
 topit.me###btn_close
@@ -275,15 +244,22 @@ topit.me##.box.box_big
 topit.me##.box.box_small
 topit.me##.box.userinfo
 topit.me##A[style="font-size:16px; display:block; margin:0 0 10px; line-height:120%;"]
+torrentkitty.org###note
 user.qzone.qq.com###QM_Container_100002
 user.qzone.qq.com###tb_vip_li
 user.qzone.qq.com##.fn_accessLog_tips.bg2.bor2
+user.qzone.qq.com##.f-single.feed-hot
+user.qzone.qq.com##.f-single.f-s-s.f-single-biz
 user.qzone.qq.com##.mod-side-nav.mod-side-nav-recently-used
 user.qzone.qq.com##.qz-btn-vip.qz-btn-vip-open
 v.youku.com###iconitemmember
 v.youku.com###iconitemnotice
 v.youku.com###iconitemshopping
+v.youku.com###lotteryHand
+v.youku.com###toolbarservice
 v.youku.com###toolbarutil
+v.youku.com###ykSidebar_w970_custom
+v.youku.com##A[onclick="Log.log(1, 'tp=1&cp=4009804&cpp=1000217');"]
 v.youku.com##DIV[style="position:relative;height:32px;margin:0;background:#ffffe5;border:1px solid #ecdda8"]
 vod.xunlei.com###common_notice_layer
 vod.xunlei.com###original_url
@@ -294,12 +270,34 @@ wenku.baidu.com##.bl
 wenku.baidu.com##.tl
 wenku.baidu.com##.tr
 wenku.baidu.com##I
+wuliu.taobao.com###J_ActSlider
+wuliu.taobao.com##.J_ServiceListWrap.service-question-list-wrap
+wuliu.taobao.com##.tao-doll.J_TaoDoll
+www.baidu.com###content_left > .IdqPnR
 www.baidu.com###content_right.cr-offset > table > tbody > tr > td > div:nth-of-type(2)
 www.baidu.com###form.fm > .tools
+www.cnhuadong.net##.page_content > .page_content_l > .adbox:nth-of-type(10)
+www.cnhuadong.net##.page_content > .page_content_l > .adbox:nth-of-type(8) > div
+www.cnhuadong.net##.page_content > .page_content_l > .adbox:nth-of-type(9)
+www.cnhuadong.net##.page_content > .page_content_l > .adboxli:nth-of-type(7)
+www.cnhuadong.net##.page_content > .page_content_l > .page_l_div:nth-of-type(8)
+www.cnhuadong.net##.page_content > .page_content_l > .page_l_div:nth-of-type(9)
+www.cnhuadong.net##.page_content > .page_content_r > .page_r_div:nth-of-type(8)
+www.ea96.com###MPN_MONITOR > div
+www.ebay.com###HomepageOverlay0314-fade
+www.ebay.com###overlay-image
+www.economist.com##.mm-modal
+www.economist.com##.mm-modal-overl
+www.etotalk.com###e_news
+www.etotalk.com###left_banner
+www.etotalk.com###right_banner
 www.iqiyi.com###widget-springphone.newyear-app-down > .close-fixed[href="javascript:void(0);"]
 www.iqiyi.com###widget-springphone.newyear-app-down > .info
 www.iqiyi.com###widget-springphone.newyear-app-down > .newyear-appBg
+www.sc.xinhuanet.com###rdx07 > div:nth-of-type(1)
 youku.com##DIV[style="position:relative;height:32px;margin:0;background:#ffffe5;border:1px solid #ecdda8"]
+youtube.com###ujs-hdr-links-div
+yun.baidu.com###feedIssue > .feed-issue-guide
 zhidao.baidu.com###left-promotion.left-promotion > img
 zhidao.baidu.com###ui-tooltip-0
 zhidao.baidu.com###wgt-topic
@@ -310,3 +308,5 @@ zhidao.baidu.com##.cms-slide.cms-slide-lazy
 zhidao.baidu.com##.wgt-bottom-ask
 zhidao.baidu.com##.wgt-push.mt-5
 zhidao.baidu.com##.widget-sma
+zuoye.baidu.com##TD
+
