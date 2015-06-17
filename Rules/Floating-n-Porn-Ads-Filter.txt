@@ -10,6 +10,8 @@
 !---------------------------------------------------------------------------------------------!
 ！開始！
 
+||comm100.cn^$third-party
+||dw26xg4lubooo.cloudfront.net^$third-party
 ||doubleclick.net^$third-party
 baidu.com##.tip-4-618
 jandan.net##DIV[style="padding-left\a :120px;padding-bottom:20px"]
