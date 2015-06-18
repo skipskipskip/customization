@@ -10,6 +10,8 @@
 !---------------------------------------------------------------------------------------------!
 ！開始！
 
+||youtube.com^$third-party,domain=pandawill.com
+||ytimg.com^$third-party,domain=pandawill.com
 ||avatars0.githubusercontent.com^$third-party
 ||avatars2.githubusercontent.com^$third-party
 ||vk.com^$third-party
