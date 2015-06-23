@@ -1,5 +1,5 @@
 ﻿
-//2015.06.14 15:00  精簡少量參數，清理一個過度優化參數
+//2015.06.23 12:00  精簡少量參數，清理一個過度優化參數
 //2015.05.31 09:00  ucjsPermission禁用第三方腳本
 //2015.05.22 21:00  新增newDownloadPlus參數
 //2015.05.21 12:00  加入一些參數，分組整理
@@ -62,9 +62,9 @@ user_pref("browser.cache.disk.max_entry_size", 4096);//最大磁盘缓存元素�
 user_pref("browser.cache.memory.max_entry_size", 51200);//单个文件內存缓存上限(50MB) 
 
 /*==========圖片相關==========*/
-user_pref("layout.imagevisibility.enabled", true);//仅解码可见区域的图片
+user_pref("layout.imagevisibility.enabled", false);//仅解码可见区域的图片（否，没必要用NoLazyload腳本嘛）
 user_pref("image.mem.decodeondraw", false);//不解码非激活标签的图片
-user_pref("image.mem.min_discard_timeout_ms", 1000);//释放图片所佔用的记忆体，越小时间越短，但太短则会造成图片不能显示
+user_pref("image.mem.min_discard_timeout_ms", 10000);//释放图片所佔用的记忆体，越小时间越短，但太短则会造成图片不能显示（10秒）
 user_pref("image.mem.decode_bytes_at_a_time", 16384);//图片解码器一次调用多大数据块
 user_pref("image.mem.max_ms_before_yield", 250);//Image decoding tweaks
 user_pref("image.mem.max_decoded_image_kb", 256000);//解码的图片（decoded images）的内存缓存大小; 256MB 足矣
