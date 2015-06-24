@@ -3,13 +3,15 @@
 ! Description: 【國內網站悬浮及色情圖片——EHH規則】過濾國內主流網站 悬浮廣告 及 色情圖片（主流網站都那麼多色情圖片，太不利於青少年的身心健康！）最先是EHH過濾，慢慢就集合了幾百條規則了，改用訂閱方式，方便不同机器之間的同步。
 ! Author: Dupontjoy
 ! License: Creative Commons BY-NC-SA
-! Version: 2015.06.22 11:00
+! Version: 2015.06.24 14:00
 ! Expires: 4h
 ! Homepage: https://github.com/dupontjoy/customization/blob/master/Rules/Floating-n-Porn-Ads-Filter.txt
 ! Contact: https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------------!
 ！開始！
 
+tieba.baidu.com##.dialogJcontent
+tieba.baidu.com##.dialogJmodal
 163.com##span.slider-ctrl-con
 cnn.com##.user-msg
 china.com.cn##.Photos
@@ -230,7 +232,6 @@ tieba.baidu.com##.fMember_cnt
 tieba.baidu.com##.forum_level.lv11
 tieba.baidu.com##.icon_wrap.icon_wrap_theme1.d_pb_icons
 tieba.baidu.com##.j_icon_slot
-tieba.baidu.com##.j_lzl_container.core_reply_wrapper.hideLzl
 tieba.baidu.com##.j_mobile
 tieba.baidu.com##.j_user_sign
 tieba.baidu.com##.nav_item_hot_flag
