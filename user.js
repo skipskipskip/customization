@@ -1,5 +1,5 @@
 ﻿
-//2015.06.23 12:00  精簡少量參數，清理一個過度優化參數
+//2015.06.25 14:00  精簡少量參數，清理一個過度優化參數
 //2015.05.31 09:00  ucjsPermission禁用第三方腳本
 //2015.05.22 21:00  新增newDownloadPlus參數
 //2015.05.21 12:00  加入一些參數，分組整理
@@ -45,7 +45,8 @@ user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
 /*==========標籤相關==========*/
 user_pref("browser.tabs.insertRelatedAfterCurrent", true);//紧邻当前标签打开相关标签
 user_pref("browser.tabs.animate", false);//關閉标签页动画
-user_pref("browser.tabs.warnOnClose", false);//關閉時不提示
+user_pref("browser.tabs.warnOnClose", false);//關閉多個標籤時不提示
+user_pref("browser.tabs.warnOnCloseOtherTabs", false);//關閉其它標籤時不提示
 
 /*==========書籤相關==========*/
 user_pref("browser.bookmarks.autoExportHTML", true);//书签生成html
@@ -128,7 +129,8 @@ user_pref("extensions.ui.lastCategory", "addons://list/extension");//打开附�
 user_pref("general.skins.selectedSkin", "simplewhite");//使用SimpleWhite主題
 user_pref("general.warnOnAboutConfig", false);//AboutConfig警告
 user_pref("browser.urlbar.trimURLs", false);//地址栏显示 http://
-user_pref("view_source.wrap_long_lines", true);//页面源代码--将较长的行自动换行
+user_pref("view_source.editor.external", true);//页面源代码——使用外部編輯器查看
+user_pref("view_source.wrap_long_lines", true);//页面源代码——将较长的行自动换行
 user_pref("privacy.popups.showBrowserMessage", false);//弹窗不提示消息
 user_pref("dom.successive_dialog_time_limit", 0);//避免此页面产生更多对话框
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
