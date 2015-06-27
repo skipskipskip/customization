@@ -1,5 +1,4 @@
-Customization
-=============
+##Customization
 
 **persdict.dat：**自定义的词典
 
