@@ -1,5 +1,5 @@
 ﻿
-//2015.06.25 14:00  精簡少量參數，清理一個過度優化參數
+//2015.06.27 17:00  精簡少量參數，清理一個過度優化參數
 //2015.05.31 09:00  ucjsPermission禁用第三方腳本
 //2015.05.22 21:00  新增newDownloadPlus參數
 //2015.05.21 12:00  加入一些參數，分組整理
@@ -85,6 +85,7 @@ user_pref("network.http.max-connections", 48); // 不要最大化网络层，以
 user_pref("network.http.max-connections-per-server", 8); // 使用了流水线，这个值应该小一点儿 (FF=15)
 user_pref("network.http.max-persistent-connections-per-proxy", 8);
 user_pref("network.http.max-persistent-connections-per-server", 6);
+user_pref("network.dns.disableIPv6", true); //禁用IPv6
 user_pref("network.dns.disablePrefetch", true); //禁用DNS预读，防止路由阻塞
 user_pref("network.dnsCacheEntries", 0); //DNS緩存數
 user_pref("network.dnsCacheExpiration", 3600); //DNS緩存失效時間（單位秒）
