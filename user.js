@@ -65,10 +65,6 @@ user_pref("browser.cache.memory.max_entry_size", 51200);//单个文件內存缓�
 /*==========圖片相關==========*/
 user_pref("layout.imagevisibility.enabled", false);//仅解码可见区域的图片（否，没必要用NoLazyload腳本嘛）
 user_pref("image.mem.decodeondraw", false);//不解码非激活标签的图片
-user_pref("image.mem.min_discard_timeout_ms", 10000);//释放图片所佔用的记忆体，越小时间越短，但太短则会造成图片不能显示（10秒）
-user_pref("image.mem.decode_bytes_at_a_time", 16384);//图片解码器一次调用多大数据块
-user_pref("image.mem.max_ms_before_yield", 250);//Image decoding tweaks
-user_pref("image.mem.max_decoded_image_kb", 256000);//解码的图片（decoded images）的内存缓存大小; 256MB 足矣
 
 /*==========Javascript相關==========*/
 user_pref("javascript.options.xml.content", true);//总是 jit 加速 javascript，改善JS内存占用
