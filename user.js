@@ -1,5 +1,5 @@
 ﻿
-//2015.06.27 17:00  精簡少量參數，清理一個過度優化參數
+//2015.06.30 09:00  精簡少量參數，清理一個過度優化參數
 //2015.05.31 09:00  ucjsPermission禁用第三方腳本
 //2015.05.22 21:00  新增newDownloadPlus參數
 //2015.05.21 12:00  加入一些參數，分組整理
@@ -54,7 +54,6 @@ user_pref("browser.bookmarks.max_backups", 0);//最大备份数目
 user_pref("browser.places.smartBookmarksVersion", -1);//禁用智能书签
 
 /*==========緩存相關==========*/
-user_pref("browser.cache.disk.enable", true);//是否使用磁盘缓存
 user_pref("browser.cache.disk_cache_ssl", false);//是否开启ssl磁盘缓存
 user_pref("browser.cache.disk.smart_size.enabled", false);//关闭磁盘缓存容量自动管理
 user_pref("browser.cache.disk.smart_size.first_run", false);//标记是否属于首次smart sizing？默认true
@@ -63,7 +62,7 @@ user_pref("browser.cache.disk.max_entry_size", 4096);//最大磁盘缓存元素�
 user_pref("browser.cache.memory.max_entry_size", 51200);//单个文件內存缓存上限(50MB) 
 
 /*==========圖片相關==========*/
-user_pref("layout.imagevisibility.enabled", false);//仅解码可见区域的图片（否，没必要用NoLazyload腳本嘛）
+user_pref("layout.imagevisibility.enabled", false);//是否仅解码可见区域的图片（否，没必要用NoLazyload腳本嘛）
 user_pref("image.mem.decodeondraw", false);//不解码非激活标签的图片
 
 /*==========Javascript相關==========*/
@@ -82,9 +81,8 @@ user_pref("network.http.max-connections-per-server", 8); // 使用了流水线�
 user_pref("network.http.max-persistent-connections-per-proxy", 8);
 user_pref("network.http.max-persistent-connections-per-server", 6);
 user_pref("network.dns.disableIPv6", true); //禁用IPv6
-user_pref("network.dns.disablePrefetch", true); //禁用DNS预读，防止路由阻塞
-user_pref("network.dnsCacheEntries", 0); //DNS緩存數
-user_pref("network.dnsCacheExpiration", 3600); //DNS緩存失效時間（單位秒）
+user_pref("network.dnsCacheEntries", 20); //DNS緩存數
+user_pref("network.dnsCacheExpiration", 36000); //DNS緩存失效時間（單位秒）
 user_pref("network.proxy.socks_remote_dns", true);//使用socks代理dns解析，据说可以解决dns污染或DNS劫持。前提是你有socks代理软件。
 
 /*==========平滑滾動==========*/
@@ -199,6 +197,7 @@ user_pref("flashgot.hide-media", true);
 user_pref("flashgot.hide-options", true);
 user_pref("flashgot.hide-sel", true);
 user_pref("flashgot.includeImages", true);//包含当前页面的图片
+user_pref("flashgot.altClick", false);//取消 Alt+Click = 使用 FlashGot 下載
 user_pref("flashgot.autoStart", false);//取消 自动下载已监视的文件（開啟後所有下載自動調用DTA）
 user_pref("flashgot.interceptAll", true);//接管所有下载
 user_pref("flashgot.logEnabled", false);//禁用日志
