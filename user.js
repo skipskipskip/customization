@@ -1,5 +1,6 @@
 ﻿
-//2015.06.30 09:00  精簡少量參數，清理一個過度優化參數
+//2015.07.07 21:00  新增禁止「HTTPS不允许混合内容」特性的參數
+//2015.06.30 21:00  精簡少量參數，清理一個過度優化參數
 //2015.05.31 09:00  ucjsPermission禁用第三方腳本
 //2015.05.22 21:00  新增newDownloadPlus參數
 //2015.05.21 12:00  加入一些參數，分組整理
@@ -84,6 +85,9 @@ user_pref("network.dns.disableIPv6", true); //禁用IPv6
 user_pref("network.dnsCacheEntries", 20); //DNS緩存數
 user_pref("network.dnsCacheExpiration", 36000); //DNS緩存失效時間（單位秒）
 user_pref("network.proxy.socks_remote_dns", true);//使用socks代理dns解析，据说可以解决dns污染或DNS劫持。前提是你有socks代理软件。
+//HTTPS不允许混合内容，以下两条参数用以禁用此特性
+user_pref("security.mixed_content.block_active_content", false);
+user_pref("security.mixed_content.block_display_content", false);
 
 /*==========平滑滾動==========*/
 user_pref("general.smoothScroll.durationToIntervalRatio", 500);
