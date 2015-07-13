@@ -1,5 +1,7 @@
 ###個人維護的一些規則
 
+by Cing
+
 | | |
 | :--- | :--- |
 | **Autoproxy-self-rules.txt** | 自定义的翻墙网站列表 |
