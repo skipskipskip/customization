@@ -6,7 +6,7 @@
 ! Version:      2015.07.19 16:00
 ! Expires:      4h
 ！Note:         每半年清理一次不太用到的規則（下次清理2015.12.31）
-! Homepage:     https://raw.githubusercontent.com/dupontjoy/customization/master/Rules/Floating-n-Porn-Ads-Filter.txt
+! Homepage:     https://github.com/dupontjoy/customization/blob/master/Rules/Floating-n-Porn-Ads-Filter.txt
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------------!
 ！開始！
