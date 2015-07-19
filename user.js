@@ -1,7 +1,7 @@
 ﻿
+//2015.07.19 12:00  ucjsPermission禁用第三方腳本，對象和框架
 //2015.07.07 21:00  新增禁止「HTTPS不允许混合内容」特性的參數
 //2015.06.30 21:00  精簡少量參數，清理一個過度優化參數
-//2015.05.31 09:00  ucjsPermission禁用第三方腳本
 //2015.05.22 21:00  新增newDownloadPlus參數
 //2015.05.21 12:00  加入一些參數，分組整理
 //2015.05.18 11:00  關閉WebRTC
@@ -271,4 +271,7 @@ user_pref("userChromeJS.downloadPlus.download_dialog_changeName_encodingConvert"
 user_pref("userChromeJS.downloadPlus.download_dialog_changeName_locking", true);//下載改名——鎖定保存文件按鈕
 
 //ucjsPermission腳本
-user_pref("permissions.default.script", 3);//禁用第三方腳本
+//簡單敎程：http://bbs.kafan.cn/thread-1527284-1-1.html，禁止第三方腳本，對象和框架，基本就能過濾掉大部分廣告和不必要的內容。
+user_pref("permissions.default.script", 3);//禁止第三方腳本
+user_pref("permissions.default.object", 3);//禁止第三方對象
+user_pref("permissions.default.subdocument", 3);//禁止第三方框架
