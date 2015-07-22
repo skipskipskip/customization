@@ -3,7 +3,7 @@
 ! Description: 【國內網站悬浮及色情圖片——EHH規則】過濾國內主流網站 悬浮廣告 及 色情圖片（主流網站都那麼多色情圖片，太不利於青少年的身心健康！）最先是EHH過濾，慢慢就集合了幾百條規則了，改用訂閱方式，方便不同机器之間的同步。
 ! Author:       Cing (Dupontjoy)
 ! License:      Creative Commons BY-NC-SA
-! Version:      2015.07.22 07:00
+! Version:      2015.07.22 23:00
 ! Expires:      4h
 ！Note:         每半年清理一次不太用到的規則（下次清理2015.12.31）
 ! Homepage:     https://github.com/dupontjoy/customization/blob/master/Rules/Floating-n-Porn-Ads-Filter.txt
@@ -13,6 +13,8 @@
 ！開始！
 
 ！2015.07.22
+v.youku.com##.qwindow_mask
+v.youku.com##.qwindow
 iqiyi.com##.vip_rec_pop
 iqiyi.com##IFRAME[style="z-index: 4199; background-color: rgb(255, 255, 255); width: 290px; height: 233px; position: absolute; left: 1057px; top: 405px;"]
 ！2015.07.20
