@@ -1,5 +1,5 @@
 ﻿
-//2015.07.22 14:00  ucjsPermission禁用第三方腳本，對象和框架
+//2015.07.24 12:00  ucjsPermission禁用第三方腳本，對象和框架
 //2015.07.07 21:00  新增禁止「HTTPS不允许混合内容」特性的參數
 //2015.06.30 21:00  精簡少量參數，清理一個過度優化參數
 //2015.05.22 21:00  新增newDownloadPlus參數
@@ -145,6 +145,7 @@ user_pref("browser.pagethumbnails.capturing_disabled", true);//禁止截图最�
 user_pref("security.tls.version.fallback-limit", 0);//SSLv3 error messages，让fx忽略连接安全检查
 user_pref("security.tls.version.min", 0);//SSLv3 error messages，让fx忽略连接安全检查
 user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为utf-8格式，默认true
+user_pref("reader.parse-on-load.enabled", false);//禁用閱讀模式
 
 /*==========来自江3省电版火狐==========*/
 //http://bbs.kafan.cn/thread-1442684-1-1.html：关闭DNS预读，链接预读，流水线，钓鱼数据库，历史，插件，磁盘缓存，SSL磁盘缓存...关闭自动更新、开发工具、插件容器、自带pdf.js、各种平滑，动画，闪图
@@ -274,3 +275,6 @@ user_pref("userChromeJS.downloadPlus.download_dialog_changeName_locking", true);
 user_pref("permissions.default.script", 3);//禁止第三方腳本
 user_pref("permissions.default.object", 3);//禁止第三方對象
 user_pref("permissions.default.subdocument", 3);//禁止第三方框架
+
+//uAutoPagerize2腳本
+user_pref("uAutoPagerize.AUTO_START", false);//默認不翻頁
