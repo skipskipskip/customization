@@ -5,9 +5,9 @@
 ! License:      Creative Commons BY-NC-SA
 ! Version:      2015.07.24 14:00
 ! Expires:      4h
-!Note:         每半年清理一次不太用到的規則（下次清理2015.12.31）
+! Note:         每半年清理一次不太用到的規則（下次清理2015.12.31）
 ! Homepage:     https://github.com/dupontjoy/customization/blob/master/Rules/Floating-n-Porn-Ads-Filter.txt
-!UpdateURL:    https://raw.githubusercontent.com/dupontjoy/customization/master/Rules/Floating-n-Porn-Ads-Filter.txt
+! UpdateURL:    https://raw.githubusercontent.com/dupontjoy/customization/master/Rules/Floating-n-Porn-Ads-Filter.txt
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------------!
 !開始!
