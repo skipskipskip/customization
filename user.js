@@ -1,7 +1,7 @@
 ﻿
+//2015.07.28 14:00  精簡少量參數
 //2015.07.24 12:00  ucjsPermission禁用第三方腳本，對象和框架
 //2015.07.07 21:00  新增禁止「HTTPS不允许混合内容」特性的參數
-//2015.06.30 21:00  精簡少量參數，清理一個過度優化參數
 //2015.05.22 21:00  新增newDownloadPlus參數
 //2015.05.21 12:00  加入一些參數，分組整理
 //2015.05.18 11:00  關閉WebRTC
@@ -17,14 +17,7 @@
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
-/*==========實驗參數==========*/
-//user_pref("browser.uiCustomization.state", "");
-//user_pref("browser.tabs.remote", true);//开启标签独立进程模式？默认false，需重启FF生效
-//user_pref("browser.tabs.remote.autostart", true);//自动开启全局多进程框架？默认false；
-//user_pref("browser.tabs.remote.autostart.1", false);
-
 /*==========选项卡里的设置==========*/
-//user_pref("browser.shell.checkDefaultBrowser", true);//启动时检查是否为默认浏览器
 user_pref("browser.preferences.inContent", false);//選項 使用老版彈窗
 user_pref("signon.rememberSignons", false);//不保存密码
 user_pref("privacy.donottrackheader.enabled", true);//告訴網站不想被追蹤
@@ -50,12 +43,11 @@ user_pref("browser.tabs.warnOnClose", false);//關閉多個標籤時不提示
 user_pref("browser.tabs.warnOnCloseOtherTabs", false);//關閉其它標籤時不提示
 
 /*==========書籤相關==========*/
-user_pref("browser.bookmarks.autoExportHTML", true);//书签生成html
+user_pref("browser.bookmarks.autoExportHTML", true);//關閉Firefox时自動生成HTML書籤備份
 user_pref("browser.bookmarks.max_backups", 0);//最大备份数目
 user_pref("browser.places.smartBookmarksVersion", -1);//禁用智能书签
 
 /*==========緩存相關==========*/
-user_pref("browser.cache.disk_cache_ssl", false);//是否开启ssl磁盘缓存
 user_pref("browser.cache.disk.smart_size.enabled", false);//关闭磁盘缓存容量自动管理
 user_pref("browser.cache.disk.smart_size.first_run", false);//标记是否属于首次smart sizing？默认true
 user_pref("browser.cache.disk.capacity", 512000);//最大缓存文件大小(500MB)       
@@ -112,7 +104,7 @@ user_pref("app.update.disable_button.showUpdateHistory", false);
 /*==========关闭安全检测健康中心类==========*/
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.enabled", false);
-user_pref("browser.safebrowsing.downloads.enabled", false);//解決卡在最後一秒的問題
+user_pref("browser.safebrowsing.downloads.enabled", false);//解決下載卡在最後一秒的問題
 
 /*==========主页==========*/
 user_pref("startup.homepage_welcome_url", "");
@@ -140,36 +132,12 @@ user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不�
 user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显示的权利通知
 user_pref("extensions.blocklist.enabled", false);//关闭启动时插件检查窗口
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
-user_pref("browser.sessionstore.interval", 999999999);//保存会话的时间间隔，不能关闭，我取了能取的最大值
+user_pref("browser.sessionstore.interval", 999999999);//保存会话的时间间隔，不能关闭，所以取能取的最大值
 user_pref("browser.pagethumbnails.capturing_disabled", true);//禁止截图最新访问页面的缩略图
 user_pref("security.tls.version.fallback-limit", 0);//SSLv3 error messages，让fx忽略连接安全检查
 user_pref("security.tls.version.min", 0);//SSLv3 error messages，让fx忽略连接安全检查
 user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为utf-8格式，默认true
 user_pref("reader.parse-on-load.enabled", false);//禁用閱讀模式
-
-/*==========来自江3省电版火狐==========*/
-//http://bbs.kafan.cn/thread-1442684-1-1.html：关闭DNS预读，链接预读，流水线，钓鱼数据库，历史，插件，磁盘缓存，SSL磁盘缓存...关闭自动更新、开发工具、插件容器、自带pdf.js、各种平滑，动画，闪图
-//去掉（禁止插件扫描和历史，及一些重复项）
-user_pref("network.http.keep-alive", false);  
-user_pref("network.http.proxy.keep-alive", false);  
-user_pref("devtools.debugger.enabled", false);
-user_pref("devtools.errorconsole.enabled", false);
-user_pref("devtools.inspector.enabled", false);
-user_pref("devtools.layoutview.enabled", false);
-user_pref("devtools.responsiveUI.enabled", false);
-user_pref("devtools.ruleview.enabled", false); //
-user_pref("devtools.scratchpad.enabled", false);
-user_pref("devtools.styleeditor.enabled", false); //
-user_pref("devtools.styleinspector.enabled", false);
-user_pref("devtools.tilt.enabled", false);  //
-user_pref("devtools.toolbar.enabled", false); //
-user_pref("devtools.webconsole.filter.log", false);
-user_pref("javascript.options.showInConsole", false);
-user_pref("javascript.options.strict", false);
-user_pref("layout.css.report_errors", false);  
-user_pref("browser.dom.window.dump.enabled", false);
-user_pref("pdfjs.disabled", true);
-user_pref("dom.ipc.plugins.enabled", false);//针对其他所有插件的的防崩溃保护
 
 /*==========扩展设置==========*/
 //adblockplus
