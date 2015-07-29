@@ -1,5 +1,5 @@
 ﻿
-//2015.07.28 14:00  精簡少量參數
+//2015.07.28 22:00  精簡少量參數，增加DTA參數
 //2015.07.24 12:00  ucjsPermission禁用第三方腳本，對象和框架
 //2015.07.07 21:00  新增禁止「HTTPS不允许混合内容」特性的參數
 //2015.05.22 21:00  新增newDownloadPlus參數
@@ -175,6 +175,16 @@ user_pref("flashgot.interceptAll", true);//接管所有下载
 user_pref("flashgot.logEnabled", false);//禁用日志
 user_pref("flashgot.firstRunRedirection", false);//重建配置不弹FlashGot首页
 
+//DownThemAll！
+user_pref("extensions.dta.conflictresolution", 0);//文檔已存在時自動重命名
+user_pref("extensions.dta.sounds.error", true);//發生錯誤時播放音效
+user_pref("extensions.dta.alertbox", 0);//下載完成後對話視窗提示
+user_pref("extensions.dta.closedta", true);//辯識並列出Flash影片
+user_pref("extensions.dta.ctxmenu", "0,0,0");//不顯示右鍵菜單
+user_pref("extensions.dta.removecanceled", true);//從清單中移除中斷及錯誤的下載
+user_pref("extensions.dta.confirmremove", false);//移除下載前不提示
+user_pref("extensions.dta.exposeInUA", true);//在UA中顯示DTA
+
 //Greasemonkey
 user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议提示
 user_pref("extensions.greasemonkey.installDelay", 0);//安裝時的倒計時
@@ -236,7 +246,7 @@ user_pref("userChromeJS.downloadPlus.save_And_Open", true);//保存并打開
 user_pref("userChromeJS.downloadPlus.save_And_Open_RorL", 1);//保存并打開——打開文件
 user_pref("userChromeJS.downloadPlus.download_dialog_changeName", true);//下載改名
 user_pref("userChromeJS.downloadPlus.download_dialog_changeName_encodingConvert", true);//下載改名——是否開啟下拉菜單
-user_pref("userChromeJS.downloadPlus.download_dialog_changeName_locking", true);//下載改名——鎖定保存文件按鈕
+//user_pref("userChromeJS.downloadPlus.download_dialog_changeName_locking", true);//下載改名——鎖定保存文件按鈕
 
 //ucjsPermission腳本
 //簡單敎程：http://bbs.kafan.cn/thread-1527284-1-1.html，禁止第三方腳本，對象和框架，基本就能過濾掉大部分廣告和不必要的內容。
