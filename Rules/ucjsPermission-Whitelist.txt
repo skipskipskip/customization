@@ -101,7 +101,7 @@ host	script	1	xui.ptlogin2.qq.com
 host	script	1	ydstatic.com
 host	script	1	static.baydn.com
 host	script	1	static.tianyaui.com
-host	object	1	www.youtube.com
+host	subdocument	1	www.youtube.com
 host	script	1	page.douding.cn
 host	object	1	pics.wanlibo.com
 host	script	1	pics.wanlibo.com
