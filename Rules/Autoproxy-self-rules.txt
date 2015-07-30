@@ -1,5 +1,5 @@
 [AutoProxy 0.3.0]
-! Title: Autoproxy自定義名單 2015.07.29
+! Title: Autoproxy自定義名單 2015.07.30
 ! Expires: 4h
 ! Homepage: https://github.com/dupontjoy/customization/blob/master/Rules/Autoproxy-self-rules.txt
 ! Contact: https://github.com/dupontjoy/customization/
@@ -28,6 +28,10 @@
 ||wooaii.com
 ||fasttech.com
 ||fasttechcdn.com
+||everbuying.com
+||everbuying.net
+||mediafire.com
+||faout.com
 
 
 
