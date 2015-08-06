@@ -250,7 +250,6 @@ user_pref("userChromeJS.downloadPlus.download_dialog_changeName_encodingConvert"
 
 //ucjsPermission腳本
 //簡單敎程：http://bbs.kafan.cn/thread-1527284-1-1.html，禁止第三方腳本，對象和框架，基本就能過濾掉大部分廣告和不必要的內容。
-user_pref("permissions.default.script", 3);//禁止第三方腳本
 user_pref("permissions.default.object", 3);//禁止第三方對象
 user_pref("permissions.default.subdocument", 3);//禁止第三方框架
 
