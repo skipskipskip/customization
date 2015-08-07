@@ -1,4 +1,5 @@
 ﻿
+//2015.08.07 09:00  去掉網絡流水線設置，開啟後有時會出現不能上外網的問題，只能重啟電腦
 //2015.07.28 22:00  精簡少量參數，增加DTA參數
 //2015.07.24 12:00  ucjsPermission禁用第三方腳本，對象和框架
 //2015.07.07 21:00  新增禁止「HTTPS不允许混合内容」特性的參數
@@ -65,10 +66,6 @@ user_pref("javascript.options.mem.gc_incremental_slice_ms", 25);//add IGC and ad
 
 /*==========網路相關==========*/
 user_pref("network.prefetch-next", false); //默认关闭预读引擎
-user_pref("network.http.pipelining", true); //默认开启流水线，目前没有出现问题
-user_pref("network.http.pipelining.ssl", true);
-user_pref("network.http.proxy.pipelining", false); // 代理流水线- 会造成一些代理失败 (406)
-user_pref("network.http.pipelining.maxrequests", 12); // 最大流水线请求数
 user_pref("network.http.max-connections", 48); // 不要最大化网络层，以保证家庭网络和无线网络! (FF=256)
 user_pref("network.http.max-connections-per-server", 8); // 使用了流水线，这个值应该小一点儿 (FF=15)
 user_pref("network.http.max-persistent-connections-per-proxy", 8);
