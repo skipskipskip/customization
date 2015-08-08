@@ -1,9 +1,9 @@
 [AutoProxy 0.3.0]
-! Title: Autoproxy自定義名單 2015.07.30
+! Title: Autoproxy自定義名單 2015.08.08
 ! Expires: 4h
 ! Homepage: https://github.com/dupontjoy/customization/blob/master/Rules/Autoproxy-self-rules.txt
 ! Contact: https://github.com/dupontjoy/customization/
-!---------------------------------------------------------------------------------------------!
+!---------------------------------------------------------------------------------------!
 ||wikipedia.org
 ||googlecode.com
 ||feedly.com
@@ -32,6 +32,9 @@
 ||everbuying.net
 ||mediafire.com
 ||faout.com
+||focalprice.com
+||homedepot.com
+||coolicool.com
 
 
 
