@@ -44,12 +44,12 @@ iqiyi.com##IFRAME[style="z-index: 4199; background-color: rgb(255, 255, 255); wi
 article.pchome.net##DIV[style="width:300px;height:250px"]
 article.pchome.net##.piclist
 ! 2015.07.19
-||google-analytics.com^$third-party
 baidu.com##.s_bri
 v.qq.com###mod_float_box
 tieba.baidu.com##.thread_recommend
 18h.mm-cg.com##.UT_thread
 18h.mm-cg.com##UL
+||google-analytics.com^$third-party
 
 !以前添加
 ##FONT.jammer
