@@ -33,7 +33,6 @@ user_pref("gfx.direct2d.force-enabled", true);//在 Windows 平台上强制使�
 user_pref("gfx.direct2d.disabled", true);//禁用字体硬件加速，开启后标题会模糊，字体显示不一致
 //字體語言編碼
 user_pref("intl.charset.detector", "universal_charset_detector");//自動選擇
-user_pref("font.name.sans-serif.zh-CN", "宋体");
 //拼写检查
 user_pref("spellchecker.dictionary", "en-US");//字典
 user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
@@ -248,6 +247,7 @@ user_pref("userChromeJS.downloadPlus.download_dialog_changeName_encodingConvert"
 
 //ucjsPermission腳本
 //簡單敎程：http://bbs.kafan.cn/thread-1527284-1-1.html，禁止第三方腳本，對象和框架，基本就能過濾掉大部分廣告和不必要的內容。
+user_pref("permissions.default.script", 3);//禁止第三方腳本
 user_pref("permissions.default.object", 3);//禁止第三方對象
 user_pref("permissions.default.subdocument", 3);//禁止第三方框架
 
