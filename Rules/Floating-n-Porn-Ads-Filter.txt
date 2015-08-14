@@ -11,8 +11,10 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
-! 2015.08.14
+! 2015.08.14 TVC內网不需要的项目
 ic.sjlpj.cn###m_040109
+ic.sjlpj.cn###m_040111
+ic.sjlpj.cn###m_040208
 ! 2015.08.10
 jd.com###top-banner
 ! 2015.08.09
