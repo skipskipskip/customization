@@ -9,8 +9,10 @@
 ! Homepage:     https://github.com/dupontjoy/customization/blob/master/Rules/Floating-n-Porn-Ads-Filter.txt
 ! UpdateURL:    https://raw.githubusercontent.com/dupontjoy/customization/master/Rules/Floating-n-Porn-Ads-Filter.txt
 ! Contact:      https://github.com/dupontjoy/customization/Rules
-!--------------------------------------------------------------------------------------!
+!-------------------------------------------------------------------------------------!
 !開始!
+! 2015.08.14
+ic.sjlpj.cn###m_040109
 ! 2015.08.10
 jd.com###top-banner
 ! 2015.08.09
