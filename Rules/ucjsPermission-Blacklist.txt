@@ -4,6 +4,7 @@
 
 host	script	2	51.la
 host	script	2	addthis.com
+host	script	2	bkrtx.com
 host	script	2	bluekai.com
 host	script	2	cache.soso.com
 host	script	2	cdn.mplxtms.com
@@ -19,20 +20,28 @@ host	script	2	googletagservices.com
 host	script	2	hm.baidu.com
 host	script	2	jiathis.com
 host	script	2	kbrtx.com
+host	script	2	maxymiser.net
 host	script	2	msg.baidu.com
 host	script	2	openapi.guanjia.qq.com
 host	script	2	paypal.adtag.where.com
 host	script	2	platform.linkedin.com
 host	script	2	platform.twitter.com
+host	script	2	quantserve.com
+host	script	2	sail-horizon.com
 host	script	2	scorecardresearch.com
+host	script	2	serving-sys.com
 host	script	2	share.baidu.com
+host	script	2	sub2tech.com
+host	script	2	tanx.com
+host	script	2	tiqcdn.com
 host	script	2	tradedoubler.com
 host	script	2	translate.google.com
 host	script	2	translate.googleapis.com
 host	script	2	truste.com
+host	script	2	vizury.com
 host	script	2	vk.com
 host	script	2	wanelo.com
-host	script	2	vizury.com
+host	script	2	yieldoptimizer.com
 
 !-------最後一行默認無法導入，所以加個结束行 -------------------------------------!
 !-------結束 -------------------------------------!
