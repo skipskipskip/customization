@@ -1,7 +1,7 @@
 ﻿
+//2015.08.14  ucjsPermission換用黑名單法
 //2015.08.07 09:00  去掉網絡流水線設置，開啟後有時會出現不能上外網的問題，只能重啟電腦
 //2015.07.28 22:00  精簡少量參數，增加DTA參數
-//2015.07.24 12:00  ucjsPermission禁用第三方腳本，對象和框架
 //2015.07.07 21:00  新增禁止「HTTPS不允许混合内容」特性的參數
 //2015.05.22 21:00  新增newDownloadPlus參數
 //2015.05.21 12:00  加入一些參數，分組整理
@@ -33,6 +33,9 @@ user_pref("gfx.direct2d.force-enabled", true);//在 Windows 平台上强制使�
 user_pref("gfx.direct2d.disabled", true);//禁用字体硬件加速，开启后标题会模糊，字体显示不一致
 //字體語言編碼
 user_pref("intl.charset.detector", "universal_charset_detector");//自動選擇
+user_pref("font.name.serif.zh-CN", "Arial");//衬線字體
+user_pref("font.name.sans-serif.zh-CN", "Arial");//無衬線字體
+user_pref("font.name.monospace.zh-CN", "Arial");//等寬字體
 //拼写检查
 user_pref("spellchecker.dictionary", "en-US");//字典
 user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
@@ -247,9 +250,7 @@ user_pref("userChromeJS.downloadPlus.download_dialog_changeName_encodingConvert"
 
 //ucjsPermission腳本
 //簡單敎程：http://bbs.kafan.cn/thread-1527284-1-1.html，禁止第三方腳本，對象和框架，基本就能過濾掉大部分廣告和不必要的內容。
-user_pref("permissions.default.script", 3);//禁止第三方腳本
-user_pref("permissions.default.object", 3);//禁止第三方對象
-user_pref("permissions.default.subdocument", 3);//禁止第三方框架
+//白名单放行好麻烦，還是換用黑名單好了
 
 //uAutoPagerize2腳本
 user_pref("uAutoPagerize.AUTO_START", false);//默認不翻頁
