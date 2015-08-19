@@ -150,7 +150,7 @@ user_pref("extensions.adblockplus.please_kill_startup_performance", true);//关�
 user_pref("extensions.adblockplus.frameobjects", false);//在Java和Flash上显示标签 - 否
 
 //Autoproxy
-user_pref("extensions.autoproxy.customProxy", "Free%20Gate;;8580;$GoAgent;;8087;$Shadowsocks;;1080;socks");
+user_pref("extensions.autoproxy.customProxy", "Shadowsocks;;1080;socks$GoAgent;;8087;$Free%20Gate;;8580;$Psiphon;;8080;$Lantern;;8787;");
 user_pref("extensions.autoproxy.patternsbackups", 0);
 
 //LastPass
