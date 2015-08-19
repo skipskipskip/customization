@@ -11,6 +11,8 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2015.08.19
+wenku.baidu.com##.tiger-eduCoupon-dialog-mask
 ! 2015.08.16
 i.youku.com##[style="display: block;"]
 i.youku.com###qrcode-container
