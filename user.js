@@ -1,4 +1,5 @@
 ﻿
+//2015.08.19  新增DTA參數，數據選擇權
 //2015.08.14  ucjsPermission換用黑名單法
 //2015.08.07 09:00  去掉網絡流水線設置，開啟後有時會出現不能上外網的問題，只能重啟電腦
 //2015.07.28 22:00  精簡少量參數，增加DTA參數
@@ -18,7 +19,7 @@
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
-/*==========选项卡里的设置==========*/
+//*==========选项卡里的设置==========*//
 user_pref("browser.preferences.inContent", false);//選項 使用老版彈窗
 user_pref("signon.rememberSignons", false);//不保存密码
 user_pref("privacy.donottrackheader.enabled", true);//告訴網站不想被追蹤
@@ -40,40 +41,33 @@ user_pref("font.name.monospace.zh-CN", "Arial");//等寬字體
 user_pref("spellchecker.dictionary", "en-US");//字典
 user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
 
-/*==========標籤相關==========*/
+//*==========標籤相關==========*//
 user_pref("browser.tabs.insertRelatedAfterCurrent", true);//紧邻当前标签打开相关标签
 user_pref("browser.tabs.animate", false);//關閉标签页动画
 user_pref("browser.tabs.warnOnClose", false);//關閉多個標籤時不提示
 user_pref("browser.tabs.warnOnCloseOtherTabs", false);//關閉其它標籤時不提示
 
-/*==========書籤相關==========*/
+//*==========書籤相關==========*//
 user_pref("browser.bookmarks.autoExportHTML", true);//關閉Firefox时自動生成HTML書籤備份
 user_pref("browser.bookmarks.max_backups", 0);//最大备份数目
 user_pref("browser.places.smartBookmarksVersion", -1);//禁用智能书签
 
-/*==========緩存相關==========*/
+//*==========緩存相關==========*//
 user_pref("browser.cache.disk.smart_size.enabled", false);//关闭磁盘缓存容量自动管理
 user_pref("browser.cache.disk.smart_size.first_run", false);//标记是否属于首次smart sizing？默认true
 user_pref("browser.cache.disk.capacity", 512000);//最大缓存文件大小(500MB)       
 user_pref("browser.cache.disk.max_entry_size", 4096);//最大磁盘缓存元素大小？暗月设为4MB，任何大于4MB的元素都不建议缓存
 user_pref("browser.cache.memory.max_entry_size", 51200);//单个文件內存缓存上限(50MB) 
 
-/*==========圖片相關==========*/
-user_pref("layout.imagevisibility.enabled", false);//是否仅解码可见区域的图片（否，没必要用NoLazyload腳本嘛）
+//*==========圖片相關==========*//
+user_pref("layout.imagevisibility.enabled", false);//是否仅解码可见区域的图片?
 user_pref("image.mem.decodeondraw", false);//不解码非激活标签的图片
 
-/*==========Javascript相關==========*/
-user_pref("javascript.options.xml.content", true);//总是 jit 加速 javascript，改善JS内存占用
-user_pref("javascript.options.methodjit_always", true);//始终采用JIT编译器编译JS，即使这些JS利用率很低
-user_pref("javascript.options.mem.gc_incremental_slice_ms", 25);//add IGC and adjust time slice
-
-/*==========網路相關==========*/
-user_pref("network.prefetch-next", false); //默认关闭预读引擎
+//*==========網路相關==========*//
 user_pref("network.http.max-connections", 48); // 不要最大化网络层，以保证家庭网络和无线网络! (FF=256)
 user_pref("network.http.max-connections-per-server", 8); // 使用了流水线，这个值应该小一点儿 (FF=15)
 user_pref("network.http.max-persistent-connections-per-proxy", 8);
 user_pref("network.http.max-persistent-connections-per-server", 6);
-user_pref("network.dns.disableIPv6", true); //禁用IPv6
 user_pref("network.dnsCacheEntries", 20); //DNS緩存數
 user_pref("network.dnsCacheExpiration", 36000); //DNS緩存失效時間（單位秒）
 user_pref("network.proxy.socks_remote_dns", true);//使用socks代理dns解析，据说可以解决dns污染或DNS劫持。前提是你有socks代理软件。
@@ -81,11 +75,11 @@ user_pref("network.proxy.socks_remote_dns", true);//使用socks代理dns解析�
 user_pref("security.mixed_content.block_active_content", false);
 user_pref("security.mixed_content.block_display_content", false);
 
-/*==========平滑滾動==========*/
+//*==========平滑滾動==========*//
 user_pref("general.smoothScroll.durationToIntervalRatio", 500);
 user_pref("mousewheel.min_line_scroll_amount", 35);
 
-/*==========插件相關==========*/
+//*==========插件相關==========*//
 user_pref("plugins.click_to_play", false);//关闭点击才运行插件
 user_pref("dom.ipc.plugins.unloadASAP", true);//当插件空闲时自动关闭进程
 user_pref("plugins.hide_infobar_for_missing_plugin", true);//隐藏信息栏缺失插件消息提醒
@@ -94,31 +88,39 @@ user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择�
 user_pref("dom.ipc.plugins.flash.disable-protected-mode", true);//直接用火狐禁用flash保护模式
 user_pref("microsoft.CLR.auto_install", false);//好像是和micro相关的东西自动安装
 
-/*==========关闭自动更新类==========*/
+//*==========关闭自动更新类==========*//
 user_pref("app.update.auto", false);
 user_pref("app.update.enabled", false);
 user_pref("app.update.service.enabled", false);
 user_pref("browser.search.update", false);
 user_pref("app.update.disable_button.showUpdateHistory", false);
 
-/*==========关闭安全检测健康中心类==========*/
+//*==========关闭安全检测健康中心类==========*//
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.enabled", false);
 user_pref("browser.safebrowsing.downloads.enabled", false);//解決下載卡在最後一秒的問題
 
-/*==========主页==========*/
+//*==========数据选择权==========*/
+user_pref("datareporting.healthreport.logging.consoleEnabled",false);//开启健康报告控制台日志？
+user_pref("datareporting.healthreport.service.enabled",false);//开启健康报告服务？
+user_pref("datareporting.healthreport.uploadEnabled",false);//允许发送健康报告到Mozilla？
+user_pref("datareporting.policy.dataSubmissionEnabled",false);//允许发送数据报告？
+user_pref("dom.enable_performance",false);
+user_pref("toolkit.telemetry.unified",false);
+
+//*==========主页==========*//
 user_pref("startup.homepage_welcome_url", "");
 user_pref("browser.startup.homepage", "chrome://userchromejs/content/myNewTab/index.html");//首页
 user_pref("browser.newtab.url", "chrome://userchromejs/content/myNewTab/index.html");//本地Html
 
-/*==========附加組件==========*/
+//*==========附加組件==========*//
 user_pref("extensions.getAddons.cache.enabled", false);//阻止每天更新附加组件元数据
 user_pref("extensions.webservice.discoverURL","http://127.0.0.1");//禁用附加组件建议
 user_pref("extensions.ui.lastCategory", "addons://list/extension");//打开附加组件时默认打开“扩展”项
 
-/*==========FX其它类==========*/
+//*==========FX其它类==========*//
 user_pref("general.skins.selectedSkin", "simplewhite");//使用SimpleWhite主題
-user_pref("general.warnOnAboutConfig", false);//AboutConfig警告
+user_pref("general.warnOnAboutConfig", false);//About:Config警告
 user_pref("browser.urlbar.trimURLs", false);//地址栏显示 http://
 user_pref("view_source.editor.external", true);//页面源代码——使用外部編輯器查看
 user_pref("view_source.wrap_long_lines", true);//页面源代码——将较长的行自动换行
@@ -137,9 +139,8 @@ user_pref("browser.pagethumbnails.capturing_disabled", true);//禁止截图最�
 user_pref("security.tls.version.fallback-limit", 0);//SSLv3 error messages，让fx忽略连接安全检查
 user_pref("security.tls.version.min", 0);//SSLv3 error messages，让fx忽略连接安全检查
 user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为utf-8格式，默认true
-user_pref("reader.parse-on-load.enabled", false);//禁用閱讀模式
 
-/*==========扩展设置==========*/
+//*==========扩展设置==========*//
 //adblockplus
 user_pref("extensions.adblockplus.hideContributeButton", true);//隐藏助力abp项
 user_pref("extensions.adblockplus.patternsbackups", 0);
@@ -183,6 +184,9 @@ user_pref("extensions.dta.closedta", true);//辯識並列出Flash影片
 user_pref("extensions.dta.ctxmenu", "0,0,0");//不顯示右鍵菜單
 user_pref("extensions.dta.removecanceled", true);//從清單中移除中斷及錯誤的下載
 user_pref("extensions.dta.confirmremove", false);//移除下載前不提示
+user_pref("extensions.dta.maxchunks", 10);//每次下載最大塊數
+user_pref("extensions.dta.timeout", 900);//下載超時時間（900秒/15分鐘）
+user_pref("extensions.dta.loadendfirst", true);//先加載最後一部分數據
 user_pref("extensions.dta.exposeInUA", true);//在UA中顯示DTA
 
 //Greasemonkey
@@ -193,7 +197,7 @@ user_pref("extensions.greasemonkey.sync.enabled", false); //禁止同步
 //Stylish
 user_pref("extensions.stylish.firstRun", 3);//重建配置不弹首页
 
-/*==========脚本设置==========*/
+//*==========脚本设置==========*//
 //rebuild_userChrome脚本管理器
 //user_pref("userChromeJS.rebuildUI.menues", "more-tools-menu");
 
