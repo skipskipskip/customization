@@ -1,0 +1,39 @@
+{
+  "workspaces": [],
+  "version": "2014.9.17",
+  "licenseKey": "",
+  "runAtStartup": true,
+  "hideInactiveTabs": false,
+  "enableTabbingByDefault": true,
+  "combineIconsInTaskbar": false,
+  "replaceAltTab": false,
+  "groupWindowsInSwitcher": false,
+  "includedPaths": [],
+  "excludedPaths": [
+    "D:\\Program Files\\Tencent\\QQ\\Bin\\QQ.exe",
+    "D:\\Program Files\\Mozilla Firefox\\Software\\Other\\PicPick\\picpick.exe",
+    "D:\\Program Files\\Adobe\\Adobe Photoshop CC\\Adobe Photoshop CC\\Photoshop.exe",
+    "D:\\Program Files\\Mozilla Firefox\\firefox\\firefox.exe",
+    "C:\\Windows\\System32\\ApplicationFrameHost.exe"
+  ],
+  "autoGroupingPaths": [
+    "D:\\Program Files\\Mozilla Firefox\\Software\\Notepad2\\Notepad2.exe",
+    "D:\\Program Files\\Jingoal\\Jingoal.exe",
+    "C:\\Windows\\explorer.exe",
+    "C:\\Program Files (x86)\\Microsoft Office\\Office15\\EXCEL.EXE",
+    "C:\\Program Files (x86)\\Microsoft Office\\Office15\\WINWORD.EXE"
+  ],
+  "tabAppearance": {
+    "tabHeight": 25,
+    "tabMaxWidth": 200,
+    "tabOverlap": 20,
+    "tabNormalBgColor": "9FC4F0",
+    "tabHighlightBgColor": "BDD5F4",
+    "tabActiveBgColor": "FAFCFE",
+    "tabFlashBgColor": "FFBBBB",
+    "tabBorderColor": "3A70B1",
+    "tabHeightOffset": 1,
+    "tabIndentFlipped": 80,
+    "tabIndentNormal": 3
+  }
+}
