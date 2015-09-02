@@ -14,6 +14,7 @@
 ! 2015.09.02
 iqiyi.com##[data-scrollname="vipbuy"]
 iqiyi.com###goosBtn
+||mall8.qiyipic.com^
 ! 2015.08.19
 wenku.baidu.com##.tiger-eduCoupon-dialog-mask
 ! 2015.08.16
