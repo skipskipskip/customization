@@ -3,12 +3,18 @@
   "licenseKey": "",
   "runAtStartup": false,
   "hideInactiveTabs": false,
-  "enableTabbingByDefault": true,
+  "enableTabbingByDefault": false,
   "combineIconsInTaskbar": false,
   "replaceAltTab": false,
   "groupWindowsInSwitcher": false,
-  "includedPaths": [],
+  "includedPaths": [
+    "C:\\Windows\\explorer.exe",
+    "C:\\Program Files (x86)\\Microsoft Office\\Office15\\EXCEL.EXE",
+    "C:\\Program Files (x86)\\Microsoft Office\\Office15\\POWERPNT.EXE",
+    "C:\\Program Files (x86)\\Microsoft Office\\Office15\\WINWORD.EXE"
+  ],
   "excludedPaths": [
+    "D:\\Program Files\\Tencent\\QQPhoneManager\\QQPhoneManager.exe",
     "D:\\Program Files\\Tencent\\QQ\\Bin\\QQ.exe",
     "D:\\Program Files\\Thunder Network\\Thunder\\Program\\Thunder.exe",
     "D:\\Program Files\\Mozilla Firefox\\firefox\\firefox.exe",
@@ -21,6 +27,7 @@
     "D:\\Program Files\\Mozilla Firefox\\Software\\Other\\PicPick\\picpick.exe",
     "C:\\Windows\\explorer.exe",
     "C:\\Program Files (x86)\\Microsoft Office\\Office15\\EXCEL.EXE",
+    "C:\\Program Files (x86)\\Microsoft Office\\Office15\\POWERPNT.EXE",
     "C:\\Program Files (x86)\\Microsoft Office\\Office15\\WINWORD.EXE"
   ],
   "tabAppearance": {

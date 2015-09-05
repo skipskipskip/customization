@@ -139,6 +139,7 @@ user_pref("browser.pagethumbnails.capturing_disabled", true);//禁止截图最�
 user_pref("security.tls.version.fallback-limit", 0);//SSLv3 error messages，让fx忽略连接安全检查
 user_pref("security.tls.version.min", 0);//SSLv3 error messages，让fx忽略连接安全检查
 user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为utf-8格式，默认true
+user_pref("browser.pocket.enabled", false);//禁用Pocket
 
 //*==========扩展设置==========*//
 //adblockplus
