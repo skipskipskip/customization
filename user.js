@@ -25,6 +25,7 @@ user_pref("signon.rememberSignons", false);//不保存密码
 user_pref("privacy.donottrackheader.enabled", true);//告訴網站不想被追蹤
 user_pref("browser.download.useDownloadDir", false);//每次訊問我要存到何處
 user_pref("security.OCSP.enabled", 0); //禁用OCSP安全驗證
+user_pref("security.csp.enable", false);//禁用CSP
 //硬件加速
 user_pref("layers.acceleration.disabled", false);//选項卡中『可用時開啟硬體加速』
 user_pref("webgl.force-enabled", true);//强制启用 WebGL
