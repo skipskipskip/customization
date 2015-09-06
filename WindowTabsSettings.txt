@@ -8,6 +8,7 @@
   "replaceAltTab": false,
   "groupWindowsInSwitcher": false,
   "includedPaths": [
+    "D:\\Program Files\\Mozilla Firefox\\Software\\Notepad2\\Notepad2.exe",
     "C:\\Windows\\explorer.exe",
     "C:\\Program Files (x86)\\Microsoft Office\\Office15\\EXCEL.EXE",
     "C:\\Program Files (x86)\\Microsoft Office\\Office15\\POWERPNT.EXE",
