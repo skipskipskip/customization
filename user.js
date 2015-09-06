@@ -148,7 +148,8 @@ user_pref("security.tls.version.fallback-limit", 0);//SSLv3 error messages，让
 user_pref("security.tls.version.min", 0);//SSLv3 error messages，让fx忽略连接安全检查
 user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为utf-8格式，默认true
 user_pref("browser.pocket.enabled", false);//禁用Pocket
-user_pref("content.interrupt.parsing", true);//加速网页元素显示
+user_pref("content.interrupt.parsing", true);//加速网页元素显示，貌似效果很明顯！！！
+user_pref("config.trim_on_minimize", true);//最小化时自动释放内存
 
 //*==========扩展设置==========*//
 //adblockplus
