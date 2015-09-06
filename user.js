@@ -1,5 +1,5 @@
 ﻿
-//2015.08.19  新增DTA參數，數據選擇權
+//2015.09.06  新增DTA參數，數據選擇權
 //2015.08.14  ucjsPermission換用黑名單法
 //2015.08.07 09:00  去掉網絡流水線設置，開啟後有時會出現不能上外網的問題，只能重啟電腦
 //2015.07.28 22:00  精簡少量參數，增加DTA參數
@@ -90,14 +90,22 @@ user_pref("microsoft.CLR.auto_install", false);//好像是和micro相关的东�
 
 //*==========关闭自动更新类==========*//
 user_pref("app.update.auto", false);
-user_pref("app.update.enabled", false);
-user_pref("app.update.service.enabled", false);
-user_pref("browser.search.update", false);
+user_pref("app.update.enabled", false);//禁用火狐浏览器更新
+user_pref("app.update.migrated.updateDir", false);
+user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 0);
+user_pref("app.update.lastUpdateTime.datareporting-healthreport-lastDailyCollection", 0);
 user_pref("app.update.disable_button.showUpdateHistory", false);
+user_pref("app.update.service.enabled", false);
 
 //*==========关闭安全检测健康中心类==========*//
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.enabled", false);
+user_pref("datareporting.healthreport.logging.consoleEnabled", false);
+user_pref("datareporting.healthreport.pendingDeleteRemoteData", true);
+user_pref("datareporting.healthreport.service.enabled", false);
+user_pref("datareporting.healthreport.service.firstRun", true);
+user_pref("datareporting.healthreport.uploadEnabled", false);
+user_pref("datareporting.policy.dataSubmissionEnabled", false);
 user_pref("browser.safebrowsing.downloads.enabled", false);//解決下載卡在最後一秒的問題
 
 //*==========数据选择权==========*/
@@ -140,6 +148,7 @@ user_pref("security.tls.version.fallback-limit", 0);//SSLv3 error messages，让
 user_pref("security.tls.version.min", 0);//SSLv3 error messages，让fx忽略连接安全检查
 user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为utf-8格式，默认true
 user_pref("browser.pocket.enabled", false);//禁用Pocket
+user_pref("content.interrupt.parsing", true);//加速网页元素显示
 
 //*==========扩展设置==========*//
 //adblockplus
