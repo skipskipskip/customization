@@ -11,6 +11,8 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2015.09.06
+jobui.com###ui-v2-pop
 ! 2015.09.05
 iqiyi.com###widget-clientdownload
 ! 2015.09.02
