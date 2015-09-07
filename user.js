@@ -1,5 +1,5 @@
 ﻿
-//2015.09.06  新增DTA參數，數據選擇權
+//2015.09.07  新增DTA參數，數據選擇權
 //2015.08.14  ucjsPermission換用黑名單法
 //2015.08.07 09:00  去掉網絡流水線設置，開啟後有時會出現不能上外網的問題，只能重啟電腦
 //2015.07.28 22:00  精簡少量參數，增加DTA參數
@@ -211,7 +211,7 @@ user_pref("extensions.stylish.firstRun", 3);//重建配置不弹首页
 
 //*==========脚本设置==========*//
 //rebuild_userChrome脚本管理器
-//user_pref("userChromeJS.rebuildUI.menues", "more-tools-menu");
+user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,anobtn_set,AutoClick-enable-menuitem,toolsbar_KeyChanger_rebuild,redirector-icon,usercssloader_Tools_Menu");
 
 //UserCSSLoader引导器
 user_pref("UserCSSLoader.innereditor", false);//使用外部编辑器
