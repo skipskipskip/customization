@@ -157,6 +157,18 @@ user_pref("extensions.adblockplus.frameobjects", false);//在Java和Flash上显�
 user_pref("extensions.autoproxy.customProxy", "Shadowsocks;;1080;socks$GoAgent;;8087;$Free%20Gate;;8580;$Psiphon;;8080;$Lantern;;8787;");
 user_pref("extensions.autoproxy.patternsbackups", 0);
 
+//Simple Proxy
+user_pref("extensions.simpleproxy.folder", "D:\\My Documents\\GitHub\\customization\\Rules");
+user_pref("extensions.simpleproxy.proxy.0.list", "Autoproxy-self-rules.txt");
+user_pref("extensions.simpleproxy.proxy.0.server", "127.0.0.1:1080");
+user_pref("extensions.simpleproxy.proxy.0.type", "socks");
+user_pref("extensions.simpleproxy.proxy.1.list", "");
+user_pref("extensions.simpleproxy.proxy.1.server", "");
+user_pref("extensions.simpleproxy.proxy.1.type", "http");
+user_pref("extensions.simpleproxy.proxy.2.list", "");
+user_pref("extensions.simpleproxy.proxy.2.server", "");
+user_pref("extensions.simpleproxy.proxy.2.type", "http");
+
 //LastPass
 user_pref("extensions.lastpass.hidecontextmenu", true);
 user_pref("extensions.lastpass.showHomepageAfterLogin", false);//不登入密码库
