@@ -22,8 +22,6 @@
 //*==========选项卡里的设置==========*//
 user_pref("browser.preferences.inContent", false);//選項 使用老版彈窗
 user_pref("signon.rememberSignons", false);//不保存密码
-user_pref("privacy.donottrackheader.enabled", true);//告訴網站不想被追蹤
-user_pref("browser.download.useDownloadDir", false);//每次訊問我要存到何處
 user_pref("security.OCSP.enabled", 0); //禁用OCSP安全驗證
 user_pref("security.csp.enable", false);//禁用CSP
 //硬件加速
@@ -53,28 +51,27 @@ user_pref("browser.bookmarks.autoExportHTML", true);//關閉Firefox时自動生�
 user_pref("browser.bookmarks.max_backups", 0);//最大备份数目
 user_pref("browser.places.smartBookmarksVersion", -1);//禁用智能书签
 
-//*==========緩存相關==========*//
-user_pref("browser.cache.disk.smart_size.enabled", false);//关闭磁盘缓存容量自动管理
-user_pref("browser.cache.disk.smart_size.first_run", false);//标记是否属于首次smart sizing？默认true
-user_pref("browser.cache.disk.capacity", 512000);//最大缓存文件大小(500MB)       
-user_pref("browser.cache.disk.max_entry_size", 4096);//最大磁盘缓存元素大小？暗月设为4MB，任何大于4MB的元素都不建议缓存
-user_pref("browser.cache.memory.max_entry_size", 51200);//单个文件內存缓存上限(50MB) 
-
 //*==========圖片相關==========*//
 user_pref("layout.imagevisibility.enabled", false);//是否仅解码可见区域的图片?
-user_pref("image.mem.decodeondraw", false);//不解码非激活标签的图片
+
+//*==========下載相關==========*//
+user_pref("browser.download.useDownloadDir", false);//下载时每次訊問我要存到何處
+user_pref("browser.safebrowsing.downloads.enabled", false);//解決下載卡在最後一秒的問題
+user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
+user_pref("signed.applets.codebase_principal_support", true);//一些网站的下载协议支持
 
 //*==========網路相關==========*//
-user_pref("network.http.max-connections", 48); // 不要最大化网络层，以保证家庭网络和无线网络! (FF=256)
-user_pref("network.http.max-connections-per-server", 8); // 使用了流水线，这个值应该小一点儿 (FF=15)
-user_pref("network.http.max-persistent-connections-per-proxy", 8);
-user_pref("network.http.max-persistent-connections-per-server", 6);
+user_pref("content.interrupt.parsing", true);//加速网页元素显示，貌似效果很明顯！！！
+//DNS
 user_pref("network.dnsCacheEntries", 20); //DNS緩存數
 user_pref("network.dnsCacheExpiration", 36000); //DNS緩存失效時間（單位秒）
 user_pref("network.proxy.socks_remote_dns", true);//使用socks代理dns解析，据说可以解决dns污染或DNS劫持。前提是你有socks代理软件。
 //HTTPS不允许混合内容，以下两条参数用以禁用此特性
 user_pref("security.mixed_content.block_active_content", false);
 user_pref("security.mixed_content.block_display_content", false);
+//SSLv3 error messages，让fx忽略连接安全检查
+user_pref("security.tls.version.fallback-limit", 0);
+user_pref("security.tls.version.min", 0);
 
 //*==========平滑滾動==========*//
 user_pref("general.smoothScroll.durationToIntervalRatio", 500);
@@ -87,7 +84,6 @@ user_pref("plugins.hide_infobar_for_missing_plugin", true);//隐藏信息栏缺�
 user_pref("plugins.hide_infobar_for_outdated_plugin", true);//过期插件不提示
 user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择不提示
 user_pref("dom.ipc.plugins.flash.disable-protected-mode", true);//直接用火狐禁用flash保护模式
-user_pref("microsoft.CLR.auto_install", false);//好像是和micro相关的东西自动安装
 
 //*==========关闭自动更新类==========*//
 user_pref("app.update.auto", false);
@@ -107,7 +103,7 @@ user_pref("datareporting.healthreport.service.enabled", false);
 user_pref("datareporting.healthreport.service.firstRun", true);
 user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
-user_pref("browser.safebrowsing.downloads.enabled", false);//解決下載卡在最後一秒的問題
+
 
 //*==========数据选择权==========*/
 user_pref("datareporting.healthreport.logging.consoleEnabled",false);//开启健康报告控制台日志？
@@ -120,7 +116,7 @@ user_pref("toolkit.telemetry.unified",false);
 //*==========主页==========*//
 user_pref("startup.homepage_welcome_url", "");
 user_pref("browser.startup.homepage", "chrome://userchromejs/content/myNewTab/index.html");//首页
-user_pref("browser.newtab.url", "chrome://userchromejs/content/myNewTab/index.html");//本地Html
+user_pref("browser.newtab.url", "chrome://userchromejs/content/myNewTab/index.html");//新标签
 
 //*==========附加組件==========*//
 user_pref("extensions.getAddons.cache.enabled", false);//阻止每天更新附加组件元数据
@@ -135,8 +131,6 @@ user_pref("view_source.editor.external", true);//页面源代码——使用外�
 user_pref("view_source.wrap_long_lines", true);//页面源代码——将较长的行自动换行
 user_pref("privacy.popups.showBrowserMessage", false);//弹窗不提示消息
 user_pref("dom.successive_dialog_time_limit", 0);//避免此页面产生更多对话框
-user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
-user_pref("signed.applets.codebase_principal_support", true);//一些网站的下载协议支持
 user_pref("nglayout.initialpaint.delay", 0);//当浏览器收到信息后等待的时间
 user_pref("extensions.autoDisableScopes", 0);//第一次运行不禁止任何扩展
 user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不检测版本，不弹欢迎页面
@@ -145,11 +139,8 @@ user_pref("extensions.blocklist.enabled", false);//关闭启动时插件检查�
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
 user_pref("browser.sessionstore.interval", 999999999);//保存会话的时间间隔，不能关闭，所以取能取的最大值
 user_pref("browser.pagethumbnails.capturing_disabled", true);//禁止截图最新访问页面的缩略图
-user_pref("security.tls.version.fallback-limit", 0);//SSLv3 error messages，让fx忽略连接安全检查
-user_pref("security.tls.version.min", 0);//SSLv3 error messages，让fx忽略连接安全检查
 user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为utf-8格式，默认true
 user_pref("browser.pocket.enabled", false);//禁用Pocket
-user_pref("content.interrupt.parsing", true);//加速网页元素显示，貌似效果很明顯！！！
 user_pref("config.trim_on_minimize", true);//最小化时自动释放内存
 
 //*==========扩展设置==========*//
@@ -228,13 +219,6 @@ user_pref("addMenu.FILE_PATH", "local\_addMenu.js");//配置路径
 user_pref("grabScroll.button", 1);//使用GrabScroll抓取的键位：中键
 user_pref("grabScroll.clickable", false);//能够在链接上使用GrabScroll
 
-//ShowFlagS
-user_pref("userChromeJS.showFlagS.RefChanger", true);//開啟圖片反盜鏈
-user_pref("userChromeJS.showFlagS.UAChanger", true);//開啟UA切換
-user_pref("userChromeJS.showFlagS.Reacquire", true);//自動重新获取
-user_pref("userChromeJS.showFlagS.libIconPath", "Local\\ShowFlagS\\countryflags.js");//國旗圖標庫
-user_pref("userChromeJS.showFlagS.LocalFlags", "Local\\ShowFlagS\\LocalFlags\\");//本地PNG圖標文件夾
-
 //AutoClick
 user_pref("userChromeJS.AutoClick.enable", false);//默認關閉
 user_pref("userChromeJS.AutoClick.BUTTON_TYPE", 2);//顯示为菜單
@@ -263,10 +247,6 @@ user_pref("userChromeJS.downloadPlus.save_And_Open_RorL", 1);//保存并打開�
 user_pref("userChromeJS.downloadPlus.download_dialog_changeName", true);//下載改名
 user_pref("userChromeJS.downloadPlus.download_dialog_changeName_encodingConvert", true);//下載改名——是否開啟下拉菜單
 //user_pref("userChromeJS.downloadPlus.download_dialog_changeName_locking", true);//下載改名——鎖定保存文件按鈕
-
-//ucjsPermission腳本
-//簡單敎程：http://bbs.kafan.cn/thread-1527284-1-1.html，禁止第三方腳本，對象和框架，基本就能過濾掉大部分廣告和不必要的內容。
-//白名单放行好麻烦，還是換用黑名單好了
 
 //uAutoPagerize2腳本
 user_pref("uAutoPagerize.AUTO_START", false);//默認不翻頁
