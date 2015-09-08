@@ -1,7 +1,7 @@
 [AutoProxy 0.3.0]
-! Title: Autoproxy自定義名單 2015.09
+! Title: SimpleProxy自定義名單 2015.09
 ! Expires: 4h
-! Homepage: https://github.com/dupontjoy/customization/blob/master/Rules/Autoproxy-self-rules.txt
+! Homepage: https://github.com/dupontjoy/customization/blob/master/Rules/SimpleProxy/SP-self-rules.txt
 ! Contact: https://github.com/dupontjoy/customization/
 !-------------------------------------------------------------------------------------!
 ||appspot.com

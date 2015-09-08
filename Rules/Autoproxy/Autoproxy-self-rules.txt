@@ -1,7 +1,8 @@
 [AutoProxy 0.3.0]
 ! Title: Autoproxy自定義名單 2015.09
 ! Expires: 4h
-! Homepage: https://github.com/dupontjoy/customization/blob/master/Rules/Autoproxy-self-rules.txt
+! Homepage: https://github.com/dupontjoy/customization/blob/master/Rules/Autoproxy/Autoproxy-self-rules.txt
+! UpdateURL: https://github.com/dupontjoy/customization/raw/master/Rules/Autoproxy/Autoproxy-self-rules.txt
 ! Contact: https://github.com/dupontjoy/customization/
 !---------------------------------------------------------------------------------------!
 ||wikipedia.org
