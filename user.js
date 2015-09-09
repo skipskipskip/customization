@@ -121,7 +121,6 @@ user_pref("browser.newtab.url", "chrome://userchromejs/content/myNewTab/index.ht
 //*==========附加組件==========*//
 user_pref("extensions.getAddons.cache.enabled", false);//阻止每天更新附加组件元数据
 user_pref("extensions.webservice.discoverURL","http://127.0.0.1");//禁用附加组件建议
-user_pref("extensions.ui.lastCategory", "addons://list/extension");//打开附加组件时默认打开“扩展”项
 
 //*==========FX其它类==========*//
 user_pref("general.skins.selectedSkin", "simplewhite");//使用SimpleWhite主題
@@ -158,7 +157,7 @@ user_pref("extensions.autoproxy.customProxy", "Shadowsocks;;1080;socks$GoAgent;;
 user_pref("extensions.autoproxy.patternsbackups", 0);
 
 //Simple Proxy
-user_pref("extensions.simpleproxy.proxy.0.listname", "Autoproxy-self-rules.txt");
+user_pref("extensions.simpleproxy.proxy.0.listname", "SP-self-rules.txt");
 user_pref("extensions.simpleproxy.proxy.0.server", "127.0.0.1:1080");
 user_pref("extensions.simpleproxy.proxy.0.type", "socks");
 

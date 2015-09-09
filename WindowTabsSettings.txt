@@ -8,28 +8,11 @@
   "replaceAltTab": false,
   "groupWindowsInSwitcher": false,
   "includedPaths": [
-    "D:\\Program Files\\Mozilla Firefox\\Software\\Notepad2\\Notepad2.exe",
-    "C:\\Windows\\explorer.exe",
-    "C:\\Program Files (x86)\\Microsoft Office\\Office15\\EXCEL.EXE",
-    "C:\\Program Files (x86)\\Microsoft Office\\Office15\\POWERPNT.EXE",
-    "C:\\Program Files (x86)\\Microsoft Office\\Office15\\WINWORD.EXE"
+    "C:\\Windows\\explorer.exe"
   ],
-  "excludedPaths": [
-    "D:\\Program Files\\Tencent\\QQPhoneManager\\QQPhoneManager.exe",
-    "D:\\Program Files\\Tencent\\QQ\\Bin\\QQ.exe",
-    "D:\\Program Files\\Thunder Network\\Thunder\\Program\\Thunder.exe",
-    "D:\\Program Files\\Mozilla Firefox\\firefox\\firefox.exe",
-    "C:\\Windows\\System32\\ApplicationFrameHost.exe"
-  ],
+  "excludedPaths": [],
   "autoGroupingPaths": [
-    "D:\\Program Files\\Mozilla Firefox\\Software\\Notepad2\\Notepad2.exe",
-    "C:\\Users\\Administrator\\AppData\\Local\\Apps\\2.0\\8YLWV2Z0.B1P\\VEJRTT2W.6RD\\gith..tion_317444273a93ac29_0002.000b_680dec63062527d1\\GitHub.exe",
-    "D:\\Program Files\\Jingoal\\Jingoal.exe",
-    "D:\\Program Files\\Mozilla Firefox\\Software\\Other\\PicPick\\picpick.exe",
-    "C:\\Windows\\explorer.exe",
-    "C:\\Program Files (x86)\\Microsoft Office\\Office15\\EXCEL.EXE",
-    "C:\\Program Files (x86)\\Microsoft Office\\Office15\\POWERPNT.EXE",
-    "C:\\Program Files (x86)\\Microsoft Office\\Office15\\WINWORD.EXE"
+    "C:\\Windows\\explorer.exe"
   ],
   "tabAppearance": {
     "tabHeight": 25,
