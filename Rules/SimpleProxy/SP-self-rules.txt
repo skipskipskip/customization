@@ -4,6 +4,7 @@
 ! Homepage: https://github.com/dupontjoy/customization/blob/master/Rules/SimpleProxy/SP-self-rules.txt
 ! Contact: https://github.com/dupontjoy/customization/
 !-------------------------------------------------------------------------------------!
+||cdn.optimizely.com
 ||wikipedia.org
 ||googlecode.com
 ||feedly.com
