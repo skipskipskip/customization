@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/dupontjoy/customization/blob/master/Rules/SimpleProxy/SP-self-rules.txt
 ! Contact: https://github.com/dupontjoy/customization/
 !-------------------------------------------------------------------------------------!
-||cdn.optimizely.com
+||terapeak.com
 ||wikipedia.org
 ||googlecode.com
 ||feedly.com
@@ -37,7 +37,6 @@
 ||homedepot.com
 ||coolicool.com
 ||leanote.com
-||amazonaws.com
 ||paypal.com
 !--------Autoproxy中有计数项--------------!
 @@||baidu.com
