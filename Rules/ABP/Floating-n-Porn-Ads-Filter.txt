@@ -11,6 +11,12 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2015.09.12
+iqiyi.com##.func_download
+iqiyi.com##.iphoneLook
+iqiyi.com##.danmu-main.fl
+iqiyi.com##[data-widget-appdown="playpage"]
+iqiyi.com##[rseat="logo"]
 ! 2015.09.06
 jobui.com###ui-v2-pop
 ! 2015.09.05
