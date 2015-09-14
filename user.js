@@ -1,5 +1,5 @@
 ﻿
-//2015.09.07  新增DTA參數，數據選擇權
+//2015.09.13  新增DTA參數，數據選擇權
 //2015.08.14  ucjsPermission換用黑名單法
 //2015.08.07 09:00  去掉網絡流水線設置，開啟後有時會出現不能上外網的問題，只能重啟電腦
 //2015.07.28 22:00  精簡少量參數，增加DTA參數
@@ -121,6 +121,7 @@ user_pref("browser.newtab.url", "chrome://userchromejs/content/myNewTab/index.ht
 //*==========附加組件==========*//
 user_pref("extensions.getAddons.cache.enabled", false);//阻止每天更新附加组件元数据
 user_pref("extensions.webservice.discoverURL","http://127.0.0.1");//禁用附加组件建议
+user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打开“扩展”项
 
 //*==========FX其它类==========*//
 user_pref("general.skins.selectedSkin", "simplewhite");//使用SimpleWhite主題
@@ -157,8 +158,9 @@ user_pref("extensions.autoproxy.customProxy", "Shadowsocks;;1080;socks$GoAgent;;
 user_pref("extensions.autoproxy.patternsbackups", 0);
 
 //Simple Proxy
-user_pref("extensions.simpleproxy.proxy.0.listname", "SP-self-rules.txt");
-user_pref("extensions.simpleproxy.proxy.0.server", "127.0.0.1:1080");
+user_pref("extensions.simpleproxy.proxy.0.listname", "gfw.bricks.txt");
+user_pref("extensions.simpleproxy.proxy.0.port", 1080);
+user_pref("extensions.simpleproxy.proxy.0.server", "127.0.0.1");
 user_pref("extensions.simpleproxy.proxy.0.type", "socks");
 
 //LastPass
@@ -183,19 +185,6 @@ user_pref("flashgot.interceptAll", true);//接管所有下载
 user_pref("flashgot.logEnabled", false);//禁用日志
 user_pref("flashgot.firstRunRedirection", false);//重建配置不弹FlashGot首页
 
-//DownThemAll！
-user_pref("extensions.dta.conflictresolution", 0);//文檔已存在時自動重命名
-user_pref("extensions.dta.sounds.error", true);//發生錯誤時播放音效
-user_pref("extensions.dta.alertbox", 0);//下載完成後對話視窗提示
-user_pref("extensions.dta.closedta", true);//辯識並列出Flash影片
-user_pref("extensions.dta.ctxmenu", "0,0,0");//不顯示右鍵菜單
-user_pref("extensions.dta.removecanceled", true);//從清單中移除中斷及錯誤的下載
-user_pref("extensions.dta.confirmremove", false);//移除下載前不提示
-user_pref("extensions.dta.maxchunks", 10);//每次下載最大塊數
-user_pref("extensions.dta.timeout", 900);//下載超時時間（900秒/15分鐘）
-user_pref("extensions.dta.loadendfirst", true);//先加載最後一部分數據
-user_pref("extensions.dta.exposeInUA", true);//在UA中顯示DTA
-
 //Greasemonkey
 user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议提示
 user_pref("extensions.greasemonkey.installDelay", 0);//安裝時的倒計時
@@ -206,7 +195,7 @@ user_pref("extensions.stylish.firstRun", 3);//重建配置不弹首页
 
 //*==========脚本设置==========*//
 //rebuild_userChrome脚本管理器
-user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,anobtn_set,AutoClick-enable-menuitem,toolsbar_KeyChanger_rebuild,redirector-icon,usercssloader_Tools_Menu");
+user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,anobtn_set,toolsbar_KeyChanger_rebuild,redirector-icon,usercssloader_Tools_Menu");
 
 //UserCSSLoader引导器
 user_pref("UserCSSLoader.innereditor", false);//使用外部编辑器
@@ -222,11 +211,6 @@ user_pref("addMenu.FILE_PATH", "local\_addMenu.js");//配置路径
 //GrabScroll
 user_pref("grabScroll.button", 1);//使用GrabScroll抓取的键位：中键
 user_pref("grabScroll.clickable", false);//能够在链接上使用GrabScroll
-
-//AutoClick
-user_pref("userChromeJS.AutoClick.enable", false);//默認關閉
-user_pref("userChromeJS.AutoClick.BUTTON_TYPE", 2);//顯示为菜單
-user_pref("userChromeJS.AutoClick.hovering_time", 800);//悬停xx毫秒開始點擊
 
 //newDownloadPlus
 //主界面
@@ -254,3 +238,7 @@ user_pref("userChromeJS.downloadPlus.download_dialog_changeName_encodingConvert"
 
 //uAutoPagerize2腳本
 user_pref("uAutoPagerize.AUTO_START", false);//默認不翻頁
+
+//ShowFlagS
+user_pref("userChromeJS.showFlagS.RefChanger", true);//開啟圖片反盜鏈
+user_pref("userChromeJS.showFlagS.UAChanger", true);//開啟UA切換
