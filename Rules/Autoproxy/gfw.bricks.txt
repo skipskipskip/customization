@@ -1,3 +1,9 @@
+[AutoProxy 0.3.0]
+! Title: 转自gfw.bricks
+! Expires: 4h
+! Homepage: https://github.com/dupontjoy/customization/raw/master/Rules/Autoproxy/gfw.bricks.txt
+! Contact: https://github.com/Leask/BRICKS/blob/master/gfw.bricks
+!-------------------------------------------------------------------------------------!
 ||0rz.tw
 ||0to255.com
 ||1-apple.com.tw
