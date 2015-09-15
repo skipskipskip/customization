@@ -242,3 +242,5 @@ user_pref("uAutoPagerize.AUTO_START", false);//默認不翻頁
 //ShowFlagS
 user_pref("userChromeJS.showFlagS.RefChanger", true);//開啟圖片反盜鏈
 user_pref("userChromeJS.showFlagS.UAChanger", true);//開啟UA切換
+user_pref("userChromeJS.showFlagS.Reacquire", true);//失敗自動獲取
+
