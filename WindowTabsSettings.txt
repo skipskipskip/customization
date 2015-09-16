@@ -1,5 +1,5 @@
 {
-  "version": "2014.9.17",
+  "version": "2014.09.17",
   "licenseKey": "",
   "runAtStartup": false,
   "hideInactiveTabs": false,
