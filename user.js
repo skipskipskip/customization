@@ -1,21 +1,11 @@
 ﻿
 //2015.09.16  精簡
-//2015.09.13  新增DTA參數，數據選擇權
-//2015.08.14  ucjsPermission換用黑名單法
 //2015.08.07 09:00  去掉網絡流水線設置，開啟後有時會出現不能上外網的問題，只能重啟電腦
-//2015.07.28 22:00  精簡少量參數，增加DTA參數
 //2015.07.07 21:00  新增禁止「HTTPS不允许混合内容」特性的參數
 //2015.05.22 21:00  新增newDownloadPlus參數
-//2015.05.21 12:00  加入一些參數，分組整理
-//2015.05.18 11:00  關閉WebRTC
-//2015.05.14 20:00  加入AutoClick設置
 //2015.04.16 13:00  加入新的平滑設置
 //2015.04.14 17:00  使用SimpleWhite主題
 //2015.04.05 09:00  調整UC管理器菜單
-//2015.04.04 08:00  加入江3省电版火狐
-//2015.03.20 18:00  調整Flashgot和DTA设置
-//2015.03.03 10:00  加入阻止此页面创建更多对话框
-//2015.01.18 00:00  加入鼠標滾動設置，NoScript參數
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -49,7 +39,7 @@ user_pref("browser.safebrowsing.downloads.enabled", false);//解決下載卡在�
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
 
 //*==========網路相關==========*//
-user_pref("content.interrupt.parsing", true);//加速网页元素显示，貌似效果很明顯！！！
+user_pref("content.interrupt.parsing", true);//加速网页元素显示，貌似效果很明顯
 //HTTPS不允许混合内容，以下两条参数用以禁用此特性
 user_pref("security.mixed_content.block_active_content", false);
 user_pref("security.mixed_content.block_display_content", false);
@@ -101,12 +91,10 @@ user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为u
 
 //*==========扩展设置==========*//
 //adblockplus
-user_pref("extensions.adblockplus.hideContributeButton", true);//隐藏助力abp项
 user_pref("extensions.adblockplus.patternsbackups", 0);
 user_pref("extensions.adblockplus.subscriptions_exceptionscheckbox", false);//非入侵式广告
 user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "");//删除非入侵式广告订阅网址
 user_pref("extensions.adblockplus.subscriptions_antiadblockurl", "");//去掉自带的反-反ADP列表
-user_pref("extensions.adblockplus.please_kill_startup_performance", true);//关闭延迟启动
 user_pref("extensions.adblockplus.frameobjects", false);//在Java和Flash上显示标签 - 否
 
 //Autoproxy
@@ -123,8 +111,8 @@ user_pref("extensions.simpleproxy.proxy.0.type", "socks");
 user_pref("extensions.lastpass.hidecontextmenu", true);
 user_pref("extensions.lastpass.showHomepageAfterLogin", false);//登入後不轉到密码库
 user_pref("extensions.lastpass.0a148091163b8a7de3368af449db2947c700bea1552b01964d4ae55f930562e0.toplevelmatchingsites", true);//将匹配网站移动到顶部菜单
+user_pref("extensions.lastpass.loginusers", "dupontjoy%40163.com");//保存用戶名
 user_pref("extensions.lastpass.loginpws", "");//不保存密码
-user_pref("extensions.lastpass.loginusers", "dupontjoy%40163.com");//用戶名
 
 //FlashGot
 user_pref("flashgot.hide-all", true);
