@@ -1,4 +1,5 @@
 ﻿
+//2015.09.16  精簡
 //2015.09.13  新增DTA參數，數據選擇權
 //2015.08.14  ucjsPermission換用黑名單法
 //2015.08.07 09:00  去掉網絡流水線設置，開啟後有時會出現不能上外網的問題，只能重啟電腦
@@ -22,15 +23,6 @@
 //*==========选项卡里的设置==========*//
 user_pref("browser.preferences.inContent", false);//選項 使用老版彈窗
 user_pref("signon.rememberSignons", false);//不保存密码
-user_pref("security.OCSP.enabled", 0); //禁用OCSP安全驗證
-user_pref("security.csp.enable", false);//禁用CSP
-//硬件加速
-user_pref("layers.acceleration.disabled", false);//选項卡中『可用時開啟硬體加速』
-user_pref("webgl.force-enabled", true);//强制启用 WebGL
-user_pref("webgl.msaa-force", true);//强制启用 WebGL 的抗锯齿
-user_pref("layers.acceleration.force-enabled", true);//强制启用硬件渲染（无视黑名单/白名单），最重要的设置！
-user_pref("gfx.direct2d.force-enabled", true);//在 Windows 平台上强制使用 D2D 加速页面内容渲染
-user_pref("gfx.direct2d.disabled", true);//禁用字体硬件加速，开启后标题会模糊，字体显示不一致
 //字體語言編碼
 user_pref("intl.charset.detector", "universal_charset_detector");//自動選擇
 user_pref("font.name.serif.zh-CN", "Arial");//衬線字體
@@ -51,27 +43,16 @@ user_pref("browser.bookmarks.autoExportHTML", true);//關閉Firefox时自動生�
 user_pref("browser.bookmarks.max_backups", 0);//最大备份数目
 user_pref("browser.places.smartBookmarksVersion", -1);//禁用智能书签
 
-//*==========圖片相關==========*//
-user_pref("layout.imagevisibility.enabled", false);//是否仅解码可见区域的图片?
-
 //*==========下載相關==========*//
 user_pref("browser.download.useDownloadDir", false);//下载时每次訊問我要存到何處
 user_pref("browser.safebrowsing.downloads.enabled", false);//解決下載卡在最後一秒的問題
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
-user_pref("signed.applets.codebase_principal_support", true);//一些网站的下载协议支持
 
 //*==========網路相關==========*//
 user_pref("content.interrupt.parsing", true);//加速网页元素显示，貌似效果很明顯！！！
-//DNS
-user_pref("network.dnsCacheEntries", 20); //DNS緩存數
-user_pref("network.dnsCacheExpiration", 36000); //DNS緩存失效時間（單位秒）
-user_pref("network.proxy.socks_remote_dns", true);//使用socks代理dns解析，据说可以解决dns污染或DNS劫持。前提是你有socks代理软件。
 //HTTPS不允许混合内容，以下两条参数用以禁用此特性
 user_pref("security.mixed_content.block_active_content", false);
 user_pref("security.mixed_content.block_display_content", false);
-//SSLv3 error messages，让fx忽略连接安全检查
-user_pref("security.tls.version.fallback-limit", 0);
-user_pref("security.tls.version.min", 0);
 
 //*==========平滑滾動==========*//
 user_pref("general.smoothScroll.durationToIntervalRatio", 500);
@@ -83,33 +64,15 @@ user_pref("dom.ipc.plugins.unloadASAP", true);//当插件空闲时自动关闭�
 user_pref("plugins.hide_infobar_for_missing_plugin", true);//隐藏信息栏缺失插件消息提醒
 user_pref("plugins.hide_infobar_for_outdated_plugin", true);//过期插件不提示
 user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择不提示
-user_pref("dom.ipc.plugins.flash.disable-protected-mode", true);//直接用火狐禁用flash保护模式
-
-//*==========关闭自动更新类==========*//
-user_pref("app.update.auto", false);
-user_pref("app.update.enabled", false);//禁用火狐浏览器更新
-user_pref("app.update.migrated.updateDir", false);
-user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 0);
-user_pref("app.update.lastUpdateTime.datareporting-healthreport-lastDailyCollection", 0);
-user_pref("app.update.disable_button.showUpdateHistory", false);
-user_pref("app.update.service.enabled", false);
 
 //*==========关闭安全检测健康中心类==========*//
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.enabled", false);
-user_pref("datareporting.healthreport.logging.consoleEnabled", false);
 user_pref("datareporting.healthreport.pendingDeleteRemoteData", true);
 user_pref("datareporting.healthreport.service.enabled", false);
 user_pref("datareporting.healthreport.service.firstRun", true);
 user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
-
-
-//*==========数据选择权==========*/
-user_pref("datareporting.healthreport.logging.consoleEnabled",false);//开启健康报告控制台日志？
-user_pref("datareporting.healthreport.service.enabled",false);//开启健康报告服务？
-user_pref("datareporting.healthreport.uploadEnabled",false);//允许发送健康报告到Mozilla？
-user_pref("datareporting.policy.dataSubmissionEnabled",false);//允许发送数据报告？
 user_pref("dom.enable_performance",false);
 user_pref("toolkit.telemetry.unified",false);
 
@@ -126,22 +89,15 @@ user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打�
 //*==========FX其它类==========*//
 user_pref("general.skins.selectedSkin", "simplewhite");//使用SimpleWhite主題
 user_pref("general.warnOnAboutConfig", false);//About:Config警告
-user_pref("browser.urlbar.trimURLs", false);//地址栏显示 http://
 user_pref("view_source.editor.external", true);//页面源代码——使用外部編輯器查看
 user_pref("view_source.wrap_long_lines", true);//页面源代码——将较长的行自动换行
 user_pref("privacy.popups.showBrowserMessage", false);//弹窗不提示消息
-user_pref("dom.successive_dialog_time_limit", 0);//避免此页面产生更多对话框
-user_pref("nglayout.initialpaint.delay", 0);//当浏览器收到信息后等待的时间
 user_pref("extensions.autoDisableScopes", 0);//第一次运行不禁止任何扩展
 user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不检测版本，不弹欢迎页面
 user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显示的权利通知
 user_pref("extensions.blocklist.enabled", false);//关闭启动时插件检查窗口
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
-user_pref("browser.sessionstore.interval", 999999999);//保存会话的时间间隔，不能关闭，所以取能取的最大值
-user_pref("browser.pagethumbnails.capturing_disabled", true);//禁止截图最新访问页面的缩略图
 user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为utf-8格式，默认true
-user_pref("browser.pocket.enabled", false);//禁用Pocket
-user_pref("config.trim_on_minimize", true);//最小化时自动释放内存
 
 //*==========扩展设置==========*//
 //adblockplus
@@ -165,7 +121,7 @@ user_pref("extensions.simpleproxy.proxy.0.type", "socks");
 
 //LastPass
 user_pref("extensions.lastpass.hidecontextmenu", true);
-user_pref("extensions.lastpass.showHomepageAfterLogin", false);//不登入密码库
+user_pref("extensions.lastpass.showHomepageAfterLogin", false);//登入後不轉到密码库
 user_pref("extensions.lastpass.0a148091163b8a7de3368af449db2947c700bea1552b01964d4ae55f930562e0.toplevelmatchingsites", true);//将匹配网站移动到顶部菜单
 user_pref("extensions.lastpass.loginpws", "");//不保存密码
 user_pref("extensions.lastpass.loginusers", "dupontjoy%40163.com");//用戶名
@@ -178,17 +134,12 @@ user_pref("flashgot.hide-it", true);
 user_pref("flashgot.hide-media", true);
 user_pref("flashgot.hide-options", true);
 user_pref("flashgot.hide-sel", true);
-user_pref("flashgot.includeImages", true);//包含当前页面的图片
 user_pref("flashgot.altClick", false);//取消 Alt+Click = 使用 FlashGot 下載
-user_pref("flashgot.autoStart", false);//取消 自动下载已监视的文件（開啟後所有下載自動調用DTA）
-user_pref("flashgot.interceptAll", true);//接管所有下载
-user_pref("flashgot.logEnabled", false);//禁用日志
 user_pref("flashgot.firstRunRedirection", false);//重建配置不弹FlashGot首页
 
 //Greasemonkey
 user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议提示
 user_pref("extensions.greasemonkey.installDelay", 0);//安裝時的倒計時
-user_pref("extensions.greasemonkey.sync.enabled", false); //禁止同步
 
 //Stylish
 user_pref("extensions.stylish.firstRun", 3);//重建配置不弹首页
