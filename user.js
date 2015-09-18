@@ -102,10 +102,7 @@ user_pref("extensions.autoproxy.customProxy", "Shadowsocks;;1080;socks$GoAgent;;
 user_pref("extensions.autoproxy.patternsbackups", 0);
 
 //Simple Proxy
-user_pref("extensions.simpleproxy.proxy.0.listname", "gfw.bricks.txt");
-user_pref("extensions.simpleproxy.proxy.0.port", 1080);
-user_pref("extensions.simpleproxy.proxy.0.server", "127.0.0.1");
-user_pref("extensions.simpleproxy.proxy.0.type", "socks");
+user_pref("extensions.simpleproxy.proxy.0.server", "socks::127.0.0.1::1080");
 
 //LastPass
 user_pref("extensions.lastpass.hidecontextmenu", true);
