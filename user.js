@@ -1,5 +1,5 @@
 ﻿
-//2015.09.16  精簡
+//2015.09.19  精簡
 //2015.08.07 09:00  去掉網絡流水線設置，開啟後有時會出現不能上外網的問題，只能重啟電腦
 //2015.07.07 21:00  新增禁止「HTTPS不允许混合内容」特性的參數
 //2015.05.22 21:00  新增newDownloadPlus參數
@@ -78,9 +78,9 @@ user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打�
 
 //*==========FX其它类==========*//
 user_pref("general.skins.selectedSkin", "simplewhite");//使用SimpleWhite主題
+user_pref("browser.urlbar.trimURLs", false);//地址栏显示 http://
 user_pref("general.warnOnAboutConfig", false);//About:Config警告
 user_pref("view_source.editor.external", true);//页面源代码——使用外部編輯器查看
-user_pref("view_source.wrap_long_lines", true);//页面源代码——将较长的行自动换行
 user_pref("privacy.popups.showBrowserMessage", false);//弹窗不提示消息
 user_pref("extensions.autoDisableScopes", 0);//第一次运行不禁止任何扩展
 user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不检测版本，不弹欢迎页面
