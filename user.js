@@ -1,5 +1,5 @@
 ﻿
-//2015.09.19  精簡
+//2015.09.19  啟用about:newtab
 //2015.08.07 09:00  去掉網絡流水線設置，開啟後有時會出現不能上外網的問題，只能重啟電腦
 //2015.07.07 21:00  新增禁止「HTTPS不允许混合内容」特性的參數
 //2015.05.22 21:00  新增newDownloadPlus參數
@@ -67,9 +67,11 @@ user_pref("dom.enable_performance",false);
 user_pref("toolkit.telemetry.unified",false);
 
 //*==========主页==========*//
-user_pref("startup.homepage_welcome_url", "");
-user_pref("browser.startup.homepage", "chrome://userchromejs/content/myNewTab/index.html");//首页
-user_pref("browser.newtab.url", "chrome://userchromejs/content/myNewTab/index.html");//新标签
+user_pref("browser.startup.homepage", "about:newtab");//首頁
+user_pref("browser.newtabpage.columns", 6);//新标签页列数
+user_pref("browser.newtabpage.rows", 3);//新标签页行数
+//标签页固定的网站
+user_pref("browser.newtabpage.pinned", "[{\"url\":\"http://www.google.com/\",\"title\":\"Google\"},{\"url\":\"http://www.baidu.com/\",\"title\":\"百度\"},{\"url\":\"https://www.wikipedia.org/\",\"title\":\"Wikipedia\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.linkedin.com/today/?trk=nav_responsive_sub_nav_pulse\",\"title\":\"Pulse\"},{\"url\":\"http://twitter.com/\",\"title\":\"Twitter\"},{\"url\":\"http://www.shanbay.com/\",\"title\":\"扇貝\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\" Zhihu\"},{\"url\":\"http://www.douban.com/\",\"title\":\"Douban\"},{\"url\":\"http://www.guokr.com/\",\"title\":\"Guokr\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡飯\"},{\"url\":\"https://github.com/dupontjoy\",\"title\":\"GitHub\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://music.163.com/\",\"title\":\"Music\"},{\"url\":\"http://email.163.com/\",\"title\":\"Mail\"},{\"url\":\"http://leanote.com/note/\",\"title\":\"Leanote\"},{\"url\":\"https://getpocket.com/a/queue/list/\",\"title\":\"Pocket\"}]");
 
 //*==========附加組件==========*//
 user_pref("extensions.getAddons.cache.enabled", false);//阻止每天更新附加组件元数据
