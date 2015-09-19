@@ -102,6 +102,7 @@ user_pref("extensions.autoproxy.customProxy", "Shadowsocks;;1080;socks$GoAgent;;
 user_pref("extensions.autoproxy.patternsbackups", 0);
 
 //Simple Proxy
+user_pref("extensions.simpleproxy.proxy.0.list", "https://github.com/Leask/BRICKS/raw/master/gfw.bricks");
 user_pref("extensions.simpleproxy.proxy.0.server", "socks::127.0.0.1::1080");
 
 //LastPass
