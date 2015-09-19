@@ -11,6 +11,9 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2015.09.19
+xyznew.com##.right.list_side
+xyznew.com##.pic.wrap-646.show_fat
 ! 2015.09.17
 iask.sina.com.cn###todayFix
 ! 2015.09.12
