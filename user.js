@@ -25,6 +25,7 @@ user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
 //*==========標籤相關==========*//
 user_pref("browser.tabs.insertRelatedAfterCurrent", true);//紧邻当前标签打开相关标签
 user_pref("browser.tabs.animate", false);//關閉标签页动画
+user_pref("browser.newtabpage.introShown", true);//新版newtab提示
 user_pref("browser.tabs.warnOnClose", false);//關閉多個標籤時不提示
 user_pref("browser.tabs.warnOnCloseOtherTabs", false);//關閉其它標籤時不提示
 
@@ -94,8 +95,9 @@ user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为u
 //*==========扩展设置==========*//
 //adblockplus
 user_pref("extensions.adblockplus.patternsbackups", 0);
-user_pref("extensions.adblockplus.subscriptions_antiadblockurl", "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt");//原自带的反-反ADP列表
-user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "https://github.com/dupontjoy/customization/raw/master/Rules/ABP/Floating-n-Porn-Ads-Filter.txt");//原非入侵式广告订阅网址
+user_pref("extensions.adblockplus.subscriptions_antiadblockurl", "https://github.com/dupontjoy/customization/raw/master/Rules/ABP/Floating-n-Porn-Ads-Filter.txt");//原自带的反-反ADP列表
+user_pref("extensions.adblockplus.subscriptions_exceptionscheckbox", false);//非入侵式广告勾选框
+user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "");//非入侵式广告订阅网址
 user_pref("extensions.adblockplus.frameobjects", false);//在Java和Flash上显示标签 - 否
 
 //Autoproxy
