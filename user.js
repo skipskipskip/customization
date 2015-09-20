@@ -94,9 +94,8 @@ user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为u
 //*==========扩展设置==========*//
 //adblockplus
 user_pref("extensions.adblockplus.patternsbackups", 0);
-user_pref("extensions.adblockplus.subscriptions_exceptionscheckbox", false);//非入侵式广告
-user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "");//删除非入侵式广告订阅网址
-user_pref("extensions.adblockplus.subscriptions_antiadblockurl", "");//去掉自带的反-反ADP列表
+user_pref("extensions.adblockplus.subscriptions_antiadblockurl", "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt");//原自带的反-反ADP列表
+user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "https://github.com/dupontjoy/customization/raw/master/Rules/ABP/Floating-n-Porn-Ads-Filter.txt");//原非入侵式广告订阅网址
 user_pref("extensions.adblockplus.frameobjects", false);//在Java和Flash上显示标签 - 否
 
 //Autoproxy
