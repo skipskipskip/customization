@@ -11,6 +11,8 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2015.09.20
+||img*.qiyipic.com/image/mall^
 ! 2015.09.19
 xyznew.com##.right.list_side
 xyznew.com##.pic.wrap-646.show_fat
@@ -29,7 +31,6 @@ iqiyi.com###widget-clientdownload
 ! 2015.09.02
 iqiyi.com##[data-scrollname="vipbuy"]
 iqiyi.com###goosBtn
-||img*.qiyipic.com/image/mall^
 ||mall*.qiyipic.com^
 ! 2015.08.19
 wenku.baidu.com##.tiger-eduCoupon-dialog-mask
