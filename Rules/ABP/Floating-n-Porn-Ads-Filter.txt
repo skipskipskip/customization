@@ -12,6 +12,14 @@
 !-------------------------------------------------------------------------------------!
 !開始!
 ! 2015.09.26
+news.163.com###epContentRight
+||msg.71.am^
+hinews.cn##.w643.bwa1.bs1.bc1.bc3_p
+hinews.cn##.h80
+hinews.cn##.hm-t-container
+nanhai.hinews.cn##.dis
+hinews.cn##.f1.mr15
+nanhai.hinews.cn##CENTER
 chat.shenchuang.com##.MainR
 chat.shenchuang.com##.mod_box
 junshidao.com##.right
