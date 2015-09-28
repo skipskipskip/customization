@@ -56,6 +56,7 @@ user_pref("dom.ipc.plugins.unloadASAP", true);//当插件空闲时自动关闭�
 user_pref("plugins.hide_infobar_for_missing_plugin", true);//隐藏信息栏缺失插件消息提醒
 user_pref("plugins.hide_infobar_for_outdated_plugin", true);//过期插件不提示
 user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择不提示
+user_pref("dom.ipc.plugins.flash.disable-protected-mode", true);//直接用火狐禁用flash保护模式
 
 //*==========关闭安全检测健康中心类==========*//
 user_pref("browser.safebrowsing.malware.enabled", false);
@@ -96,9 +97,9 @@ user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为u
 //*==========扩展设置==========*//
 //adblockplus
 user_pref("extensions.adblockplus.patternsbackups", 0);
-user_pref("extensions.adblockplus.subscriptions_antiadblockurl", "https://github.com/dupontjoy/customization/raw/master/Rules/ABP/Floating-n-Porn-Ads-Filter.txt");//原自带的反-反ADP列表
-user_pref("extensions.adblockplus.subscriptions_exceptionscheckbox", false);//非入侵式广告勾选框
-user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "");//非入侵式广告订阅网址
+user_pref("extensions.adblockplus.subscriptions_antiadblockurl", "");//原反-反ADP列表
+user_pref("extensions.adblockplus.subscriptions_exceptionscheckbox", true);//非入侵式广告勾选框
+user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "https://github.com/dupontjoy/customization/raw/master/Rules/ABP/Floating-n-Porn-Ads-Filter.txt");//原非入侵式广告订阅网址
 user_pref("extensions.adblockplus.frameobjects", false);//在Java和Flash上显示标签 - 否
 
 //Autoproxy
@@ -106,8 +107,8 @@ user_pref("extensions.autoproxy.customProxy", "Shadowsocks;;1080;socks$GoAgent;;
 user_pref("extensions.autoproxy.patternsbackups", 0);
 
 //Simple Proxy
-user_pref("extensions.simpleproxy.proxy.0.list", "https://github.com/Leask/BRICKS/raw/master/gfw.bricks");
-user_pref("extensions.simpleproxy.proxy.0.server", "socks::127.0.0.1::1080");
+user_pref("extensions.simpleproxy@jc3213.github.proxy_0_list", "https://github.com/Leask/BRICKS/raw/master/gfw.bricks");
+user_pref("extensions.simpleproxy@jc3213.github.proxy_0_server", "socks::127.0.0.1::1080");
 
 //LastPass
 user_pref("extensions.lastpass.hidecontextmenu", true);
