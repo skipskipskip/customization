@@ -12,6 +12,7 @@
 !-------------------------------------------------------------------------------------!
 !開始!
 ! 2015.09.28
+iqiyi.com##.act_shares
 baike.baidu.com##.bdsharebuttonbox.side-share
 baike.baidu.com##.userbar_mall
 ! 2015.09.26
