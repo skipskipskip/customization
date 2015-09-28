@@ -11,6 +11,9 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2015.09.28
+baike.baidu.com##.bdsharebuttonbox.side-share
+baike.baidu.com##.userbar_mall
 ! 2015.09.26
 news.163.com###epContentRight
 ||msg.71.am^
