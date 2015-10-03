@@ -11,6 +11,8 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2015.10.03
+lofter.com###sidebara4darea
 ! 2015.10.01
 iqiyi.com##.a1.jilu
 gearbest.com###email_subscribe
