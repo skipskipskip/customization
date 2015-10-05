@@ -12,6 +12,8 @@
 !-------------------------------------------------------------------------------------!
 !開始!
 ! 2015.10.04
+open.163.com##.appdown
+open.163.com##.btn-group
 lol.uuu9.com##P[align="left"]
 lol.uuu9.com##CENTER
 lol.uuu9.com##.Introduction
