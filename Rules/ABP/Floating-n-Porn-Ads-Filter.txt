@@ -5,15 +5,12 @@
 ! License:      Creative Commons BY-NC-SA
 ! Version:      2015.10
 ! Expires:      1h
-! Note:         
-! Homepage:     https://github.com/dupontjoy/customization/blob/master/Rules/ABP/Floating-n-Porn-Ads-Filter.txt
 ! UpdateURL:    https://github.com/dupontjoy/customization/raw/master/Rules/ABP/Floating-n-Porn-Ads-Filter.txt
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
 ! 2015.10.04
 open.163.com##.appdown
-open.163.com##.btn-group
 lol.uuu9.com##P[align="left"]
 lol.uuu9.com##CENTER
 lol.uuu9.com##.Introduction
