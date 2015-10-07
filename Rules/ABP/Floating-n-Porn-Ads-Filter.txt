@@ -9,6 +9,8 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2015.10.07
+huoyan.tv###message
 ! 2015.10.04
 open.163.com##.appdown
 lol.uuu9.com##P[align="left"]
