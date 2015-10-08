@@ -10,6 +10,8 @@
 !-------------------------------------------------------------------------------------!
 !開始!
 ! 2015.10.07
+forbes.com##.vestpocket
+ft.com###cookie-consent-container
 huoyan.tv###message
 ! 2015.10.04
 open.163.com##.appdown
