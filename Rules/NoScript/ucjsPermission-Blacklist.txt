@@ -11,7 +11,6 @@ host	subdocument	2	x.jd.com
 host	script	2	track.ft.com
 host	script	2	webterren.com
 host	script	2	beacon.walmart.com
-host	script	2	wal.co
 host	script	2	fluidsurveys.com
 host	script	2	index.youku.com
 host	script	2	static.soku.com
