@@ -1,5 +1,5 @@
 ﻿
-//2015.10.13  精简少量參數
+//2015.10.14  精简少量參數
 //2015.09.19  啟用about:newtab
 //2015.08.07 09:00  去掉網絡流水線設置，開啟後有時會出現不能上外網的問題，只能重啟電腦
 //2015.07.07 21:00  新增禁止「HTTPS不允许混合内容」特性的參數
@@ -25,6 +25,7 @@ user_pref("spellchecker.dictionary", "en-US");//字典
 user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
 
 //*==========標籤相關==========*//
+user_pref("browser.tabs.animate", false);//關閉标签页动画
 user_pref("browser.tabs.insertRelatedAfterCurrent", true);//紧邻当前标签打开相关标签
 user_pref("browser.newtabpage.introShown", true);//新版newtab提示
 user_pref("browser.tabs.warnOnClose", false);//關閉多個標籤時不提示
