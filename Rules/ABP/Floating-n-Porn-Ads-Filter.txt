@@ -9,6 +9,16 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2015.10.27
+||icon.zol-img.com.cn/cms/panda_active/*
+mobile.zol.com.cn###luo-small-btn
+news.ifeng.com##.blockR
+news.ifeng.com##.space10
+news.ifeng.com##.focus
+news.ifeng.com##.con2
+news.ifeng.com###wltxpic
+news.ifeng.com###twtjli
+news.ifeng.com##.pic600
 ! 2015.10.07
 forbes.com##.vestpocket
 ft.com###cookie-consent-container
