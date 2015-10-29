@@ -129,6 +129,19 @@ user_pref("flashgot.hide-sel", true);
 user_pref("flashgot.altClick", false);//取消 Alt+Click = 使用 FlashGot 下載
 user_pref("flashgot.firstRunRedirection", false);//重建配置不弹FlashGot首页
 
+//DownThemAll！
+user_pref("extensions.dta.conflictresolution", 0);//文檔已存在時自動重命名
+user_pref("extensions.dta.sounds.error", true);//發生錯誤時播放音效
+user_pref("extensions.dta.alertbox", 0);//下載完成後對話視窗提示
+user_pref("extensions.dta.closedta", true);//辯識並列出Flash影片
+user_pref("extensions.dta.ctxmenu", "0,0,0");//不顯示右鍵菜單
+user_pref("extensions.dta.removecanceled", true);//從清單中移除中斷及錯誤的下載
+user_pref("extensions.dta.confirmremove", false);//移除下載前不提示
+user_pref("extensions.dta.maxchunks", 10);//每次下載最大塊數
+user_pref("extensions.dta.timeout", 900);//下載超時時間（900秒/15分鐘）
+user_pref("extensions.dta.loadendfirst", true);//先加載最後一部分數據
+user_pref("extensions.dta.exposeInUA", true);//在UA中顯示DTA
+
 //Greasemonkey
 user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议提示
 user_pref("extensions.greasemonkey.installDelay", 0);//安裝時的倒計時
