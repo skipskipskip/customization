@@ -126,7 +126,7 @@ user_pref("flashgot.hide-it", true);
 user_pref("flashgot.hide-media", true);
 user_pref("flashgot.hide-options", true);
 user_pref("flashgot.hide-sel", true);
-user_pref("flashgot.altClick", false);//取消 Alt+Click = 使用 FlashGot 下載
+user_pref("flashgot.omitCookies", true);//不发送Cookie
 user_pref("flashgot.firstRunRedirection", false);//重建配置不弹FlashGot首页
 
 //DownThemAll！
