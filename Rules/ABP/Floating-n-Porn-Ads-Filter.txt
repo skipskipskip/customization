@@ -9,6 +9,8 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2015.11.19
+mytrendyphone.eu###boxup
 ! 2015.11.16
 forum.win9cn.com##IMG[src="http://forum.win9cn.com/uc_server/avatar.php?uid=135&size=middle"]
 ! 2015.10.27
