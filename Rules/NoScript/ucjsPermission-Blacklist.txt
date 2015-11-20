@@ -71,5 +71,38 @@ host	script	2	vk.com
 host	script	2	wanelo.com
 host	script	2	yieldoptimizer.com
 
+host	script	2	qiye.qq.com
+host	script	2	googleadsserving.cn
+host	script	2	advertising.com
+host	script	2	googleadservices.com
+host	script	2	googlesyndication.com
+host	script	2	adsense.com
+host	script	2	doubleclick.net
+host	script	2	clickbank.net
+host	script	2	linkbucks.com
+host	script	2	insenz.com
+host	script	2	suntimes.com
+host	script	2	focalink.com
+host	script	2	paycount.com
+host	script	2	hpg.com.br
+host	script	2	ero-advertising.com
+host	script	2	adsrvr.org
+host	script	2	adzerk.net
+host	script	2	adnxs.com
+host	script	2	adform.net
+host	script	2	4chan-ads.org
+host	script	2	quantserve.com
+host	script	2	admaster.com.cn
+host	script	2	adsymptotic.com
+host	script	2	smartadserver.com
+host	script	2	stickyadstv.com
+host	script	2	adadvisor.net
+host	script	2	addthis.com
+host	script	2	adgear.com
+host	script	2	google-analytics.com
+host	script	2	jsuuu.com
+host	script	2	jsinfo.net
+host	script	2	cityjs.com
+
 !-------最後一行默認無法導入，所以加個结束行 -------------------------------------!
 !-------結束 -------------------------------------!
