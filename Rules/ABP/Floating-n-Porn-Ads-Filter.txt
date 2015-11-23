@@ -9,6 +9,8 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2015.11.23
+gl.ali213.net###ShowDIV
 ! 2015.11.19
 mytrendyphone.eu###boxup
 ! 2015.11.16
