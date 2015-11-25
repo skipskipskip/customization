@@ -9,6 +9,10 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2015.11.25 屏蔽阿里巴巴购物跟踪
+alicdn\.com/.+tracker.+index-min\.js.*$
+taobao\.com/my_taobao_api/recent_visit\.json.*$
+alicdn\.com/.+guessulike-min\.css.*$
 ! 2015.11.23
 gl.ali213.net###ShowDIV
 ! 2015.11.19
