@@ -1,4 +1,4 @@
-!-------NoScript白名單，根據江3版增補。2015.05.30 08:00 -------------------------------------!
+!-------NoScript白名單，根據江3版增補。2015.11.29 -------------------------------------!
 10086.cn
 115.com
 126.net
@@ -11,7 +11,7 @@
 51img1.com
 56img.com
 64ma.com
-a.baidu.com
+baidu.com
 a.tbcdn.cn
 account.youdao.com
 accounts.blogger.com
