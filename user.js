@@ -1,5 +1,5 @@
 ﻿
-//2015.10.14  精简少量參數
+//2015.10.17  精简少量參數
 //2015.09.19  啟用about:newtab
 //2015.08.07 09:00  去掉網絡流水線設置，開啟後有時會出現不能上外網的問題，只能重啟電腦
 //2015.07.07 21:00  新增禁止「HTTPS不允许混合内容」特性的參數
@@ -93,6 +93,9 @@ user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显�
 user_pref("extensions.blocklist.enabled", false);//关闭启动时插件检查窗口
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
 user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为utf-8格式，默认true
+//关掉PcxFirefox的SmartRAM
+user_pref("pcxfirefox.memory.firefox.smart", false);//该参数控制是否启用SmartRAM特性，默认值为true，亦即在启动时启用这个功能
+user_pref("pcxfirefox.memory.firefox.smart.dynamic", false);//该参数控制是否启用SmartRAM的动态释放方法，默认为true，当该参数为true时，pcxfirefox.memory.firefox.smart.dynamic.min 和 pcxfirefox.memory.firefox.smart.dynamic.ratio 才会有效
 
 //*==========扩展设置==========*//
 //adblockplus
