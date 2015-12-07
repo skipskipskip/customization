@@ -14,3 +14,9 @@
 ![](img/qt-2.jpg)
 
 ![](img/qt-3.jpg)
+
+QTTabBar主程序下載地址：http://qttabbar.wikidot.com/
+
+推荐插件：
+
+- Window manager：http://qttabbar.wdfiles.com/local--files/plugins/WindowManager.zip
