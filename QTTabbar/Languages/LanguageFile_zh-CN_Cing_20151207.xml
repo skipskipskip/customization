@@ -22,7 +22,7 @@
 <Revision>20151207</Revision>
 <Locale>zh-CN</Locale>
 <Contact>dupontjoy@163.com</Contact>
-<DateModified>2015/12/7/周一 11:07:16</DateModified>
+<DateModified>2015/12/7/周一 16:26:07</DateModified>
 <EditorVersion>1.0.0.5</EditorVersion>
 
 <!--DATA START-->
@@ -338,7 +338,7 @@ IO 错误。
 <DialogFileHashComputer>
 完成
 已取消。
-计算Hash值 {0} / {1}
+计算哈希值 {0} / {1}
 数据成功设置为剪贴板中的内容
 路径
 哈希
@@ -380,7 +380,7 @@ IO 错误。
 正在处理...
 成功重命名 {0} 项。
 成功 {0} 个，失败 {1} 个。
-^\t文件名开头
+^\t 文件名开头
 $\t文件名结束
 .\t任何单个字符
 []\t在字符组中的任意单个字符
