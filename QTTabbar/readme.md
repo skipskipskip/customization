@@ -1,8 +1,9 @@
 ###QTTabBar
 
 含：
-[x] QTTabBar中文简体语言
-[x] QTTabBar个人设置
+
+- [x] QTTabBar中文简体语言
+- [x] QTTabBar个人设置
 
 ####QTTabBar中文简体语言
 
