@@ -2,7 +2,7 @@
 
 含：
 
-- [x] QTTabBar中文简体语言
+- [x] QTTabBar中文简体语言文件
 - [x] QTTabBar个人设置
 
 ####QTTabBar中文简体语言
@@ -22,3 +22,9 @@ QTTabBar主程序下載地址：http://qttabbar.wikidot.com/
 推荐插件：
 
 - Window manager：http://qttabbar.wdfiles.com/local--files/plugins/WindowManager.zip
+
+| | |
+| :--- | :--- |
+| APP | QT主程序，插件 |
+| Languages | 维护的中文简体语言文件 |
+| Settings| 个人设置 |
