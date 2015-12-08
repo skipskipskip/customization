@@ -17,6 +17,8 @@
 
 ![](img/qt-3.jpg)
 
+![](img/qt-4.jpg)
+
 QTTabBar主程序下載地址：http://qttabbar.wikidot.com/
 
 官方语言地址：http://qttabbar.wikidot.com/userpages:language-files
