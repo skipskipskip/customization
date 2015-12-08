@@ -1,9 +1,12 @@
 ###QTTabBar
 
-含：
-
-- [x] QTTabBar中文简体语言文件
-- [x] QTTabBar个人设置
+| | |
+| :--- | :--- |
+| APP | [QT主程序](http://qttabbar.wikidot.com/)|
+| | [插件Window Manager](http://qttabbar.wdfiles.com/local--files/plugins/WindowManager.zip)：设置窗口打开位置，及窗口大小 |
+| Languages | [官方](http://qttabbar.wikidot.com/userpages:language-files) |
+| | 個人维护的中文简体语言文件 |
+| Settings| 个人设置 |
 
 ####QTTabBar中文简体语言
 
@@ -18,19 +21,3 @@
 ![](img/qt-3.jpg)
 
 ![](img/qt-4.jpg)
-
-QTTabBar主程序下載地址：http://qttabbar.wikidot.com/
-
-官方语言地址：http://qttabbar.wikidot.com/userpages:language-files （文件很旧，并不实用）
-
-推荐插件：
-
-- Window manager：可设置窗口打开位置，及窗口大小
-
-  http://qttabbar.wdfiles.com/local--files/plugins/WindowManager.zip
-
-| | |
-| :--- | :--- |
-| APP | QT主程序，插件 |
-| Languages | 维护的中文简体语言文件 |
-| Settings| 个人设置 |
