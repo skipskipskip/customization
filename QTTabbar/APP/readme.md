@@ -1,3 +1,3 @@
 ###Window Manager
 
-![](/QTTabBar/img/qt-4.jpg)
+![](../img/qt-4.jpg)
