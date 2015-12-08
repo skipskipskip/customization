@@ -21,11 +21,13 @@
 
 QTTabBar主程序下載地址：http://qttabbar.wikidot.com/
 
-官方语言地址：http://qttabbar.wikidot.com/userpages:language-files
+官方语言地址：http://qttabbar.wikidot.com/userpages:language-files （文件很旧，并不实用）
 
 推荐插件：
 
-- Window manager：http://qttabbar.wdfiles.com/local--files/plugins/WindowManager.zip
+- Window manager：可设置窗口打开位置，及窗口大小
+
+  http://qttabbar.wdfiles.com/local--files/plugins/WindowManager.zip
 
 | | |
 | :--- | :--- |
