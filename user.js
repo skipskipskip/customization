@@ -97,9 +97,14 @@ user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为u
 //关掉PcxFirefox的SmartRAM
 user_pref("pcxfirefox.memory.firefox.smart", false);//该参数控制是否启用SmartRAM特性，默认值为true，亦即在启动时启用这个功能
 user_pref("pcxfirefox.memory.firefox.smart.dynamic", false);//该参数控制是否启用SmartRAM的动态释放方法，默认为true，当该参数为true时，pcxfirefox.memory.firefox.smart.dynamic.min 和 pcxfirefox.memory.firefox.smart.dynamic.ratio 才会有效
+user_pref("browser.newtabpage.directory.ping", "");//取消新标签页建议磁贴并取消回传数据
+
+//關閉预测服务，含推测性预连接
+user_pref("network.predictor.enabled", false);
+user_pref("network.http.speculative-parallel-limit", 0);
 
 //From：FFProfile
-user_pref("browser.selfsupport.url", "");
+user_pref("browser.selfsupport.url", "");//禁用心跳评价系统
 user_pref("browser.pocket.enabled", false);//禁用Pocket
 user_pref("app.update.enabled", false);
 user_pref("loop.enabled", false);//禁用Mozilla Hello
@@ -107,8 +112,8 @@ user_pref("privacy.trackingprotection.pbmode.enabled", true);
 user_pref("dom.indexedDB.enabled", false);
 user_pref("network.prefetch-next", false);//關閉預讀
 user_pref("network.dns.disablePrefetch", true);
-user_pref("beacon.enabled", false);
-user_pref("browser.send_pings", false);//Disable Browser Pings
+user_pref("beacon.enabled", false);//Beacon 是使用 navigator.sendBeacon()在你离开一个页面时将一些数据回传给服务器
+user_pref("browser.send_pings", false);//ping 服务，Firefox 会把你点击过的链接及其时间发回给服务器
 user_pref("toolkit.telemetry.enabled", false);
 user_pref("privacy.trackingprotection.enabled", true);
 user_pref("browser.newtab.preload", false);
