@@ -1,4 +1,5 @@
 ﻿
+//2015.12.09  添加FFProfile設置參數：https://ffprofile.com/#start
 //2015.10.17  精简少量參數
 //2015.09.19  啟用about:newtab
 //2015.08.07 09:00  去掉網絡流水線設置，開啟後有時會出現不能上外網的問題，只能重啟電腦
@@ -96,6 +97,28 @@ user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为u
 //关掉PcxFirefox的SmartRAM
 user_pref("pcxfirefox.memory.firefox.smart", false);//该参数控制是否启用SmartRAM特性，默认值为true，亦即在启动时启用这个功能
 user_pref("pcxfirefox.memory.firefox.smart.dynamic", false);//该参数控制是否启用SmartRAM的动态释放方法，默认为true，当该参数为true时，pcxfirefox.memory.firefox.smart.dynamic.min 和 pcxfirefox.memory.firefox.smart.dynamic.ratio 才会有效
+
+//From：FFProfile
+user_pref("browser.selfsupport.url", "");
+user_pref("browser.pocket.enabled", false);//禁用Pocket
+user_pref("app.update.enabled", false);
+user_pref("loop.enabled", false);//禁用Mozilla Hello
+user_pref("privacy.trackingprotection.pbmode.enabled", true);
+user_pref("dom.indexedDB.enabled", false);
+user_pref("network.prefetch-next", false);//關閉預讀
+user_pref("network.dns.disablePrefetch", true);
+user_pref("beacon.enabled", false);
+user_pref("browser.send_pings", false);//Disable Browser Pings
+user_pref("toolkit.telemetry.enabled", false);
+user_pref("privacy.trackingprotection.enabled", true);
+user_pref("browser.newtab.preload", false);
+user_pref("network.cookie.cookieBehavior", 1);
+user_pref("app.update.auto", false);
+user_pref("media.peerconnection.enabled", false);
+user_pref("dom.battery.enabled", false);
+user_pref("browser.toolbarbuttons.introduced.pocket-button", true);
+user_pref("privacy.donottrackheader.value", 1);
+user_pref("network.http.sendRefererHeader", "0");
 
 //*==========扩展设置==========*//
 //adblockplus
