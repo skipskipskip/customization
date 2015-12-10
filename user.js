@@ -1,5 +1,5 @@
 ﻿
-//2015.12.09  添加FFProfile設置參數：https://ffprofile.com/#start
+//2015.12.10  添加FFProfile設置參數：https://ffprofile.com/#start
 //2015.10.17  精简少量參數
 //2015.09.19  啟用about:newtab
 //2015.08.07 09:00  去掉網絡流水線設置，開啟後有時會出現不能上外網的問題，只能重啟電腦
@@ -16,6 +16,7 @@
 user_pref("browser.preferences.inContent", false);//選項 使用老版彈窗
 user_pref("signon.rememberSignons", false);//不保存密码
 user_pref("privacy.donottrackheader.enabled", true);//開啟DNT
+user_pref("privacy.donottrackheader.value", 1);//0 同意被跟踪;1 不要被跟踪
 //字體語言編碼
 user_pref("intl.charset.detector", "universal_charset_detector");//自動選擇
 user_pref("font.name.serif.zh-CN", "Arial");//衬線字體
@@ -106,24 +107,19 @@ user_pref("network.http.speculative-parallel-limit", 0);
 //From：FFProfile
 user_pref("browser.selfsupport.url", "");//禁用心跳评价系统
 user_pref("browser.pocket.enabled", false);//禁用Pocket
-user_pref("app.update.enabled", false);
 user_pref("loop.enabled", false);//禁用Mozilla Hello
 user_pref("privacy.trackingprotection.pbmode.enabled", true);
 user_pref("dom.indexedDB.enabled", false);
-user_pref("network.prefetch-next", false);//關閉預讀
-user_pref("network.dns.disablePrefetch", true);
+user_pref("network.prefetch-next", false);//關閉鏈接預讀
+user_pref("network.dns.disablePrefetch", true);//關閉DNS預讀
 user_pref("beacon.enabled", false);//Beacon 是使用 navigator.sendBeacon()在你离开一个页面时将一些数据回传给服务器
 user_pref("browser.send_pings", false);//ping 服务，Firefox 会把你点击过的链接及其时间发回给服务器
 user_pref("toolkit.telemetry.enabled", false);
 user_pref("privacy.trackingprotection.enabled", true);
 user_pref("browser.newtab.preload", false);
-user_pref("network.cookie.cookieBehavior", 1);
-user_pref("app.update.auto", false);
 user_pref("media.peerconnection.enabled", false);
 user_pref("dom.battery.enabled", false);
-user_pref("browser.toolbarbuttons.introduced.pocket-button", true);
-user_pref("privacy.donottrackheader.value", 1);
-user_pref("network.http.sendRefererHeader", "0");
+//user_pref("network.cookie.cookieBehavior", 1);//1 仅接受来自原始网站的cookie（比较推荐，可以防止被跟踪）。会导致Lastpass不能记住登陆状态，慎用！
 
 //*==========扩展设置==========*//
 //adblockplus
