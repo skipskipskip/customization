@@ -1,4 +1,5 @@
 ﻿
+//2015.12.13  加入NoScript參數
 //2015.12.10  添加FFProfile設置參數：https://ffprofile.com/#start
 //2015.10.17  精简少量參數
 //2015.09.19  啟用about:newtab
@@ -29,7 +30,6 @@ user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
 //*==========標籤相關==========*//
 user_pref("browser.tabs.animate", false);//關閉标签页动画
 user_pref("browser.tabs.insertRelatedAfterCurrent", true);//紧邻当前标签打开相关标签
-user_pref("browser.newtabpage.introShown", true);//新版newtab提示
 user_pref("browser.tabs.warnOnClose", false);//關閉多個標籤時不提示
 user_pref("browser.tabs.warnOnCloseOtherTabs", false);//關閉其它標籤時不提示
 
@@ -58,7 +58,6 @@ user_pref("dom.ipc.plugins.unloadASAP", true);//当插件空闲时自动关闭�
 user_pref("plugins.hide_infobar_for_missing_plugin", true);//隐藏信息栏缺失插件消息提醒
 user_pref("plugins.hide_infobar_for_outdated_plugin", true);//过期插件不提示
 user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择不提示
-user_pref("dom.ipc.plugins.flash.disable-protected-mode", true);//直接用火狐禁用flash保护模式
 
 //*==========关闭安全检测健康中心类==========*//
 user_pref("browser.safebrowsing.malware.enabled", false);
@@ -95,9 +94,6 @@ user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显�
 user_pref("extensions.blocklist.enabled", false);//关闭启动时插件检查窗口
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
 user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为utf-8格式，默认true
-//关掉PcxFirefox的SmartRAM
-user_pref("pcxfirefox.memory.firefox.smart", false);//该参数控制是否启用SmartRAM特性，默认值为true，亦即在启动时启用这个功能
-user_pref("pcxfirefox.memory.firefox.smart.dynamic", false);//该参数控制是否启用SmartRAM的动态释放方法，默认为true，当该参数为true时，pcxfirefox.memory.firefox.smart.dynamic.min 和 pcxfirefox.memory.firefox.smart.dynamic.ratio 才会有效
 user_pref("browser.newtabpage.directory.ping", "");//取消新标签页建议磁贴并取消回传数据
 
 //關閉预测服务，含推测性预连接
@@ -119,7 +115,6 @@ user_pref("privacy.trackingprotection.enabled", true);
 user_pref("browser.newtab.preload", false);
 user_pref("media.peerconnection.enabled", false);
 user_pref("dom.battery.enabled", false);
-//user_pref("network.cookie.cookieBehavior", 1);//1 仅接受来自原始网站的cookie（比较推荐，可以防止被跟踪）。会导致Lastpass不能记住登陆状态，慎用！
 
 //*==========扩展设置==========*//
 //adblockplus
@@ -168,6 +163,20 @@ user_pref("extensions.dta.maxchunks", 10);//每次下載最大塊數
 user_pref("extensions.dta.timeout", 900);//下載超時時間（900秒/15分鐘）
 user_pref("extensions.dta.loadendfirst", true);//先加載最後一部分數據
 user_pref("extensions.dta.exposeInUA", true);//在UA中顯示DTA
+
+//Noscript
+user_pref("noscript.autoAllow", 3); //自動允許第二層網域
+user_pref("noscript.autoReload.allTabs", false); //只重載當前頁面
+user_pref("noscript.forbidFonts", false); //不禁止@font-face
+user_pref("noscript.showAbout", false); //不顯示關於
+user_pref("noscript.notify.hideDelay", 30); //xx秒後隱藏
+user_pref("noscript.notify.hide", true); //時間到後自動隱藏
+user_pref("noscript.xss.notify", false); //不顯示被封鎖的META重定向
+user_pref("noscript.forbidMetaRefresh.notify", false); //不顯示XSS通知
+user_pref("noscript.firstRunRedirection", false); //不顯示更新發行公告
+user_pref("noscript.ABE.enabled", false); //禁用ABE
+user_pref("noscript.subscription.checkInterval", 24);//更新检查周期间隔
+user_pref("noscript.subscription.trustedURL", "https://github.com/dupontjoy/customization/raw/master/Rules/NoScript/NoScript-Whitelist.txt");//可信名单的订阅URL，在线订阅的黑白名单会定期自动同步到本地，并与本地名单合并
 
 //Greasemonkey
 user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议提示
