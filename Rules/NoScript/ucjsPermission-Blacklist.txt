@@ -18,7 +18,6 @@ host	script	2	da.netease.com
 host	script	2	analytics.163.com
 host	script	2	ad.uuu9.com
 host	script	2	webgains.com
-host	subdocument	2	x.jd.com
 host	script	2	track.ft.com
 host	script	2	webterren.com
 host	script	2	beacon.walmart.com
