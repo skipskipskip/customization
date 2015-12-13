@@ -1,4 +1,4 @@
-!-------NoScript白名單，根據江3版增補。2015.11.29 -------------------------------------!
+!-------NoScript白名單，根據江3版增補。2015.12 -------------------------------------!
 10086.cn
 115.com
 126.net
@@ -332,7 +332,6 @@ org.cn
 os.51cto.com
 outbrain.com
 outlook.com
-p.tanx.com
 pan.baidu.com
 panopticlick.eff.org
 passport.126.com
