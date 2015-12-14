@@ -9,6 +9,8 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2015.12.14
+haosou.com##.cms-ad-wrap.skin-text
 ! 2015.12.06
 zasq.net##.aui_inner
 ! 2015.11.25
