@@ -11,6 +11,7 @@
 !開始!
 ! 2015.12.14
 haosou.com##.cms-ad-wrap.skin-text
+tvc-mall.com##.addthis_toolbox.addthis_default_style
 ! 2015.12.06
 zasq.net##.aui_inner
 ! 2015.11.25
