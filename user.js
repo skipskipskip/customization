@@ -1,5 +1,4 @@
 ﻿
-//2015.12.13  加入NoScript參數
 //2015.12.10  添加FFProfile設置參數：https://ffprofile.com/#start
 //2015.10.17  精简少量參數
 //2015.09.19  啟用about:newtab
@@ -30,6 +29,7 @@ user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
 //*==========標籤相關==========*//
 user_pref("browser.tabs.animate", false);//關閉标签页动画
 user_pref("browser.tabs.insertRelatedAfterCurrent", true);//紧邻当前标签打开相关标签
+user_pref("browser.newtabpage.introShown", true);//去除新版newtab提示
 user_pref("browser.tabs.warnOnClose", false);//關閉多個標籤時不提示
 user_pref("browser.tabs.warnOnCloseOtherTabs", false);//關閉其它標籤時不提示
 
@@ -75,7 +75,7 @@ user_pref("browser.startup.homepage", "about:newtab");//首頁
 user_pref("browser.newtabpage.columns", 6);//新标签页列数
 user_pref("browser.newtabpage.rows", 3);//新标签页行数
 //标签页固定的网站
-user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://www.google.com/ncr\",\"title\":\"Google\"},{\"url\":\"http://www.baidu.com/\",\"title\":\"Baidu\"},{\"url\":\"https://www.wikipedia.org/\",\"title\":\"Wikipedia\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.linkedin.com/today/?trk=nav_responsive_sub_nav_pulse\",\"title\":\"Pulse\"},{\"url\":\"http://twitter.com/\",\"title\":\"Twitter\"},{\"url\":\"http://www.shanbay.com/\",\"title\":\"Shanbay\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\" Zhihu\"},{\"url\":\"http://www.douban.com/\",\"title\":\"Douban\"},{\"url\":\"http://www.guokr.com/\",\"title\":\"Guokr\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"Kafan\"},{\"url\":\"https://github.com/dupontjoy\",\"title\":\"GitHub\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://music.163.com/\",\"title\":\"Music\"},{\"url\":\"http://email.163.com/\",\"title\":\"Mail\"},{\"url\":\"https://note.wiz.cn/web\",\"title\":\"Wiznote\"},{\"url\":\"https://getpocket.com/a/queue/list/\",\"title\":\"Pocket\"}]");
+user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://www.google.com/ncr\",\"title\":\"Google\"},{\"url\":\"http://www.haosou.com/\",\"title\":\"Haosou\"},{\"url\":\"https://www.wikipedia.org/\",\"title\":\"Wikipedia\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.linkedin.com/today/?trk=nav_responsive_sub_nav_pulse\",\"title\":\"Pulse\"},{\"url\":\"http://twitter.com/\",\"title\":\"Twitter\"},{\"url\":\"http://www.shanbay.com/\",\"title\":\"Shanbay\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\" Zhihu\"},{\"url\":\"http://www.douban.com/\",\"title\":\"Douban\"},{\"url\":\"http://www.guokr.com/\",\"title\":\"Guokr\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"Kafan\"},{\"url\":\"https://github.com/dupontjoy\",\"title\":\"GitHub\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://music.163.com/\",\"title\":\"Music\"},{\"url\":\"http://email.163.com/\",\"title\":\"Mail\"},{\"url\":\"https://note.wiz.cn/web\",\"title\":\"Wiznote\"},{\"url\":\"https://getpocket.com/a/queue/list/\",\"title\":\"Pocket\"}]");
 
 //*==========附加組件==========*//
 user_pref("extensions.getAddons.cache.enabled", false);//阻止每天更新附加组件元数据
@@ -163,20 +163,6 @@ user_pref("extensions.dta.maxchunks", 10);//每次下載最大塊數
 user_pref("extensions.dta.timeout", 900);//下載超時時間（900秒/15分鐘）
 user_pref("extensions.dta.loadendfirst", true);//先加載最後一部分數據
 user_pref("extensions.dta.exposeInUA", true);//在UA中顯示DTA
-
-//Noscript
-user_pref("noscript.autoAllow", 3); //自動允許第二層網域
-user_pref("noscript.autoReload.allTabs", false); //只重載當前頁面
-user_pref("noscript.forbidFonts", false); //不禁止@font-face
-user_pref("noscript.showAbout", false); //不顯示關於
-user_pref("noscript.notify.hideDelay", 30); //xx秒後隱藏
-user_pref("noscript.notify.hide", true); //時間到後自動隱藏
-user_pref("noscript.xss.notify", false); //不顯示被封鎖的META重定向
-user_pref("noscript.forbidMetaRefresh.notify", false); //不顯示XSS通知
-user_pref("noscript.firstRunRedirection", false); //不顯示更新發行公告
-user_pref("noscript.ABE.enabled", false); //禁用ABE
-user_pref("noscript.subscription.checkInterval", 24);//更新检查周期间隔
-user_pref("noscript.subscription.trustedURL", "https://github.com/dupontjoy/customization/raw/master/Rules/NoScript/NoScript-Whitelist.txt");//可信名单的订阅URL，在线订阅的黑白名单会定期自动同步到本地，并与本地名单合并
 
 //Greasemonkey
 user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议提示
