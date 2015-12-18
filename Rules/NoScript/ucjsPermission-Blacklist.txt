@@ -22,12 +22,6 @@ host	script	2	track.ft.com
 host	script	2	webterren.com
 host	script	2	beacon.walmart.com
 host	script	2	fluidsurveys.com
-host	script	2	index.youku.com
-host	script	2	static.soku.com
-host	script	2	notify.youku.com
-host	script	2	urchin.lstat.youku.com
-host	script	2	v2html.atm.youku.com
-host	script	2	yws.youku.com
 host	script	2	hudong.pl.youku.com
 host	script	2	effectivemeasure.net
 host	script	2	googlesyndication.com
@@ -83,7 +77,6 @@ host	script	2	advertising.com
 host	script	2	googleadservices.com
 host	script	2	googlesyndication.com
 host	script	2	adsense.com
-host	script	2	doubleclick.net
 host	script	2	clickbank.net
 host	script	2	linkbucks.com
 host	script	2	insenz.com
@@ -103,9 +96,7 @@ host	script	2	adsymptotic.com
 host	script	2	smartadserver.com
 host	script	2	stickyadstv.com
 host	script	2	adadvisor.net
-host	script	2	addthis.com
 host	script	2	adgear.com
-host	script	2	google-analytics.com
 host	script	2	jsuuu.com
 host	script	2	jsinfo.net
 host	script	2	cityjs.com
