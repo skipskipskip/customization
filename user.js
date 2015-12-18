@@ -95,7 +95,6 @@ user_pref("extensions.blocklist.enabled", false);//关闭启动时插件检查�
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
 user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为utf-8格式，默认true
 user_pref("browser.newtabpage.directory.ping", "");//取消新标签页建议磁贴并取消回传数据
-user_pref("urlclassifier.trackingTable", "mozpub-track-digest256,test-track-simple,mozstd-track-digest256");//Disconnect.me 提供的基础保护列表，允许部分跟踪行为，同时让网站功能保持正常。
 
 //關閉预测服务，含推测性预连接
 user_pref("network.predictor.enabled", false);
