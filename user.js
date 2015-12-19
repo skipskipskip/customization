@@ -84,7 +84,6 @@ user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打�
 
 //*==========FX其它类==========*//
 user_pref("general.skins.selectedSkin", "simplewhite");//使用SimpleWhite主題
-user_pref("browser.search.defaultenginename", "Google");//默認搜索使用Google
 user_pref("browser.urlbar.trimURLs", false);//地址栏显示 http://
 user_pref("general.warnOnAboutConfig", false);//About:Config警告
 user_pref("view_source.editor.external", true);//页面源代码——使用外部編輯器查看
