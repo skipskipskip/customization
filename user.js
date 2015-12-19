@@ -1,6 +1,6 @@
 ﻿
+//2015.12.19  精简少量參數
 //2015.12.10  添加FFProfile設置參數：https://ffprofile.com/#start
-//2015.10.17  精简少量參數
 //2015.09.19  啟用about:newtab
 //2015.08.07 09:00  去掉網絡流水線設置，開啟後有時會出現不能上外網的問題，只能重啟電腦
 //2015.07.07 21:00  新增禁止「HTTPS不允许混合内容」特性的參數
@@ -11,6 +11,13 @@
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
+
+//*==========主页==========*//
+user_pref("browser.startup.homepage", "about:newtab");//首頁
+user_pref("browser.newtabpage.columns", 6);//新标签页列数
+user_pref("browser.newtabpage.rows", 3);//新标签页行数
+//标签页固定的网站
+user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://www.google.com/ncr\",\"title\":\"Google\"},{\"url\":\"http://www.haosou.com/\",\"title\":\"Haosou\"},{\"url\":\"https://www.wikipedia.org/\",\"title\":\"Wikipedia\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.linkedin.com/today/?trk=nav_responsive_sub_nav_pulse\",\"title\":\"Pulse\"},{\"url\":\"http://twitter.com/\",\"title\":\"Twitter\"},{\"url\":\"http://www.shanbay.com/\",\"title\":\"Shanbay\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\" Zhihu\"},{\"url\":\"http://www.douban.com/\",\"title\":\"Douban\"},{\"url\":\"http://www.guokr.com/\",\"title\":\"Guokr\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"Kafan\"},{\"url\":\"https://github.com/dupontjoy\",\"title\":\"GitHub\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://music.163.com/\",\"title\":\"Music\"},{\"url\":\"http://email.163.com/\",\"title\":\"Mail\"},{\"url\":\"https://note.wiz.cn/web\",\"title\":\"Wiznote\"},{\"url\":\"https://getpocket.com/a/queue/list/\",\"title\":\"Pocket\"}]");
 
 //*==========选项卡里的设置==========*//
 user_pref("browser.preferences.inContent", false);//選項 使用老版彈窗
@@ -25,6 +32,10 @@ user_pref("font.name.monospace.zh-CN", "Arial");//等寬字體
 //拼写检查
 user_pref("spellchecker.dictionary", "en-US");//字典
 user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
+//关闭安全检测健康中心类
+user_pref("browser.safebrowsing.malware.enabled", false);
+user_pref("browser.safebrowsing.enabled", false);
+user_pref("datareporting.policy.dataSubmissionEnabled", false);
 
 //*==========標籤相關==========*//
 user_pref("browser.tabs.animate", false);//關閉标签页动画
@@ -59,24 +70,6 @@ user_pref("plugins.hide_infobar_for_missing_plugin", true);//隐藏信息栏缺�
 user_pref("plugins.hide_infobar_for_outdated_plugin", true);//过期插件不提示
 user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择不提示
 
-//*==========关闭安全检测健康中心类==========*//
-user_pref("browser.safebrowsing.malware.enabled", false);
-user_pref("browser.safebrowsing.enabled", false);
-user_pref("datareporting.healthreport.pendingDeleteRemoteData", true);
-user_pref("datareporting.healthreport.service.enabled", false);
-user_pref("datareporting.healthreport.service.firstRun", true);
-user_pref("datareporting.healthreport.uploadEnabled", false);
-user_pref("datareporting.policy.dataSubmissionEnabled", false);
-user_pref("dom.enable_performance",false);
-user_pref("toolkit.telemetry.unified",false);
-
-//*==========主页==========*//
-user_pref("browser.startup.homepage", "about:newtab");//首頁
-user_pref("browser.newtabpage.columns", 6);//新标签页列数
-user_pref("browser.newtabpage.rows", 3);//新标签页行数
-//标签页固定的网站
-user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://www.google.com/ncr\",\"title\":\"Google\"},{\"url\":\"http://www.haosou.com/\",\"title\":\"Haosou\"},{\"url\":\"https://www.wikipedia.org/\",\"title\":\"Wikipedia\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.linkedin.com/today/?trk=nav_responsive_sub_nav_pulse\",\"title\":\"Pulse\"},{\"url\":\"http://twitter.com/\",\"title\":\"Twitter\"},{\"url\":\"http://www.shanbay.com/\",\"title\":\"Shanbay\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\" Zhihu\"},{\"url\":\"http://www.douban.com/\",\"title\":\"Douban\"},{\"url\":\"http://www.guokr.com/\",\"title\":\"Guokr\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"Kafan\"},{\"url\":\"https://github.com/dupontjoy\",\"title\":\"GitHub\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://music.163.com/\",\"title\":\"Music\"},{\"url\":\"http://email.163.com/\",\"title\":\"Mail\"},{\"url\":\"https://note.wiz.cn/web\",\"title\":\"Wiznote\"},{\"url\":\"https://getpocket.com/a/queue/list/\",\"title\":\"Pocket\"}]");
-
 //*==========附加組件==========*//
 user_pref("extensions.getAddons.cache.enabled", false);//阻止每天更新附加组件元数据
 user_pref("extensions.webservice.discoverURL","http://127.0.0.1");//禁用附加组件建议
@@ -104,17 +97,11 @@ user_pref("network.http.speculative-parallel-limit", 0);
 user_pref("browser.selfsupport.url", "");//禁用心跳评价系统
 user_pref("browser.pocket.enabled", false);//禁用Pocket
 user_pref("loop.enabled", false);//禁用Mozilla Hello
-user_pref("privacy.trackingprotection.pbmode.enabled", true);
-user_pref("dom.indexedDB.enabled", false);
 user_pref("network.prefetch-next", false);//關閉鏈接預讀
 user_pref("network.dns.disablePrefetch", true);//關閉DNS預讀
 user_pref("beacon.enabled", false);//Beacon 是使用 navigator.sendBeacon()在你离开一个页面时将一些数据回传给服务器
 user_pref("browser.send_pings", false);//ping 服务，Firefox 会把你点击过的链接及其时间发回给服务器
-user_pref("toolkit.telemetry.enabled", false);
-user_pref("privacy.trackingprotection.enabled", true);
-user_pref("browser.newtab.preload", false);
-user_pref("media.peerconnection.enabled", false);
-user_pref("dom.battery.enabled", false);
+
 
 //*==========扩展设置==========*//
 //adblockplus
