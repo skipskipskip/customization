@@ -42,6 +42,7 @@ user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
 user_pref("dom.enable_performance",false);
 user_pref("toolkit.telemetry.unified",false);
+user_pref("sanity-test.running",false);
 
 //*==========標籤相關==========*//
 user_pref("browser.tabs.animate", false);//關閉标签页动画
