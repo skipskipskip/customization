@@ -35,7 +35,13 @@ user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
 //关闭安全检测健康中心类
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.enabled", false);
+user_pref("datareporting.healthreport.pendingDeleteRemoteData", true);
+user_pref("datareporting.healthreport.service.enabled", false);
+user_pref("datareporting.healthreport.service.firstRun", true);
+user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
+user_pref("dom.enable_performance",false);
+user_pref("toolkit.telemetry.unified",false);
 
 //*==========標籤相關==========*//
 user_pref("browser.tabs.animate", false);//關閉标签页动画
