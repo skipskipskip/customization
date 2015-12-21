@@ -9,6 +9,8 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2015.12.21
+wugongqi.cn##CENTER
 ! 2015.12.14
 haosou.com##.cms-ad-wrap.skin-text
 tvc-mall.com##.addthis_toolbox.addthis_default_style
