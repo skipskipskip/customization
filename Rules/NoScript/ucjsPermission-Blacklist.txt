@@ -69,6 +69,7 @@ host	script	2	translate.googleapis.com
 host	script	2	truste.com
 host	script	2	vizury.com
 host	script	2	vk.com
+host	image	2	vk.com
 host	script	2	wanelo.com
 host	script	2	yieldoptimizer.com
 
