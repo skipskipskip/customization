@@ -102,7 +102,6 @@ user_pref("network.http.speculative-parallel-limit", 0);
 
 //From：FFProfile
 user_pref("browser.selfsupport.url", "");//禁用心跳评价系统
-user_pref("browser.pocket.enabled", false);//禁用Pocket
 user_pref("loop.enabled", false);//禁用Mozilla Hello
 user_pref("network.prefetch-next", false);//關閉鏈接預讀
 user_pref("network.dns.disablePrefetch", true);//關閉DNS預讀
