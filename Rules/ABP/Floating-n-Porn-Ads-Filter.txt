@@ -9,6 +9,8 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2015.12.30
+xiazaizhijia.com##.fr.w325.hot_read_list
 ! 2015.12.21
 wugongqi.cn##CENTER
 ! 2015.12.14
