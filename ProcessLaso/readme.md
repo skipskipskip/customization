@@ -1,5 +1,7 @@
 ###Process Laso程式個人設置
 
+Customized Process Laso settings
+
 常用到的功能：
 
 - [x] 程序黑名單 
