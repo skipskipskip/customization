@@ -1,12 +1,19 @@
-###ProcessLaso程式個人設置
+###Process Laso程式個人設置
 
 常用到的功能：
 
 - [x] 程序黑名單 
 - [x] 程序監控（按CPU或內存）
-- [x] 爲程序設定电源計劃
+- [x] 程序电源計劃
 
-ProcessLaso程序下載及購買: https://bitsum.com/processlasso/
+| | |
+| :-- | :-- |
+| 程序界面: | 程序黑名單: |
+| ![](img/1.jpg) | ![](img/2.jpg) |
+| 程序監控: | 程序电源計劃: |
+| ![](img/3.jpg) | ![](img/4.jpg) |
+
+Process Laso程序下載及購買: https://bitsum.com/processlasso/
 
 ####Feature
 
