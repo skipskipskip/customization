@@ -18,5 +18,5 @@
 
 | | |
 | :-- | :-- |
-| <img width="420" src="img/qt-1.jpg">| <img width="420" src="img/qt-2.jpg"> |
-| <img width="420" src="img/qt-3.jpg">| <img width="420" src="img/qt-4.jpg"> |
+| <img width="410" src="img/qt-1.jpg">| <img width="410" src="img/qt-2.jpg"> |
+| <img width="410" src="img/qt-3.jpg">| <img width="410" src="img/qt-4.jpg"> |
