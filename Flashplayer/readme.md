@@ -9,3 +9,5 @@ mms.cfg文件放到:
 c:\Windows\SysWOW64\Macromed\Flash\mms.cfg
 
 ![](img/1.jpg)
+
+[個人Firefox定製包及提取Flash下載](https://github.com/dupontjoy/userChrome.js-Collections-/tree/master/CingFox)
