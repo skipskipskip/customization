@@ -14,10 +14,9 @@
 
 - 2015.12.07 补全菜单，并修正一些表达
 
-![](img/qt-1.jpg)
+####軟件截圖
 
-![](img/qt-2.jpg)
-
-![](img/qt-3.jpg)
-
-![](img/qt-4.jpg)
+| | |
+| :-- | :-- |
+| <img width="420" src="img/qt-1.jpg">| <img width="420" src="img/qt-2.jpg"> |
+| <img width="420" src="img/qt-3.jpg">| <img width="420" src="img/qt-4.jpg"> |
