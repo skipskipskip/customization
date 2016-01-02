@@ -9,6 +9,8 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.01.02
+easyicon.net##.bt_advs
 ! 2016.01.01
 |http://www.36dm.com/js/nu$script
 ! 2015.12.30
