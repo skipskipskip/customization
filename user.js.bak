@@ -1,0 +1,15 @@
+﻿//adblockplus
+user_pref("extensions.adblockplus.patternsbackups", 0);
+user_pref("extensions.adblockplus.frameobjects", false);//在Java和Flash上显示标签 - 否
+user_pref("extensions.adblockplus.subscriptions_antiadblockurl", "");//原反-反ADP列表
+//-非侵入式广告地址換成个人ABP规则
+user_pref("extensions.adblockplus.subscriptions_exceptionscheckbox", true);//非入侵式广告勾选框
+user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "https://github.com/dupontjoy/customization/raw/master/Rules/ABP/Floating-n-Porn-Ads-Filter.txt");//原非入侵式广告订阅网址
+
+//Autoproxy
+user_pref("extensions.autoproxy.customProxy", "Shadowsocks;;1080;socks$GoAgent;;8087;$Free%20Gate;;8580;$Psiphon;;8080;$Lantern;;8787;");
+user_pref("extensions.autoproxy.patternsbackups", 0);
+
+//Simple Proxy
+user_pref("extensions.simpleproxy@jc3213.github.proxy_0_list", "https://github.com/Leask/BRICKS/raw/master/gfw.bricks");
+user_pref("extensions.simpleproxy@jc3213.github.proxy_0_server", "socks::127.0.0.1::1080");

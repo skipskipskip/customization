@@ -1,5 +1,5 @@
 ﻿
-//2015.12.19  精简少量參數
+//2016.01.03  加入Auto Unload Tab參數
 //2015.12.10  添加FFProfile設置參數：https://ffprofile.com/#start
 //2015.09.19  啟用about:newtab
 //2015.08.07 09:00  去掉網絡流水線設置，開啟後有時會出現不能上外網的問題，只能重啟電腦
@@ -20,7 +20,7 @@ user_pref("browser.newtabpage.rows", 3);//新标签页行数
 user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://www.google.com/ncr\",\"title\":\"Google\"},{\"url\":\"http://www.haosou.com/\",\"title\":\"Haosou\"},{\"url\":\"https://www.wikipedia.org/\",\"title\":\"Wikipedia\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.linkedin.com/today/?trk=nav_responsive_sub_nav_pulse\",\"title\":\"Pulse\"},{\"url\":\"http://twitter.com/\",\"title\":\"Twitter\"},{\"url\":\"http://www.shanbay.com/\",\"title\":\"Shanbay\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\" Zhihu\"},{\"url\":\"http://www.douban.com/\",\"title\":\"Douban\"},{\"url\":\"http://www.guokr.com/\",\"title\":\"Guokr\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"Kafan\"},{\"url\":\"https://github.com/dupontjoy\",\"title\":\"GitHub\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://music.163.com/\",\"title\":\"Music\"},{\"url\":\"http://email.163.com/\",\"title\":\"Mail\"},{\"url\":\"https://note.wiz.cn/web\",\"title\":\"Wiznote\"},{\"url\":\"https://getpocket.com/a/queue/list/\",\"title\":\"Pocket\"}]");
 
 //*==========三道杠圖標排序==========*//
-user_pref("browser.uiCustomization.state", "{\"placements\":{\"PanelUI-contents\":[\"edit-controls\",\"zoom-controls\",\"pocket-button\",\"preferences-button\",\"add-ons-button\",\"developer-button\",\"print-button\"],\"addon-bar\":[\"addonbar-closebutton\",\"noscript-tbb\",\"status-bar\"],\"PersonalToolbar\":[\"personal-bookmarks\"],\"nav-bar\":[\"urlbar-container\",\"downloads-button\",\"lpt_lastpass-compact-btn\",\"flashgot-media-tbb\",\"greasemonkey-tbb\",\"GrabScroll-image\",\"abp-toolbarbutton\",\"toggle-button--redirectoreinaregilssoncom-redirector\",\"loop-button\",\"bookmarks-menu-button\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"toolbar-menubar\":[\"menubar-items\"]},\"seen\":[\"GrabScroll-image\",\"abp-toolbarbutton\",\"toggle-button--redirectoreinaregilssoncom-redirector\"],\"dirtyAreaCache\":[\"addon-bar\",\"PersonalToolbar\",\"nav-bar\",\"TabsToolbar\",\"toolbar-menubar\",\"PanelUI-contents\"],\"currentVersion\":4,\"newElementCount\":0}");
+user_pref("browser.uiCustomization.state", "{\"placements\":{\"PanelUI-contents\":[\"edit-controls\",\"zoom-controls\",\"pocket-button\",\"preferences-button\",\"add-ons-button\",\"developer-button\",\"print-button\"],\"addon-bar\":[\"addonbar-closebutton\",\"noscript-tbb\",\"status-bar\"],\"PersonalToolbar\":[\"personal-bookmarks\"],\"nav-bar\":[\"urlbar-container\",\"downloads-button\",\"lpt_lastpass-compact-btn\",\"flashgot-media-tbb\",\"greasemonkey-tbb\",\"GrabScroll-image\",\"abp-toolbarbutton\",\"toggle-button--redirectoreinaregilssoncom-redirector\",\"loop-button\",\"bookmarks-menu-button\",\"pan-toolbarbutton\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"toolbar-menubar\":[\"menubar-items\"]},\"seen\":[\"GrabScroll-image\",\"abp-toolbarbutton\",\"toggle-button--redirectoreinaregilssoncom-redirector\",\"pan-toolbarbutton\"],\"dirtyAreaCache\":[\"addon-bar\",\"PersonalToolbar\",\"nav-bar\",\"TabsToolbar\",\"toolbar-menubar\",\"PanelUI-contents\"],\"currentVersion\":4,\"newElementCount\":0}");
 
 //*==========选项卡里的设置==========*//
 user_pref("browser.preferences.inContent", false);//選項 使用老版彈窗
@@ -114,21 +114,8 @@ user_pref("browser.send_pings", false);//ping 服务，Firefox 会把你点击�
 
 
 //*==========扩展设置==========*//
-//adblockplus
-user_pref("extensions.adblockplus.patternsbackups", 0);
-user_pref("extensions.adblockplus.frameobjects", false);//在Java和Flash上显示标签 - 否
-user_pref("extensions.adblockplus.subscriptions_antiadblockurl", "");//原反-反ADP列表
-//-非侵入式广告地址換成个人ABP规则
-user_pref("extensions.adblockplus.subscriptions_exceptionscheckbox", true);//非入侵式广告勾选框
-user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "https://github.com/dupontjoy/customization/raw/master/Rules/ABP/Floating-n-Porn-Ads-Filter.txt");//原非入侵式广告订阅网址
-
-//Autoproxy
-user_pref("extensions.autoproxy.customProxy", "Shadowsocks;;1080;socks$GoAgent;;8087;$Free%20Gate;;8580;$Psiphon;;8080;$Lantern;;8787;");
-user_pref("extensions.autoproxy.patternsbackups", 0);
-
-//Simple Proxy
-user_pref("extensions.simpleproxy@jc3213.github.proxy_0_list", "https://github.com/Leask/BRICKS/raw/master/gfw.bricks");
-user_pref("extensions.simpleproxy@jc3213.github.proxy_0_server", "socks::127.0.0.1::1080");
+//Pan
+user_pref("extensions.pan.patternsbackups", 0);
 
 //LastPass
 user_pref("extensions.lastpass.hidecontextmenu", true);
@@ -167,6 +154,16 @@ user_pref("extensions.greasemonkey.installDelay", 0);//安裝時的倒計時
 
 //Stylish
 user_pref("extensions.stylish.firstRun", 3);//重建配置不弹首页
+
+//Auto Unload Tab
+user_pref("extensions.autounloadtab.bypass_cache_after_minutes", 1);//xx分鐘後自動跳過緩存
+user_pref("extensions.autounloadtab.closeTabAfterMinutes", 30);//xx分鐘後自動關閉未載入/已卸載標籤
+user_pref("extensions.autounloadtab.load_background_tabs", 3);//後台標籤載入方式: One by One
+user_pref("extensions.autounloadtab.max_loaded_tabs", 20);//最多打開xx個標籤
+user_pref("extensions.autounloadtab.memoryIntervalInMinutes", 1);//每xx分鐘檢查標籤大小
+user_pref("extensions.autounloadtab.memoryThresholdInMegabyte", 100);//大小超過xx(MB),自動卸載標籤
+user_pref("extensions.autounloadtab.show_tab_menu", false);//不展示標籤右鍵菜單
+user_pref("extensions.autounloadtab.timeoutInMinutes", 30);//xx分鐘後自動卸載標籤
 
 //*==========脚本设置==========*//
 //rebuild_userChrome脚本管理器
