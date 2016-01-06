@@ -15,7 +15,7 @@ http://www.runningcheese.com/cindzzic-xunlei
     
 ####xmp.ini位置:
 
-![](http://i1.tietuku.com/30c32ad5671d06cb.png)
+![](img/thunder-1.jpg)
 
 ####注意:
 
