@@ -1,5 +1,5 @@
 ﻿
-//2016.01.05  加入Ghacks參數
+//2016.01.06  加入Ghacks參數
 //2016.01.03  加入Auto Unload Tab參數
 //2015.12.10  添加FFProfile設置參數：https://ffprofile.com/#start
 //2015.09.19  啟用about:newtab
@@ -94,6 +94,8 @@ user_pref("general.warnOnAboutConfig", false);//About:Config警告
 user_pref("view_source.editor.external", true);//页面源代码——使用外部編輯器查看
 user_pref("privacy.popups.showBrowserMessage", false);//弹窗不提示消息
 user_pref("extensions.autoDisableScopes", 0);//第一次运行不禁止任何扩展
+user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不检测版本，不弹欢迎页面
+user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显示的权利通知
 user_pref("extensions.blocklist.enabled", false);//关闭启动时插件检查窗口
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
 user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为utf-8格式，默认true
@@ -240,28 +242,6 @@ user_pref("browser.search.region", "US");
      to do updates for security reasons. If you don't auto update, make sure you do manually.
      There are many legitimate reasons to turn off AUTO updates, including hijacked monetized
      extensions, time constraints, legacy issues, and fear of breakage/bugs  ***/
-// 0301: disable browser auto update
-user_pref("app.update.enabled", false);
-// 0302: disable browser auto installing update when you do a manual check
-user_pref("app.update.auto", false);
-// 0303: disable search update
-user_pref("browser.search.update", false);
-// 0304: disable add-ons auto checking for new versions
-user_pref("extensions.update.enabled", false);
-// 0305: disable add-ons auto update
-user_pref("extensions.update.autoUpdateDefault", false);
-// 0306: disable add-on metadata updating
-   // sends daily pings to mozilla about extensions and recent startups
-user_pref("extensions.getAddons.cache.enabled", false);
-// 0307: disable auto updating of personas (themes)
-user_pref("lightweightThemes.update.enabled", false);
-// 0308: disable update plugin notifications
-   // if using flash/java/silverlight, it is beest to turn on their own auto-update mechanisms.
-   // See 1804 below: Mozilla only checks a few plugins and will soon do away with NAPI
-user_pref("plugins.update.notifyUser", false);
-// 0320: disable extension discovery
-   // featured extensions for displaying in Get Add-ons panel
-user_pref("extensions.webservice.discoverURL", "http://127.0.0.1");
 // 0330a: disable telemetry
    // https://gecko.readthedocs.org/en/latest/toolkit/components/telemetry/telemetry/preferences.html
    // the pref (.unified) affects the behaviour of the pref (.enabled)
