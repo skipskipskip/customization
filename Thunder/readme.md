@@ -4,7 +4,7 @@ http://www.runningcheese.com/cindzzic-xunlei
 
 ####方法:
 
-- A 安装迅雷极速版（好像非极速版也可以）。
+- A 安装[迅雷极速版](http://vip.xunlei.com/fast_xl/)（好像非极速版也可以）。
 - B 在迅雷快捷方式上右击-->打开文件位置。
 - C 新建一个.txt文件写入以下代码后改名为xmp.ini文件.
 
