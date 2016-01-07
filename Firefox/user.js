@@ -24,15 +24,17 @@ user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://www.google.com/ncr\"
 user_pref("browser.uiCustomization.state", "{\"placements\":{\"PanelUI-contents\":[\"edit-controls\",\"zoom-controls\",\"pocket-button\",\"preferences-button\",\"add-ons-button\",\"developer-button\",\"print-button\"],\"addon-bar\":[\"addonbar-closebutton\",\"noscript-tbb\",\"status-bar\"],\"PersonalToolbar\":[\"personal-bookmarks\"],\"nav-bar\":[\"urlbar-container\",\"downloads-button\",\"lpt_lastpass-compact-btn\",\"flashgot-media-tbb\",\"greasemonkey-tbb\",\"GrabScroll-image\",\"abp-toolbarbutton\",\"toggle-button--redirectoreinaregilssoncom-redirector\",\"loop-button\",\"bookmarks-menu-button\",\"pan-toolbarbutton\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"toolbar-menubar\":[\"menubar-items\"]},\"seen\":[\"GrabScroll-image\",\"abp-toolbarbutton\",\"toggle-button--redirectoreinaregilssoncom-redirector\",\"pan-toolbarbutton\"],\"dirtyAreaCache\":[\"addon-bar\",\"PersonalToolbar\",\"nav-bar\",\"TabsToolbar\",\"toolbar-menubar\",\"PanelUI-contents\"],\"currentVersion\":4,\"newElementCount\":0}");
 
 //*==========选项卡里的设置==========*//
-user_pref("browser.preferences.inContent", false);//選項 使用老版彈窗
 user_pref("signon.rememberSignons", false);//不保存密码
-
+user_pref("privacy.donottrackheader.enabled", true);//開啟DNT
+user_pref("privacy.donottrackheader.value", 1);//0 同意被跟踪;1 不要被跟踪
 //字體語言編碼
 user_pref("intl.charset.detector", "universal_charset_detector");//自動選擇
 user_pref("font.name.serif.zh-CN", "Arial");//衬線字體
 user_pref("font.name.sans-serif.zh-CN", "Arial");//無衬線字體
 user_pref("font.name.monospace.zh-CN", "Arial");//等寬字體
-
+//拼写检查
+user_pref("spellchecker.dictionary", "en-US");//字典
+user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
 //关闭安全检测健康中心类
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.enabled", false);
@@ -45,10 +47,10 @@ user_pref("dom.enable_performance",false);
 user_pref("toolkit.telemetry.unified",false);
 user_pref("sanity-test.running",false);
 
-
 //*==========標籤相關==========*//
 user_pref("browser.tabs.animate", false);//關閉标签页动画
 user_pref("browser.tabs.insertRelatedAfterCurrent", true);//紧邻当前标签打开相关标签
+user_pref("browser.newtabpage.introShown", true);//去除新版newtab提示
 user_pref("browser.tabs.warnOnClose", false);//關閉多個標籤時不提示
 user_pref("browser.tabs.warnOnCloseOtherTabs", false);//關閉其它標籤時不提示
 
@@ -60,6 +62,7 @@ user_pref("browser.places.smartBookmarksVersion", -1);//禁用智能书签
 //*==========下載相關==========*//
 user_pref("browser.download.useDownloadDir", false);//下载时每次訊問我要存到何處
 user_pref("browser.safebrowsing.downloads.enabled", false);//解決下載卡在最後一秒的問題
+user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
 
 //*==========網路相關==========*//
 //HTTPS不允许混合内容，以下两条参数用以禁用此特性
@@ -86,7 +89,9 @@ user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打�
 //*==========FX其它类==========*//
 user_pref("general.skins.selectedSkin", "simplewhite");//使用SimpleWhite主題
 user_pref("browser.urlbar.trimURLs", false);//地址栏显示 http://
+user_pref("general.warnOnAboutConfig", false);//About:Config警告
 user_pref("view_source.editor.external", true);//页面源代码——使用外部編輯器查看
+user_pref("privacy.popups.showBrowserMessage", false);//弹窗不提示消息
 user_pref("extensions.autoDisableScopes", 0);//第一次运行不禁止任何扩展
 user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不检测版本，不弹欢迎页面
 user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显示的权利通知
@@ -137,21 +142,20 @@ user_pref("extensions.dta.closedta", true);//辯識並列出Flash影片
 user_pref("extensions.dta.ctxmenu", "0,0,0");//不顯示右鍵菜單
 user_pref("extensions.dta.removecanceled", true);//從清單中移除中斷及錯誤的下載
 user_pref("extensions.dta.confirmremove", false);//移除下載前不提示
+user_pref("extensions.dta.version", "102.0.18.1-signed");//重建配置不弹歡迎頁
 
 //Greasemonkey
 user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议提示
 user_pref("extensions.greasemonkey.installDelay", 0);//安裝時的倒計時
 
 //Stylish
-user_pref("extensions.stylish.firstRun", 3);//重建配置不弹首页
+user_pref("extensions.stylish.firstRun", 3);//重建配置不弹歡迎頁
 
 //Auto Unload Tab
 user_pref("extensions.autounloadtab.bypass_cache_after_minutes", 1);//xx分鐘後自動跳過緩存
 user_pref("extensions.autounloadtab.closeTabAfterMinutes", 30);//xx分鐘後自動關閉未載入/已卸載標籤
 user_pref("extensions.autounloadtab.load_background_tabs", 3);//後台標籤載入方式: One by One
 user_pref("extensions.autounloadtab.max_loaded_tabs", 20);//最多打開xx個標籤
-user_pref("extensions.autounloadtab.memoryIntervalInMinutes", 1);//每xx分鐘檢查標籤大小
-user_pref("extensions.autounloadtab.memoryThresholdInMegabyte", 100);//大小超過xx(MB),自動卸載標籤
 user_pref("extensions.autounloadtab.show_tab_menu", false);//不展示標籤右鍵菜單
 user_pref("extensions.autounloadtab.timeoutInMinutes", 30);//xx分鐘後自動卸載標籤
 
