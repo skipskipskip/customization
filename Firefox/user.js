@@ -111,7 +111,19 @@ user_pref("startup.homepage_override_url", "");
 user_pref("browser.feeds.showFirstRunUI", false);
 user_pref("browser.shell.checkDefaultBrowser", false);
 user_pref("browser.usedOnWindows10.introURL", "");
+// 0604: disable search suggestions
+user_pref("browser.search.suggest.enabled", false);
 
+/*** 0200: GEOLOCATION ***/
+// 0201: disable location-aware browsing
+user_pref("geo.enabled", false);
+user_pref("geo.wifi.uri", "http://127.0.0.1");
+user_pref("geo.wifi.logging.enabled", false);
+user_pref("browser.search.geoip.url", "");
+// 0202: disable GeoIP-based search results
+   // https://trac.torproject.org/projects/tor/ticket/16254
+user_pref("browser.search.countryCode", "US");
+user_pref("browser.search.region", "US");
 
 //*==========扩展与脚本设置==========*//
 //Pan
