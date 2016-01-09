@@ -13,3 +13,8 @@ user_pref("extensions.autoproxy.patternsbackups", 0);
 //Simple Proxy
 user_pref("extensions.simpleproxy@jc3213.github.proxy_0_list", "https://github.com/Leask/BRICKS/raw/master/gfw.bricks");
 user_pref("extensions.simpleproxy@jc3213.github.proxy_0_server", "socks::127.0.0.1::1080");
+
+//Pan
+user_pref("extensions.pan.patternsbackups", 0);
+user_pref("extensions.pan.noMatchProxy", "direct");//未匹配时
+user_pref("extensions.pan.whiteListProxy", "direct");//白名单时
