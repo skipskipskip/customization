@@ -1,9 +1,11 @@
 [AutoProxy 0.3.0]
-! Title: Autoproxy自定義名單 2015.09
-! Expires: 4h
-! Homepage: https://github.com/dupontjoy/customization/blob/master/Rules/Autoproxy/Aup-self-rules.txt
-! Contact: https://github.com/dupontjoy/customization/
+! Title:        Autoproxy自定義名單
+! Author:       Cing
+! Version:      2016.01
+! Expires:      1h
+! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||digitaltrends.com
 ||wikipedia.org
 ||googlecode.com
 ||feedly.com

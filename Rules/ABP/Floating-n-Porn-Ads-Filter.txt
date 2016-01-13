@@ -8,6 +8,11 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.01.13
+metropcs.com###ltkmodal-overlay
+metropcs.com###ltkmodal-container
+os.51cto.com##[width="600"]
+os.51cto.com##HR[style="border-top: #555555 1px solid; height: 1px; border-right: medium none; border-bottom: medium none; border-left: medium none"]
 ! 2016.01.07
 mobilefun.co.uk###fancybox-outer
 mobilefun.co.uk###geoip-popup
