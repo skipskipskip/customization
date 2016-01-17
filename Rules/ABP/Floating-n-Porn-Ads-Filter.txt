@@ -9,6 +9,8 @@
 !-------------------------------------------------------------------------------------!
 !開始!
 ! 2016.01.16
+comment.v.163.com##.wrapper.top-banner
+bobo.com##.mod-follow
 baike.com###newsfix-on
 ! 2016.01.13
 metropcs.com###ltkmodal-overlay
