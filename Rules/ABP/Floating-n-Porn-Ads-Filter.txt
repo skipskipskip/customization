@@ -8,6 +8,10 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.01.18
+club.xywy.com##.prevent
+robot.zhao.xywy.com##.robot-box
+bbs.tianya.cn###niuren_ifm
 ! 2016.01.16
 comment.v.163.com##.wrapper.top-banner
 bobo.com##.mod-follow
