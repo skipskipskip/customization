@@ -39,3 +39,4 @@
 ||coolicool.com
 ||amazonaws.com
 ||paypal.com
+||answers.yahoo.com
