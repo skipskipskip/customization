@@ -87,7 +87,6 @@ host	script	2	http://translate.googleapis.com
 host	script	2	http://truste.com
 host	script	2	http://vizury.com
 host	script	2	http://vk.com
-host	image	2	http://vk.com
 host	script	2	http://wanelo.com
 host	script	2	http://yieldoptimizer.com
 			
