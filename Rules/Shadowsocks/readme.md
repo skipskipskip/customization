@@ -9,3 +9,7 @@ Edit pac file:
 Shadowsocks Setting:
 
 ![](img/pac.jpg)
+
+####注意:
+
+user-rules添加後需要重啟Firefox生效
