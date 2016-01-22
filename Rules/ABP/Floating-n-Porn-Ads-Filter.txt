@@ -8,6 +8,11 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.01.22
+everbuying.com###subscribe-index-div
+everbuying.com###maskLevel
+haowj.com.cn##.footer
+haowj.com.cn##.con
 ! 2016.01.18
 club.xywy.com##.prevent
 robot.zhao.xywy.com##.robot-box
