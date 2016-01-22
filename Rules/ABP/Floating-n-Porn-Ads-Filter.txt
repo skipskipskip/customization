@@ -9,6 +9,8 @@
 !-------------------------------------------------------------------------------------!
 !開始!
 ! 2016.01.22
+c6c.com###fixedBox
+iqiyi.com###widget-refer
 everbuying.com###subscribe-index-div
 everbuying.com###maskLevel
 haowj.com.cn##.footer
