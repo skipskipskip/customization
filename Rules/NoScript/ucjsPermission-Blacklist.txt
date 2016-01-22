@@ -60,7 +60,6 @@ host	script	2	http://chartbeat.net
 host	script	2	http://cnzz.com
 host	script	2	http://cnzz.net
 host	script	2	http://connect.facebook.net
-host	script	2	http://doubleclick.net
 host	script	2	http://google-analytics.com
 host	script	2	http://googleadservices.com
 host	script	2	http://googletagmanager.com
