@@ -1,5 +1,4 @@
-﻿
-//2016.01.13
+﻿//2016.01.23
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -90,6 +89,7 @@ user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显�
 user_pref("extensions.blocklist.enabled", false);//关闭启动时插件检查窗口
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
 user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为utf-8格式，默认true
+user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
 
 // 0101: disable "slow startup" options
    // warnings, disk history, welcomes, intros, EULA, default browser check
@@ -178,6 +178,10 @@ user_pref("extensions.autounloadtab.load_background_tabs", 3);//後台標籤載�
 user_pref("extensions.autounloadtab.show_tab_menu", false);//不展示標籤右鍵菜單
 user_pref("extensions.autounloadtab.timeoutInMinutes", 30);//xx分鐘後自動卸載標籤
 user_pref("extensions.autounloadtab.closeTabAfterMinutes", 60);//xx分鐘後自動關閉未載入/已卸載標籤
+
+//iMacros
+user_pref("extensions.imacros.delay", 1000);//重运行速度（中等）
+user_pref("extensions.imacros.store-in-profile", true);//存储到Profile文件夹下
 
 //*==========脚本设置==========*//
 //rebuild_userChrome脚本管理器
