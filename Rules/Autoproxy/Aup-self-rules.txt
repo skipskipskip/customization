@@ -40,3 +40,4 @@
 ||amazonaws.com
 ||paypal.com
 ||answers.yahoo.com
+||sto.cc
