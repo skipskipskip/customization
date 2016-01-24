@@ -8,6 +8,9 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.01.24
+c6c.com###fixedBox
+baike.baidu.com###fc_guess_like
 ! 2016.01.22
 c6c.com###fixedBox
 iqiyi.com###widget-refer
