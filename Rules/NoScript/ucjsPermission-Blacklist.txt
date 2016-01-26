@@ -59,7 +59,6 @@ host	script	2	http://cdn.mplxtms.com
 host	script	2	http://chartbeat.net
 host	script	2	http://cnzz.com
 host	script	2	http://cnzz.net
-host	script	2	http://connect.facebook.net
 host	script	2	http://google-analytics.com
 host	script	2	http://googleadservices.com
 host	script	2	http://googletagmanager.com
@@ -71,8 +70,6 @@ host	script	2	http://maxymiser.net
 host	script	2	http://msg.baidu.com
 host	script	2	http://openapi.guanjia.qq.com
 host	script	2	http://paypal.adtag.where.com
-host	script	2	http://platform.linkedin.com
-host	script	2	http://platform.twitter.com
 host	script	2	http://quantserve.com
 host	script	2	http://sail-horizon.com
 host	script	2	http://scorecardresearch.com
@@ -86,7 +83,6 @@ host	script	2	http://translate.google.com
 host	script	2	http://translate.googleapis.com
 host	script	2	http://truste.com
 host	script	2	http://vizury.com
-host	script	2	http://vk.com
 host	script	2	http://wanelo.com
 host	script	2	http://yieldoptimizer.com
 			
