@@ -181,7 +181,6 @@ user_pref("extensions.autounloadtab.timeoutInMinutes", 30);//xx分鐘後自動�
 user_pref("extensions.autounloadtab.closeTabAfterMinutes", 60);//xx分鐘後自動關閉未載入/已卸載標籤
 
 //iMacros
-user_pref("extensions.imacros.delay", 1000);//重运行速度（中等）
 user_pref("extensions.imacros.store-in-profile", true);//存储到Profile文件夹下
 
 //*==========脚本设置==========*//
