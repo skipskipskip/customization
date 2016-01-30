@@ -5,6 +5,8 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||images.fonearena.com
+||cdn.gsmarena.com
 ||cbmag.cn
 ||githubusercontent.com
 ||digitaltrends.com
