@@ -183,6 +183,16 @@ user_pref("extensions.autounloadtab.closeTabAfterMinutes", 60);//xx分鐘後自�
 //iMacros
 user_pref("extensions.imacros.store-in-profile", true);//存储到Profile文件夹下
 
+//Add Bookmark Here
+user_pref("extensions.abhere2.position.abhere", 0);//隐藏菜单项
+user_pref("extensions.abhere2.misc.insertTop", false);//添加书签到顶部: 否
+user_pref("extensions.abhere2.folder.middleClick", 1);//中键点击文件夹: 添加书签
+user_pref("extensions.abhere2.starUI.clicking.left", 4);//左键点击五角星图标: 添加书签
+user_pref("extensions.abhere2.starUI.row.description", false);//不显示"描述"
+user_pref("extensions.abhere2.starUI.row.keyword", false);//不显示"关键字"
+user_pref("extensions.abhere2.starUI.row.loadInSidebar", false);//不显示"在侧栏中载入此书签"
+
+
 //*==========脚本设置==========*//
 //rebuild_userChrome脚本管理器
 user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,anobtn_set,toolsbar_KeyChanger_rebuild,redirector-icon,usercssloader_Tools_Menu");
