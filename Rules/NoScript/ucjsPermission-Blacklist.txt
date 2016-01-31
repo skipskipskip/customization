@@ -21,7 +21,6 @@ host	script	2	http://kiosked.com
 host	script	2	http://kontera.com
 host	script	2	http://amazon-adsystem.com
 host	script	2	http://optimizely.com
-host	script	2	http://fraudmetrix.cn
 host	script	2	http://mixer.video.iqiyi.com
 host	script	2	http://api.credit.iqiyi.com
 host	script	2	http://ptengine.com
@@ -701,7 +700,6 @@ host	script	2	http://soba8.com
 host	script	2	http://sobaigu.com
 host	script	2	http://sodocs.net
 host	script	2	http://soft.zdnet.com.cn
-host	script	2	http://sogou.com
 host	script	2	http://soimagess.com
 host	script	2	http://sopanpan.com
 host	script	2	http://soshow.com
