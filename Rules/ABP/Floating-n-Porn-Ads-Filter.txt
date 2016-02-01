@@ -10,7 +10,7 @@
 !開始!
 ! 2016.02.01
 v.youku.com###title_iku_share
-kindbook.cn##TD[width="99%"]
+kindbook.cn##.itopad
 kindbook.cn###dreambred_portal_area_a_10
 gizmag.com##.jqmOverlay
 gizmag.com###subscribe_modal_container
