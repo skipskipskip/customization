@@ -8,6 +8,8 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.02.04
+gd.189.cn###rb_box
 ! 2016.02.01
 v.youku.com###title_iku_share
 kindbook.cn##.itopad
