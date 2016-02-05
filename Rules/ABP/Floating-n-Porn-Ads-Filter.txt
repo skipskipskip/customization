@@ -10,6 +10,11 @@
 !開始!
 ! 2016.02.04
 gd.189.cn###rb_box
+kindbook.cn##.kefuqq-box
+kindbook.cn###comiis_kx_div
+v.youku.com###qheader_msg_panel
+weiyun.com##.pop-guide-wrapper
+weiyun.com##DIV[style="left: 70px;top: 110px;z-index: 1003;position: absolute;"]
 ! 2016.02.01
 v.youku.com###title_iku_share
 kindbook.cn##.itopad
