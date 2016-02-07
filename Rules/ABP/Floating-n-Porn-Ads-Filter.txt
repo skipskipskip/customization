@@ -8,6 +8,10 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.02.07
+guokr.com##.tooltip-new
+kindbook.cn##.csu_wxnav
+youku.com###qheader_msg_panel
 ! 2016.02.06
 google.com##.gb_ga.gb_g
 douban.com###doubanapp-tip
@@ -15,7 +19,6 @@ douban.com###doubanapp-tip
 gd.189.cn###rb_box
 kindbook.cn##.kefuqq-box
 kindbook.cn###comiis_kx_div
-v.youku.com###qheader_msg_panel
 weiyun.com##.pop-guide-wrapper
 weiyun.com##DIV[style="left: 70px;top: 110px;z-index: 1003;position: absolute;"]
 ! 2016.02.01
