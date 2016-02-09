@@ -237,11 +237,3 @@ user_pref("userChromeJS.downloadPlus.save_And_Open", true);//保存并打開
 user_pref("userChromeJS.downloadPlus.save_And_Open_RorL", 1);//保存并打開——打開文件
 user_pref("userChromeJS.downloadPlus.download_dialog_changeName", true);//下載改名
 user_pref("userChromeJS.downloadPlus.download_dialog_changeName_encodingConvert", true);//下載改名——是否開啟下拉菜單
-
-//uAutoPagerize2腳本
-user_pref("uAutoPagerize.AUTO_START", false);//默認不翻頁
-
-//ShowFlagS
-user_pref("userChromeJS.showFlagS.RefChanger", true);//開啟圖片反盜鏈
-user_pref("userChromeJS.showFlagS.UAChanger", true);//開啟UA切換
-user_pref("userChromeJS.showFlagS.Reacquire", true);//失敗自動獲取
