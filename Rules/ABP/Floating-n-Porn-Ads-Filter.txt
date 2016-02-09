@@ -8,6 +8,10 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.02.09
+hao123.com##DIV[style="width:100px; height:540px; left:0px; position:fixed;_position:absolute;top:80px;_top:0;z-index:9999;"]
+hao123.com##DIV[style="width:100px; height:540px; right:0px; position:fixed;_position:absolute;top:80px;_top:0;z-index:9999;"]
+tieba.baidu.com###pagelet_frs-list\/pagelet\/thread_footer
 ! 2016.02.07
 guokr.com##.tooltip-new
 kindbook.cn##.csu_wxnav
