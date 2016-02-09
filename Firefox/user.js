@@ -1,4 +1,4 @@
-﻿//2016.01.27
+﻿//2016.02.07
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -8,10 +8,10 @@ user_pref("browser.startup.homepage", "about:newtab");//首頁
 user_pref("browser.newtabpage.columns", 6);//新标签页列数
 user_pref("browser.newtabpage.rows", 3);//新标签页行数
 //标签页固定的网站
-user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://www.google.com/ncr\",\"title\":\"Google\"},{\"url\":\"http://www.haosou.com/\",\"title\":\"Haosou\"},{\"url\":\"https://www.wikipedia.org/\",\"title\":\"Wikipedia\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.linkedin.com/today/?trk=nav_responsive_sub_nav_pulse\",\"title\":\"Pulse\"},{\"url\":\"http://twitter.com/\",\"title\":\"Twitter\"},{\"url\":\"http://www.shanbay.com/\",\"title\":\"Shanbay\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\" Zhihu\"},{\"url\":\"http://www.douban.com/\",\"title\":\"Douban\"},{\"url\":\"http://www.guokr.com/\",\"title\":\"Guokr\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"Kafan\"},{\"url\":\"https://github.com/dupontjoy\",\"title\":\"GitHub\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://music.163.com/\",\"title\":\"Music\"},{\"url\":\"http://email.163.com/\",\"title\":\"Mail\"},{\"url\":\"https://leanote.com/note/55dd7cc953b26f7350000019\",\"title\":\"Leanote\"},{\"url\":\"https://getpocket.com/a/queue/list/\",\"title\":\"Pocket\"}]");
+user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://www.google.com/ncr\",\"title\":\"Google\"},{\"url\":\"https://www.baidu.com\",\"title\":\"Baidu\"},{\"url\":\"http://www.haosou.com/\",\"title\":\"Haosou\"},{\"url\":\"https://www.wikipedia.org/\",\"title\":\"Wikipedia\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.linkedin.com/today/?trk=nav_responsive_sub_nav_pulse\",\"title\":\"Pulse\"},{\"url\":\"http://twitter.com/\",\"title\":\"Twitter\"},{\"url\":\"http://www.shanbay.com/\",\"title\":\"Shanbay\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\" Zhihu\"},{\"url\":\"http://www.douban.com/\",\"title\":\"Douban\"},{\"url\":\"http://www.guokr.com/\",\"title\":\"Guokr\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"Kafan\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://music.163.com/\",\"title\":\"Music\"},{\"url\":\"http://email.163.com/\",\"title\":\"Mail\"},{\"url\":\"https://leanote.com/note/55dd7cc953b26f7350000019\",\"title\":\"Leanote\"},{\"url\":\"https://getpocket.com/a/queue/list/\",\"title\":\"Pocket\"}]");
 
 //*==========三道杠圖標排序==========*//
-user_pref("browser.uiCustomization.state", "{\"placements\":{\"PanelUI-contents\":[\"edit-controls\",\"zoom-controls\",\"preferences-button\",\"add-ons-button\",\"developer-button\",\"print-button\"],\"addon-bar\":[\"addonbar-closebutton\",\"noscript-tbb\",\"status-bar\"],\"PersonalToolbar\":[\"personal-bookmarks\"],\"nav-bar\":[\"urlbar-container\",\"downloads-button\",\"flashgot-media-tbb\",\"greasemonkey-tbb\",\"GrabScroll-image\",\"abp-toolbarbutton\",\"toggle-button--redirectoreinaregilssoncom-redirector\",\"loop-button\",\"bookmarks-menu-button\",\"pocket-button\",\"pan-toolbarbutton\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"toolbar-menubar\":[\"menubar-items\",\"lpt_lastpass-compact-btn\",\"aup-toolbarbutton\"]},\"seen\":[\"GrabScroll-image\",\"abp-toolbarbutton\",\"toggle-button--redirectoreinaregilssoncom-redirector\",\"pan-toolbarbutton\"],\"dirtyAreaCache\":[\"addon-bar\",\"PersonalToolbar\",\"nav-bar\",\"TabsToolbar\",\"toolbar-menubar\",\"PanelUI-contents\"],\"currentVersion\":4,\"newElementCount\":0}");
+user_pref("browser.uiCustomization.state", "{\"placements\":{\"PanelUI-contents\":[\"edit-controls\",\"zoom-controls\",\"preferences-button\",\"add-ons-button\",\"developer-button\",\"print-button\"],\"addon-bar\":[\"addonbar-closebutton\",\"noscript-tbb\",\"status-bar\"],\"PersonalToolbar\":[\"personal-bookmarks\"],\"nav-bar\":[\"urlbar-container\",\"downloads-button\",\"flashgot-media-tbb\",\"greasemonkey-tbb\",\"GrabScroll-image\",\"abp-toolbarbutton\",\"toggle-button--redirectoreinaregilssoncom-redirector\",\"loop-button\",\"pocket-button\",\"pan-toolbarbutton\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"toolbar-menubar\":[\"menubar-items\",\"lpt_lastpass-compact-btn\",\"aup-toolbarbutton\",\"bookmarks-menu-button\",\"SimpleMusicPlayer\"]},\"seen\":[\"GrabScroll-image\",\"abp-toolbarbutton\",\"toggle-button--redirectoreinaregilssoncom-redirector\",\"pan-toolbarbutton\"],\"dirtyAreaCache\":[\"addon-bar\",\"PersonalToolbar\",\"nav-bar\",\"TabsToolbar\",\"toolbar-menubar\",\"PanelUI-contents\"],\"currentVersion\":4,\"newElementCount\":0}");
 
 //*==========选项卡里的设置==========*//
 user_pref("signon.rememberSignons", false);//不保存密码
@@ -177,7 +177,7 @@ user_pref("extensions.stylish.firstRun", 3);//重建配置不弹歡迎頁
 user_pref("extensions.autounloadtab.bypass_cache_after_minutes", 1);//xx分鐘後自動跳過緩存
 user_pref("extensions.autounloadtab.load_background_tabs", 3);//後台標籤載入方式: One by One
 user_pref("extensions.autounloadtab.show_tab_menu", false);//不展示標籤右鍵菜單
-user_pref("extensions.autounloadtab.timeoutInMinutes", 30);//xx分鐘後自動卸載標籤
+user_pref("extensions.autounloadtab.timeoutInMinutes", 60);//xx分鐘後自動卸載標籤
 user_pref("extensions.autounloadtab.closeTabAfterMinutes", 60);//xx分鐘後自動關閉未載入/已卸載標籤
 
 //iMacros
