@@ -8,6 +8,8 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.02.10
+youku.com###yk-player-curtain
 ! 2016.02.09
 hao123.com##DIV[style="width:100px; height:540px; left:0px; position:fixed;_position:absolute;top:80px;_top:0;z-index:9999;"]
 hao123.com##DIV[style="width:100px; height:540px; right:0px; position:fixed;_position:absolute;top:80px;_top:0;z-index:9999;"]
@@ -26,7 +28,7 @@ kindbook.cn###comiis_kx_div
 weiyun.com##.pop-guide-wrapper
 weiyun.com##DIV[style="left: 70px;top: 110px;z-index: 1003;position: absolute;"]
 ! 2016.02.01
-v.youku.com###title_iku_share
+youku.com###title_iku_share
 kindbook.cn##.itopad
 kindbook.cn###dreambred_portal_area_a_10
 gizmag.com##.jqmOverlay
@@ -160,8 +162,8 @@ iqiyi.com###goosBtn
 ! 2015.08.19
 wenku.baidu.com##.tiger-eduCoupon-dialog-mask
 ! 2015.08.16
-i.youku.com##[style="display: block;"]
-i.youku.com###qrcode-container
+youku.com##[style="display: block;"]
+youku.com###qrcode-container
 ! 2015.08.10
 jd.com###top-banner
 ! 2015.08.09
@@ -189,8 +191,8 @@ xindm.cn###sider-left
 xindm.cn###sider-right
 xindm.cn##.w980.clearfix.sub-btn
 ! 2015.07.22
-v.youku.com##.qwindow_mask
-v.youku.com##.qwindow
+youku.com##.qwindow_mask
+youku.com##.qwindow
 iqiyi.com##.vip_rec_pop
 iqiyi.com##IFRAME[style="z-index: 4199; background-color: rgb(255, 255, 255); width: 290px; height: 233px; position: absolute; left: 1057px; top: 405px;"]
 ! 2015.07.20
@@ -241,8 +243,8 @@ github.com##.unsupported-browser
 greasyfork.org###share
 gsmarena.com###subHeader
 guancha.cn##.right-side01.pull-left
-i.youku.com###iconitemfeedback
-i.youku.com###iconitemshopping
+youku.com###iconitemfeedback
+youku.com###iconitemshopping
 ic.sjlpj.cn###\5f _lpform_CopySku_icon
 ic.sjlpj.cn###\5f _lpform_PropertyAliasName_3_icon
 ic.sjlpj.cn###\5f _lpform_Sku_icon
@@ -322,8 +324,8 @@ user.qzone.qq.com##.fn_accessLog_tips.bg2.bor2
 user.qzone.qq.com##.f-single.feed-hot
 user.qzone.qq.com##.mod-side-nav.mod-side-nav-recently-used
 user.qzone.qq.com##.qz-btn-vip.qz-btn-vip-open
-v.youku.com###toolbarservice
-v.youku.com###ykSidebar_w970_custom
+youku.com###toolbarservice
+youku.com###ykSidebar_w970_custom
 wenku.baidu.com##.bl
 wenku.baidu.com##.tl
 wenku.baidu.com##.tr
