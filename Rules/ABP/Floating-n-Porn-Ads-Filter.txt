@@ -8,6 +8,9 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.02.12
+178.com##.box-center8.clearfix
+178.com##.commen
 ! 2016.02.10
 youku.com###yk-player-curtain
 ! 2016.02.09
