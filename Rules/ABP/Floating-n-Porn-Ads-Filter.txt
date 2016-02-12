@@ -17,7 +17,6 @@ tieba.baidu.com###pagelet_frs-list\/pagelet\/thread_footer
 ! 2016.02.07
 guokr.com##.tooltip-new
 kindbook.cn##.csu_wxnav
-youku.com###qheader_msg_panel
 ! 2016.02.06
 douban.com###doubanapp-tip
 ! 2016.02.04
@@ -27,7 +26,6 @@ kindbook.cn###comiis_kx_div
 weiyun.com##.pop-guide-wrapper
 weiyun.com##DIV[style="left: 70px;top: 110px;z-index: 1003;position: absolute;"]
 ! 2016.02.01
-youku.com###title_iku_share
 kindbook.cn##.itopad
 kindbook.cn###dreambred_portal_area_a_10
 gizmag.com##.jqmOverlay
@@ -161,7 +159,6 @@ iqiyi.com###goosBtn
 ! 2015.08.19
 wenku.baidu.com##.tiger-eduCoupon-dialog-mask
 ! 2015.08.16
-youku.com##[style="display: block;"]
 youku.com###qrcode-container
 ! 2015.08.10
 jd.com###top-banner
@@ -242,8 +239,6 @@ github.com##.unsupported-browser
 greasyfork.org###share
 gsmarena.com###subHeader
 guancha.cn##.right-side01.pull-left
-youku.com###iconitemfeedback
-youku.com###iconitemshopping
 ic.sjlpj.cn###\5f _lpform_CopySku_icon
 ic.sjlpj.cn###\5f _lpform_PropertyAliasName_3_icon
 ic.sjlpj.cn###\5f _lpform_Sku_icon
@@ -323,8 +318,6 @@ user.qzone.qq.com##.fn_accessLog_tips.bg2.bor2
 user.qzone.qq.com##.f-single.feed-hot
 user.qzone.qq.com##.mod-side-nav.mod-side-nav-recently-used
 user.qzone.qq.com##.qz-btn-vip.qz-btn-vip-open
-youku.com###toolbarservice
-youku.com###ykSidebar_w970_custom
 wenku.baidu.com##.bl
 wenku.baidu.com##.tl
 wenku.baidu.com##.tr
