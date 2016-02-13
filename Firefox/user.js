@@ -1,4 +1,4 @@
-﻿//2016.02.09
+﻿//2016.02.13
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -120,10 +120,10 @@ user_pref("browser.search.region", "US");
 //adblockplus
 user_pref("extensions.adblockplus.patternsbackups", 0);
 user_pref("extensions.adblockplus.frameobjects", false);//在Java和Flash上显示标签 - 否
-user_pref("extensions.adblockplus.subscriptions_antiadblockurl", "http://bbs.theworld.cn/attachment.php?aid=MTE0NDQ4fDUyZjc3Mjc3fDEzOTc5MTM1OTh8NDczMHBuYytiNk1yR0dQa2lqdGFyOXg1R29QNEVaUjJoYTNIb0U4bXFHeVM0eGM%3D");//原反-反ADP列表
+user_pref("extensions.adblockplus.subscriptions_antiadblockurl", "https://github.com/dupontjoy/customization/raw/master/Rules/ABP/Floating-n-Porn-Ads-Filter.txt");//原反-反ADP列表
 //-非侵入式广告地址換成个人ABP规则
 user_pref("extensions.adblockplus.subscriptions_exceptionscheckbox", true);//非入侵式广告勾选框
-user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "https://github.com/dupontjoy/customization/raw/master/Rules/ABP/Floating-n-Porn-Ads-Filter.txt");//原非入侵式广告订阅网址
+user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "http://bbs.theworld.cn/attachment.php?aid=MTE0NDQ4fDUyZjc3Mjc3fDEzOTc5MTM1OTh8NDczMHBuYytiNk1yR0dQa2lqdGFyOXg1R29QNEVaUjJoYTNIb0U4bXFHeVM0eGM%3D");//原非入侵式广告订阅网址
 
 //Autoproxy
 user_pref("extensions.autoproxy.customProxy", "Shadowsocks;;1080;socks$Lantern;;8787;$Psiphon;;8080;$GoAgent;;8087;$Free%20Gate;;8580;");
@@ -174,7 +174,7 @@ user_pref("extensions.stylish.firstRun", 3);//重建配置不弹歡迎頁
 user_pref("extensions.autounloadtab.bypass_cache_after_minutes", 1);//xx分鐘後自動跳過緩存
 user_pref("extensions.autounloadtab.load_background_tabs", 3);//後台標籤載入方式: One by One
 user_pref("extensions.autounloadtab.show_tab_menu", false);//不展示標籤右鍵菜單
-user_pref("extensions.autounloadtab.timeoutInMinutes", 60);//xx分鐘後自動卸載標籤
+user_pref("extensions.autounloadtab.timeoutInMinutes", 120);//xx分鐘後自動卸載標籤
 user_pref("extensions.autounloadtab.closeTabAfterMinutes", 60);//xx分鐘後自動關閉未載入/已卸載標籤
 
 //iMacros
