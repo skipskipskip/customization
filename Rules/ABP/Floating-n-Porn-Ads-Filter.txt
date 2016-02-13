@@ -190,8 +190,6 @@ xindm.cn###sider-left
 xindm.cn###sider-right
 xindm.cn##.w980.clearfix.sub-btn
 ! 2015.07.22
-youku.com##.qwindow_mask
-youku.com##.qwindow
 iqiyi.com##.vip_rec_pop
 iqiyi.com##IFRAME[style="z-index: 4199; background-color: rgb(255, 255, 255); width: 290px; height: 233px; position: absolute; left: 1057px; top: 405px;"]
 ! 2015.07.20
