@@ -8,8 +8,6 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
-! 2016.02.14
-youku.com###ykSidebar_w970
 ! 2016.02.12
 178.com##.box-center8.clearfix
 178.com##.commen
