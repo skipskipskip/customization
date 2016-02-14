@@ -1,10 +1,11 @@
 [AutoProxy 0.3.0]
 ! Title:        Autoproxy自定義名單
 ! Author:       Cing
-! Version:      2016.01
+! Version:      2016.02
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||licdn.com
 ||raw.github.com
 ||chinavasion.com
 ||images.fonearena.com
