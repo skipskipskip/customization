@@ -5,7 +5,6 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
-||googleapis.com
 ||flipkart.com
 ||licdn.com
 ||raw.github.com
@@ -16,7 +15,6 @@
 ||githubusercontent.com
 ||digitaltrends.com
 ||wikipedia.org
-||googlecode.com
 ||feedly.com
 ||app.box.com
 ||kiwi6.com
@@ -27,8 +25,7 @@
 ||playpcesor.com
 ||ortheme.com
 ||designspiration.net
-||translate.google.com.hk
-||google.com
+||*google*.com
 ||cdn.mozilla.net
 ||clearbags.com
 ||mm-cg.com
