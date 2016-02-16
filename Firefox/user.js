@@ -1,4 +1,4 @@
-﻿//2016.02.15
+﻿//2016.02.16
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -88,6 +88,7 @@ user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转�
 user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为utf-8格式，默认true
 user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
 user_pref("browser.sessionstore.resume_from_crash", false);//关闭Firefox会话恢复功能
+user_pref("browser.pagethumbnails.capturing_disabled", true);//禁用Firefox的thumbnails
 
 // 0101: disable "slow startup" options
    // warnings, disk history, welcomes, intros, EULA, default browser check
