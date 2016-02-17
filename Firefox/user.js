@@ -1,4 +1,4 @@
-﻿//2016.02.16
+﻿//2016.02.17
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -243,3 +243,4 @@ user_pref("userChromeJS.FeiRuoNet.UrlbarSafetyLevel", false);//HTTPS等級高亮
 user_pref("userChromeJS.showFlagS.RefChanger", true);//開啟圖片反盜鏈
 user_pref("userChromeJS.showFlagS.UAChanger", true);//開啟UA切換
 user_pref("userChromeJS.showFlagS.Reacquire", true);//失敗自動獲取
+user_pref("userChromeJS.showFlagS.Inquiry_Delay", 10000);//查詢延時(10000ms)
