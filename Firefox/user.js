@@ -1,4 +1,4 @@
-﻿//2016.02.17
+﻿//2016.02.18
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -235,6 +235,7 @@ user_pref("userChromeJS.downloadPlus.save_And_Open", true);//保存并打開
 user_pref("userChromeJS.downloadPlus.save_And_Open_RorL", 1);//保存并打開——打開文件
 user_pref("userChromeJS.downloadPlus.download_dialog_changeName", true);//下載改名
 user_pref("userChromeJS.downloadPlus.download_dialog_changeName_encodingConvert", true);//下載改名——是否開啟下拉菜單
+user_pref("userChromeJS.downloadPlus.download_dialog_changeName_locking", true);//下載改名——锁定保存文件按钮
 
 //FeiRuoNet
 user_pref("userChromeJS.FeiRuoNet.UrlbarSafetyLevel", false);//HTTPS等級高亮
