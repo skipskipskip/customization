@@ -1,4 +1,4 @@
-﻿//2016.02.18
+﻿//2016.03.01
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -19,6 +19,9 @@ user_pref("intl.charset.detector", "universal_charset_detector");//自動選擇
 user_pref("font.name.serif.zh-CN", "Arial");//衬線字體
 user_pref("font.name.sans-serif.zh-CN", "Arial");//無衬線字體
 user_pref("font.name.monospace.zh-CN", "Arial");//等寬字體
+//禁用硬件加速
+user_pref("layers.acceleration.disabled", true);//禁止使用D2D渲染网页文字内容.
+user_pref("gfx.direct2d.disabled",true);//关闭网页图层绘制的gpu加速.
 //拼写检查
 user_pref("spellchecker.dictionary", "en-US");//字典
 user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
@@ -141,7 +144,6 @@ user_pref("extensions.simpleproxy@jc3213.github.proxy_0_server", "socks::127.0.0
 user_pref("extensions.lastpass.hidecontextmenu", true);
 user_pref("extensions.lastpass.showHomepageAfterLogin", false);//登入後不轉到密码库
 user_pref("extensions.lastpass.0a148091163b8a7de3368af449db2947c700bea1552b01964d4ae55f930562e0.toplevelmatchingsites", true);//将匹配网站移动到顶部菜单
-user_pref("extensions.lastpass.loginusers", "dupontjoy%40163.com");//保存用戶名
 user_pref("extensions.lastpass.loginpws", "");//不保存密码
 
 //FlashGot
