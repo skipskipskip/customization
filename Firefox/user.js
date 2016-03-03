@@ -19,9 +19,6 @@ user_pref("intl.charset.detector", "universal_charset_detector");//自動選擇
 user_pref("font.name.serif.zh-CN", "Arial");//衬線字體
 user_pref("font.name.sans-serif.zh-CN", "Arial");//無衬線字體
 user_pref("font.name.monospace.zh-CN", "Arial");//等寬字體
-//禁用硬件加速
-user_pref("layers.acceleration.disabled", true);//禁止使用D2D渲染网页文字内容.
-user_pref("gfx.direct2d.disabled",true);//关闭网页图层绘制的gpu加速.
 //拼写检查
 user_pref("spellchecker.dictionary", "en-US");//字典
 user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
@@ -196,6 +193,7 @@ user_pref("extensions.abhere2.starUI.row.loadInSidebar", false);//不显示"在�
 //*==========脚本设置==========*//
 //rebuild_userChrome脚本管理器
 user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,anobtn_set,toolsbar_KeyChanger_rebuild,redirector-icon,usercssloader_Tools_Menu");
+user_pref("userChrome.rebuildUI.menues", "addMenu-rebuild,anobtn_set,toolsbar_KeyChanger_rebuild,redirector-icon,usercssloader_Tools_Menu");//W版无重启
 
 //UC管理器取消延迟加载
 user_pref("userChrome.EXPERIMENT", true);
