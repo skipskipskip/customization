@@ -1,7 +1,7 @@
 [AutoProxy 0.3.0]
 ! Title:        Autoproxy自定義名單
 ! Author:       Cing
-! Version:      2016.02
+! Version:      2016.03
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
@@ -14,7 +14,6 @@
 ||focalprice.com
 ||digitaltrends.com
 ||mm-cg.com
-||google.com
 ||amazon.co.uk
 ||everbuying.net
 ||chinavasion.com
