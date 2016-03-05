@@ -5,6 +5,8 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||www.tvc-mall.com
+||angiefans.com
 ||qbox.me
 ||googleapis.com
 ||cdn.gsmarena.com
