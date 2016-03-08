@@ -5,6 +5,9 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||banggood.com
+||ruituoz.com
+||bluedio.com
 ||www.tvc-mall.com
 ||angiefans.com
 ||qbox.me
