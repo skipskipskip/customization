@@ -5,6 +5,7 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||twitch.tv
 ||banggood.com
 ||ruituoz.com
 ||bluedio.com
