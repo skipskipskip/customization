@@ -12,10 +12,8 @@
 ||angiefans.com
 ||qbox.me
 ||googleapis.com
-||cdn.gsmarena.com
 ||amazonaws.com
 ||wikipedia.org
-||githubusercontent.com
 ||focalprice.com
 ||digitaltrends.com
 ||mm-cg.com
@@ -30,4 +28,3 @@
 ||tumblr.com
 ||faout.com
 ||googlecode.com
-||raw.github.com
