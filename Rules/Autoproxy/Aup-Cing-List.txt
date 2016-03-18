@@ -5,6 +5,9 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||barnesandnoble.com
+||nook.com
+||githubusercontent.com
 ||getpocket.com
 ||alcatelonetouch.com
 ||prestigio.com
