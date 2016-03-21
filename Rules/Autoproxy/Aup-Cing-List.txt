@@ -5,6 +5,8 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||feiruo.pw
+||amazonaws.com
 ||barnesandnoble.com
 ||nook.com
 ||githubusercontent.com
