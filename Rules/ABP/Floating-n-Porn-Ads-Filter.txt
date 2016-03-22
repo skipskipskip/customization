@@ -8,7 +8,7 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
-! 2016.03.22 禁用第三方脚本
+! 2016.03.23 禁用第三方脚本
 ||platform.twitter.com^$third-party
 ||connect.facebook.net^$third-party
 ||mplxtms.com^$third-party
@@ -89,6 +89,8 @@
 ||vizury.com^$third-party
 ||wanelo.com^$third-party
 ||yieldoptimizer.com^$third-party
+! 2016.03.22
+baidu.com###act-link-banner
 ! 2016.03.16
 chaojibiaoge.com##IMG[src="/Public/projects/oa/images/weixin.png"]
 163.com##.clearfix.bobo-wrap
