@@ -11,3 +11,4 @@ by Cing
   [1]: https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
   [2]: https://github.com/Leask/BRICKS/blob/master/gfw.bricks
   [3]: https://github.com/gfwlist/gfwlist
+  [4]: https://us-somesky.rhcloud.com/gfw/lantern-japan-server.html
