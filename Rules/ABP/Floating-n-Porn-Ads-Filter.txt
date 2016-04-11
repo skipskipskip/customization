@@ -9,6 +9,8 @@
 !-------------------------------------------------------------------------------------!
 !開始!
 ! 2016.04.11
+cnbeta.com##.mask-box
+cnbeta.com##.mask-layer
 jd.com##.side__ad.side__ad-right
 jd.com##.side__ad.side__ad-left
 ! 2016.03.25
