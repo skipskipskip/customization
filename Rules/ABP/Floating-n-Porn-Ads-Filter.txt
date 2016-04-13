@@ -8,10 +8,12 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.04.13
+cnbeta.com##div[style*="DXImageTransform"]
+cnbeta.com##div[style*="display:block !important;"][style*="z-index:99999;"]
 ! 2016.04.11
 cnbeta.com##.mask-box
 cnbeta.com##.mask-layer
-||cnbeta.com/assets/js/pages/*
 jd.com##.side__ad.side__ad-right
 jd.com##.side__ad.side__ad-left
 ! 2016.03.25
