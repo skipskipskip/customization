@@ -8,6 +8,9 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.04.16
+baidu.com###passport-accRealName-pop
+baidu.com###TANGRAM__PSP_35__
 ! 2016.04.13
 cnbeta.com##div[style*="DXImageTransform"]
 cnbeta.com##div[style*="display:block !important;"][style*="z-index:99999;"]
