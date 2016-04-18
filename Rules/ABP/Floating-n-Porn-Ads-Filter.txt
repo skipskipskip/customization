@@ -8,6 +8,9 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.04.18
+xilinjie.com##P
+xilinjie.com###xlj-ad-block-overlay
 ! 2016.04.16
 baidu.com###passport-accRealName-pop
 baidu.com###TANGRAM__PSP_35__
