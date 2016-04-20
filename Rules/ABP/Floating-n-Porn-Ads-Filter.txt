@@ -8,6 +8,9 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.04.20
+trunk.tvc-mall.com##IMG[src="http://upload.img.tvc-mall.com/Uploads/60441234133847e58325377556a75cfa.jpg"]
+huya.com##.relate_right
 ! 2016.04.18
 xilinjie.com##P
 xilinjie.com###xlj-ad-block-overlay
