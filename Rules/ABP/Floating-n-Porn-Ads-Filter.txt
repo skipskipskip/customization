@@ -130,7 +130,6 @@ baidu.com##.s_bri
 tieba.baidu.com##.thread_recommend
 18h.mm-cg.com##.UT_thread
 18h.mm-cg.com##UL
-||google-analytics.com^$third-party
 !以前添加
 ##FONT.jammer
 ||*monitor.jpg?xcode
