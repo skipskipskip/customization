@@ -5,6 +5,8 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+@@||trunk.tvc-mall.com
+||mobilefun.co.uk
 ||cloudfront.net
 ||vimeo.com
 ||feiruo.pw
