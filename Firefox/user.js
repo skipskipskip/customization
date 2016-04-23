@@ -125,8 +125,8 @@ user_pref("extensions.adblockplus.patternsbackups", 0);
 user_pref("extensions.adblockplus.frameobjects", false);//在Java和Flash上显示标签 - 否
 user_pref("extensions.adblockplus.subscriptions_antiadblockurl", "https://github.com/dupontjoy/customization/raw/master/Rules/ABP/Floating-n-Porn-Ads-Filter.txt");//原反-反ADP列表
 //-非侵入式广告地址換成个人ABP规则
-user_pref("extensions.adblockplus.subscriptions_exceptionscheckbox", true);//非入侵式广告勾选框
-user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "http://bbs.theworld.cn/attachment.php?aid=MTE0NDQ4fDUyZjc3Mjc3fDEzOTc5MTM1OTh8NDczMHBuYytiNk1yR0dQa2lqdGFyOXg1R29QNEVaUjJoYTNIb0U4bXFHeVM0eGM%3D");//原非入侵式广告订阅网址
+user_pref("extensions.adblockplus.subscriptions_exceptionscheckbox", false);//非入侵式广告勾选框
+user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "");//原非入侵式广告订阅网址
 
 //Autoproxy
 user_pref("extensions.autoproxy.customProxy", "Shadowsocks;;1080;socks$Lantern;;8787;$Psiphon;;8080;$GoAgent;;8087;$Free%20Gate;;8580;");
