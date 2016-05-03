@@ -28,7 +28,6 @@ host	script	2	http://mixer.video.iqiyi.com
 host	script	2	http://api.credit.iqiyi.com
 host	script	2	http://ptengine.com
 host	script	2	http://ad.3.cn
-host	subdocument	2	http://plus.google.com
 host	script	2	http://admaster.com.cn
 host	script	2	http://irs01.com
 host	script	2	http://scorecardresearch.com
