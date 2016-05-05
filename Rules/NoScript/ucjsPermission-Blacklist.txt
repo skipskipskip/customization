@@ -1,4 +1,4 @@
-﻿!-------ucjsPermission第三方腳本黑名單	2016.04	------------------------------!
+﻿!-------ucjsPermission第三方腳本黑名單	2016.05	------------------------------!
 !-------	腳本：script	-----------------------!
 !-------	對象：object	-----------------------!
 !-------	框架：subdocument	-----------------------!
@@ -7,6 +7,8 @@
 #	Permission	File
 #	Generated	by	ExExceptions
 
+host	script	2	http://platform.twitter.com
+host	script	2	http://connect.facebook.net
 host	script	2	http://ads.linkedin.com
 host	script	2	http://analytics.yahoo.com
 host	script	2	http://mplxtms.com
