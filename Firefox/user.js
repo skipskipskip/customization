@@ -1,9 +1,11 @@
-﻿//2016.03.23
+﻿//2016.05.04
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
 //*==========主页==========*//
+//user_pref("browser.startup.homepage", "chrome://userchromejs/content/myNewTab/index.html");//首页
+//user_pref("browser.newtab.url", "chrome://userchromejs/content/myNewTab/index.html");//本地Html
 user_pref("browser.startup.homepage", "about:newtab");//首頁
 user_pref("browser.newtabpage.columns", 6);//新标签页列数
 user_pref("browser.newtabpage.rows", 3);//新标签页行数
@@ -68,6 +70,9 @@ user_pref("plugins.hide_infobar_for_outdated_plugin", true);//过期插件不提
 user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择不提示
 user_pref("dom.ipc.plugins.flash.disable-protected-mode", true);//禁用保护模式
 user_pref("dom.ipc.plugins.sandbox-level.flash", 0);//64位关闭沙箱
+user_pref("layers.async-pan-zoom.enabled",true);//开启异步平移/缩放
+user_pref("dom.ipc.plugins.asyncInit.enabled", true);//开启插件异步加载
+user_pref("dom.ipc.plugins.asyncdrawing.enabled", true);//开启插件异步绘制
 
 //*==========附加組件==========*//
 user_pref("extensions.getAddons.cache.enabled", false);//阻止每天更新附加组件元数据
@@ -125,8 +130,8 @@ user_pref("extensions.adblockplus.patternsbackups", 0);
 user_pref("extensions.adblockplus.frameobjects", false);//在Java和Flash上显示标签 - 否
 user_pref("extensions.adblockplus.subscriptions_antiadblockurl", "https://github.com/dupontjoy/customization/raw/master/Rules/ABP/Floating-n-Porn-Ads-Filter.txt");//原反-反ADP列表
 //-非侵入式广告地址換成个人ABP规则
-user_pref("extensions.adblockplus.subscriptions_exceptionscheckbox", false);//非入侵式广告勾选框
-user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "");//原非入侵式广告订阅网址
+user_pref("extensions.adblockplus.subscriptions_exceptionscheckbox", true);//非入侵式广告勾选框
+user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt");//原非入侵式广告订阅网址
 
 //Autoproxy
 user_pref("extensions.autoproxy.customProxy", "Shadowsocks;;1080;socks$Lantern;;8787;$Psiphon;;8080;$GoAgent;;8087;$Free%20Gate;;8580;");
