@@ -1,10 +1,7 @@
 [fireie 0.2.8]
-! Title:          FireIE Cing自用规则
-! Author:         Cing
-! Version:        2016.05
-! Expires:        1h
-! Contact:        https://github.com/dupontjoy/customization/Rules
-
+!  Checksum: viqaYIjc7aVkMEWnzKNNnQ
+! Last Modified:  Thu, 05 Mar 2015 20:12:02 +0800
+! Expires: 2 days
 ! ===============================================
 !            TVC內网  
 ! ===============================================
