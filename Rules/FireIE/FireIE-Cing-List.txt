@@ -1,17 +1,15 @@
 [fireie 0.2.8]
-!  Checksum: viqaYIjc7aVkMEWnzKNNnQ
-! Last Modified:  Thu, 05 Mar 2015 20:12:02 +0800
-! Expires: 2 days
+! Title:          FireIE自用规则
+! Version:        2016.05
+! Expires:        1h
 ! ===============================================
 !            TVC內网  
 ! ===============================================
 !品牌型号管理
 ||ic.sjlpj.cn/BrandCategory/BrandCategoryList^
 ||ic.sjlpj.cn/*/BrandCategory/BrandCategoryList^
-
 !自身品牌管理
 ||ic.sjlpj.cn/Brand/BrandList^
 ||ic.sjlpj.cn/#/Brand/BrandList^
-
 !超级表格
 ||www.chaojibiaoge.com/index.php/H^
