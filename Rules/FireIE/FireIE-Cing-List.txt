@@ -1,0 +1,13 @@
+[fireie 0.2.8]
+! Title:          FireIE Cing自用规则
+! Author:         Cing
+! Version:        2016.05
+! Expires:        1h
+! Contact:        https://github.com/dupontjoy/customization/Rules
+!---------------------------------------------------------------------------------------!
+!品牌型号管理
+||http://ic.sjlpj.cn/BrandCategory/BrandCategoryList
+||http://ic.sjlpj.cn/*/BrandCategory/BrandCategoryList
+!自身品牌管理
+||http://ic.sjlpj.cn/Brand/BrandList
+||http://ic.sjlpj.cn/#/Brand/BrandList
