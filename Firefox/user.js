@@ -1,4 +1,4 @@
-﻿//2016.05.04
+﻿//2016.05.07
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -190,6 +190,11 @@ user_pref("extensions.imacros.store-in-profile", true);//存储到Profile文件�
 
 //Pocket(Readitlater)
 user_pref("extensions.isreaditlater.open", "tab");//新标签打开项目
+
+//FireIE
+user_pref("extensions.fireie.compatMode", "ie11edge");//IE11边缘模式
+user_pref("extensions.fireie.gpuRendering", true);//启用GPU渲染
+user_pref("extensions.fireie.hideUrlBarButton", true);//隐藏地址栏图标
 
 //*==========脚本设置==========*//
 //rebuild_userChrome脚本管理器
