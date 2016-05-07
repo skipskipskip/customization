@@ -195,6 +195,7 @@ user_pref("extensions.isreaditlater.open", "tab");//新标签打开项目
 user_pref("extensions.fireie.compatMode", "ie11edge");//IE11边缘模式
 user_pref("extensions.fireie.gpuRendering", true);//启用GPU渲染
 user_pref("extensions.fireie.hideUrlBarButton", true);//隐藏地址栏图标
+user_pref("extensions.fireie.showSiteFavicon", false);//使用IE引擎图标
 
 //*==========脚本设置==========*//
 //rebuild_userChrome脚本管理器
