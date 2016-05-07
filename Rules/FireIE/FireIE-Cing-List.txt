@@ -4,15 +4,17 @@
 ! Version:        2016.05
 ! Expires:        1h
 ! Contact:        https://github.com/dupontjoy/customization/Rules
-!---------------------------------------------------------------------------------------!
 
+! ===============================================
+!            TVC內网  
+! ===============================================
 !品牌型号管理
-|http://ic.sjlpj.cn/BrandCategory/BrandCategoryList^
-|http://ic.sjlpj.cn/*/BrandCategory/BrandCategoryList^
+||ic.sjlpj.cn/BrandCategory/BrandCategoryList^
+||ic.sjlpj.cn/*/BrandCategory/BrandCategoryList^
 
 !自身品牌管理
-|http://ic.sjlpj.cn/Brand/BrandList^
-|http://ic.sjlpj.cn/#/Brand/BrandList^
+||ic.sjlpj.cn/Brand/BrandList^
+||ic.sjlpj.cn/#/Brand/BrandList^
 
 !超级表格
-|http://www.chaojibiaoge.com/index.php/H^
+||www.chaojibiaoge.com/index.php/H^
