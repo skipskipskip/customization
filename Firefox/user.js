@@ -192,6 +192,7 @@ user_pref("extensions.imacros.store-in-profile", true);//存储到Profile文件�
 user_pref("extensions.isreaditlater.open", "tab");//新标签打开项目
 
 //FireIE
+user_pref("extensions.fireie.autoSwitchOnRuleMiss", "fx");//未匹配规则时切换到"Firefox"引擎
 user_pref("extensions.fireie.hideUrlBarButton", true);//隐藏地址栏图标
 user_pref("extensions.fireie.showSiteFavicon", false);//使用IE引擎图标
 user_pref("extensions.fireie.compatMode", "ie11edge");//IE11边缘模式
