@@ -3,13 +3,7 @@
 ! Version:        2016.05
 ! Expires:        1h
 ! ===============================================
-!            TVC內网  
-! ===============================================
-!品牌型号管理
-||ic.sjlpj.cn/BrandCategory/BrandCategoryList^
-||ic.sjlpj.cn/#/BrandCategory/BrandCategoryList^
-!自身品牌管理
-||ic.sjlpj.cn/Brand/BrandList^
-||ic.sjlpj.cn/#/Brand/BrandList^
+!品牌型号/自身品牌管理
+||ic.sjlpj.cn/*Brand*
 !超级表格
 ||www.chaojibiaoge.com/index.php/H^
