@@ -7,7 +7,7 @@
 ! ===============================================
 !品牌型号管理
 ||ic.sjlpj.cn/BrandCategory/BrandCategoryList^
-||ic.sjlpj.cn/*/BrandCategory/BrandCategoryList^
+||ic.sjlpj.cn/#/BrandCategory/BrandCategoryList^
 !自身品牌管理
 ||ic.sjlpj.cn/Brand/BrandList^
 ||ic.sjlpj.cn/#/Brand/BrandList^
