@@ -8,6 +8,9 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.05.11
+iplaysoft.com##DIV[style="width:336px;height:280px;background:#f8f8f8;margin:20px auto 24px auto"]
+iplaysoft.com##DIV[style="width:336px;height:280px;background:#f8f8f8;margin:20px auto 20px auto"]
 ! 2016.05.10
 baidu.com###announcement
 ! 2016.04.20
