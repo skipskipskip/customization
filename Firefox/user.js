@@ -1,4 +1,4 @@
-﻿//2016.05.09
+﻿//2016.05.11
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -246,7 +246,11 @@ user_pref("userChromeJS.downloadPlus.download_dialog_changeName_encodingConvert"
 user_pref("userChromeJS.downloadPlus.download_dialog_changeName_locking", true);//下載改名——锁定保存文件按钮
 
 //FeiRuoNet
+user_pref("userChromeJS.FeiRuoNet.EnableRefChanger", true);//Refer切換,破解反盗链
+user_pref("userChromeJS.FeiRuoNet.EnableUAChanger", true);//UA切換
+user_pref("userChromeJS.FeiRuoNet.ModifyHeader", true);//HTTP头信息
 user_pref("userChromeJS.FeiRuoNet.UrlbarSafetyLevel", false);//HTTPS等級高亮
+user_pref("userChromeJS.FeiRuoNet.ProxyMode", 1);//智能代理
 
 //ShowFlagS
 user_pref("userChromeJS.showFlagS.RefChanger", true);//開啟圖片反盜鏈
