@@ -5,6 +5,10 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||vivaldi.net
+||mobimania.ua
+||sunroadtech.com
+||coladrive.com
 ||priceminister.com
 ||richrelevance.com
 ||staticpmrk.com
