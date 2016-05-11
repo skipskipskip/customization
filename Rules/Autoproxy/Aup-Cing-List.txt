@@ -5,6 +5,9 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||priceminister.com
+||richrelevance.com
+||staticpmrk.com
 @@||img.tvc-mall.com
 ||github.com
 ||gsmarena.com
