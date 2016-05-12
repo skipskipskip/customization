@@ -7,6 +7,8 @@
         "trunk.tvc-mall.com"
     ],
     "ProxyFilters": [
+        "redhat.com",
+        "rhcloud.com",
         "vivaldi.net",
         "mobimania.ua",
         "sunroadtech.com",
