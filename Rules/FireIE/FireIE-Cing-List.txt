@@ -6,5 +6,6 @@
 !品牌型号/自身品牌管理
 ||ic.sjlpj.cn/*BrandCategory*
 ||ic.sjlpj.cn/*BrandList*
+||ic.sjlpj.cn/*BrandAdd*
 !超级表格
 ||www.chaojibiaoge.com/index.php/H^
