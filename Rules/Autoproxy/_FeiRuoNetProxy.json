@@ -3,10 +3,11 @@
     "注释": "DisbledFilter并非白名单！！！仅为不代理效列表，可随时切换！",
     "优先级": "GFWList白名单 >> DisbledFilter >> ProxyFilters & GFWList",
     "DisbledFilter": [
-        "img.tvc-mall.com",
+        "img.tvc-mall.com"
         "trunk.tvc-mall.com"
     ],
     "ProxyFilters": [
+        "tvc-mall.com",
         "fasttechcdn.com",
         "redhat.com",
         "rhcloud.com",
