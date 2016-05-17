@@ -2,8 +2,8 @@
 
 一, 开放端口
 service iptables start
-iptables -I INPUT -p tcp --dport ssh端口号 -j ACCEPT
-iptables -I OUTPUT -p tcp --sport ssh端口号 -j ACCEPT
+iptables -A INPUT -p tcp --dport 你的vps端口号 -j ACCEPT
+iptables -A OUTPUT -p tcp --sport 你的vps端口号 -j ACCEPT
 service iptables save
 
 二, 安装命令:
