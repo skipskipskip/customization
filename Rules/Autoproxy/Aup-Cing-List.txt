@@ -15,9 +15,7 @@
 ||coladrive.com
 ||priceminister.com
 ||richrelevance.com
-||recs.richrelevance.com
 ||staticpmrk.com
-||pmcdn.staticpmrk.com
 @@||img.tvc-mall.com
 ||github.com
 ||gsmarena.com
