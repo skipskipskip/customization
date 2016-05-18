@@ -5,12 +5,16 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||engadget.com
+||quericy.me
+||kameleoon.eu
 ||vivaldi.net
 ||mobimania.ua
 ||sunroadtech.com
 ||coladrive.com
 ||priceminister.com
 ||richrelevance.com
+||recs.richrelevance.com
 ||staticpmrk.com
 ||pmcdn.staticpmrk.com
 @@||img.tvc-mall.com
@@ -21,7 +25,7 @@
 ||cdn.static-economist.com
 @@||trunk.tvc-mall.com
 ||mobilefun.co.uk
-||cloudfront.net
+||.cloudfront.net
 ||vimeo.com
 ||feiruo.pw
 ||amazonaws.com
