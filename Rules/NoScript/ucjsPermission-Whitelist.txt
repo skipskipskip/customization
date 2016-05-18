@@ -8,8 +8,18 @@
 #	Generated	by	ExExceptions
 
 host	script	1	http://360buyimg.com
+host	script	1	http://alicdn.com
+host	script	1	http://bdimg.com
 host	script	1	http://bdstatic.com
-host	script	1	http://3.cn
+host	script	1	http://cdn.static-economist.com
+host	script	1	http://d.3.cn
+host	script	1	http://dict.cn
+host	script	1	http://googlevideo.com
+host	script	1	http://gstatic.com
+host	script	1	http://ikafan.com
+host	script	1	http://p.3.cn
+host	script	1	http://pmcdn.staticpmrk.com
+host	script	1	http://youtube-nocookie.com
 host	script	1	http://ytimg.com
 
 

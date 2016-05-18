@@ -1,4 +1,4 @@
-﻿//2016.05.12
+﻿//2016.05.18
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -251,10 +251,13 @@ user_pref("userChromeJS.FeiRuoNet.EnableUAChanger", true);//UA切換
 user_pref("userChromeJS.FeiRuoNet.ModifyHeader", true);//HTTP头信息
 user_pref("userChromeJS.FeiRuoNet.UrlbarSafetyLevel", false);//HTTPS等級高亮
 user_pref("userChromeJS.FeiRuoNet.EnableProxyByError", false);//网络错误时代理
-user_pref("userChromeJS.FeiRuoNet.ProxyMode", 1);//智能代理
 
 //ShowFlagS
 user_pref("userChromeJS.showFlagS.RefChanger", true);//開啟圖片反盜鏈
 user_pref("userChromeJS.showFlagS.UAChanger", true);//開啟UA切換
 user_pref("userChromeJS.showFlagS.Reacquire", true);//失敗自動獲取
 user_pref("userChromeJS.showFlagS.Inquiry_Delay", 10000);//查詢延時(10000ms)
+
+//ucjsPermission腳本
+//簡單敎程：http://bbs.kafan.cn/thread-1527284-1-1.html，禁止第三方腳本，對象和框架，基本就能過濾掉大部分廣告和不必要的內容。
+user_pref("permissions.default.script", 3);//禁止第三方腳本
