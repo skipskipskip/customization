@@ -1,0 +1,17 @@
+﻿!-------ucjsPermission第三方腳本白名單	2016.05	------------------------------!
+!-------	腳本：script	-----------------------!
+!-------	對象：object	-----------------------!
+!-------	框架：subdocument	-----------------------!
+!-------	圖片：image	-----------------------!
+
+#	Permission	File
+#	Generated	by	ExExceptions
+
+host	script	1	http://360buyimg.com
+host	script	1	http://bdstatic.com
+host	script	1	http://3.cn
+host	script	1	http://ytimg.com
+
+
+!-------最後一行默認無法導入，所以加個结束行	-------------------------------------!
+!-------結束	-------------------------------------!
