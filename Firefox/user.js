@@ -1,4 +1,4 @@
-﻿//2016.05.18
+﻿//2016.05.19
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -140,10 +140,6 @@ user_pref("extensions.autoproxy.defaultstatusbaraction", 0);//点击图标时-�
 user_pref("extensions.autoproxy.defaulttoolbaraction", 0);//点击图标时-快捷菜单
 
 
-//Simple Proxy
-user_pref("extensions.simpleproxy@jc3213.github.proxy_0_list", "https://github.com/Leask/BRICKS/raw/master/gfw.bricks");
-user_pref("extensions.simpleproxy@jc3213.github.proxy_0_server", "socks::127.0.0.1::1080");
-
 //LastPass
 user_pref("extensions.lastpass.hidecontextmenu", true);
 user_pref("extensions.lastpass.showHomepageAfterLogin", false);//登入後不轉到密码库
@@ -251,13 +247,3 @@ user_pref("userChromeJS.FeiRuoNet.EnableUAChanger", true);//UA切換
 user_pref("userChromeJS.FeiRuoNet.ModifyHeader", true);//HTTP头信息
 user_pref("userChromeJS.FeiRuoNet.UrlbarSafetyLevel", false);//HTTPS等級高亮
 user_pref("userChromeJS.FeiRuoNet.EnableProxyByError", false);//网络错误时代理
-
-//ShowFlagS
-user_pref("userChromeJS.showFlagS.RefChanger", true);//開啟圖片反盜鏈
-user_pref("userChromeJS.showFlagS.UAChanger", true);//開啟UA切換
-user_pref("userChromeJS.showFlagS.Reacquire", true);//失敗自動獲取
-user_pref("userChromeJS.showFlagS.Inquiry_Delay", 10000);//查詢延時(10000ms)
-
-//ucjsPermission腳本
-//簡單敎程：http://bbs.kafan.cn/thread-1527284-1-1.html，禁止第三方腳本，對象和框架，基本就能過濾掉大部分廣告和不必要的內容。
-user_pref("permissions.default.script", 3);//禁止第三方腳本
