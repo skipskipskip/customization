@@ -16,7 +16,6 @@
 ||priceminister.com
 ||richrelevance.com
 ||staticpmrk.com
-@@||img.tvc-mall.com
 ||github.com
 ||gsmarena.com
 ||cnn.com
@@ -24,7 +23,7 @@
 ||cdn.static-economist.com
 @@||trunk.tvc-mall.com
 ||mobilefun.co.uk
-||.cloudfront.net
+||cloudfront.net
 ||vimeo.com
 ||feiruo.pw
 ||amazonaws.com
