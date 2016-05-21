@@ -12,16 +12,16 @@ by Cing
 
 1. Easylist China:
    https://easylist-downloads.adblockplus.org/easylistchina.txt
-   ABP点此弹出对话框添加EasyList China: abp:subscribe?location=https://easylist-downloads.adblockplus.org/easylistchina.txt&title=EasyList%20China
+   ABP点此弹出对话框添加EasyList China: [abp:subscribe?location=https://easylist-downloads.adblockplus.org/easylistchina.txt&title=EasyList%20China](abp:subscribe?location=https://easylist-downloads.adblockplus.org/easylistchina.txt&title=EasyList%20China)
 2. EasyList Lite:
    https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt
-   ABP点此弹出对话框添加EasyList Lite: abp:subscribe?location=https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt&title=EasyList%20Lite
+   ABP点此弹出对话框添加EasyList Lite: [abp:subscribe?location=https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt&title=EasyList%20Lite](abp:subscribe?location=https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt&title=EasyList%20Lite)
 3. Easyprivacy:
    https://easylist-downloads.adblockplus.org/easyprivacy.txt
-   ABP点此弹出对话框添加EasyList Lite: abp:subscribe?location=https://easylist-downloads.adblockplus.org/easyprivacy.txt&title=Easyprivacy
+   ABP点此弹出对话框添加EasyList Lite: [abp:subscribe?location=https://easylist-downloads.adblockplus.org/easyprivacy.txt&title=Easyprivacy](abp:subscribe?location=https://easylist-downloads.adblockplus.org/easyprivacy.txt&title=Easyprivacy)
 4. CJX's Annoying List:
    https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
-   ABP点此弹出对话框添加EasyList Lite: abp:subscribe?location=https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt&title=CJX's Annoying List
+   ABP点此弹出对话框添加EasyList Lite: [abp:subscribe?location=https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt&title=CJX's Annoying List](abp:subscribe?location=https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt&title=CJX's Annoying List)
 
 
 
