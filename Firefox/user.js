@@ -1,4 +1,4 @@
-﻿//2016.05.19
+﻿//2016.05.21
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -14,27 +14,19 @@ user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://www.google.com/ncr\"
 
 //*==========选项卡里的设置==========*//
 user_pref("signon.rememberSignons", false);//不保存密码
-user_pref("privacy.donottrackheader.enabled", true);//開啟DNT
-user_pref("privacy.donottrackheader.value", 1);//0 同意被跟踪;1 不要被跟踪
+//字体硬件加速开启
+user_pref("gfx.direct2d.disabled", true);//在 Windows 平台上强制使用 D2D 加速页面内容渲染
 //字體語言編碼
 user_pref("intl.charset.detector", "universal_charset_detector");//自動選擇
 user_pref("font.name.serif.zh-CN", "Arial");//衬線字體
 user_pref("font.name.sans-serif.zh-CN", "Arial");//無衬線字體
 user_pref("font.name.monospace.zh-CN", "Arial");//等寬字體
-//拼写检查
-user_pref("spellchecker.dictionary", "en-US");//字典
-user_pref("layout.spellcheckDefault", 2);//开启单行和全文的拼写检查
+
 //关闭安全检测健康中心类
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.enabled", false);
-user_pref("datareporting.healthreport.pendingDeleteRemoteData", true);
-user_pref("datareporting.healthreport.service.enabled", false);
 user_pref("datareporting.healthreport.service.firstRun", true);
 user_pref("datareporting.healthreport.uploadEnabled", false);
-user_pref("datareporting.policy.dataSubmissionEnabled", false);
-user_pref("dom.enable_performance",false);
-user_pref("toolkit.telemetry.unified",false);
-user_pref("sanity-test.running",false);
 
 //*==========標籤相關==========*//
 user_pref("browser.tabs.animate", false);//關閉标签页动画
@@ -75,8 +67,6 @@ user_pref("dom.ipc.plugins.asyncInit.enabled", true);//开启插件异步加载
 user_pref("dom.ipc.plugins.asyncdrawing.enabled", true);//开启插件异步绘制
 
 //*==========附加組件==========*//
-user_pref("extensions.getAddons.cache.enabled", false);//阻止每天更新附加组件元数据
-user_pref("extensions.webservice.discoverURL","http://127.0.0.1");//禁用附加组件建议
 user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打开“扩展”项
 
 //*==========FX其它类==========*//
@@ -96,32 +86,7 @@ user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
 user_pref("browser.sessionstore.resume_from_crash", false);//关闭Firefox会话恢复功能
 user_pref("browser.pagethumbnails.capturing_disabled", true);//禁用Firefox的thumbnails
 user_pref("xpinstall.signatures.required", false);//去除扩展签名验证
-
-// 0101: disable "slow startup" options
-   // warnings, disk history, welcomes, intros, EULA, default browser check
-user_pref("browser.slowStartup.notificationDisabled", true);
-user_pref("browser.slowStartup.maxSamples", 0);
-user_pref("browser.slowStartup.samples", 0);
-user_pref("browser.rights.3.shown", true);
-user_pref("browser.startup.homepage_override.mstone", "ignore");
-user_pref("startup.homepage_welcome_url", "");
-user_pref("startup.homepage_override_url", "");
-user_pref("browser.feeds.showFirstRunUI", false);
-user_pref("browser.shell.checkDefaultBrowser", false);
-user_pref("browser.usedOnWindows10.introURL", "");
-// 0604: disable search suggestions
-user_pref("browser.search.suggest.enabled", false);
-
-/*** 0200: GEOLOCATION ***/
-// 0201: disable location-aware browsing
-user_pref("geo.enabled", false);
-user_pref("geo.wifi.uri", "http://127.0.0.1");
-user_pref("geo.wifi.logging.enabled", false);
-user_pref("browser.search.geoip.url", "");
-// 0202: disable GeoIP-based search results
-   // https://trac.torproject.org/projects/tor/ticket/16254
-user_pref("browser.search.countryCode", "US");
-user_pref("browser.search.region", "US");
+user_pref("browser.sessionstore.max_tabs_undo", 20);//最近撤销标签历史最大数
 
 
 //*==========扩展设置==========*//
