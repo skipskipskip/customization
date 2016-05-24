@@ -1,4 +1,4 @@
-﻿//2016.05.21
+﻿//2016.05.24
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -86,8 +86,9 @@ user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
 user_pref("browser.sessionstore.resume_from_crash", false);//关闭Firefox会话恢复功能
 user_pref("browser.pagethumbnails.capturing_disabled", true);//禁用Firefox的thumbnails
 user_pref("xpinstall.signatures.required", false);//去除扩展签名验证
-user_pref("browser.sessionstore.max_tabs_undo", 20);//最近撤销标签历史最大数
-
+user_pref("browser.sessionstore.max_tabs_undo", 10);//最近撤销标签历史最大数
+user_pref("browser.search.openintab", true);//新标签打开搜索栏
+user_pref("browser.search.context.loadInBackground", true);//后台打开搜索
 
 //*==========扩展设置==========*//
 //adblockplus
@@ -212,3 +213,18 @@ user_pref("userChromeJS.FeiRuoNet.EnableUAChanger", true);//UA切換
 user_pref("userChromeJS.FeiRuoNet.ModifyHeader", true);//HTTP头信息
 user_pref("userChromeJS.FeiRuoNet.UrlbarSafetyLevel", false);//HTTPS等級高亮
 user_pref("userChromeJS.FeiRuoNet.EnableProxyByError", false);//网络错误时代理
+
+//FeiruoTabPlus
+user_pref("userChromeJS.FeiRuoTabplus.ColseToNearTab", 1);//关闭标签转到当前左边
+user_pref("userChromeJS.FeiRuoTabplus.Custom", "1|mTabContainer|dblclick|Tab|0|CloseTargetTab||,1|mTabContainer|MouseScrollUp|Tab|1|MouseScrollTabL||,1|mTabContainer|MouseScrollDown|Tab|1|MouseScrollTabR||,1|mTabContainer|click|TabBar|1|LoadWithIE||");
+user_pref("userChromeJS.FeiRuoTabplus.HomeNewTab", true);//新标签打开主页
+user_pref("userChromeJS.FeiRuoTabplus.ImageNewTab", true);//新标签查看图片
+user_pref("userChromeJS.FeiRuoTabplus.KeepBookmarksOnMiddleClick", true);//中键点击书签菜单不关闭
+user_pref("userChromeJS.FeiRuoTabplus.NewTabNear", 2);//新建标签在当前右边
+user_pref("userChromeJS.FeiRuoTabplus.NewTabUrlbar", true);//新标签打开地址栏
+user_pref("userChromeJS.FeiRuoTabplus.NewTabUrlbar_SH", false);//新标签打开地址栏(域名相同排除:否)
+user_pref("userChromeJS.FeiRuoTabplus.OpenFilesWhenDrop", true);//多文件拖拽连续打开
+user_pref("userChromeJS.FeiRuoTabplus.SideBarNewTab", true);//新标签打开侧栏,书签,历史等
+user_pref("userChromeJS.FeiRuoTabplus.SideBarNewTab_SH", false);//新标签打开侧栏,书签,历史等(域名相同排除:否)
+user_pref("userChromeJS.FeiRuoTabplus.TabFocus", false);//自动聚焦
+user_pref("userChromeJS.FeiRuoTabplus.UndoBtn", false);//撤销按钮
