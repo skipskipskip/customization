@@ -8,6 +8,8 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.05.25
+google.com##.gb_ga.gb_g
 ! 2016.05.18
 trunk.tvc-mall.com##IMG[src="http://upload.img.tvc-mall.com/Uploads/60441234133847e58325377556a75cfa.jpg"]
 kindbook.cn##A[href="http://www.kindbook.cn/plugin.php?id=webpage&identifier=juanzeng2"]
