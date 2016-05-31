@@ -8,6 +8,8 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.05.31
+cnn.com##.user-msg
 ! 2016.05.25
 google.com##.gb_ga.gb_g
 ! 2016.05.18
