@@ -1,6 +1,6 @@
 [fireie 0.2.8]
 ! Title:          FireIE自用规则
-! Version:        2016.05.12
+! Version:        2016.06.01
 ! Expires:        1h
 ! ===============================================
 !品牌型号/自身品牌管理
@@ -8,4 +8,4 @@
 ||ic.sjlpj.cn/*BrandList*
 ||ic.sjlpj.cn/*BrandAdd*
 !超级表格
-||www.chaojibiaoge.com/index.php/H^
+||www.chaojibiaoge.com/index.php/H/project/id*
