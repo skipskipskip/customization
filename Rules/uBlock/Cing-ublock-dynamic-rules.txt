@@ -5,6 +5,7 @@
 * aixifan.com * allow
 * bdimg.com * allow
 * bdstatic.com * allow
+* fraudmetrix.cn * allow
 * geetest.com * allow
 * gwdang.com * allow
 * ikafan.com * allow
