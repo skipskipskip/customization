@@ -12,6 +12,7 @@
 * letvcdn.com * allow
 * letvimg.com * allow
 * mozilla.net * allow
+* static-economist.com * allow
 * ytimg.com * allow
 behind-the-scene * 3p noop
 behind-the-scene * 3p-frame noop
