@@ -1,4 +1,4 @@
-﻿//2016.05.24
+﻿//2016.06.08
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -213,3 +213,8 @@ user_pref("userChromeJS.FeiRuoNet.EnableUAChanger", true);//UA切換
 user_pref("userChromeJS.FeiRuoNet.ModifyHeader", true);//HTTP头信息
 user_pref("userChromeJS.FeiRuoNet.UrlbarSafetyLevel", false);//HTTPS等級高亮
 user_pref("userChromeJS.FeiRuoNet.EnableProxyByError", false);//网络错误时代理
+
+//FeiRuoMouse
+user_pref("userChromeJS.FeiRuoMouse.EnableMove", false);//不启用窗口拖拽
+user_pref("userChromeJS.FeiRuoMouse.GesCustom", "1|%u540E%u9000/%u4E0A%u4E00%u9875|L|||;;1|%u524D%u8FDB/%u4E0B%u4E00%u9875|R|||");//手势
+user_pref("userChromeJS.FeiRuoMouse.DragCustom", "1|%u4E0B%u8F7D%u56FE%u7247|D|Image||;;1|%u65B0%u6807%u7B7E%u6253%u5F00%u56FE%u7247%28%u524D%u53F0%29|R|Image||");//拖拽
