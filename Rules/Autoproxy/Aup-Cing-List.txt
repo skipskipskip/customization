@@ -5,6 +5,14 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||greasyfork.org
+||bandwidthplace.com
+||mega.co.nz
+||daliulian.net
+||fortune.com
+||mega.nz
+||adblockplus.org
+@@||113.106.91.92
 ||bing.com
 ||content-square.com
 ||engadget.com
