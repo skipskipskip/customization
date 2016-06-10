@@ -1,6 +1,7 @@
 * * 3p-frame block
 * * 3p-script block
 * 113.106.91.92 * allow
+* 126.net * allow
 * 3.cn * allow
 * 360buyimg.com * allow
 * aixifan.com * allow
