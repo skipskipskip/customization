@@ -15,6 +15,7 @@
 * fbcdn.net * allow
 * fraudmetrix.cn * allow
 * geetest.com * allow
+* gtimg.cn * allow
 * gwdang.com * allow
 * hdslb.com * allow
 * ifengimg.com * allow
