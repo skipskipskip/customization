@@ -1,4 +1,4 @@
-﻿//2016.06.08
+﻿//2016.06.13
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -49,6 +49,9 @@ user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束�
 //HTTPS不允许混合内容，以下两条参数用以禁用此特性
 user_pref("security.mixed_content.block_active_content", false);
 user_pref("security.mixed_content.block_display_content", false);
+//存储: 开启内存盘机制
+user_pref("browser.cache.disk.enable", false);
+user_pref("browser.cache.memory.enable", true);
 
 //*==========平滑滾動==========*//
 user_pref("general.smoothScroll.durationToIntervalRatio", 500);
@@ -149,6 +152,7 @@ user_pref("extensions.autounloadtab.closeTabAfterMinutes", 60);//xx分鐘後自�
 
 //iMacros
 user_pref("extensions.imacros.store-in-profile", true);//存储到Profile文件夹下
+user_pref("extensions.imacros.delay", 1000);//播放速度中等
 
 //Pocket(Readitlater)
 user_pref("extensions.isreaditlater.open", "tab");//新标签打开项目
