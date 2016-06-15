@@ -31,6 +31,7 @@
 ||cnn.com
 ||wikomobile.com
 ||cdn.static-economist.com
+@@||img.tvc-mall.com
 @@||trunk.tvc-mall.com
 ||mobilefun.co.uk
 ||cloudfront.net
