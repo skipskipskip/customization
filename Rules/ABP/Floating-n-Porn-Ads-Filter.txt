@@ -9,6 +9,7 @@
 !-------------------------------------------------------------------------------------!
 !開始!
 ! 2016.06.16
+deviantart.com###block-notice > .block-notice
 huawei.com##.ReadPolicy.browsehappy
 bbs.tianya.cn###host-stocks-box
 bbs.tianya.cn###dsvips60447 > .ds_seat_foot > .btnOpen
