@@ -13,7 +13,6 @@ no-strict-blocking: click.simba.taobao.com true
 * aliyuncs.com * allow
 * baidu.com * allow
 * baidupcs.com * allow
-* baidustatic.com * allow
 * bdimg.com * allow
 * bdstatic.com * allow
 * deviantart.net * allow
@@ -46,6 +45,8 @@ no-strict-blocking: click.simba.taobao.com true
 * qiyi.com * allow
 * qiyipic.com * allow
 * qq.com * allow
+* redditmedia.com * allow
+* redditstatic.com * allow
 * sinajs.cn * allow
 * static-economist.com * allow
 * staticpmrk.com * allow
@@ -58,6 +59,7 @@ no-strict-blocking: click.simba.taobao.com true
 * yihaodianimg.com * allow
 * ytimg.com * allow
 * zhimg.com * allow
+* zkcdn.net * allow
 * zol-img.com.cn * allow
 behind-the-scene * 3p noop
 behind-the-scene * 3p-frame noop

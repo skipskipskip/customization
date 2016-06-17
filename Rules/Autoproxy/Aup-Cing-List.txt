@@ -5,6 +5,11 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||redditstatic.com
+||indiatimes.com
+||reddit.com
+||zkcdn.net
+||imgur.com
 ||cdn.pocket-lint.com
 ||greasyfork.org
 ||bandwidthplace.com
