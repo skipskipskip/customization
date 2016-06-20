@@ -1,4 +1,4 @@
-﻿//2016.06.17
+﻿//2016.06.20
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -21,6 +21,11 @@ user_pref("intl.charset.detector", "universal_charset_detector");//自動選擇
 user_pref("font.name.serif.zh-CN", "Arial");//衬線字體
 user_pref("font.name.sans-serif.zh-CN", "Arial");//無衬線字體
 user_pref("font.name.monospace.zh-CN", "Arial");//等寬字體
+//搜索
+user_pref("browser.search.suggest.enabled", false);//提供搜索建议(否)
+user_pref("browser.search.redirectWindowsSearch", false);//使用此搜索引擎处理Windows的搜索
+user_pref("browser.search.openintab", true);//新标签打开搜索栏
+user_pref("browser.search.context.loadInBackground", true);//后台打开搜索
 
 //关闭安全检测健康中心类
 user_pref("browser.safebrowsing.malware.enabled", false);
@@ -90,8 +95,7 @@ user_pref("browser.sessionstore.resume_from_crash", false);//关闭Firefox会话
 user_pref("browser.pagethumbnails.capturing_disabled", true);//禁用Firefox的thumbnails
 user_pref("xpinstall.signatures.required", false);//去除扩展签名验证
 user_pref("browser.sessionstore.max_tabs_undo", 10);//最近撤销标签历史最大数
-user_pref("browser.search.openintab", true);//新标签打开搜索栏
-user_pref("browser.search.context.loadInBackground", true);//后台打开搜索
+
 
 //*==========扩展设置==========*//
 //adblockplus
