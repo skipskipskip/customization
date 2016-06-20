@@ -4,6 +4,7 @@ no-strict-blocking: click.simba.taobao.com true
 * 113.106.91.92 * allow
 * 115.231.82.142 * allow
 * 126.net * allow
+* 218.75.225.16 * allow
 * 3.cn * allow
 * 360.cn * allow
 * 360buyimg.com * allow
@@ -17,10 +18,12 @@ no-strict-blocking: click.simba.taobao.com true
 * bdstatic.com * allow
 * deviantart.net * allow
 * dict.cn * allow
+* doubanio.com * allow
 * duoshuo.com * allow
 * ebaydesc.com * allow
 * fbcdn.net * allow
 * fraudmetrix.cn * allow
+* fsdn.com * allow
 * geetest.com * allow
 * gomein.net.cn * allow
 * gtimg.cn * allow
@@ -34,12 +37,14 @@ no-strict-blocking: click.simba.taobao.com true
 * letvcdn.com * allow
 * letvimg.com * allow
 * lib.sinaapp.com * allow
+* librelytics.com * allow
 * mifile.cn * allow
 * mopimg.cn * allow
 * mozilla.net * allow
 * netease.com * allow
 * nubia.cn * allow
 * nyt.com * allow
+* qbox.me * allow
 * qhimg.com * allow
 * qihucdn.com * allow
 * qiyi.com * allow
@@ -57,6 +62,7 @@ no-strict-blocking: click.simba.taobao.com true
 * touclick.com * allow
 * twimg.com * allow
 * yihaodianimg.com * allow
+* ykimg.com * allow
 * ytimg.com * allow
 * zhimg.com * allow
 * zkcdn.net * allow
