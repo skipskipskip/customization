@@ -5,6 +5,13 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||firefox.net.cn
+||ssl-images-amazon.com
+||google.com
+||ebaystatic.com
+||mobilefun.com
+||bandwagonhost.com
+||rarekorea.com
 ||*cdn.github.com
 ||redditstatic.com
 ||indiatimes.com
