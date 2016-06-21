@@ -145,7 +145,6 @@ user_pref("extensions.greasemonkey.installDelay", 0);//安裝時的倒計時
 
 //Stylish
 user_pref("extensions.stylish.firstRun", 3);//重建配置不弹歡迎頁
-user_pref("extensions.stylish.editorWindowMode", true);//窗口模式
 
 //Auto Unload Tab
 user_pref("extensions.autounloadtab.bypass_cache_after_minutes", 1);//xx分鐘後自動跳過緩存
