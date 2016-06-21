@@ -9,6 +9,7 @@ no-strict-blocking: click.simba.taobao.com true
 * 360.cn * allow
 * 360buyimg.com * allow
 * aixifan.com * allow
+* akamaihd.net * allow
 * alibaba.com * allow
 * alicdn.com * allow
 * aliyuncs.com * allow
@@ -21,6 +22,8 @@ no-strict-blocking: click.simba.taobao.com true
 * doubanio.com * allow
 * duoshuo.com * allow
 * ebaydesc.com * allow
+* ebayimg.com * allow
+* ebaystatic.com * allow
 * fbcdn.net * allow
 * fraudmetrix.cn * allow
 * fsdn.com * allow
@@ -38,7 +41,9 @@ no-strict-blocking: click.simba.taobao.com true
 * letvimg.com * allow
 * lib.sinaapp.com * allow
 * librelytics.com * allow
+* licdn.com * allow
 * mifile.cn * allow
+* mobilefun.com * allow
 * mopimg.cn * allow
 * mozilla.net * allow
 * netease.com * allow
@@ -69,3 +74,4 @@ no-strict-blocking: click.simba.taobao.com true
 * zol-img.com.cn * allow
 behind-the-scene * 3p noop
 behind-the-scene * 3p-frame noop
+www.ebay.com rarekorea.com * allow
