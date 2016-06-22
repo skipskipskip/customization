@@ -1,3 +1,4 @@
+no-strict-blocking: click.hm.baidu.com true
 no-strict-blocking: click.simba.taobao.com true
 * * 3p-frame block
 * * 3p-script block
@@ -13,14 +14,17 @@ no-strict-blocking: click.simba.taobao.com true
 * alibaba.com * allow
 * alicdn.com * allow
 * aliyuncs.com * allow
+* amazonaws.com * allow
 * baidu.com * allow
 * baidupcs.com * allow
 * bdimg.com * allow
 * bdstatic.com * allow
 * deviantart.net * allow
+* dhresource.com * allow
 * dict.cn * allow
 * doubanio.com * allow
 * duoshuo.com * allow
+* dwstatic.com * allow
 * ebaydesc.com * allow
 * ebayimg.com * allow
 * ebaystatic.com * allow
@@ -59,6 +63,7 @@ no-strict-blocking: click.simba.taobao.com true
 * redditstatic.com * allow
 * sinajs.cn * allow
 * static-economist.com * allow
+* staticfile.org * allow
 * staticpmrk.com * allow
 * taobao.com * allow
 * tbcdn.cn * allow
