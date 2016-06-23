@@ -2,6 +2,7 @@ no-strict-blocking: click.hm.baidu.com true
 no-strict-blocking: click.simba.taobao.com true
 * * 3p-frame block
 * * 3p-script block
+* jquery.com * allow
 * 113.106.91.92 * allow
 * 115.231.82.142 * allow
 * 126.net * allow
