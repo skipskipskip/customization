@@ -2,7 +2,6 @@ no-strict-blocking: click.hm.baidu.com true
 no-strict-blocking: click.simba.taobao.com true
 * * 3p-frame block
 * * 3p-script block
-* jquery.com * allow
 * 113.106.91.92 * allow
 * 115.231.82.142 * allow
 * 126.net * allow
@@ -14,12 +13,15 @@ no-strict-blocking: click.simba.taobao.com true
 * akamaihd.net * allow
 * alibaba.com * allow
 * alicdn.com * allow
+* alipay.com * allow
+* aliyun.com * allow
 * aliyuncs.com * allow
 * amazonaws.com * allow
 * baidu.com * allow
 * baidupcs.com * allow
 * bdimg.com * allow
 * bdstatic.com * allow
+* csdnimg.cn * allow
 * deviantart.net * allow
 * dhresource.com * allow
 * dict.cn * allow
@@ -34,6 +36,7 @@ no-strict-blocking: click.simba.taobao.com true
 * fsdn.com * allow
 * geetest.com * allow
 * gomein.net.cn * allow
+* gstatic.com * allow
 * gtimg.cn * allow
 * gwdang.com * allow
 * hdslb.com * allow
@@ -41,6 +44,7 @@ no-strict-blocking: click.simba.taobao.com true
 * ifengimg.com * allow
 * ikafan.com * allow
 * jianshu.io * allow
+* jquery.com * allow
 * letv.com * allow
 * letvcdn.com * allow
 * letvimg.com * allow
@@ -72,6 +76,7 @@ no-strict-blocking: click.simba.taobao.com true
 * tietuku.com * allow
 * touclick.com * allow
 * twimg.com * allow
+* upaiyun.com * allow
 * yihaodianimg.com * allow
 * ykimg.com * allow
 * ytimg.com * allow
