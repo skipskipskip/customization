@@ -9,11 +9,14 @@ no-strict-blocking: click.simba.taobao.com true
 * 3.cn * allow
 * 360.cn * allow
 * 360buyimg.com * allow
+* 3conline.com * allow
 * aixifan.com * allow
 * akamaihd.net * allow
 * alibaba.com * allow
 * alicdn.com * allow
+* alikunlun.com * allow
 * alipay.com * allow
+* alipayobjects.com * allow
 * aliyun.com * allow
 * aliyuncs.com * allow
 * amazonaws.com * allow
@@ -26,6 +29,7 @@ no-strict-blocking: click.simba.taobao.com true
 * dhresource.com * allow
 * dict.cn * allow
 * doubanio.com * allow
+* douyucdn.cn * allow
 * duoshuo.com * allow
 * dwstatic.com * allow
 * ebaydesc.com * allow
@@ -66,6 +70,8 @@ no-strict-blocking: click.simba.taobao.com true
 * qq.com * allow
 * redditmedia.com * allow
 * redditstatic.com * allow
+* rrsub.net * allow
+* sina.com.cn * allow
 * sinajs.cn * allow
 * static-economist.com * allow
 * staticfile.org * allow
