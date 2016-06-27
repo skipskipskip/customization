@@ -61,7 +61,6 @@
 ||angiefans.com
 ||qbox.me
 ||googleapis.com
-||amazonaws.com
 ||wikipedia.org
 ||focalprice.com
 ||digitaltrends.com
@@ -77,3 +76,5 @@
 ||tumblr.com
 ||faout.com
 ||googlecode.com
+||cdn.mozilla.net
+
