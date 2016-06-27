@@ -27,7 +27,6 @@
 ||fortune.com
 ||mega.nz
 ||adblockplus.org
-@@||113.106.91.92
 ||bing.com
 ||content-square.com
 ||engadget.com
@@ -45,7 +44,6 @@
 ||cnn.com
 ||wikomobile.com
 ||cdn.static-economist.com
-@@||img.tvc-mall.com
 @@||trunk.tvc-mall.com
 ||mobilefun.co.uk
 ||cloudfront.net
