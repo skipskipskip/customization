@@ -8,6 +8,8 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.06.26
+vodafone.com##.spring > .display.mod-cookie-msg.mod.cookie-msg
 ! 2016.06.16
 deviantart.com###block-notice > .block-notice
 huawei.com##.ReadPolicy.browsehappy
@@ -233,8 +235,8 @@ wenku.baidu.com##.bl
 wenku.baidu.com##.tl
 wenku.baidu.com##.tr
 wenku.baidu.com##I
-www.baidu.com###content_right.cr-offset > table > tbody > tr > td > div:nth-of-type(2)
-www.baidu.com###form.fm > .tools
+baidu.com###content_right.cr-offset > table > tbody > tr > td > div:nth-of-type(2)
+baidu.com###form.fm > .tools
 zhidao.baidu.com###ui-tooltip-0
 zhidao.baidu.com###userbar-msg
 zhidao.baidu.com###wgt-topic

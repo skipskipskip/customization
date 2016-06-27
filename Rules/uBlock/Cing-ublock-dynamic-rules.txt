@@ -70,9 +70,11 @@ no-strict-blocking: click.simba.taobao.com true
 * qq.com * allow
 * redditmedia.com * allow
 * redditstatic.com * allow
+* rightinthebox.com * allow
 * rrsub.net * allow
 * sina.com.cn * allow
 * sinajs.cn * allow
+* socketio.net * allow
 * static-economist.com * allow
 * staticfile.org * allow
 * staticpmrk.com * allow
