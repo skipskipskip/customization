@@ -1,11 +1,12 @@
-﻿//2016.06.20
-
+﻿//2016.06.26
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
 //*==========主页==========*//
 //user_pref("browser.startup.homepage", "chrome://userchromejs/content/myNewTab/index.html");//首页
 //user_pref("browser.newtab.url", "chrome://userchromejs/content/myNewTab/index.html");//本地Html
+
+user_pref("browser.startup.page", 1);//启动Firefox时显示主页
 user_pref("browser.startup.homepage", "about:newtab");//首頁
 user_pref("browser.newtabpage.columns", 6);//新标签页列数
 user_pref("browser.newtabpage.rows", 3);//新标签页行数
