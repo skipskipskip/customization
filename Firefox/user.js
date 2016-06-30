@@ -1,4 +1,4 @@
-﻿//2016.06.27
+﻿//2016.06.30
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -15,6 +15,7 @@ user_pref("browser.newtabpage.pinned", "[{\"url\":\"http://bbs.kafan.cn/forum-21
 
 //*==========选项卡里的设置==========*//
 user_pref("signon.rememberSignons", false);//不保存密码
+user_pref("accessibility.blockautorefresh", false);//当网站试图重定向或重新载入时警告(否)
 //字体硬件加速开启
 user_pref("gfx.direct2d.disabled", true);//在 Windows 平台上强制使用 D2D 加速页面内容渲染
 //字體語言編碼
