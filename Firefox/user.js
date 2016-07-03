@@ -1,17 +1,20 @@
-﻿//2016.06.30
+﻿//2016.07.03
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
+/******************************************************************************************
+ *这里是通用设置。
+ *******************************************************************************************/
+ 
 //*==========主页==========*//
 //user_pref("browser.startup.homepage", "chrome://userchromejs/content/myNewTab/index.html");//首页
 //user_pref("browser.newtab.url", "chrome://userchromejs/content/myNewTab/index.html");//本地Html
-
 user_pref("browser.startup.page", 1);//启动Firefox时显示主页
 user_pref("browser.startup.homepage", "about:newtab");//首頁
 user_pref("browser.newtabpage.columns", 6);//新标签页列数
 user_pref("browser.newtabpage.rows", 3);//新标签页行数
 //标签页固定的网站
-user_pref("browser.newtabpage.pinned", "[{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"Kafan\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://twitter.com/\",\"title\":\"Twitter\"},{\"url\":\"http://www.facebook.com/\",\"title\":\"Facebook\"},{\"url\":\"http://www.chaojibiaoge.com/\",\"title\":\"超级表格\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnBeta\"},{\"url\":\"http://www.woshipm.com/\",\"title\":\"pm\"},{\"url\":\"http://www.douban.com/\",\"title\":\"Douban\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\" Zhihu\"},{\"url\":\"http://www.guokr.com/\",\"title\":\"Guokr\"},{\"url\":\"https://www.wikipedia.org/\",\"title\":\"Wikipedia\"},{\"url\":\"http://www.linkedin.com/today/?trk=nav_responsive_sub_nav_pulse\",\"title\":\"Pulse\"},{\"url\":\"http://www.shanbay.com/\",\"title\":\"Shanbay\"},{\"url\":\"http://music.163.com/\",\"title\":\"Music\"},{\"url\":\"http://email.163.com/\",\"title\":\"Mail\"},{\"url\":\"https://leanote.com/note/55dd7cc953b26f7350000019\",\"title\":\"Leanote\"}]");
+user_pref("browser.newtabpage.pinned", "[{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"Kafan\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://twitter.com/\",\"title\":\"Twitter\"},{\"url\":\"http://www.facebook.com/\",\"title\":\"Facebook\"},{\"url\":\"http://www.linkedin.com/today/?trk=nav_responsive_sub_nav_pulse\",\"title\":\"Pulse\"},{\"url\":\"http://www.chaojibiaoge.com/\",\"title\":\"超级表格\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnBeta\"},{\"url\":\"http://www.woshipm.com/\",\"title\":\"pm\"},{\"url\":\"http://www.douban.com/\",\"title\":\"Douban\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\" Zhihu\"},{\"url\":\"http://www.guokr.com/\",\"title\":\"Guokr\"},{\"url\":\"http://www.shanbay.com/\",\"title\":\"Shanbay\"},{\"url\":\"http://open.163.com/\",\"title\":\"网易公开课\"},{\"url\":\"http://music.163.com/\",\"title\":\"Music\"},{\"url\":\"http://email.163.com/\",\"title\":\"Mail\"},{\"url\":\"https://leanote.com/note/55dd7cc953b26f7350000019\",\"title\":\"Leanote\"}]");
 
 //*==========选项卡里的设置==========*//
 user_pref("signon.rememberSignons", false);//不保存密码
@@ -98,7 +101,17 @@ user_pref("browser.pagethumbnails.capturing_disabled", true);//禁用Firefox的t
 user_pref("xpinstall.signatures.required", false);//去除扩展签名验证
 user_pref("browser.sessionstore.max_tabs_undo", 10);//最近撤销标签历史最大数
 
+//*==========两个必要的脚本设置==========*//
+//rebuild_userChrome脚本管理器
+user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,anobtn_set,toolsbar_KeyChanger_rebuild,redirector-icon,usercssloader_Tools_Menu");
+user_pref("userChrome.rebuildUI.menues", "addMenu-rebuild,anobtn_set,toolsbar_KeyChanger_rebuild,redirector-icon,usercssloader_Tools_Menu");//W版无重启
 
+//AddmenuPlus
+user_pref("addMenu.FILE_PATH", "local\_addMenu.js");//配置路径
+
+/******************************************************************************************
+ *这里是个人设置。
+ *******************************************************************************************/
 //*==========扩展设置==========*//
 //adblockplus
 user_pref("extensions.adblockplus.patternsbackups", 0);
@@ -175,10 +188,6 @@ user_pref("extensions.VimFx.ignore_keyboard_layout", true);//忽略键盘布局
 
 
 //*==========脚本设置==========*//
-//rebuild_userChrome脚本管理器
-user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,anobtn_set,toolsbar_KeyChanger_rebuild,redirector-icon,usercssloader_Tools_Menu");
-user_pref("userChrome.rebuildUI.menues", "addMenu-rebuild,anobtn_set,toolsbar_KeyChanger_rebuild,redirector-icon,usercssloader_Tools_Menu");//W版无重启
-
 //UC管理器取消延迟加载
 user_pref("userChrome.EXPERIMENT", true);
 
@@ -189,9 +198,6 @@ user_pref("UserCSSLoader.showtoolbutton", false);//显示为菜单
 //InspectElementModY
 user_pref("userChromeJS.InspectElement.contentType", 2);//查看页面:Dom Inspector
 user_pref("userChromeJS.InspectElement.mainWinType", 2);//查看窗口:Dom Inspector
-
-//AddmenuPlus
-user_pref("addMenu.FILE_PATH", "local\_addMenu.js");//配置路径
 
 //GrabScroll
 user_pref("grabScroll.button", 1);//使用GrabScroll抓取的键位：中键
