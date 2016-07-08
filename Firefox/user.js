@@ -1,4 +1,4 @@
-﻿//2016.07.03
+﻿//2016.07.08
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -14,7 +14,7 @@ user_pref("browser.startup.homepage", "about:newtab");//首頁
 user_pref("browser.newtabpage.columns", 6);//新标签页列数
 user_pref("browser.newtabpage.rows", 3);//新标签页行数
 //标签页固定的网站
-user_pref("browser.newtabpage.pinned", "[{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"Kafan\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://twitter.com/\",\"title\":\"Twitter\"},{\"url\":\"http://www.facebook.com/\",\"title\":\"Facebook\"},{\"url\":\"http://www.linkedin.com/today/?trk=nav_responsive_sub_nav_pulse\",\"title\":\"Pulse\"},{\"url\":\"http://www.chaojibiaoge.com/\",\"title\":\"超级表格\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnBeta\"},{\"url\":\"http://www.woshipm.com/\",\"title\":\"pm\"},{\"url\":\"http://www.douban.com/\",\"title\":\"Douban\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\" Zhihu\"},{\"url\":\"http://www.guokr.com/\",\"title\":\"Guokr\"},{\"url\":\"http://www.shanbay.com/\",\"title\":\"Shanbay\"},{\"url\":\"http://open.163.com/\",\"title\":\"网易公开课\"},{\"url\":\"http://music.163.com/\",\"title\":\"Music\"},{\"url\":\"http://email.163.com/\",\"title\":\"Mail\"},{\"url\":\"https://leanote.com/note/55dd7cc953b26f7350000019\",\"title\":\"Leanote\"}]");
+user_pref("browser.newtabpage.pinned", "[{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"Kafan\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://twitter.com/\",\"title\":\"Twitter\"},{\"url\":\"http://www.facebook.com/\",\"title\":\"Facebook\"},{\"url\":\"http://www.linkedin.com/today/?trk=nav_responsive_sub_nav_pulse\",\"title\":\"Pulse\"},{\"url\":\"http://beta.chaojibiaoge.com/\",\"title\":\"超级表格\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnBeta\"},{\"url\":\"http://www.woshipm.com/\",\"title\":\"pm\"},{\"url\":\"http://www.douban.com/\",\"title\":\"Douban\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\" Zhihu\"},{\"url\":\"http://www.guokr.com/\",\"title\":\"Guokr\"},{\"url\":\"http://www.shanbay.com/\",\"title\":\"Shanbay\"},{\"url\":\"http://open.163.com/\",\"title\":\"网易公开课\"},{\"url\":\"http://music.163.com/\",\"title\":\"Music\"},{\"url\":\"http://email.163.com/\",\"title\":\"Mail\"},{\"url\":\"https://leanote.com/note/55dd7cc953b26f7350000019\",\"title\":\"Leanote\"}]");
 
 //*==========选项卡里的设置==========*//
 user_pref("signon.rememberSignons", false);//不保存密码
@@ -100,6 +100,7 @@ user_pref("browser.sessionstore.resume_from_crash", false);//关闭Firefox会话
 user_pref("browser.pagethumbnails.capturing_disabled", true);//禁用Firefox的thumbnails
 user_pref("xpinstall.signatures.required", false);//去除扩展签名验证
 user_pref("browser.sessionstore.max_tabs_undo", 10);//最近撤销标签历史最大数
+user_pref("accessibility.force_disabled", 1);//禁用无障碍环境
 
 //*==========两个必要的脚本设置==========*//
 //rebuild_userChrome脚本管理器
@@ -225,7 +226,6 @@ user_pref("userChromeJS.downloadPlus.save_And_Open", true);//保存并打開
 user_pref("userChromeJS.downloadPlus.save_And_Open_RorL", 1);//保存并打開——打開文件
 user_pref("userChromeJS.downloadPlus.download_dialog_changeName", true);//下載改名
 user_pref("userChromeJS.downloadPlus.download_dialog_changeName_encodingConvert", true);//下載改名——是否開啟下拉菜單
-user_pref("userChromeJS.downloadPlus.download_dialog_changeName_locking", true);//下載改名——锁定保存文件按钮
 
 //FeiRuoNet
 user_pref("userChromeJS.FeiRuoNet.EnableRefChanger", true);//Refer切換,破解反盗链
