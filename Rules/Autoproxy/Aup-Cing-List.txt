@@ -6,6 +6,7 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
 ||trib.al
+||t.co
 ||yahoo.com
 ||firefox.net.cn
 ||ssl-images-amazon.com
