@@ -1,4 +1,4 @@
-﻿//2016.07.08
+﻿//2016.07.09
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -103,10 +103,6 @@ user_pref("browser.sessionstore.max_tabs_undo", 10);//最近撤销标签历史�
 user_pref("accessibility.force_disabled", 1);//禁用无障碍环境
 
 //*==========两个必要的脚本设置==========*//
-//rebuild_userChrome脚本管理器
-user_pref("userChromeJS.rebuildUI.menues", "addMenu-rebuild,anobtn_set,toolsbar_KeyChanger_rebuild,redirector-icon,usercssloader_Tools_Menu");
-user_pref("userChrome.rebuildUI.menues", "addMenu-rebuild,anobtn_set,toolsbar_KeyChanger_rebuild,redirector-icon,usercssloader_Tools_Menu");//W版无重启
-
 //AddmenuPlus
 user_pref("addMenu.FILE_PATH", "local\_addMenu.js");//配置路径
 
