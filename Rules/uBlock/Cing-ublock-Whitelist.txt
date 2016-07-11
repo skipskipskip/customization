@@ -86,6 +86,7 @@ weibo.com sinaimg.cn * allow
 weibo.com sinajs.cn * allow
 woshipm.com baidu.com * allow
 wsj.com wsj.net * allow
+www.cnn.com turner.com * allow
 xiami.com xiami.net * allow
 yunpan.cn 360.cn * allow
 yunpan.cn qhimg.com * allow
