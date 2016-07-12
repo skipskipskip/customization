@@ -5,6 +5,9 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||amazon.com
+||giridhar.co.in
+||terapeak.com
 ||trib.al
 ||t.co
 ||yahoo.com
