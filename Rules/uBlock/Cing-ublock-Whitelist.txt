@@ -29,8 +29,8 @@ baidu.com bdstatic.com * allow
 baike.com huimg.cn * allow
 behind-the-scene * 3p noop
 behind-the-scene * 3p-frame noop
-bi.sjlpj.cn 113.106.91.92 * allow
 bilibili.com hdslb.com * allow
+cnn.com turner.com * allow
 douban.com doubanio.com * allow
 douyu.com douyucdn.cn * allow
 dx.com dxcdn.com * allow
@@ -46,7 +46,6 @@ gearbest.com logsss.com * allow
 gearbest.com mplxtms.com * allow
 hulu.com huluim.com * allow
 ifeng.com ifengimg.com * allow
-item.mi.com mifile.cn * allow
 jd.com 3.cn * allow
 jd.com 360buyimg.com * allow
 kafan.cn fraudmetrix.cn * allow
@@ -65,7 +64,7 @@ pingan.com pingan.com.cn * allow
 priceminister.com staticpmrk.com * allow
 qq.com gtimg.com * allow
 qq.com rescdn.qqmail.com * allow
-qun.qq.com url.cn * allow
+qq.com url.cn * allow
 reddit.com redditstatic.com * allow
 shanbay.com baydn.com * allow
 sjlpj.cn 113.106.91.92 * allow
@@ -86,7 +85,6 @@ weibo.com sinaimg.cn * allow
 weibo.com sinajs.cn * allow
 woshipm.com baidu.com * allow
 wsj.com wsj.net * allow
-www.cnn.com turner.com * allow
 xiami.com xiami.net * allow
 yunpan.cn 360.cn * allow
 yunpan.cn qhimg.com * allow
