@@ -8,6 +8,11 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.07.13 star-ray视频去广告辅助规则
+@@||t7z.cupid.iqiyi.com/$domain=acfun.tudou.com|acfun.tv
+@@*/vmind.qqvideo.tc.qq.com/$object-subrequest
+@@|http://v.aty.sohu.com/v$object-subrequest
+@@||atm.youku.com/v$object-subrequest
 ! 2016.07.03
 open.163.com###app_download_recommend
 ! 2016.06.26
