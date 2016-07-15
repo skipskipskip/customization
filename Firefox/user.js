@@ -1,4 +1,4 @@
-﻿//2016.07.09
+﻿//2016.07.15
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -56,6 +56,11 @@ user_pref("browser.safebrowsing.downloads.enabled", false);//解決下載卡在�
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
 
 //*==========網路相關==========*//
+//关闭预读
+user_pref("network.predictor.enabled", false);
+user_pref("network.http.speculative-parallel-limit", 0);//disable Speculative pre-connections
+user_pref("network.prefetch-next", false);//disable Link prefetching
+user_pref("network.dns.disablePrefetch", true);// disable DNS prefetching
 //HTTPS不允许混合内容，以下两条参数用以禁用此特性
 user_pref("security.mixed_content.block_active_content", false);
 user_pref("security.mixed_content.block_display_content", false);
