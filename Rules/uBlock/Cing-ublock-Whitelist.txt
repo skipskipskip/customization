@@ -31,6 +31,7 @@ behind-the-scene * 3p noop
 behind-the-scene * 3p-frame noop
 bilibili.com hdslb.com * allow
 cnn.com turner.com * allow
+deviantart.com deviantart.net * allow
 douban.com doubanio.com * allow
 douyu.com douyucdn.cn * allow
 dx.com dxcdn.com * allow
@@ -44,14 +45,17 @@ fortune.com timeinc.net * allow
 fortune.com wp.com * allow
 gearbest.com logsss.com * allow
 gearbest.com mplxtms.com * allow
+google.com gstatic.com * allow
 hulu.com huluim.com * allow
 ifeng.com ifengimg.com * allow
 jd.com 3.cn * allow
 jd.com 360buyimg.com * allow
+jianshu.com jianshu.io * allow
 kafan.cn fraudmetrix.cn * allow
 kafan.cn geetest.com * allow
 kafan.cn ikafan.com * allow
 kafan.cn raw.githubusercontent.com * allow
+kindbook.cn www.kindbook.cn * allow
 lazada.sg slatic.net * allow
 leanote.com qbox.me * allow
 lightinthebox.com rightinthebox.com * allow
@@ -67,6 +71,9 @@ qq.com gtimg.com * allow
 qq.com rescdn.qqmail.com * allow
 qq.com url.cn * allow
 reddit.com redditstatic.com * allow
+sanguosha.com bianfeng.com * allow
+sankakucomplex.com google.com * allow
+sankakucomplex.com gstatic.com * allow
 shanbay.com baydn.com * allow
 sjlpj.cn 113.106.91.92 * allow
 so.com qhimg.com * allow
