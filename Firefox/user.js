@@ -1,4 +1,4 @@
-﻿//2016.07.15
+﻿//2016.07.18
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -19,8 +19,6 @@ user_pref("browser.newtabpage.pinned", "[{\"url\":\"http://bbs.kafan.cn/forum-21
 //*==========选项卡里的设置==========*//
 user_pref("signon.rememberSignons", false);//不保存密码
 user_pref("accessibility.blockautorefresh", false);//当网站试图重定向或重新载入时警告(否)
-//字体硬件加速开启
-user_pref("gfx.direct2d.disabled", true);//在 Windows 平台上强制使用 D2D 加速页面内容渲染
 //字體語言編碼
 user_pref("intl.charset.detector", "universal_charset_detector");//自動選擇
 user_pref("font.name.serif.zh-CN", "Arial");//衬線字體
@@ -56,17 +54,9 @@ user_pref("browser.safebrowsing.downloads.enabled", false);//解決下載卡在�
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
 
 //*==========網路相關==========*//
-//关闭预读
-user_pref("network.predictor.enabled", false);
-user_pref("network.http.speculative-parallel-limit", 0);//disable Speculative pre-connections
-user_pref("network.prefetch-next", false);//disable Link prefetching
-user_pref("network.dns.disablePrefetch", true);// disable DNS prefetching
 //HTTPS不允许混合内容，以下两条参数用以禁用此特性
 user_pref("security.mixed_content.block_active_content", false);
 user_pref("security.mixed_content.block_display_content", false);
-//存储: 开启内存盘机制
-user_pref("browser.cache.disk.enable", false);
-user_pref("browser.cache.memory.enable", true);
 
 //*==========平滑滾動==========*//
 user_pref("general.smoothScroll.durationToIntervalRatio", 500);
