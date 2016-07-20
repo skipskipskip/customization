@@ -50,6 +50,9 @@ hulu.com huluim.com * allow
 ifeng.com ifengimg.com * allow
 jd.com 3.cn * allow
 jd.com 360buyimg.com * allow
+jd.hk 3.cn * allow
+jd.hk 360buyimg.com * allow
+jd.hk jd.com * allow
 jianshu.com jianshu.io * allow
 kafan.cn fraudmetrix.cn * allow
 kafan.cn geetest.com * allow
@@ -59,6 +62,7 @@ kindbook.cn www.kindbook.cn * allow
 lazada.sg slatic.net * allow
 leanote.com qbox.me * allow
 lightinthebox.com rightinthebox.com * allow
+loldk.com qq.com * allow
 mi.com mifile.cn * allow
 mi.com xiaomi.com * allow
 miniinthebox.com rightinthebox.com * allow
