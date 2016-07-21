@@ -1,4 +1,4 @@
-﻿//2016.07.18
+﻿//2016.07.19
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -119,7 +119,6 @@ user_pref("extensions.autoproxy.patternsbackups", 0);
 user_pref("extensions.autoproxy.defaultstatusbaraction", 0);//点击图标时-快捷菜单
 user_pref("extensions.autoproxy.defaulttoolbaraction", 0);//点击图标时-快捷菜单
 
-
 //LastPass
 user_pref("extensions.lastpass.hidecontextmenu", true);
 user_pref("extensions.lastpass.showHomepageAfterLogin", false);//登入後不轉到密码库
@@ -173,11 +172,6 @@ user_pref("extensions.fireie.hideUrlBarButton", true);//隐藏地址栏图标
 user_pref("extensions.fireie.showSiteFavicon", false);//使用IE引擎图标
 user_pref("extensions.fireie.compatMode", "ie11edge");//IE11边缘模式
 user_pref("extensions.fireie.gpuRendering", true);//启用GPU渲染
-
-//VimFx
-user_pref("extensions.VimFx.prevent_autofocus", true);//阻止自动聚焦输入框
-user_pref("extensions.VimFx.ignore_keyboard_layout", true);//忽略键盘布局
-
 
 //*==========脚本设置==========*//
 //UC管理器取消延迟加载
