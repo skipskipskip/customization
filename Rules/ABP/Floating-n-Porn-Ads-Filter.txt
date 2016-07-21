@@ -67,8 +67,6 @@ huya.com###v-alist-tip
 ! 2016.02.12
 178.com##.box-center8.clearfix
 178.com##.commen
-! 2016.02.10
-youku.com###yk-player-curtain
 ! 2016.02.07
 guokr.com##.tooltip-new
 kindbook.cn##.csu_wxnav
@@ -151,8 +149,6 @@ mail.163.com##.gWel-tabs
 tieba.baidu.com##.thread_recommend_ps.thread-recommend-ps
 tieba.baidu.com##.d_sign_split
 ! 2015.07.22
-youku.com##.qwindow_mask
-youku.com##.qwindow
 iqiyi.com##.vip_rec_pop
 ! 2015.07.19
 baidu.com##.s_bri
