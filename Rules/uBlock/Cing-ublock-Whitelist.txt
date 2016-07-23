@@ -26,7 +26,9 @@ amazon.com ssl-images-amazon.com * allow
 baidu.com baidupcs.com * allow
 baidu.com bdimg.com * allow
 baidu.com bdstatic.com * allow
+baike.com hudong.com * allow
 baike.com huimg.cn * allow
+baike.so.com 360.cn * allow
 behind-the-scene * 3p noop
 behind-the-scene * 3p-frame noop
 bilibili.com hdslb.com * allow
@@ -36,10 +38,13 @@ douban.com doubanio.com * allow
 douyu.com douyucdn.cn * allow
 dx.com dxcdn.com * allow
 ebay.com ebaydesc.com * allow
+ebay.com ebayimg.com * allow
 ebay.com ebaystatic.com * allow
 ebay.com rarekorea.com * allow
 economist.com static-economist.com * allow
 facebook.com akamaihd.net * allow
+fang0079.blog.sohu.com itc.cn * allow
+fang0079.blog.sohu.com sohu.com.cn * allow
 forbes.com forbesimg.com * allow
 fortune.com timeinc.net * allow
 fortune.com wp.com * allow
@@ -47,12 +52,13 @@ gearbest.com logsss.com * allow
 gearbest.com mplxtms.com * allow
 google.com gstatic.com * allow
 hulu.com huluim.com * allow
+i.youku.com static.atm.youku.com * allow
 ifeng.com ifengimg.com * allow
+item.jd.hk 3.cn * allow
+item.jd.hk 360buyimg.com * allow
+item.jd.hk jd.com * allow
 jd.com 3.cn * allow
 jd.com 360buyimg.com * allow
-jd.hk 3.cn * allow
-jd.hk 360buyimg.com * allow
-jd.hk jd.com * allow
 jianshu.com jianshu.io * allow
 kafan.cn fraudmetrix.cn * allow
 kafan.cn geetest.com * allow
@@ -62,7 +68,7 @@ kindbook.cn www.kindbook.cn * allow
 lazada.sg slatic.net * allow
 leanote.com qbox.me * allow
 lightinthebox.com rightinthebox.com * allow
-loldk.com qq.com * allow
+live.qq.com douyucdn.cn * allow
 mi.com mifile.cn * allow
 mi.com xiaomi.com * allow
 miniinthebox.com rightinthebox.com * allow
@@ -100,4 +106,5 @@ wsj.com wsj.net * allow
 xiami.com xiami.net * allow
 yunpan.cn 360.cn * allow
 yunpan.cn qhimg.com * allow
+zhihu.com zhimg.com * allow
 zimuzu.tv rrsub.net * allow
