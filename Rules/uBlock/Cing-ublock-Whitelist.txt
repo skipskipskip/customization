@@ -7,7 +7,6 @@
 * aliyuncs.com * allow
 * amap.com * allow
 * amazonaws.com * allow
-* chengyinliu.com * allow
 * dict.cn * allow
 * gwdang.com * allow
 * jquery.com * allow
@@ -43,8 +42,6 @@ ebay.com ebaystatic.com * allow
 ebay.com rarekorea.com * allow
 economist.com static-economist.com * allow
 facebook.com akamaihd.net * allow
-fang0079.blog.sohu.com itc.cn * allow
-fang0079.blog.sohu.com sohu.com.cn * allow
 forbes.com forbesimg.com * allow
 fortune.com timeinc.net * allow
 fortune.com wp.com * allow
@@ -52,7 +49,6 @@ gearbest.com logsss.com * allow
 gearbest.com mplxtms.com * allow
 google.com gstatic.com * allow
 hulu.com huluim.com * allow
-i.youku.com static.atm.youku.com * allow
 ifeng.com ifengimg.com * allow
 item.jd.hk 3.cn * allow
 item.jd.hk 360buyimg.com * allow
@@ -68,7 +64,6 @@ kindbook.cn www.kindbook.cn * allow
 lazada.sg slatic.net * allow
 leanote.com qbox.me * allow
 lightinthebox.com rightinthebox.com * allow
-live.qq.com douyucdn.cn * allow
 mi.com mifile.cn * allow
 mi.com xiaomi.com * allow
 miniinthebox.com rightinthebox.com * allow
@@ -77,6 +72,7 @@ mozilla.org mozilla.net * allow
 nytimes.com nyt.com * allow
 pingan.com pingan.com.cn * allow
 priceminister.com staticpmrk.com * allow
+qq.com douyucdn.cn * allow
 qq.com gtimg.com * allow
 qq.com rescdn.qqmail.com * allow
 qq.com url.cn * allow
@@ -88,6 +84,8 @@ shanbay.com baydn.com * allow
 sjlpj.cn 113.106.91.92 * allow
 so.com qhimg.com * allow
 so.com qihucdn.com * allow
+sohu.com itc.cn * allow
+sohu.com sohu.com.cn * allow
 spotify.com play.spotify.edgekey.net * allow
 ted.com tedcdn.com * allow
 terapeak.com cdn-terapeak.com * allow
