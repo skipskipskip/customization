@@ -1,5 +1,6 @@
 * * 3p-frame block
 * * 3p-script block
+* ajax.googleapis.com * allow
 * alicdn.com * allow
 * alipay.com * allow
 * alipayobjects.com * allow
@@ -27,7 +28,6 @@ baidu.com bdimg.com * allow
 baidu.com bdstatic.com * allow
 baike.com hudong.com * allow
 baike.com huimg.cn * allow
-baike.so.com 360.cn * allow
 behind-the-scene * 3p noop
 behind-the-scene * 3p-frame noop
 bilibili.com hdslb.com * allow
@@ -61,6 +61,7 @@ kafan.cn geetest.com * allow
 kafan.cn ikafan.com * allow
 kafan.cn raw.githubusercontent.com * allow
 kindbook.cn www.kindbook.cn * allow
+kugou.com kugou.net * allow
 lazada.sg slatic.net * allow
 leanote.com qbox.me * allow
 lightinthebox.com rightinthebox.com * allow
@@ -82,11 +83,13 @@ sankakucomplex.com google.com * allow
 sankakucomplex.com gstatic.com * allow
 shanbay.com baydn.com * allow
 sjlpj.cn 113.106.91.92 * allow
+so.com 360.cn * allow
 so.com qhimg.com * allow
 so.com qihucdn.com * allow
 sohu.com itc.cn * allow
 sohu.com sohu.com.cn * allow
 spotify.com play.spotify.edgekey.net * allow
+techbang.com techbang.com.tw * allow
 ted.com tedcdn.com * allow
 terapeak.com cdn-terapeak.com * allow
 tianya.cn laibafile.cn * allow
@@ -97,6 +100,7 @@ vmall.com vmallres.com * allow
 walmart.com wal.co * allow
 walmart.com walmartimages.com * allow
 weibo.com sina.cn * allow
+weibo.com sina.com.cn * allow
 weibo.com sinaimg.cn * allow
 weibo.com sinajs.cn * allow
 woshipm.com baidu.com * allow
