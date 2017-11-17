@@ -4,7 +4,7 @@ export PATH
 
 
 install_path=/fs/
-package_download_url=https://github.com/dupontjoy/customization/raw/master/Rules/Shadowsocks/Finalspeed/finalspeed_server.zip
+package_download_url=https://github.com/skipskipskip/customization/raw/master/Rules/Shadowsocks/Finalspeed/finalspeed_server.zip
 package_save_name=finalspeed_server.zip
  
 function checkjava(){
